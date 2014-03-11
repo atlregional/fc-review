@@ -1,0 +1,38 @@
+---
+layout: default
+title: Home
+---
+
+<div class="col-md-9">
+<h3>
+Map of Atlanta region street network
+<span>
+<select>
+	<option>Clayton</option>
+	<option>Cherokee</option>
+	<option>Dekalb</option>
+	<option>Gwinnett</option>
+	<option>Cobb</option>
+</select>
+</span>
+<!-- <span style="float:right;"><small><a href="{{ site.baseurl }}/explore/map">see full screen <span class="glyphicon glyphicon-share-alt"></span></a></small></span> -->
+</h3>
+
+
+<!-- <script src="https://embed.github.com/view/geojson/{{ site.githubuser }}/plan-it/gh-pages/data/rtp_all.geojson"></script> -->
+<div id="map"></div>
+
+<p>Zoom and click around on the map to get a better idea of some of the projects for which federal, state, and local dollars are allocated in the FY 2012-17 TIP (<a href="http://www.atlantaregional.com/File%20Library/Transportation/Transportation%20Plans/tp_tiplist_112213.pdf">pdf</a>).</p>
+<p><small><strong>Data source:</strong> <a href="https://github.com/{{ site.githubuser }}/plan-it/blob/gh-pages/data/rtp_points.geojson">points</a>, <a href="https://github.com/{{ site.githubuser }}/plan-it/blob/gh-pages/data/rtp_lines.geojson">lines</a></small></p>
+</div>
+<div class="col-md-3">
+	<h3>List of changes</h3>
+	<button type="button" class="btn btn-danger" id="undo-changes" disabled="disabled">Undo All</button>
+	<button type="button" class="btn btn-primary" id="submit-changes" disabled="disabled">Submit</button>
+	<ul id="change-list">
+	</ul>
+
+</div>
+
+<script type="text/javascript" src="{{ site.baseurl }}/javascripts/map.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/javascripts/edits.js"></script>

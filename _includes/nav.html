@@ -1,0 +1,123 @@
+<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="container">
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="{{ site.baseurl }}/">Plan-It</a>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li class="about"><a href="{{ site.baseurl }}/about">About</a></li>
+      <li class="data"><a href="{{ site.baseurl }}/data">Data</a></li>
+      <li class="dropdown explore">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Explore <b class="caret"></b></a>
+        <ul class="dropdown-menu">
+          <li><a href="{{ site.baseurl }}/explore/pivot"><span class="glyphicon glyphicon-list-alt"></span> Pivot Table</a></li>
+          <li><a href="{{ site.baseurl }}/explore/viz"><span class="glyphicon glyphicon-dashboard"></span> Visualizations</a></li>
+          <li><a href="{{ site.baseurl }}/explore/map"><span class="glyphicon glyphicon-map-marker"></span> Map</a></li>
+          <li class="divider"></li>
+          <li><a href="http://atlantaregional.com/about-us/regional-data-and-tools"><span class="glyphicon glyphicon-search"></span> Other ARC data</a></li>
+        </ul>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li style="position:relative; top:10px; left:10px;">
+        <span>
+          <span id="welcome-message" style="display:none;"></span><button id="gh-login" class="btn btn-success" data-loading-text="Logging in..." title="Log in with GitHub">Log in</button>
+          <a href="https://github.com/{{ site.githubuser }}/plan-it/" class="btn btn-default"  title="View on GitHub"><img id="gh" src="{{ site.baseurl }}/lib/images/gh.svg"></a>
+        </span>
+      </li>
+    </ul>
+  </div><!-- /.navbar-collapse -->
+  </div>
+</div>
+<script type="text/javascript">
+  $.cookie.json = true;
+
+  // Code to make the appropriate nav active
+  var nav = '{{ page.category }}'
+  if(nav != '')
+    $('.' + nav ).addClass('active');
+
+  // Check if working on development server
+  var dev = false
+  if ('{{ site.baseurl }}' != '/plan-it')
+    dev = true;
+
+
+  var code = '';
+  if($.cookie('token') !== undefined){
+    console.log("cookie worked!")
+  }
+  else
+    console.log("cookie didn't work!")
+
+  var github;
+  if(window.location.href.split('?').length > 1){
+    code = window.location.href.match(/\?code=(.*)/)[1];
+    $('.btn').button()
+    $('#gh-login').button('loading')
+    
+    var authUrl = dev ? 'http://localhost:9999' : 'http://gatekeeper-plan-it.herokuapp.com'
+    $.getJSON(authUrl + '/authenticate/'+code, function(data) {
+      
+     console.log(data.token);
+     $.cookie('token', data.token);
+     window.history.pushState("object or string", "Title", "{{ site.baseurl }}/")
+     $.getJSON("https://api.github.com/user?access_token="+ data.token, function(data){
+        
+
+        $.cookie('user', data)
+        $('#welcome-message').html('<a style="margin-right:5px;" href="'+$.cookie('user').html_url+'">'+$.cookie('user').login+'</a><a style="margin-right:5px;" href="'+$.cookie('user').html_url+'"><img width="34px" style="margin-right:5px;" height="34px" src="'+$.cookie('user').avatar_url+'"></a>').show()
+        $('#gh-login').removeClass('btn-success').addClass('btn-danger').text('Log out').attr('title', 'Log out of Plan-It')
+        console.log('showing username')
+        $('#gh-login').button('reset').text('Log out')
+        if($.cookie('return-href') !== undefined){
+          window.location = $.cookie('return-href')
+        }
+     })
+    });
+  }
+  github = new Github({
+      token: $.cookie('token'),
+      auth: "oauth"
+     })
+  if ($.cookie('token') !== undefined){
+    $('#welcome-message').html('<a style="margin-right:5px;" href="'+$.cookie('user').html_url+'">'+$.cookie('user').login+'</a><a style="margin-right:5px;" href="'+$.cookie('user').html_url+'"><img width="34px" style="margin-right:5px;" height="34px" src="'+$.cookie('user').avatar_url+'"></a>').show()
+    $('#gh-login').removeClass('btn-success').addClass('btn-danger').text('Log out').attr('title', 'Log out of Plan-It')
+    
+  }
+
+
+  $('#gh-view').click(function(){
+    window.location='https://github.com/{{ site.githubuser }}/plan-it'
+  })
+  $('#gh-login').click(function(){
+    if($(this).hasClass('btn-success')){
+      // $.cookie('return-href', window.location.href)
+      // setTimeout(function(){
+        var client_id = dev ? '2bd555487ef16b607509' : 'a37cadae6a1f4bdd4237'
+        var params = '?response_type=code&client_id=' + client_id + '&scope=repo'
+        window.location =  'https://github.com/login/oauth/authorize' + params 
+      // }, 250)
+      
+    }
+    else{
+      window.location='{{ site.baseurl }}/'
+      $.removeCookie('user', { path: '{{ site.baseurl }}' })
+      $.removeCookie('token', { path: '{{ site.baseurl }}' })
+      $('#welcome-message').hide()
+      $('#gh-login').removeClass('btn-danger').addClass('btn-success').text('Log in').attr('title', 'Log in with GitHub')
+      // window.location = '{{ site.baseurl }}/'
+      
+    }
+
+  })
+</script>
