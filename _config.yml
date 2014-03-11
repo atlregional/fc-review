@@ -6,7 +6,7 @@ permalink: pretty
 safe: true
 lsi: false
 pygments: true
-baseurl: /plan-it
+baseurl: /fc-review
 
 githubuser: atlregional
 
@@ -14,7 +14,7 @@ githubuser: atlregional
 # https://github.com/prose/prose/wiki/Prose-Configuration
 prose:
   rooturl: 'data'
-  siteurl: 'http://atlregional.github.io/plan-it/'
+  siteurl: 'http://atlregional.github.io/fc-review/'
   # media: 'assets'
   # metadata:
   #   source/_posts:
