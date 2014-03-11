@@ -193,10 +193,25 @@ $('.add-street').live('click', function(){
 		if (rc == feature.properties.RCLINK)
 			console.log(feature.properties.RCLINK)
 	})
-	$('#change-list').append('<li data-options=\'' + '{"id":"' + this.id + '"}\'>' + this.id + '<button type="button" title="Remove street segment to edits" class="btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></li>')
+	$('#change-list').append(' \
+		<div class="panel panel-default"> \
+			<div class="panel-heading">RC '+ rc + '<button type="button" title="Remove street segment to edits" class="pull-right btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></div> \
+				<div class="panel-body">' + rc + 
+			'</div> \
+			<div class="form-group"> \
+				<label for="fcSelect">Functional Class</label> \
+				<select id="fcSelect" class="form-control"> \
+					<option>1</option> \
+					<option>2</option> \
+					<option>3</option> \
+					<option>4</option> \
+				</select> \
+			</div> \
+		</div>');
+		//'<li data-options=\'' + '{"id":"' + this.id + '"}\'>' + this.id + '<button type="button" title="Remove street segment to edits" class="btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></li>')
 })
 $('.remove-street').live('click', function(){
-	$(this).parent().remove();
+	$(this).closest("div.panel").remove();
 })
   $('#issue-title').tooltip({title:'don\'t change this!'})
   $('#begin-edits').tooltip({title:'Click to toggle editing mode'})
