@@ -7,8 +7,10 @@ var map = L.map('map', {
     center: [33.77686437792359, -84.3145751953125],
     zoom: 9
 });
+map.on('click', onMapClick);
 var geojson;
 var raw;
+var popup = new L.popup();
 L.tileLayer('http://{s}.tile.cloudmade.com/{key}/22677/256/{z}/{x}/{y}.png', {
 		attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
 		key: '7486205c8fd540b0903a0298b3d7c447'
@@ -42,7 +44,13 @@ new L.Control.GeoSearch({
     showMarker: false
 }).addTo(map);
 legend.addTo(map);
-
+function onMapClick(e) {
+      	 //map click event object (e) has latlng property which is a location at which the click occured.
+         popup
+           .setLatLng(e.latlng)
+           .setContent("You clicked the map at " + e.latlng.toString())
+           .openOn(map);
+      }
 function onEachFeature (feature, layer) {
 	layer.bindLabel(feature.properties.RCLINK, {noHide:true});
 	// layer.bindPopup('<button type="button" title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+feature.properties.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button>');
@@ -62,8 +70,11 @@ info.onAdd = function (map) {
 
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
+	var disabled = ''
+	if (props && $.inArray(props.RCLINK, segments) == 0)
+		disabled = 'disabled="disabled"'
     this._div.innerHTML = '<h4>Functional Class Review</h4>' +  (props ?
-        'RCLINK: ' + props.RCLINK + ' <button type="button" title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+props.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button><br />' +
+        'RCLINK: ' + props.RCLINK + ' <button type="button" ' + disabled + ' title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+props.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button><br />' +
         'County: ' + toTitleCase(props.County) + '<br />' +
         'Functional Class: ' + props.F_SYSTEM + ''
         : 'Hover over a street segment');
@@ -159,21 +170,21 @@ $(document).ready(function() {
 			console.log(data)
 			raw = data;
 			geojson = L.geoJson(data, {
-				// filter: function(feature, layer){
-				// 	if (feature.properties){
-				// 		return feature.properties.Shape_Leng > 3000 ? true : false
-				// 	}
-				// 	return false
-				// },
+				filter: function(feature, layer){
+					if (feature.properties.F_SYSTEM > 2 && feature.properties.F_SYSTEM < 7){
+						return true;
+					}
+					return false
+				},
 				style: function (feature) {
 					// var projType = feature.properties.PRJ_TYPE;
 					// var description = feature.properties.PRJ_DESC;
 					// console.log(feature.properties.PRJ_DESC+': '+feature.properties.PRJ_TYPE)
 					return {
-						color: "red",
-						weight: 12/(feature.properties.F_SYSTEM+1),
-						dashArray: '3',
-						opacity: 1/feature.properties.F_SYSTEM
+						color: "#E6324B",
+						weight: 16/(feature.properties.F_SYSTEM+1),
+						// dashArray: '3',
+						opacity: 9/(feature.properties.F_SYSTEM*feature.properties.F_SYSTEM)
 					}
 					
 				},

@@ -184,10 +184,12 @@ function backgridTable(data){
 var messages = []
 var tables = {}
 var edit = false
-
+var segments = [];
 
 $('.add-street').live('click', function(){
 	var rc = $(this).attr('id')
+  segments.push(rc)
+  $(this).attr('disabled', 'disabled')
 	// console.log(this.attr(id))
 	$.each(raw.features, function(i, feature){
 		if (rc == feature.properties.RCLINK)
@@ -197,21 +199,38 @@ $('.add-street').live('click', function(){
 		<div class="panel panel-default"> \
 			<div class="panel-heading">RC '+ rc + '<button type="button" title="Remove street segment to edits" class="pull-right btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></div> \
 				<div class="panel-body">' + rc + 
-			'</div> \
-			<div class="form-group"> \
-				<label for="fcSelect">Functional Class</label> \
-				<select id="fcSelect" class="form-control"> \
-					<option>1</option> \
-					<option>2</option> \
-					<option>3</option> \
-					<option>4</option> \
-				</select> \
+          '<div class="checkbox"> \
+            <label> \
+              <input type="checkbox"> Entire segment? \
+            </label> \
+          </div> \
+          <div class="form-group"> \
+            <label for="fromIntersection">From Intersection</label> \
+            <input type="email" class="form-control" id="fromIntersection" placeholder="Memorial Dr SE"> \
+            <label for="toIntersection">To Intersection</label> \
+            <input type="email" class="form-control" id="toIntersection" placeholder="Glenwood Ave SE"> \
+          </div> \
+          <div class="row"> \
+          <div class="form-group col-md-9"> \
+            <label for="fcSelect">Functional Class</label> \
+            <select id="fcSelect" class="form-control"> \
+              <option>1</option> \
+              <option>2</option> \
+              <option>3</option> \
+              <option>4</option> \
+              <option>5</option> \
+              <option>6</option> \
+              <option>7</option> \
+            </select> \
+          </div> \
+        </div> \
 			</div> \
 		</div>');
 		//'<li data-options=\'' + '{"id":"' + this.id + '"}\'>' + this.id + '<button type="button" title="Remove street segment to edits" class="btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></li>')
 })
 $('.remove-street').live('click', function(){
 	$(this).closest("div.panel").remove();
+  segments.indexOf()
 })
   $('#issue-title').tooltip({title:'don\'t change this!'})
   $('#begin-edits').tooltip({title:'Click to toggle editing mode'})
