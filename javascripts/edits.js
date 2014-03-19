@@ -179,41 +179,58 @@ function backgridTable(data){
   // Fetch some countries from the url
   // territories.fetch({reset: true});
 }
-
+// Disable function
+jQuery.fn.extend({
+    disable: function(state) {
+        return this.each(function() {
+            this.disabled = state;
+        });
+    }
+});
 
 var messages = []
 var tables = {}
 var edit = false
 var segments = [];
-
+$('#undo-changes').click(function(){
+  $("div.panel").remove()
+})
+$('#submit-changes').click(function(){
+  alert('Your changes have been submitted!')
+})
 $('.add-street').live('click', function(){
 	var rc = $(this).attr('id')
+  var fc = ''
   segments.push(rc)
+  $('.edits').removeAttr('disabled');
   $(this).attr('disabled', 'disabled')
 	// console.log(this.attr(id))
 	$.each(raw.features, function(i, feature){
-		if (rc == feature.properties.RCLINK)
-			console.log(feature.properties.RCLINK)
+		if (rc == feature.properties.RCLINK){
+			console.log(feature.properties.F_SYSTEM)
+      fc = feature.properties.F_SYSTEM
+    }
+
 	})
 	$('#change-list').append(' \
 		<div class="panel panel-default"> \
 			<div class="panel-heading">RC '+ rc + '<button type="button" title="Remove street segment to edits" class="pull-right btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></div> \
-				<div class="panel-body">' + rc + 
+				<div class="panel-body">' + //rc + 
           '<div class="checkbox"> \
             <label> \
               <input type="checkbox"> Entire segment? \
             </label> \
           </div> \
-          <div class="form-group"> \
+          <div class="form-group intersection"> \
             <label for="fromIntersection">From Intersection</label> \
-            <input type="email" class="form-control" id="fromIntersection" placeholder="Memorial Dr SE"> \
+            <input type="text" class="form-control" id="fromIntersection" placeholder="Memorial Dr SE"> \
             <label for="toIntersection">To Intersection</label> \
-            <input type="email" class="form-control" id="toIntersection" placeholder="Glenwood Ave SE"> \
+            <input type="text" class="form-control" id="toIntersection" placeholder="Glenwood Ave SE"> \
           </div> \
           <div class="row"> \
           <div class="form-group col-md-9"> \
-            <label for="fcSelect">Functional Class</label> \
-            <select id="fcSelect" class="form-control"> \
+            <label for="fcSelect-'+rc+'">Functional Class</label> \
+            <select id="fcSelect-'+rc+'" class="form-control"> \
               <option>1</option> \
               <option>2</option> \
               <option>3</option> \
@@ -224,14 +241,24 @@ $('.add-street').live('click', function(){
             </select> \
           </div> \
         </div> \
+        <div class="form-group"> \
+            <label for="justification">Justification</label> \
+            <textarea rows="3" type="text" class="form-control" id="justification" placeholder="Please provide justification for this functional class change"></textarea> \
+          </div> \
 			</div> \
 		</div>');
+
+    $('#fcSelect-'+rc).val('fc')
 		//'<li data-options=\'' + '{"id":"' + this.id + '"}\'>' + this.id + '<button type="button" title="Remove street segment to edits" class="btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></li>')
 })
 $('.remove-street').live('click', function(){
 	$(this).closest("div.panel").remove();
   segments.indexOf()
 })
+$(':checkbox').live('change', function() {
+    // do your staff here. It will fire any checkbox change
+    $('.intersection').toggle();
+});
   $('#issue-title').tooltip({title:'don\'t change this!'})
   $('#begin-edits').tooltip({title:'Click to toggle editing mode'})
   // $('.tooltip').tooltip()

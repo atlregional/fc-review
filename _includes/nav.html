@@ -31,7 +31,7 @@
       <li style="position:relative; top:10px; left:10px;">
         <span>
           <span id="welcome-message" style="display:none;"></span><button id="gh-login" class="btn btn-success" data-loading-text="Logging in..." title="Log in with GitHub">Log in</button>
-          <a href="https://github.com/{{ site.githubuser }}/plan-it/" class="btn btn-default"  title="View on GitHub"><img id="gh" src="{{ site.baseurl }}/lib/images/gh.svg"></a>
+          <a href="https://github.com/{{ site.githubuser }}/fc-review/" class="btn btn-default"  title="View on GitHub"><img id="gh" src="{{ site.baseurl }}/lib/images/gh.svg"></a>
         </span>
       </li>
     </ul>
@@ -39,6 +39,18 @@
   </div>
 </div>
 <script type="text/javascript">
+function checkTeams(){
+  // for loop to check which team this guy is a part of
+    $.each(teams, function (i, team){
+      $.get("https://api.github.com/teams/" + team.id + "/members/"+$.cookie('user').login+"?access_token="+$.cookie('token'), function(data, status){
+        // if a part of county X, make X streets editable on the map for them.
+        console.log(status + " for " + team.name)
+        if (status === "success"){
+          drawGeoJSON(team.name);
+        }
+      })
+    })
+}
   $.cookie.json = true;
 
   // Code to make the appropriate nav active
@@ -79,12 +91,180 @@
         $('#gh-login').removeClass('btn-success').addClass('btn-danger').text('Log out').attr('title', 'Log out of Plan-It')
         console.log('showing username')
         $('#gh-login').button('reset').text('Log out')
+        checkTeams()
         if($.cookie('return-href') !== undefined){
           window.location = $.cookie('return-href')
         }
      })
+
+
     });
   }
+  var teams = [
+  {
+    "name": "Barrow",
+    "id": 738687,
+    "slug": "barrow",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738687",
+    "members_url": "https://api.github.com/teams/738687/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738687/repos"
+  },
+  {
+    "name": "Bartow",
+    "id": 738688,
+    "slug": "bartow",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738688",
+    "members_url": "https://api.github.com/teams/738688/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738688/repos"
+  },
+  {
+    "name": "Cherokee",
+    "id": 738689,
+    "slug": "cherokee",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738689",
+    "members_url": "https://api.github.com/teams/738689/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738689/repos"
+  },
+  {
+    "name": "Clayton",
+    "id": 738690,
+    "slug": "clayton",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738690",
+    "members_url": "https://api.github.com/teams/738690/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738690/repos"
+  },
+  {
+    "name": "Cobb",
+    "id": 738691,
+    "slug": "cobb",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738691",
+    "members_url": "https://api.github.com/teams/738691/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738691/repos"
+  },
+  {
+    "name": "Coweta",
+    "id": 738692,
+    "slug": "coweta",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738692",
+    "members_url": "https://api.github.com/teams/738692/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738692/repos"
+  },
+  {
+    "name": "DeKalb",
+    "id": 738693,
+    "slug": "dekalb",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738693",
+    "members_url": "https://api.github.com/teams/738693/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738693/repos"
+  },
+  {
+    "name": "Douglas",
+    "id": 738694,
+    "slug": "douglas",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738694",
+    "members_url": "https://api.github.com/teams/738694/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738694/repos"
+  },
+  {
+    "name": "Fayette",
+    "id": 738695,
+    "slug": "fayette",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738695",
+    "members_url": "https://api.github.com/teams/738695/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738695/repos"
+  },
+  {
+    "name": "Forsyth",
+    "id": 738696,
+    "slug": "forsyth",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738696",
+    "members_url": "https://api.github.com/teams/738696/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738696/repos"
+  },
+  {
+    "name": "Fulton",
+    "id": 738697,
+    "slug": "fulton",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738697",
+    "members_url": "https://api.github.com/teams/738697/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738697/repos"
+  },
+  {
+    "name": "Gwinnett",
+    "id": 738698,
+    "slug": "gwinnett",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738698",
+    "members_url": "https://api.github.com/teams/738698/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738698/repos"
+  },
+  {
+    "name": "Henry",
+    "id": 738700,
+    "slug": "henry",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738700",
+    "members_url": "https://api.github.com/teams/738700/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738700/repos"
+  },
+  {
+    "name": "Newton",
+    "id": 738701,
+    "slug": "newton",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738701",
+    "members_url": "https://api.github.com/teams/738701/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738701/repos"
+  },
+  {
+    "name": "Paulding",
+    "id": 738702,
+    "slug": "paulding",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738702",
+    "members_url": "https://api.github.com/teams/738702/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738702/repos"
+  },
+  {
+    "name": "Rockdale",
+    "id": 738703,
+    "slug": "rockdale",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738703",
+    "members_url": "https://api.github.com/teams/738703/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738703/repos"
+  },
+  {
+    "name": "Spalding",
+    "id": 738704,
+    "slug": "spalding",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738704",
+    "members_url": "https://api.github.com/teams/738704/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738704/repos"
+  },
+  {
+    "name": "Walton",
+    "id": 738705,
+    "slug": "walton",
+    "permission": "pull",
+    "url": "https://api.github.com/teams/738705",
+    "members_url": "https://api.github.com/teams/738705/members{/member}",
+    "repositories_url": "https://api.github.com/teams/738705/repos"
+  }
+]
+
   github = new Github({
       token: $.cookie('token'),
       auth: "oauth"
@@ -92,6 +272,14 @@
   if ($.cookie('token') !== undefined){
     $('#welcome-message').html('<a style="margin-right:5px;" href="'+$.cookie('user').html_url+'">'+$.cookie('user').login+'</a><a style="margin-right:5px;" href="'+$.cookie('user').html_url+'"><img width="34px" style="margin-right:5px;" height="34px" src="'+$.cookie('user').avatar_url+'"></a>').show()
     $('#gh-login').removeClass('btn-success').addClass('btn-danger').text('Log out').attr('title', 'Log out of Plan-It')
+     // get list of teams
+    // $.getJSON("https://api.github.com/orgs/atlregional/teams?access_token="+$.cookie('token'), function(data){
+    //   // store teams object in a cookie? YES
+    //   $.cookie('teams', data)
+    //   console.log(data)
+    // })
+    
+    checkTeams()
     
   }
 

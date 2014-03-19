@@ -3,10 +3,10 @@ layout: default
 title: Home
 ---
 
-<div class="col-md-9">
+<div class="col-md-8">
 <h3>
 Map of Atlanta region street network
-<span>
+<!-- <span>
 <select>
 	<option>Clayton</option>
 	<option>Cherokee</option>
@@ -14,7 +14,7 @@ Map of Atlanta region street network
 	<option>Gwinnett</option>
 	<option>Cobb</option>
 </select>
-</span>
+</span> -->
 <!-- <span style="float:right;"><small><a href="{{ site.baseurl }}/explore/map">see full screen <span class="glyphicon glyphicon-share-alt"></span></a></small></span> -->
 </h3>
 
@@ -25,15 +25,17 @@ Map of Atlanta region street network
 <p>Zoom and click around on the map to get a better idea of some of the projects for which federal, state, and local dollars are allocated in the FY 2012-17 TIP (<a href="http://www.atlantaregional.com/File%20Library/Transportation/Transportation%20Plans/tp_tiplist_112213.pdf">pdf</a>).</p>
 <p><small><strong>Data source:</strong> <a href="https://github.com/{{ site.githubuser }}/plan-it/blob/gh-pages/data/rtp_points.geojson">points</a>, <a href="https://github.com/{{ site.githubuser }}/plan-it/blob/gh-pages/data/rtp_lines.geojson">lines</a></small></p>
 </div>
-<div class="col-md-3">
+<div class="col-md-4">
 	<h3>List of changes</h3>
-	<div class="row">
-	<button type="button" class="btn btn-danger" id="undo-changes" disabled="disabled">Undo All</button>
-	<button type="button" class="btn btn-primary" id="submit-changes" disabled="disabled">Submit</button>
+	<div style="padding-bottom:20px;">
+
+		<button type="button" class="btn btn-danger edits" id="undo-changes" disabled="disabled">Undo All</button>
+		<button type="button" class="btn btn-primary edits" id="submit-changes" disabled="disabled">Submit</button>
 	</div>
 	<div id="change-list">
 	</div>
-
 </div>
+	
+
 <script type="text/javascript" src="{{ site.baseurl }}/javascripts/edits.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/javascripts/map.js"></script>

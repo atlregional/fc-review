@@ -162,37 +162,65 @@ function zoomToFeature(e) {
 	 ePrev = e;
 }
 $(document).ready(function() {
-	$.ajax({
-		type: "GET",
-		url: "{{ site.baseurl}}/data/func_class_1to6.geojson", 
-		dataType: "json",
-		success: function(data){
-			console.log(data)
-			raw = data;
-			geojson = L.geoJson(data, {
-				filter: function(feature, layer){
-					if (feature.properties.F_SYSTEM > 2 && feature.properties.F_SYSTEM < 7){
-						return true;
-					}
-					return false
-				},
-				style: function (feature) {
-					// var projType = feature.properties.PRJ_TYPE;
-					// var description = feature.properties.PRJ_DESC;
-					// console.log(feature.properties.PRJ_DESC+': '+feature.properties.PRJ_TYPE)
-					return {
-						color: "#E6324B",
-						weight: 16/(feature.properties.F_SYSTEM+1),
-						// dashArray: '3',
-						opacity: 9/(feature.properties.F_SYSTEM*feature.properties.F_SYSTEM)
-					}
-					
-				},
-				onEachFeature: onEachFeature,
-				pointToLayer: function (feature, latlng) {
-
-				}
-			}).addTo(map);
-		}
-	})
+	var counties = [
+		"Barrow",
+		"Bartow",
+		"Cherokee",
+		"Clayton",
+		"Cobb",
+		"Coweta",
+		"DeKalb",
+		"Douglas",
+		"Fayette",
+		"Forsyth",
+		"Fulton",
+		"Gwinnett",
+		"Henry",
+		"Newton",
+		"Paulding",
+		"Rockdale",
+		"Spalding",
+		"Walton"
+	];
+	// $.each(counties, function(i, county){
+	// 	drawGeoJSON(county)
+		
+	// })
+	
 })
+
+function drawGeoJSON(county){
+	$.ajax({
+			type: "GET",
+			url: "{{ site.baseurl}}/data/"+county+".geojson", 
+			dataType: "json",
+			success: function(data){
+				console.log(data)
+				raw = data;
+				geojson = L.geoJson(data, {
+					filter: function(feature, layer){
+						if (feature.properties.F_SYSTEM > 2 && feature.properties.F_SYSTEM < 7){
+							return true;
+						}
+						return false
+					},
+					style: function (feature) {
+						// var projType = feature.properties.PRJ_TYPE;
+						// var description = feature.properties.PRJ_DESC;
+						// console.log(feature.properties.PRJ_DESC+': '+feature.properties.PRJ_TYPE)
+						return {
+							color: "#E6324B",
+							weight: 16/(feature.properties.F_SYSTEM+1),
+							// dashArray: '3',
+							opacity: 9/(feature.properties.F_SYSTEM*feature.properties.F_SYSTEM)
+						}
+						
+					},
+					onEachFeature: onEachFeature,
+					pointToLayer: function (feature, latlng) {
+
+					}
+				}).addTo(map);
+			}
+		})
+}
