@@ -60,7 +60,7 @@ function checkTeams(){
 
   // Check if working on development server
   var dev = false
-  if ('{{ site.baseurl }}' != '/plan-it')
+  if ('{{ site.baseurl }}' != '/fc-review')
     dev = true;
 
 
@@ -77,7 +77,7 @@ function checkTeams(){
     $('.btn').button()
     $('#gh-login').button('loading')
     
-    var authUrl = dev ? 'http://localhost:9999' : 'http://gatekeeper-plan-it.herokuapp.com'
+    var authUrl = dev ? 'http://localhost:9999' : 'http://gatekeeper-fc-review.herokuapp.com/'
     $.getJSON(authUrl + '/authenticate/'+code, function(data) {
       
      console.log(data.token);
