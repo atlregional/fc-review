@@ -596,24 +596,18 @@ function drawCounty(county){
 					return false
 				},
 				style: function (feature) {
-					// if (feature.properties.NAME10 == "Atlanta, GA"){
 						return {
 							color: "#000",
 							weight: 2,
-							fill: true,
+							fill: false,
 							fillColor: "#ffffff",
 							opacity: 1,
 							fillOpacity:0,
 							clickable: false
 						}
-					// }
-					
-					
-				}
-				// onEachFeature: onEachFeature,
-				// pointToLayer: function (feature, latlng) {
 
-				// }
+				}
+
 			}).addTo(map);
 		}
 	})
