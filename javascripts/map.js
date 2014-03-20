@@ -599,9 +599,9 @@ function drawCounty(county){
 							color: "#aaa",
 							weight: 5,
 							fill: true,
-							fillColor: "#eee",
-							// // dashArray: '3',
+							fillColor: "#ffffff",
 							opacity: 1,
+							fillOpacity:.5,
 							clickable: false
 						}
 					// }
