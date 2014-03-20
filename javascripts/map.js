@@ -350,6 +350,7 @@ legend.addTo(map);
 //            .setContent("You clicked the map at " + e.latlng.toString())
 //            .openOn(map);
 //       }
+var target = null;
 function onEachFeature (feature, layer) {
 	layer.bindLabel(feature.properties.RCLINK, {noHide:true});
 	// layer.bindPopup('<button type="button" title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+feature.properties.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button>');
@@ -418,6 +419,7 @@ function getColor(d) {
 function highlightFeature(e) {
 	// if (ePrev && ePrev.target != e.target)
 	// 	geojson.resetStyle(ePrev.target);
+	target = e.target;
 	console.log(e)
     var layer = e.target;
     click = false;
@@ -435,7 +437,7 @@ function highlightFeature(e) {
 }
 function resetHighlight(e) {
 	if (!click){
-    	geojson.resetStyle(e.target);
+    	geojson.resetStyle(target);
     	// info.update();
 	}
     
