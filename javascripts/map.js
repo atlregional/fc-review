@@ -8,7 +8,7 @@ function checkTeams(){
         // if a part of county X, make X streets editable on the map for them.
         console.log(status + " for " + team.name)
         if (status === "success"){
-        	drawCounty(team.name);
+        	// drawCounty(team.name);
          	drawGeoJSON(team.name);
         }
       })
