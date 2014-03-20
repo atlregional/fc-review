@@ -291,7 +291,7 @@ var base = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/22677/256/{z}/{x}/{y
 		attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
 		key: '7486205c8fd540b0903a0298b3d7c447'
 	}).addTo(map)
-var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.s67xpqfr/{z}/{x}/{y}.png', {
+var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.6ml8r529/{z}/{x}/{y}.png', {
 		attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
 		// key: '7486205c8fd540b0903a0298b3d7c447'
 	})
@@ -304,11 +304,10 @@ var minimal   = L.tileLayer(cloudmadeUrl, {styleId: 22677, attribution: cloudmad
     motorways = L.tileLayer(cloudmadeUrl, {styleId: 46561, attribution: cloudmadeAttribution});
 
 var overlayMaps = {
-    "Motorways": streets,
+    "Entire region": streets,
 };
 var baseMaps = {
-    "Minimal": base,
-    "Night View": streets
+    "Base map": base,
 };
 L.control.layers(baseMaps, overlayMaps).addTo(map);
 
@@ -509,7 +508,7 @@ function drawGeoJSON(county){
 							color: getColor(feature.properties.F_SYSTEM),
 							weight: 16/(feature.properties.F_SYSTEM+1),
 							// dashArray: '3',
-							opacity: 9/(feature.properties.F_SYSTEM*feature.properties.F_SYSTEM)
+							opacity: .5
 						}
 						
 					},
@@ -596,12 +595,12 @@ function drawCounty(county){
 				style: function (feature) {
 					// if (feature.properties.NAME10 == "Atlanta, GA"){
 						return {
-							color: "#aaa",
-							weight: 5,
+							color: "#000",
+							weight: 2,
 							fill: true,
 							fillColor: "#ffffff",
 							opacity: 1,
-							fillOpacity:.5,
+							fillOpacity:0,
 							clickable: false
 						}
 					// }
