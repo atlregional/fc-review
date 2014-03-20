@@ -214,7 +214,7 @@ $('.add-street').live('click', function(){
 	})
 	$('#change-list').append(' \
 		<div class="panel panel-default"> \
-			<div class="panel-heading">RC '+ rc + '<button type="button" title="Remove street segment to edits" class="pull-right btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></div> \
+			<div class="panel-heading">RC '+ rc + '<button type="button" data-value="'+rc+'" title="Remove street segment to edits" class="pull-right btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></div> \
 				<div class="panel-body">' + //rc + 
           '<div class="checkbox"> \
             <label> \
@@ -253,6 +253,7 @@ $('.add-street').live('click', function(){
 })
 $('.remove-street').live('click', function(){
 	$(this).closest("div.panel").remove();
+  console.log($(this).data('value'))
   segments.indexOf()
 })
 $(':checkbox').live('change', function() {
