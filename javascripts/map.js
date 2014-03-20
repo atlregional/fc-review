@@ -8,13 +8,14 @@ function checkTeams(){
         // if a part of county X, make X streets editable on the map for them.
         console.log(status + " for " + team.name)
         if (status === "success"){
-          drawGeoJSON(team.name);
+        	drawCounty(team.name);
+         	drawGeoJSON(team.name);
         }
       })
       console.log(i +" " + teams.length )
       if (i == teams.length - 1){
      //  	drawUab();
-    	// drawCounties();
+    	
       }
     })
     
@@ -286,10 +287,31 @@ var map = L.map('map', {
 var geojson;
 var raw;
 // var popup = new L.popup();
-L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.s67xpqfr/{z}/{x}/{y}.png', {
+var base = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/22677/256/{z}/{x}/{y}.png', {
+		attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
+		key: '7486205c8fd540b0903a0298b3d7c447'
+	}).addTo(map)
+var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.s67xpqfr/{z}/{x}/{y}.png', {
 		attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
 		// key: '7486205c8fd540b0903a0298b3d7c447'
-	}).addTo(map);
+	})
+
+var cloudmadeUrl = 'http://{s}.tile.cloudmade.com/API-key/{styleId}/256/{z}/{x}/{y}.png',
+    cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade';
+
+var minimal   = L.tileLayer(cloudmadeUrl, {styleId: 22677, attribution: cloudmadeAttribution}),
+    midnight  = L.tileLayer(cloudmadeUrl, {styleId: 999,   attribution: cloudmadeAttribution}),
+    motorways = L.tileLayer(cloudmadeUrl, {styleId: 46561, attribution: cloudmadeAttribution});
+
+var overlayMaps = {
+    "Motorways": streets,
+};
+var baseMaps = {
+    "Minimal": base,
+    "Night View": streets
+};
+L.control.layers(baseMaps, overlayMaps).addTo(map);
+
 
 var legend = L.control({position: 'bottomright'});
 
@@ -556,7 +578,7 @@ function drawUab(){
 		}
 	})
 }
-function drawCounties(){
+function drawCounty(county){
 	$.ajax({
 		type: "GET",
 		url: "{{ site.baseurl}}/data/counties.geojson", 
@@ -565,18 +587,19 @@ function drawCounties(){
 			console.log(data)
 			raw = data;
 			geojson = L.geoJson(data, {
-				// filter: function(feature, layer){
-				// 	if (feature.properties.F_SYSTEM > 2 && feature.properties.F_SYSTEM < 7){
-				// 		return true;
-				// 	}
-				// 	return false
-				// },
+				filter: function(feature, layer){
+					if (feature.properties.NAME10 == county){
+						return true;
+					}
+					return false
+				},
 				style: function (feature) {
 					// if (feature.properties.NAME10 == "Atlanta, GA"){
 						return {
 							color: "#aaa",
-							weight: 1,
-							fill: false,
+							weight: 5,
+							fill: true,
+							fillColor: "#eee",
 							// // dashArray: '3',
 							opacity: 1,
 							clickable: false
