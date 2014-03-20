@@ -317,20 +317,23 @@ var legend = L.control({position: 'bottomright'});
 legend.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend'),
-        type = [3,
-				4,
-				5,
-				6,
-				7
+        type = ["Principal arterial",
+				"Minor arterial",
+				"Major Collector",
+				"Minor Collector"
+				// ,
+				// 7
 				]
         
 
     // loop through our density intervals and generate a label with a colored square for each interval
-    for (var i = 0; i < type.length; i++) {
+    $.each(type, function(i,fc){
+
+
         div.innerHTML +=
-            '<i style="background:' + getColor(type[i]) + '"></i> ' +
-            type[i] + '<br>';
-    }
+            '<i style="background:' + getColor(i+3) + '"></i> ' +
+            fc + '<br>';
+    })
 
     return div;
 };
