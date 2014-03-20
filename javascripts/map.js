@@ -11,9 +11,13 @@ function checkTeams(){
           drawGeoJSON(team.name);
         }
       })
+      console.log(i +" " + teams.length )
+      if (i == teams.length - 1){
+     //  	drawUab();
+    	// drawCounties();
+      }
     })
-    drawUab();
-    drawCounties();
+    
 }
   $.cookie.json = true;
 
@@ -282,9 +286,9 @@ var map = L.map('map', {
 var geojson;
 var raw;
 // var popup = new L.popup();
-L.tileLayer('http://{s}.tile.cloudmade.com/{key}/22677/256/{z}/{x}/{y}.png', {
+L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.s67xpqfr/{z}/{x}/{y}.png', {
 		attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
-		key: '7486205c8fd540b0903a0298b3d7c447'
+		// key: '7486205c8fd540b0903a0298b3d7c447'
 	}).addTo(map);
 
 var legend = L.control({position: 'bottomright'});
