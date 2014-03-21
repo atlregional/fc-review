@@ -198,6 +198,7 @@ $('#undo-changes').click(function(){
 $('#submit-changes').click(function(){
   alert('Your changes have been submitted!')
 })
+
 $('.add-street').live('click', function(){
 	var rc = $(this).attr('id')
   var fc = ''
@@ -242,19 +243,26 @@ $('.add-street').live('click', function(){
           </div> \
         </div> \
         <div class="form-group"> \
+            <label for="description">Description of road segment</label> \
+            <textarea rows="3" type="text" class="form-control" id="description" Description of road segment="Please provide a description of the road segment"></textarea> \
+          </div> \
+        <div class="form-group"> \
             <label for="justification">Justification</label> \
             <textarea rows="3" type="text" class="form-control" id="justification" placeholder="Please provide justification for this functional class change"></textarea> \
           </div> \
 			</div> \
 		</div>');
 
-    $('#fcSelect-'+rc).val('fc')
+    $('#fcSelect-'+rc).live('val','fc')
 		//'<li data-options=\'' + '{"id":"' + this.id + '"}\'>' + this.id + '<button type="button" title="Remove street segment to edits" class="btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></li>')
 })
 $('.remove-street').live('click', function(){
 	$(this).closest("div.panel").remove();
   console.log($(this).data('value'))
-  segments.indexOf()
+  $('#'+segments[0]).removeAttr('disabled');
+  segments.splice(0, 1)
+  
+  $('.edits').attr('disabled', 'disabled');
 })
 $(':checkbox').live('change', function() {
     // do your staff here. It will fire any checkbox change

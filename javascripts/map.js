@@ -278,6 +278,7 @@ function checkTeams(){
 
   })
 var ePrev = null;
+var eHov = null;
 var click = false;
 var map = L.map('map', {
     center: [33.77686437792359, -84.3145751953125],
@@ -309,7 +310,7 @@ var overlayMaps = {
 var baseMaps = {
     "Base map": base,
 };
-L.control.layers(baseMaps, overlayMaps).addTo(map);
+L.control.layers(baseMaps, overlayMaps, {position: 'topleft'}).addTo(map);
 
 
 var legend = L.control({position: 'bottomright'});
@@ -317,7 +318,9 @@ var legend = L.control({position: 'bottomright'});
 legend.onAdd = function (map) {
 
     var div = L.DomUtil.create('div', 'info legend'),
-        type = ["Principal arterial",
+        type = ["Interstate",
+        		"Freeway",
+        		"Principal arterial",
 				"Minor arterial",
 				"Major Collector",
 				"Minor Collector"
@@ -328,10 +331,8 @@ legend.onAdd = function (map) {
 
     // loop through our density intervals and generate a label with a colored square for each interval
     $.each(type, function(i,fc){
-
-
         div.innerHTML +=
-            '<i style="background:' + getColor(i+3) + '"></i> ' +
+            '<i style="background:' + getColor(i+1) + '"></i> ' +
             fc + '<br>';
     })
 
@@ -409,7 +410,10 @@ function lineColor(props) {
 	}
 }
 function getColor(d) {
-    return d === 3 ? "#ff0000" :
+	
+    return d === 1 ? "#0070ff" :
+    	   d === 2 ? "#730000" :
+    	   d === 3 ? "#ff0000" :
            d === 4  ? "#38a800" :
            d === 5   ? "#ab42e0" :
            d === 6  ? "#ffaa00" :
@@ -423,6 +427,7 @@ function highlightFeature(e) {
 	console.log(e)
     var layer = e.target;
     click = false;
+    e.click = false
     layer.setStyle({
         weight: layer.options.weight,
         color: '#666',
@@ -433,29 +438,40 @@ function highlightFeature(e) {
     if (!L.Browser.ie && !L.Browser.opera) {
         layer.bringToFront();
     }
+    eHov = e
+    if (eHov.target == ePrev.target){
+    	ePrev.click = false;
+    }
     // info.update(layer.feature.properties);
 }
 function resetHighlight(e) {
 	if (!click){
-    	geojson.resetStyle(target);
-    	// info.update();
+    	geojson.resetStyle(e.target);
+    	
+	}
+	if (!ePrev.click && !eHov.click){
+		info.update();
 	}
     
     
 }
 function zoomToFeature(e) {
     map.fitBounds(e.target.getBounds());
+    console.log(ePrev)
     var layer = e.target;
-    if (click)
+    if (ePrev != null && ePrev.click){
     	geojson.resetStyle(ePrev.target);
+    }
     click = true;
+    e.click = true;
     if (click){
     	geojson.resetStyle(e.target);
 	    layer.setStyle({
-	        weight: layer.options.weight,
+	        weight: '8',
 	        color: '#000',
+	        // fillColor: 'blue',
 	        dashArray: '',
-	        opacity:1
+	        opacity:.5
 	    });
 	 }
 	 info.update(layer.feature.properties);
