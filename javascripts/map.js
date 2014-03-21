@@ -3,21 +3,34 @@
 ---
 function checkTeams(){
   // for loop to check which team this guy is a part of
+  // console.log()
+  var success = false;
+  if ($.cookie('user') == undefined && $.cookie('team') == undefined){
+  	console.log('let\'s go!')
     $.each(teams, function (i, team){
-      $.get("https://api.github.com/teams/" + team.id + "/members/"+$.cookie('user').login+"?access_token="+$.cookie('token'), function(data, status){
-        // if a part of county X, make X streets editable on the map for them.
-        console.log(status + " for " + team.name)
-        if (status === "success"){
-        	// drawCounty(team.name);
-         	drawGeoJSON(team.name);
-        }
-      })
+    	if (!success){
+	      $.get("https://api.github.com/teams/" + team.id + "/members/"+$.cookie('user').login+"?access_token="+$.cookie('token'), function(data, status){
+	        // if a part of county X, make X streets editable on the map for them.
+	        console.log(status + " for " + team.name)
+	        if (status === "success"){
+	        	success = true;
+	        	// drawCounty(team.name);
+	        	$.cookie('team', team)
+	         	drawGeoJSON(team.name);
+	        }
+	      })
+	    }
       console.log(i +" " + teams.length )
       if (i == teams.length - 1){
      //  	drawUab();
     	
       }
     })
+   }
+   else {
+
+	    drawGeoJSON($.cookie('team').name);
+   }
     
 }
   $.cookie.json = true;
@@ -244,7 +257,7 @@ function checkTeams(){
      // get list of teams
     // $.getJSON("https://api.github.com/orgs/atlregional/teams?access_token="+$.cookie('token'), function(data){
     //   // store teams object in a cookie? YES
-    //   $.cookie('teams', data)
+    //   
     //   console.log(data)
     // })
     
@@ -296,6 +309,10 @@ var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.6ml8r529/{z
 		attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
 		// key: '7486205c8fd540b0903a0298b3d7c447'
 	})
+var gdot = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.21acq5mi/{z}/{x}/{y}.png', {
+		attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
+		// key: '7486205c8fd540b0903a0298b3d7c447'
+	})
 
 var cloudmadeUrl = 'http://{s}.tile.cloudmade.com/API-key/{styleId}/256/{z}/{x}/{y}.png',
     cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade';
@@ -305,7 +322,9 @@ var minimal   = L.tileLayer(cloudmadeUrl, {styleId: 22677, attribution: cloudmad
     motorways = L.tileLayer(cloudmadeUrl, {styleId: 46561, attribution: cloudmadeAttribution});
 
 var overlayMaps = {
+	// "Edits": geojson,
     "Entire region": streets,
+    "GDOT recommendations": gdot
 };
 var baseMaps = {
     "Base map": base,
@@ -375,7 +394,7 @@ info.update = function (props) {
 	if (props && $.inArray(props.RCLINK, segments) == 0)
 		disabled = 'disabled="disabled"'
     this._div.innerHTML = '<h4>Functional Class Review</h4>' +  (props ?
-        'RCLINK: ' + props.RCLINK + ' <button type="button" ' + disabled + ' title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+props.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button><br />' +
+        'RCLINK: ' + props.RCLINK + ' <button type="button" ' + disabled + ' data-value=\''+JSON.stringify(props)+'\' title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+props.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button><br />' +
         'County: ' + toTitleCase(props.County) + '<br />' +
         'Functional Class: ' + props.F_SYSTEM + ''
         : 'Hover over a street segment');
@@ -439,7 +458,7 @@ function highlightFeature(e) {
         layer.bringToFront();
     }
     eHov = e
-    if (eHov.target == ePrev.target){
+    if (ePrev != null && eHov != null && eHov.target == ePrev.target){
     	ePrev.click = false;
     }
     // info.update(layer.feature.properties);
@@ -449,7 +468,7 @@ function resetHighlight(e) {
     	geojson.resetStyle(e.target);
     	
 	}
-	if (!ePrev.click && !eHov.click){
+	if (ePrev != null && eHov != null && !ePrev.click && !eHov.click){
 		info.update();
 	}
     

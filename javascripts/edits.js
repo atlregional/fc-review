@@ -201,6 +201,8 @@ $('#submit-changes').click(function(){
 
 $('.add-street').live('click', function(){
 	var rc = $(this).attr('id')
+  var data = $(this).data('value')
+  console.log(data)
   var fc = ''
   segments.push(rc)
   $('.edits').removeAttr('disabled');
@@ -217,7 +219,11 @@ $('.add-street').live('click', function(){
 		<div class="panel panel-default"> \
 			<div class="panel-heading">RC '+ rc + '<button type="button" data-value="'+rc+'" title="Remove street segment to edits" class="pull-right btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></div> \
 				<div class="panel-body">' + //rc + 
-          '<div class="checkbox"> \
+          '<div class="form-group"> \
+            <label for="road-name">Name of road</label> \
+            <input type="text" class="form-control" id="road-name" placeholder="Ponce de Leon Ave"> \
+          </div> \
+          <div class="checkbox"> \
             <label> \
               <input type="checkbox"> Entire segment? \
             </label> \
@@ -245,7 +251,7 @@ $('.add-street').live('click', function(){
         <div class="form-group"> \
             <label for="description">Description of road segment</label> \
             <textarea rows="3" type="text" class="form-control" id="description" Description of road segment="Please provide a description of the road segment"></textarea> \
-          </div> \
+        </div> \
         <div class="form-group"> \
             <label for="justification">Justification</label> \
             <textarea rows="3" type="text" class="form-control" id="justification" placeholder="Please provide justification for this functional class change"></textarea> \
