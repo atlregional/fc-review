@@ -5,7 +5,7 @@ function checkTeams(){
   // for loop to check which team this guy is a part of
   // console.log()
   var success = false;
-  if ($.cookie('user') == undefined && $.cookie('team') == undefined){
+  if ($.cookie('user') == undefined || $.cookie('team') == undefined){
   	console.log('let\'s go!')
     $.each(teams, function (i, team){
     	if (!success){
