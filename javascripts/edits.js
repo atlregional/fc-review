@@ -40,6 +40,7 @@ $('#submit-changes').click(function(){
 			// feature.properties.TO = "Peachtree St"
 			// Check if repo exists for logged-in user
 			console.log(feature)
+			console.log(i)
 		}
 	})
 	console.log(raw)
@@ -54,7 +55,7 @@ $('#submit-changes').click(function(){
 		var body = 'Test Body'
 
 		var comments = 'Test comments.'
-		var newBranch = 'patch-1' + newFeature.RCLINK
+		var newBranch = 'p-1-' + newFeature.RCLINK
 		var pull = {
 				"title": title,
 				"body": body,
@@ -68,7 +69,7 @@ $('#submit-changes').click(function(){
 				console.log("forking repo...")
 				console.log(err)
 				// userRepo.show(function(err, data){console.log(data)})
-				branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, raw)
+				branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, JSON.stringify(raw))
 				
 			})
 		}
@@ -80,7 +81,7 @@ $('#submit-changes').click(function(){
 				// If branch exists, write to the branch and then call success.
 				if(_.contains(branches, newBranch)){
 					console.log('branch exists already!')
-					userRepo.write(newBranch, 'data/'+$.cookie('team').name+'.geojson', raw, comments, function(err) {
+					userRepo.write(newBranch, 'data/'+$.cookie('team').name+'.geojson', JSON.stringify(raw), comments, function(err) {
 						console.log(err)
 						if(err){
 								console.log('Hmmm...something went wrong with creating your new branch.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
@@ -121,7 +122,7 @@ $('#submit-changes').click(function(){
 				else{
 					console.log('creating branch!')
 					// If repo exists, but branch does not exist, create a new branch directly in that repo and proceed.
-					branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, 'gh-pages', newBranch, raw)
+					branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, 'gh-pages', newBranch, JSON.stringify(raw))
 				}
 			})
 			
@@ -567,7 +568,7 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 			userRepo.write(branch, 'data/'+$.cookie('team').name+'.geojson', data, comments, function(err) {
 				console.log(err)
 				if(err){
-						console.log('Hmmm...something went wrong with creating your new branch.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
+						console.log('Hmmm...something went wrong with creating your new commit.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
 					}
 				
 				repo.createPullRequest(pull, function(err, pullRequest) {
@@ -576,13 +577,13 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 						console.log('Hmmm...something went wrong with creating your pull request.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
 					}
 					else{
-						$(this).button('reset')
+						// $(this).button('reset')
 						console.log(pullRequest)
-						$.each(changes, function(i, change){undoChange()})
+						// $.each(changes, function(i, change){undoChange()})
 						console.log('Success!')
-						$('#modal-edits').hide()
-						$('#issue-modal-success').show()
-						$('#issue-modal-success-link').html('See your issue <a href="' + pullRequest.html_url + '">here</a>.')  
+						// $('#modal-edits').hide()
+						// $('#issue-modal-success').show()
+						// $('#issue-modal-success-link').html('See your issue <a href="' + pullRequest.html_url + '">here</a>.')  
 					}
 				});
 			});
