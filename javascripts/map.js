@@ -334,25 +334,29 @@ L.control.layers(baseMaps, overlayMaps, {position: 'topleft'}).addTo(map);
 
 var legend = L.control({position: 'bottomright'});
 
+var type = {
+	"1": "Interstate",
+	"2": "Freeway",
+	"3": "Principal arterial",
+	"4": "Minor arterial",
+	"5": "Major Collector",
+	"6": "Minor Collector",
+	"7": "Local"
+}
+
 legend.onAdd = function (map) {
 
-    var div = L.DomUtil.create('div', 'info legend'),
-        type = ["Interstate",
-        		"Freeway",
-        		"Principal arterial",
-				"Minor arterial",
-				"Major Collector",
-				"Minor Collector"
-				// ,
-				// 7
-				]
+    var div = L.DomUtil.create('div', 'info legend')
+
         
 
     // loop through our density intervals and generate a label with a colored square for each interval
-    $.each(type, function(i,fc){
-        div.innerHTML +=
-            '<i style="background:' + getColor(i+1) + '"></i> ' +
-            fc + '<br>';
+    $.each(type, function(key,val){
+    	if (parseInt(key) < 7){
+	        div.innerHTML +=
+	            '<i style="background:' + getColor(parseInt(key)) + '"></i> ' +
+	            val + '<br>';
+    	}
     })
 
     return div;
@@ -373,7 +377,6 @@ legend.addTo(map);
 var target = null;
 function onEachFeature (feature, layer) {
 	layer.bindLabel(feature.properties.RCLINK, {noHide:true});
-	// layer.bindPopup('<button type="button" title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+feature.properties.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button>');
 	layer.on({
         mouseover: highlightFeature,
         mouseout: resetHighlight,
@@ -391,43 +394,17 @@ info.onAdd = function (map) {
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
 	var disabled = ''
-	if (props && $.inArray(props.RCLINK, segments) == 0)
-		disabled = 'disabled="disabled"'
+	if (props && segments.length > 0)
+		disabled = 'disabled="disabled"' 
     this._div.innerHTML = '<h4>Functional Class Review</h4>' +  (props ?
         'RCLINK: ' + props.RCLINK + ' <button type="button" ' + disabled + ' data-value=\''+JSON.stringify(props)+'\' title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+props.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button><br />' +
         'County: ' + toTitleCase(props.County) + '<br />' +
-        'Functional Class: ' + props.F_SYSTEM + ''
+        'Functional Class: ' + props.F_SYSTEM + ' - ' + type[String(props.F_SYSTEM)]
         : 'Hover over a street segment');
 };
 
 info.addTo(map);
-function lineColor(props) {
-	var type = props.PRJ_TYPE;
-	if (type == 1){
-		console.log("BIKE")
-		return getColor("Bicycle")
-	}
-	else if (type == 1){
-		console.log("SAFETY")
-		return getColor("Safety")
-	}
-	else if (type == 1){
-		console.log("TRANSIT")
-		return getColor("Transit")
-	}
-	else if (type == 1){
-		console.log("LMC")
-		return getColor("Last Mile")
-	}
-	else if (type == 1){
-		console.log("ROAD")
-		return getColor("Roadway")
-	}
-	else{
-		console.log(props)
-		return getColor();
-	}
-}
+
 function getColor(d) {
 	
     return d === 1 ? "#0070ff" :

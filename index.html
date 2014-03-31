@@ -33,6 +33,48 @@ Map of Atlanta region street network
 		<button type="button" class="btn btn-primary edits" id="submit-changes" disabled="disabled">Submit</button>
 	</div>
 	<div id="change-list">
+	<div class="change panel panel-default" style="display:none;"> 
+			<div class="panel-heading">RC <span class="id"></span><button type="button" data-value="" title="Remove street segment to edits" class="pull-right btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></div> 
+				<div class="panel-body">
+	          <div class="form-group"> 
+	            <label for="NAME">Name of road</label> 
+	            <input type="text" class="form-control" id="NAME" placeholder="Ponce de Leon Ave"> 
+	          </div> 
+	          <div class="checkbox"> 
+	            <label> 
+	              <input type="checkbox"> Entire segment? 
+	            </label> 
+	          </div> 
+	          <div class="form-group intersection"> 
+	            <label for="FROM">From Intersection</label> 
+	            <input type="text" class="form-control" id="FROM" placeholder="Memorial Dr SE"> 
+	            <label for="TO">To Intersection</label> 
+	            <input type="text" class="form-control" id="TO" placeholder="Glenwood Ave SE"> 
+	          </div> 
+	          <div class="row"> 
+	          <div class="form-group col-md-9"> 
+	            <label for="FC_NEW">Functional Class</label> 
+	            <select id="FC_NEW" class="form-control"> 
+	              <option value="1">1 - Interstate</option> 
+	              <option value="2">2 - Freeway</option> 
+	              <option value="3">3 - Principal Arterial</option> 
+	              <option value="4">4 - Minor Arterial</option> 
+	              <option value="5">5 - Major Collector</option> 
+	              <option value="6">6 - Minor Collector</option> 
+	              <option value="7">7 - Local Road</option> 
+	            </select> 
+	          </div> 
+	        </div> 
+	        <div class="form-group"> 
+	            <label for="DESC">Description of road segment</label> 
+	            <textarea rows="3" type="text" class="form-control" id="DESC" Description of road segment="Please provide a description of the road segment"></textarea> 
+	        </div> 
+	        <div class="form-group"> 
+	            <label for="JUST">Justification</label> 
+	            <textarea rows="3" type="text" class="form-control" id="JUST" placeholder="Please provide justification for this functional class change"></textarea> 
+	          </div> 
+			</div> 
+		</div>
 	</div>
 </div>
 	
