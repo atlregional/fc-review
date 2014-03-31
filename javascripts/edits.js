@@ -42,7 +42,7 @@ $('#submit-changes').click(function(){
 			console.log(feature)
 		}
 	})
-	console.log(JSON.stringify(raw))
+	console.log(raw)
 
 	var userRepo = github.getRepo($.cookie('user').login, 'fc-review')
 	userRepo.show(function(err, data){
