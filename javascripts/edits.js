@@ -15,11 +15,12 @@ $('#undo-changes').click(function(){
 $('.form-control').change(function(){
 	var newValue = $(this).val()
 	console.log(newValue)
-	$('.change').data('value')[$(this).attr('id')] = parseInt(newValue) ? parseInt(newValue) : newValue
-
+	var formId = $(this).attr('id')
+	$('.change').data('value')[formId] = parseInt(newValue) ? parseInt(newValue) : newValue
+	$('.' + formId).text(newValue)
 })
 
-$('#submit-changes').click(function(){
+$('#submit-issue').click(function(){
 	// alert('Your changes have been submitted!')
 	
 		// d3.json("{{ site.baseurl}}/data/" + $.cookie(team.name) + '.geojson', function(error, json) {
@@ -59,7 +60,9 @@ $('#submit-changes').click(function(){
 					'\n#### From\n' + 
 					$('#FROM').val() + 
 					'\n#### To\n' + 
-					$('#TO').val() 
+					$('#TO').val() +
+					'\n#### County\n' + 
+					$.cookie('team') .name + ' County'
 		var newContent = JSON.stringify(raw)
 		console.log(newContent)
 		var comments = 'Test comments.'
@@ -196,7 +199,7 @@ $(':checkbox').live('change', function() {
 		if(jQuery.isEmptyObject(issues)){
 			$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/issues?"+token, function (issuesData) {
 				issues = issuesData
-				console.log(issues[0].body)
+				console.log(issues)
 				populateIssues()
 			});
 		}
@@ -603,13 +606,13 @@ function populateIssues(){
 	var converter = new Showdown.converter();
 	var issuesArray = []
 	var count = issues.length
-	
+	var countyReg = new RegExp($.cookie('team').name + ' County', 'g')
 	$("#issue-list").empty()
 	$("#issue-table").empty()
 
 	$.each(issues, function(i, issue){
-		
-		if (issue.title == id){
+	
+		if (countyReg.test(issue.body)){
 			var issueText = issue.body.split('\n')
 			var changes = ""
 			var comments = ""
@@ -631,7 +634,8 @@ function populateIssues(){
 				// created,
 				updated,
 				// issue.assignee,
-				converter.makeHtml(changes.substring(2)),
+				issue.title,
+				// converter.makeHtml(changes.substring(2)),
 				'<a class="btn btn-default" href="'+issue.html_url+'">View</a>'
 				// converter.makeHtml(comments)
 			])
@@ -651,7 +655,7 @@ function populateIssues(){
 					// { "sTitle": "Date created" },
 					{ "sTitle": "Updated" },
 					// { "sTitle": "Assigned to" },
-					{ "sTitle": "Changes" },
+					{ "sTitle": "Title" },
 					{ "sTitle": "", "bSortable": false }
 					// { "sTitle": "Comments" }
 
@@ -661,7 +665,7 @@ function populateIssues(){
 	})
 	if (issuesArray.length == 0){
 	// if($('#issue-list').is(':empty')){
-		$("#issue-list").append('<h3>There are currently no issues for ' + id + '.</h3>')
+		$("#issue-list").append('<h3>There are currently no issues for ' + $.cookie('team').name + '.</h3>')
 		$('#gh-view-issues').attr('disabled', 'disabled')
 	}
 	else{

@@ -25,7 +25,69 @@ Map of Atlanta region street network
 <p class="edit-message"><span class="user"></span> has access to edit data for <span class="county"></span> county.</p>
 </div>
 <div class="col-md-5">
-	<h3>List of changes</h3>
+<ul id="project-pill" class="nav nav-pills">
+				<li id="home-tab" class="active"><a href="#home">Edit</a></li>
+				
+				<!-- <li><a href="#pmap" id="map-tab">Map</a></li> -->
+				<!-- <li><a href="#history" id="history-tab">History</a></li> -->
+				<li><a href="#issues" id="issues-tab">Issues</a></li>
+				<!-- <li><a href="#issue" id="issue-tab">Issue</a></li> -->
+			</ul>
+			<div class="tab-content">
+				<div id="history" class="tab-pane pill">
+
+					
+				</div>
+				<div id="issues" class="tab-pane pill">
+					<!-- <div class="col-md-6"> -->
+					<div class="row">
+						<div class="col-md-12">
+							<button class="btn btn-primary pull-right" style="margin-top:5px; margin-bottom:5px;" id="gh-view-issues">
+								View issues on GitHub
+							</button>
+							<!-- Single button -->
+							<!-- <div class="btn-group">
+								<button type="button" class="btn btn-default dropdown-toggle pull-right" data-toggle="dropdown">
+									View issues on GitHub <span class="caret"></span>
+								</button>
+								<ul class="dropdown-menu" role="menu">
+									<li><a href="#">Action</a></li>
+									<li><a href="#">Another action</a></li>
+									<li><a href="#">Something else here</a></li>
+									<li class="divider"></li>
+									<li><a href="#">Separated link</a></li>
+								</ul>
+							</div> -->
+
+						</div>
+					</div>
+					<!-- <div class="row"> -->
+						<div id="issue-table" class="col-md-12"></div>
+						<div class="col-md-12">
+							<div class="list-group" id="issue-list"></div>
+						</div>
+					<!-- </div> -->
+					<!-- </div> -->
+			   </div>
+				<!-- <div id="issue" class="tab-pane pill">
+					
+						<h3>Open an issue for <span class="arcid"></span>:</h3>
+						<input id="issue-title" type="text" class="form-control" placeholder=""></br>
+						<textarea id="issue-body" class="form-control" rows="3" placeholder="Describe issue or change here..."></textarea></br>
+						
+						<label>Issue Type:</label></br>
+						<button id="general" class="issue btn btn-sm btn-primary" role="button">General</button>
+						<button id="delay" class="issue btn btn-sm btn-warning" role="button">Delay</button>
+						<button id="delete" class="issue btn btn-sm btn-danger" role="button">Delete</button>
+						<button id="funding" class="issue btn btn-sm btn-success" role="button">Funding</button><hr>
+
+				</div> -->
+				<!-- <div id="pmap" class="tab-pane pill">
+						
+					
+				</div> -->
+				<div id="home" class="tab-pane pill active">
+					<!-- <h3>List of changes</h3> -->
 <!-- 	<div style="padding-bottom:20px;">
 
 		<button type="button" class="btn btn-danger edits" id="undo-changes" disabled="disabled">Undo All</button>
@@ -71,12 +133,51 @@ Map of Atlanta region street network
 	            <label for="JUST">Justification</label> 
 	            <textarea rows="3" type="text" class="form-control" id="JUST" placeholder="Please provide justification for this functional class change"></textarea> 
 	          </div> 
-	          <button type="button" class="pull-right btn-xs btn btn-primary edits" id="submit-changes" disabled="disabled">Submit</button>
+	          <button type="button" class="pull-right btn-xs btn btn-primary edits" id="submit-changes" data-toggle="modal" data-target="#issueModal" id="create-issue" title="Create issue from changes" disabled="disabled">Submit</button>
 			</div> 
 
 		</div>
-</div>
+   </div>
 	
+</div>
+<!-- Create Issue Modal -->
+<div class="modal fade" id="issueModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h2 class="modal-title" id="myModalLabel">Are you sure you want to open an issue for <span class="id"></span>?</h2>
+      </div>
+	      <div class="modal-body">
+		      <h4 id="issue-modal-title"></h4>
+		      <div id="issue-modal-success" style="display:none;">
+		      	<p>You successfully submitted changes for <span class="arcid"></span>.</p>
+		      	<p id="issue-modal-success-link"></p>
+		      </div>
+		      <div id="modal-edits">
+		      		<h3><span class="NAME"></span></h3>
+		      		<h4>Description</h4>
+		      		<p><span class="DESC"></span></p>
+		      		<h4>Justification</h4>
+		      		<p><span class="JUST"></span></p>
+		      		<h4>From</h4>
+		      		<p><span class="FROM"></span></p>
+		      		<h4>To</h4>
+		      		<p><span class="TO"></span></p>
+		      		<h4>County</h4>
+		      		<p><span class="county"></span> County</p>
+		      	<br><br>
+		     <!--  <h4>Add some comments to describe the reasons for the changes:</h4>
+		      <textarea id="issue-comments" class="form-control" rows="3" placeholder="Describe changes here..."></textarea></br> -->
+	      	  </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" id="dismiss-issue" data-dismiss="modal">Back</button>
+        <button type="button" class="btn btn-success" id="submit-issue">Submit Issue</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
 <script type="text/javascript" src="{{ site.baseurl }}/javascripts/map.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/javascripts/edits.js"></script>
 
