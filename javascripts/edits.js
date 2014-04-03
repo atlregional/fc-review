@@ -51,8 +51,15 @@ $('#submit-changes').click(function(){
 		var username = $.cookie('user').login
 		var patchNum = 1
 		var base = 'gh-pages'
-		var title = 'Test Title'
-		var body = 'Test Body'
+		var title = $('#NAME').val()
+		var body = '### Description\n' + 
+					$('#DESC').val() + 
+					'\n### Justification\n' + 
+					$('#JUST').val() + 
+					'\n#### From\n' + 
+					$('#FROM').val() + 
+					'\n#### To\n' + 
+					$('#TO').val() 
 		var newContent = JSON.stringify(raw)
 		console.log(newContent)
 		var comments = 'Test comments.'
