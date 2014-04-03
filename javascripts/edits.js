@@ -18,6 +18,7 @@ $('.form-control').change(function(){
 	var formId = $(this).attr('id')
 	$('.change').data('value')[formId] = parseInt(newValue) ? parseInt(newValue) : newValue
 	$('.' + formId).text(newValue)
+
 })
 
 $('#submit-issue').click(function(){
@@ -30,6 +31,7 @@ $('#submit-issue').click(function(){
 		//   // visualizeit();
 		// });
 	var newFeature = $('.change').data('value')
+	$(".F_SYSTEM").text(newFeature.F_SYSTEM)
 	$.each(raw.features, function(i, feature){
 		if (feature.properties.RCLINK == newFeature.RCLINK && feature.properties.END_MEASUR == newFeature.END_MEASUR && feature.properties.BEG_MEASUR == newFeature.BEG_MEASUR ){
 			console.log(feature.properties)
@@ -51,17 +53,19 @@ $('#submit-issue').click(function(){
 		console.log(err)
 		var username = $.cookie('user').login
 		var patchNum = 1
+		var segment = $('#WHOLE-SEG').is(':checked') ? $('#FROM').val() + 
+					'\n#### To\n' + 
+					$('#TO').val() +
+					'\n#### County\n' : '#### Entire segment'
 		var base = 'gh-pages'
 		var title = $('#NAME').val()
-		var body = '### Description\n' + 
+		var body = 'Changing ' + newFeature.RCLINK + ' from ' + newFeature.F_SYSTEM + ' to ' + newFeature.F_SYSTEM + '.\n'
+					'### Description\n' + 
 					$('#DESC').val() + 
 					'\n### Justification\n' + 
 					$('#JUST').val() + 
 					'\n#### From\n' + 
-					$('#FROM').val() + 
-					'\n#### To\n' + 
-					$('#TO').val() +
-					'\n#### County\n' + 
+					segment + 
 					$.cookie('team') .name + ' County'
 		var newContent = JSON.stringify(raw)
 		console.log(newContent)
@@ -175,9 +179,13 @@ $('.remove-street').live('click', function(){
 	
 	$('.edits').attr('disabled', 'disabled');
 })
-$(':checkbox').live('change', function() {
+$('#WHOLE-SEG').change(function() {
 		// do your staff here. It will fire any checkbox change
 		$('.intersection').toggle();
+		if ($(this).attr('id') === 'WHOLE-SEG'){
+			$('.FROM').text('(Entire Segment)')
+			$('.TO').text('(Entire Segment)')
+		}
 });
 	$('#issue-title').tooltip({title:'don\'t change this!'})
 	$('#begin-edits').tooltip({title:'Click to toggle editing mode'})
