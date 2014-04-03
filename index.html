@@ -22,19 +22,17 @@ Map of Atlanta region street network
 <!-- <script src="https://embed.github.com/view/geojson/{{ site.githubuser }}/plan-it/gh-pages/data/rtp_all.geojson"></script> -->
 <div id="map"></div>
 
-<p>Zoom and click around on the map to get a better idea of some of the projects for which federal, state, and local dollars are allocated in the FY 2012-17 TIP (<a href="http://www.atlantaregional.com/File%20Library/Transportation/Transportation%20Plans/tp_tiplist_112213.pdf">pdf</a>).</p>
-<p><small><strong>Data source:</strong> <a href="https://github.com/{{ site.githubuser }}/plan-it/blob/gh-pages/data/rtp_points.geojson">points</a>, <a href="https://github.com/{{ site.githubuser }}/plan-it/blob/gh-pages/data/rtp_lines.geojson">lines</a></small></p>
+<p class="edit-message"><span class="user"></span> has access to edit data for <span class="county"></span> county.</p>
 </div>
 <div class="col-md-5">
 	<h3>List of changes</h3>
-	<div style="padding-bottom:20px;">
+<!-- 	<div style="padding-bottom:20px;">
 
 		<button type="button" class="btn btn-danger edits" id="undo-changes" disabled="disabled">Undo All</button>
-		<button type="button" class="btn btn-primary edits" id="submit-changes" disabled="disabled">Submit</button>
-	</div>
-	<div id="change-list">
+	</div> -->
 	<div class="change panel panel-default" style="display:none;"> 
-			<div class="panel-heading">RC <span class="id"></span><button type="button" data-value="" title="Remove street segment to edits" class="pull-right btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></div> 
+			<div class="panel-heading" >RC <span class="id"></span>		
+				<button type="button" data-value="" title="Remove street segment to edits" class="pull-right btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></div> 
 				<div class="panel-body">
 	          <div class="form-group"> 
 	            <label for="NAME">Name of road</label> 
@@ -73,9 +71,10 @@ Map of Atlanta region street network
 	            <label for="JUST">Justification</label> 
 	            <textarea rows="3" type="text" class="form-control" id="JUST" placeholder="Please provide justification for this functional class change"></textarea> 
 	          </div> 
+	          <button type="button" class="pull-right btn-xs btn btn-primary edits" id="submit-changes" disabled="disabled">Submit</button>
 			</div> 
+
 		</div>
-	</div>
 </div>
 	
 <script type="text/javascript" src="{{ site.baseurl }}/javascripts/map.js"></script>

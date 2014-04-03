@@ -43,7 +43,7 @@ $('#submit-changes').click(function(){
 			console.log(i)
 		}
 	})
-	console.log(raw)
+	
 
 	var userRepo = github.getRepo($.cookie('user').login, 'fc-review')
 	userRepo.show(function(err, data){
@@ -53,7 +53,8 @@ $('#submit-changes').click(function(){
 		var base = 'gh-pages'
 		var title = 'Test Title'
 		var body = 'Test Body'
-
+		var newContent = JSON.stringify(raw)
+		console.log(newContent)
 		var comments = 'Test comments.'
 		var newBranch = 'p-1-' + newFeature.RCLINK
 		var pull = {
@@ -69,7 +70,7 @@ $('#submit-changes').click(function(){
 				console.log("forking repo...")
 				console.log(err)
 				// userRepo.show(function(err, data){console.log(data)})
-				branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, JSON.stringify(raw))
+				branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, newContent)
 				
 			})
 		}
@@ -81,7 +82,7 @@ $('#submit-changes').click(function(){
 				// If branch exists, write to the branch and then call success.
 				if(_.contains(branches, newBranch)){
 					console.log('branch exists already!')
-					userRepo.write(newBranch, 'data/'+$.cookie('team').name+'.geojson', JSON.stringify(raw), comments, function(err) {
+					userRepo.write(newBranch, 'data/'+$.cookie('team').name+'.geojson', newContent, comments, function(err) {
 						console.log(err)
 						if(err){
 								console.log('Hmmm...something went wrong with creating your new branch.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
@@ -122,7 +123,7 @@ $('#submit-changes').click(function(){
 				else{
 					console.log('creating branch!')
 					// If repo exists, but branch does not exist, create a new branch directly in that repo and proceed.
-					branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, 'gh-pages', newBranch, JSON.stringify(raw))
+					branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, 'gh-pages', newBranch, newContent)
 				}
 			})
 			
