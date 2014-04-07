@@ -650,7 +650,7 @@ function populateIssues(){
 				updated,
 				// issue.assignee,
 				issue.title,																					   //https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson
-				'<a class="btn btn-default show-issue" data-toggle="modal" data-target="#showIssueModal" data-value="https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/'+ issue.user.login + '/fc-review/' + issue.head.ref + '/data/' +county+'.geojson">View</a>'
+				'<a class="btn btn-default show-issue" data-name="'+issue.title+'" data-toggle="modal" data-target="#showIssueModal" data-value="https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/'+ issue.user.login + '/fc-review/' + issue.head.ref + '/data/' +county+'.geojson">View</a>'
 				// converter.makeHtml(changes.substring(2)),
 				// https://embed.github.com/view/geojson/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson?width=558
 				// '<a class="btn btn-default" href="'+issue.html_url+'">View</a>'
@@ -695,9 +695,11 @@ $('.show-issue').live('click', function(){
 	// var script = document.createElement( 'script' );
 	// script.type = 'text/javascript';
 	var mapUrl = String($(this).data('value'));
+	var title = String($(this).data('name'));
 	// console.log($(this).data('value'))
 	// $("#gh-map").append(script)
 	$('iframe').attr('src', mapUrl);
+	$('.issue-title').text(title);
 	// $("#gh-map").attr('src', mapUrl );  // '<script src="'+$(this).data('value')+'"></script>'
 })
 
