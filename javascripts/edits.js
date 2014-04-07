@@ -647,9 +647,9 @@ function populateIssues(){
 				// created,
 				updated,
 				// issue.assignee,
-				issue.title,
+				issue.title
 				// converter.makeHtml(changes.substring(2)),
-				'<a class="btn btn-default" href="'+issue.html_url+'">View</a>'
+				// '<a class="btn btn-default" href="'+issue.html_url+'">View</a>'
 				// converter.makeHtml(comments)
 			])
 			console.log(_.last(issuesArray))
@@ -664,12 +664,12 @@ function populateIssues(){
 				"aaSorting": [[ 0, "asc" ]],
 				"aoColumns": [
 					{ "sTitle": "#", "sWidth": "20px" },
-					{ "sTitle": "Created by" },
+					{ "sTitle": "Creator" },
 					// { "sTitle": "Date created" },
 					{ "sTitle": "Updated" },
 					// { "sTitle": "Assigned to" },
-					{ "sTitle": "Title" },
-					{ "sTitle": "", "bSortable": false }
+					{ "sTitle": "Title" }
+					// { "sTitle": "", "bSortable": false }
 					// { "sTitle": "Comments" }
 
 				]
