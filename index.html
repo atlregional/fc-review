@@ -2,36 +2,18 @@
 layout: default
 title: Home
 ---
-
+<div class="row">
 <div class="col-md-7">
-<h3>
-Map of Atlanta region street network
-<!-- <span>
-<select>
-	<option>Clayton</option>
-	<option>Cherokee</option>
-	<option>Dekalb</option>
-	<option>Gwinnett</option>
-	<option>Cobb</option>
-</select>
-</span> -->
-<!-- <span style="float:right;"><small><a href="{{ site.baseurl }}/explore/map">see full screen <span class="glyphicon glyphicon-share-alt"></span></a></small></span> -->
-</h3>
-
-
-<!-- <script src="https://embed.github.com/view/geojson/{{ site.githubuser }}/plan-it/gh-pages/data/rtp_all.geojson"></script> -->
-<div id="map"></div>
-
-<p class="edit-message"><span class="user"></span> has access to edit data for <span class="county"></span> county.</p>
+	<h3>
+	Map of Atlanta region street network
+	</h3>
+	<div id="map"></div>
+	<p class="edit-message"><span class="user"></span> has access to edit data for <span class="county"></span> county.</p>
 </div>
 <div class="col-md-5">
 <ul id="project-pill" class="nav nav-pills">
 				<li id="home-tab" class="active"><a href="#home">Edit</a></li>
-				
-				<!-- <li><a href="#pmap" id="map-tab">Map</a></li> -->
-				<!-- <li><a href="#history" id="history-tab">History</a></li> -->
 				<li><a href="#issues" id="issues-tab">Issues</a></li>
-				<!-- <li><a href="#issue" id="issue-tab">Issue</a></li> -->
 			</ul>
 			<div class="tab-content">
 				<div id="history" class="tab-pane pill">
@@ -39,146 +21,127 @@ Map of Atlanta region street network
 					
 				</div>
 				<div id="issues" class="tab-pane pill">
-					<!-- <div class="col-md-6"> -->
 					<div class="row">
 						<div class="col-md-12">
 							<button class="btn btn-primary pull-right" style="margin-top:5px; margin-bottom:5px;" id="gh-view-issues">
 								View issues on GitHub
 							</button>
-							<!-- Single button -->
-							<!-- <div class="btn-group">
-								<button type="button" class="btn btn-default dropdown-toggle pull-right" data-toggle="dropdown">
-									View issues on GitHub <span class="caret"></span>
-								</button>
-								<ul class="dropdown-menu" role="menu">
-									<li><a href="#">Action</a></li>
-									<li><a href="#">Another action</a></li>
-									<li><a href="#">Something else here</a></li>
-									<li class="divider"></li>
-									<li><a href="#">Separated link</a></li>
-								</ul>
-							</div> -->
+					<button type="button" class="pull-right btn-xs btn btn-primary edits" id="show-issue" data-toggle="modal" data-target="#showIssueModal" id="create-issue" title="Create issue from changes">Submit</button>
 
 						</div>
-					</div>
-					<!-- <div class="row"> -->
+					
 						<div id="issue-table" class="col-md-12"></div>
-						<div class="col-md-12">
-							<div class="list-group" id="issue-list"></div>
-						</div>
-					<!-- </div> -->
-					<!-- </div> -->
-			   </div>
-				<!-- <div id="issue" class="tab-pane pill">
-					
-						<h3>Open an issue for <span class="arcid"></span>:</h3>
-						<input id="issue-title" type="text" class="form-control" placeholder=""></br>
-						<textarea id="issue-body" class="form-control" rows="3" placeholder="Describe issue or change here..."></textarea></br>
-						
-						<label>Issue Type:</label></br>
-						<button id="general" class="issue btn btn-sm btn-primary" role="button">General</button>
-						<button id="delay" class="issue btn btn-sm btn-warning" role="button">Delay</button>
-						<button id="delete" class="issue btn btn-sm btn-danger" role="button">Delete</button>
-						<button id="funding" class="issue btn btn-sm btn-success" role="button">Funding</button><hr>
+					</div>
 
-				</div> -->
-				<!-- <div id="pmap" class="tab-pane pill">
-						
-					
-				</div> -->
-				<div id="home" class="tab-pane pill active">
-					<!-- <h3>List of changes</h3> -->
-<!-- 	<div style="padding-bottom:20px;">
+				 </div>
 
-		<button type="button" class="btn btn-danger edits" id="undo-changes" disabled="disabled">Undo All</button>
-	</div> -->
-	<div class="change panel panel-default" style="display:none;"> 
+	<div id="home" class="tab-pane pill active">
+		<div class="change panel panel-default" style="display:none;"> 
 			<div class="panel-heading" >RC <span class="id"></span>		
-				<button type="button" data-value="" title="Remove street segment to edits" class="pull-right btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></div> 
-				<div class="panel-body">
-	          <div class="form-group"> 
-	            <label for="NAME">Name of road</label> 
-	            <input type="text" class="form-control" id="NAME" placeholder="Enter road name here..."> 
-	          </div> 
-	          <div class="checkbox"> 
-	            <label> 
-	              <input type="checkbox" id="WHOLE-SEG"> Entire segment? 
-	            </label> 
-	          </div> 
-	          <div class="form-group intersection"> 
-	            <label for="FROM">From Intersection</label> 
-	            <input type="text" class="form-control" id="FROM" placeholder="Enter beginning intersection here..."> 
-	            <label for="TO">To Intersection</label> 
-	            <input type="text" class="form-control" id="TO" placeholder="Enter ending intersection here..."> 
-	          </div> 
-	          <div class="row"> 
-	          <div class="form-group col-md-9"> 
-	            <label for="FC_NEW">Functional Class</label> 
-	            <select id="FC_NEW" class="form-control"> 
-	              <option value="1">1 - Interstate</option> 
-	              <option value="2">2 - Freeway</option> 
-	              <option value="3">3 - Principal Arterial</option> 
-	              <option value="4">4 - Minor Arterial</option> 
-	              <option value="5">5 - Major Collector</option> 
-	              <option value="6">6 - Minor Collector</option> 
-	              <option value="7">7 - Local Road</option> 
-	            </select> 
-	          </div> 
-	        </div> 
-	        <div class="form-group"> 
-	            <label for="DESC">Description of road segment</label> 
-	            <textarea rows="3" type="text" class="form-control" id="DESC" placeholder="Please provide a description of the road segment"></textarea> 
-	        </div> 
-	        <div class="form-group"> 
-	            <label for="JUST">Justification</label> 
-	            <textarea rows="3" type="text" class="form-control" id="JUST" placeholder="Please provide justification for this functional class change"></textarea> 
-	          </div> 
-	          <button type="button" class="pull-right btn-xs btn btn-primary edits" id="submit-changes" data-toggle="modal" data-target="#issueModal" id="create-issue" title="Create issue from changes" disabled="disabled">Submit</button>
+				<button type="button" data-value="" title="Remove street segment to edits" class="pull-right btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button>
 			</div> 
-
+			<div class="panel-body">
+					<div class="form-group"> 
+						<label for="NAME">Name of road</label> 
+						<input type="text" class="form-control" id="NAME" placeholder="Enter road name here..."> 
+					</div> 
+					<div class="checkbox"> 
+						<label> 
+							<input type="checkbox" id="WHOLE-SEG"> Entire segment? 
+						</label> 
+					</div> 
+				<div class="form-group intersection"> 
+					<label for="FROM">From Intersection</label> 
+					<input type="text" class="form-control" id="FROM" placeholder="Enter beginning intersection here..."> 
+					<label for="TO">To Intersection</label> 
+					<input type="text" class="form-control" id="TO" placeholder="Enter ending intersection here..."> 
+				</div> 
+				<div class="row"> 
+					<div class="form-group col-md-9"> 
+						<label for="FC_NEW">Functional Class</label> 
+						<select id="FC_NEW" class="form-control"> 
+							<option value="1">1 - Interstate</option> 
+							<option value="2">2 - Freeway</option> 
+							<option value="3">3 - Principal Arterial</option> 
+							<option value="4">4 - Minor Arterial</option> 
+							<option value="5">5 - Major Collector</option> 
+							<option value="6">6 - Minor Collector</option> 
+							<option value="7">7 - Local Road</option> 
+						</select> 
+					</div> 
+				</div> 
+				<div class="form-group"> 
+					<label for="DESC">Description of road segment</label> 
+					<textarea rows="3" type="text" class="form-control" id="DESC" placeholder="Please provide a description of the road segment"></textarea> 
+				</div> 
+				<div class="form-group"> 
+					<label for="JUST">Justification</label> 
+					<textarea rows="3" type="text" class="form-control" id="JUST" placeholder="Please provide justification for this functional class change"></textarea> 
+				</div> 
+					<button type="button" class="pull-right btn-xs btn btn-primary edits" id="submit-changes" data-toggle="modal" data-target="#issueModal" id="create-issue" title="Create issue from changes" disabled="disabled">Submit</button>
+			</div> 
 		</div>
-   </div>
-	
+	</div>
+</div>
 </div>
 <!-- Create Issue Modal -->
 <div class="modal fade" id="issueModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-        <h2 class="modal-title" id="myModalLabel">Are you sure you want to open an issue for <span class="id"></span>?</h2>
-      </div>
-	      <div class="modal-body">
-		      <h4 id="issue-modal-title"></h4>
-		      <div id="issue-modal-success" style="display:none;">
-		      	<p>You successfully submitted changes for <span class="NAME"></span>.</p>
-		      	<p id="issue-modal-success-link"></p>
-		      </div>
-		      <div id="modal-edits">
-		      		<h3><span class="NAME"></span></h3>
-		      		<p>Changing <span class="id"></span> segment from <span class="F_SYSTEM"></span> to <span class="FC_NEW"></span>.</p>
-		      		<h4>Description</h4>
-		      		<p><span class="DESC"></span></p>
-		      		<h4>Justification</h4>
-		      		<p><span class="JUST"></span></p>
-		      		<h4>From</h4>
-		      		<p><span class="FROM"></span></p>
-		      		<h4>To</h4>
-		      		<p><span class="TO"></span></p>
-		      		<h4>County</h4>
-		      		<p><span class="county"></span> County</p>
-		      	<br><br>
-		     <!--  <h4>Add some comments to describe the reasons for the changes:</h4>
-		      <textarea id="issue-comments" class="form-control" rows="3" placeholder="Describe changes here..."></textarea></br> -->
-	      	  </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" id="dismiss-issue" data-dismiss="modal">Back</button>
-        <button type="button" class="btn btn-success" id="submit-issue">Submit Issue</button>
-      </div>
-    </div><!-- /.modal-content -->
-  </div><!-- /.modal-dialog -->
+	<div class="modal-dialog">
+	<div class="modal-content">
+		<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<h2 class="modal-title" id="myModalLabel">Are you sure you want to open an issue for <span class="id"></span>?</h2>
+		</div>
+			<div class="modal-body">
+				<h4 id="issue-modal-title"></h4>
+				<div id="issue-modal-success" style="display:none;">
+				<p>You successfully submitted changes for <span class="NAME"></span>.</p>
+				<p id="issue-modal-success-link"></p>
+				</div>
+				<div id="modal-edits">
+					<h3><span class="NAME"></span></h3>
+					<p>Changing <span class="id"></span> segment from <span class="F_SYSTEM"></span> to <span class="FC_NEW"></span>.</p>
+					<h4>Description</h4>
+					<p><span class="DESC"></span></p>
+					<h4>Justification</h4>
+					<p><span class="JUST"></span></p>
+					<h4>From</h4>
+					<p><span class="FROM"></span></p>
+					<h4>To</h4>
+					<p><span class="TO"></span></p>
+					<h4>County</h4>
+					<p><span class="county"></span> County</p>
+				<br><br>
+				</div>
+		</div>
+		<div class="modal-footer">
+		<button type="button" class="btn btn-default" id="dismiss-issue" data-dismiss="modal">Back</button>
+		<button type="button" class="btn btn-success" id="submit-issue">Submit Issue</button>
+		</div>
+	</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
+
+
+<!-- Issue Modal -->
+<div class="modal fade" id="showIssueModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	<div class="modal-content">
+		<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+		<h2 class="modal-title" id="myModalLabel">Changes for <span class="issue-title"></span>?</h2>
+		</div>
+		<div class="modal-body">
+			<script src="https://embed.github.com/view/geojson/atlregional/cityofatlantadummy/p-1-1213005717/data/Fulton.geojson"></script>
+		</div>
+<!-- 		<div class="modal-footer">
+		<button type="button" class="btn btn-default" id="dismiss-issue" data-dismiss="modal">Back</button>
+		<button type="button" class="btn btn-success" id="submit-issue">Submit Issue</button>
+		</div> -->
+	</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
 <script type="text/javascript" src="{{ site.baseurl }}/javascripts/map.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/javascripts/edits.js"></script>
 
