@@ -210,7 +210,7 @@ $('#WHOLE-SEG').change(function() {
 	$('#issues-tab').click(function () {
 		console.log("issues tab")
 		if(jQuery.isEmptyObject(issues)){
-			$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/issues?"+token, function (issuesData) {
+			$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?"+token, function (issuesData) {
 				issues = issuesData
 				console.log(issues)
 				populateIssues()
@@ -627,6 +627,8 @@ function populateIssues(){
 	
 		if (countyReg.test(issue.body)){
 			var issueText = issue.body.split('\n')
+			var county = _.last(issueText).split(' ')[0]
+			console.log(county)
 			var changes = ""
 			var comments = ""
 			if (issueText.length > 1){
@@ -647,8 +649,10 @@ function populateIssues(){
 				// created,
 				updated,
 				// issue.assignee,
-				issue.title
+				issue.title,																					   //https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson
+				'<a class="btn btn-default show-issue" data-toggle="modal" data-target="#showIssueModal" data-value="https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/'+ issue.user.login + '/fc-review/' + issue.head.ref + '/data/' +county+'.geojson">View</a>'
 				// converter.makeHtml(changes.substring(2)),
+				// https://embed.github.com/view/geojson/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson?width=558
 				// '<a class="btn btn-default" href="'+issue.html_url+'">View</a>'
 				// converter.makeHtml(comments)
 			])
@@ -668,8 +672,8 @@ function populateIssues(){
 					// { "sTitle": "Date created" },
 					{ "sTitle": "Updated" },
 					// { "sTitle": "Assigned to" },
-					{ "sTitle": "Title" }
-					// { "sTitle": "", "bSortable": false }
+					{ "sTitle": "Title" },
+					{ "sTitle": "", "bSortable": false }
 					// { "sTitle": "Comments" }
 
 				]
@@ -685,6 +689,17 @@ function populateIssues(){
 		$('#gh-view-issues').removeAttr('disabled')
 	}
 }
+
+
+$('.show-issue').live('click', function(){
+	// var script = document.createElement( 'script' );
+	// script.type = 'text/javascript';
+	var mapUrl = String($(this).data('value'));
+	// console.log($(this).data('value'))
+	// $("#gh-map").append(script)
+	$('iframe').attr('src', mapUrl);
+	// $("#gh-map").attr('src', mapUrl );  // '<script src="'+$(this).data('value')+'"></script>'
+})
 
 function addPhase(){
 	$('#phaseModal').modal('hide')
