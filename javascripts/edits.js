@@ -607,7 +607,7 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 						$('#issue-modal-title').html('Success!')
 						$('#modal-edits').hide()
 						$('#issue-modal-success').show()
-						$('#issue-modal-success-link').html('See your issue <a href="' + pullRequest.html_url + '">here</a>.  The modified file is <a href=https://github.com/landonreed/fc-review/blob/'+ pullRequest.head.ref +'/data/'+ $.cookie('team').name +'.geojson">here</a>')  
+						$('#issue-modal-success-link').html('See your issue <a href="' + pullRequest.html_url + '">here</a>.  The modified file is <a href="https://github.com/landonreed/fc-review/blob/'+ pullRequest.head.ref +'/data/'+ $.cookie('team').name +'.geojson">here</a>')  
 					}
 				});
 			});
