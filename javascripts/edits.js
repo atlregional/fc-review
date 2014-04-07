@@ -37,6 +37,7 @@ $('#submit-issue').click(function(){
 		if (feature.properties.RCLINK == newFeature.RCLINK && feature.properties.END_MEASUR == newFeature.END_MEASUR && feature.properties.BEG_MEASUR == newFeature.BEG_MEASUR ){
 			console.log(feature.properties)
 			feature.properties = newFeature
+			feature.properties.stroke = "#00ff00"
 			// feature.properties.FC_NEW = 5
 			// feature.properties.NAME = "Ponce de Leon Ave"
 			// feature.properties.DESC = "This is a road."
@@ -60,7 +61,7 @@ $('#submit-issue').click(function(){
 					'\n#### County\n' : '#### Entire segment'
 		var base = 'gh-pages'
 		var title = $('#NAME').val()
-		var body = 'Changing ' + newFeature.RCLINK + ' from ' + newFeature.F_SYSTEM + ' to ' + newFeature.F_SYSTEM + '.\n' +
+		var body = 'Changing ' + newFeature.RCLINK + ' from ' + newFeature.F_SYSTEM + ' to ' + newFeature.FC_NEW + '.\n' +
 					'### Description\n' + 
 					$('#DESC').val() + 
 					'\n### Justification\n' + 
