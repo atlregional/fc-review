@@ -19,6 +19,7 @@ $('.form-control').change(function(){
 	$('.change').data('value')[formId] = parseInt(newValue) ? parseInt(newValue) : newValue
 	$('.' + formId).text(newValue)
 
+
 })
 
 $('#submit-issue').click(function(){
@@ -31,7 +32,7 @@ $('#submit-issue').click(function(){
 		//   // visualizeit();
 		// });
 	var newFeature = $('.change').data('value')
-	$(".F_SYSTEM").text(newFeature.F_SYSTEM)
+
 	$.each(raw.features, function(i, feature){
 		if (feature.properties.RCLINK == newFeature.RCLINK && feature.properties.END_MEASUR == newFeature.END_MEASUR && feature.properties.BEG_MEASUR == newFeature.BEG_MEASUR ){
 			console.log(feature.properties)
@@ -59,7 +60,7 @@ $('#submit-issue').click(function(){
 					'\n#### County\n' : '#### Entire segment'
 		var base = 'gh-pages'
 		var title = $('#NAME').val()
-		var body = 'Changing ' + newFeature.RCLINK + ' from ' + newFeature.F_SYSTEM + ' to ' + newFeature.F_SYSTEM + '.\n'
+		var body = 'Changing ' + newFeature.RCLINK + ' from ' + newFeature.F_SYSTEM + ' to ' + newFeature.F_SYSTEM + '.\n' +
 					'### Description\n' + 
 					$('#DESC').val() + 
 					'\n### Justification\n' + 
