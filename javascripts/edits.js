@@ -86,7 +86,9 @@ $('#submit-issue').click(function(){
 				console.log("forking repo...")
 				console.log(err)
 				// userRepo.show(function(err, data){console.log(data)})
-				branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, newContent)
+				alert("This is your first issue.  If you experience a problem creating the issue, please wait about a minute and hit 'Submit' again.")
+				setTimeout(function(){branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, newContent)}, 10000)
+				
 				
 			})
 		}
@@ -101,7 +103,7 @@ $('#submit-issue').click(function(){
 					userRepo.write(newBranch, 'data/'+$.cookie('team').name+'.geojson', newContent, comments, function(err) {
 						console.log(err)
 						if(err){
-								console.log('Hmmm...something went wrong with creating your new branch.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
+								 $('#issue-modal-title').html('Hmmm...something went wrong with creating your new branch.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
 							}
 						// Check list of existing pull requests to find the correct url to send the user to.
 						else{
@@ -589,13 +591,13 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 			userRepo.write(branch, 'data/'+$.cookie('team').name+'.geojson', data, comments, function(err) {
 				console.log(err)
 				if(err){
-						console.log('Hmmm...something went wrong with creating your new commit.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
+						 $('#issue-modal-title').html('Hmmm...something went wrong with creating your new commit.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
 					}
 				
 				repo.createPullRequest(pull, function(err, pullRequest) {
 					console.log(err)
 					if(err){
-						console.log('Hmmm...something went wrong with creating your pull request.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
+						 $('#issue-modal-title').html('Hmmm...something went wrong with creating your pull request.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
 					}
 					else{
 						// $(this).button('reset')
@@ -604,7 +606,7 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 						console.log('Success!')
 						// $('#modal-edits').hide()
 						// $('#issue-modal-success').show()
-						// $('#issue-modal-success-link').html('See your issue <a href="' + pullRequest.html_url + '">here</a>.')  
+						$('#issue-modal-success-link').html('See your issue <a href="' + pullRequest.html_url + '">here</a>.  The modified file is <a href=https://github.com/landonreed/fc-review/blob/'+ pullRequest.head.ref +'/data/"'+ $.cookie('team').name +'.geojson">here</a>')  
 					}
 				});
 			});
