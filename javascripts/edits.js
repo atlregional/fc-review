@@ -15,6 +15,7 @@ $('#undo-changes').click(function(){
 $('.form-control').change(function(){
 	var newValue = $(this).val()
 	console.log(newValue)
+	$('#modal-edits').show()
 	var formId = $(this).attr('id')
 	$('.change').data('value')[formId] = parseInt(newValue) ? parseInt(newValue) : newValue
 	$('.' + formId).text(newValue)
@@ -604,8 +605,8 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 						console.log(pullRequest)
 						// $.each(changes, function(i, change){undoChange()})
 						console.log('Success!')
-						// $('#modal-edits').hide()
-						// $('#issue-modal-success').show()
+						$('#modal-edits').hide()
+						$('#issue-modal-success').show()
 						$('#issue-modal-success-link').html('See your issue <a href="' + pullRequest.html_url + '">here</a>.  The modified file is <a href=https://github.com/landonreed/fc-review/blob/'+ pullRequest.head.ref +'/data/"'+ $.cookie('team').name +'.geojson">here</a>')  
 					}
 				});
