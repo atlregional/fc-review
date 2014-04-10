@@ -753,7 +753,7 @@ function populateIssues(){
 $('.show-issue').live('click', function(){
 	// var script = document.createElement( 'script' );
 	// script.type = 'text/javascript';
-	
+	$('.alert').remove()
 	var issue = $(this).data('issue');
 	console.log(issue)
 	populateIssueModal(issue);
