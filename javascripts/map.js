@@ -293,6 +293,7 @@ function checkTeams(){
 
 	})
 var ePrev = null;
+var previous = null;
 var eHov = null;
 var click = false;
 var map = L.map('map', {
@@ -400,7 +401,7 @@ info.update = function (props) {
 	if (props && segments.length > 0)
 		disabled = 'disabled="disabled"' 
 	this._div.innerHTML = '<h4>Functional Class Review</h4>' +  (props ?
-		'RCLINK: ' + props.RCLINK + ' <button type="button" ' + disabled + ' data-value=\''+JSON.stringify(props)+'\' title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+props.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button><br />' +
+		'ID #: ' + props.RCLINK + ' <button type="button" ' + disabled + ' data-value=\''+JSON.stringify(props)+'\' title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+props.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button><br />' +
 		'County: ' + toTitleCase(props.County) + '<br />' +
 		'Functional Class: ' + props.F_SYSTEM + ' - ' + type[String(props.F_SYSTEM)]
 		: 'Hover over a street segment');
@@ -455,6 +456,7 @@ function resetHighlight(e) {
 	
 }
 function zoomToFeature(e) {
+	
 	$('#home-tab').trigger('click');
 	map.fitBounds(e.target.getBounds());
 	console.log(ePrev)
@@ -474,8 +476,15 @@ function zoomToFeature(e) {
 			opacity:.5
 		});
 	 }
+	
+	 confirmChanges(layer.feature.properties.RCLINK)
+	 
+		
+	
 	 info.update(layer.feature.properties);
 	 ePrev = e;
+	 previous = layer.feature.properties;
+	 console.log(previous)
 }
 $(document).ready(function() {
 	var counties = [
@@ -502,7 +511,6 @@ $(document).ready(function() {
 	// 	drawGeoJSON(county)
 		
 	// })
-	
 	
 })
 

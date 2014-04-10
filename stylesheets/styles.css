@@ -7,7 +7,12 @@ body { padding-top: 70px; }
   height: 500px;
   display:block;
  }
-
+fieldset {
+padding: 0 !important;
+margin: 0 !important;
+border: 0 !important;
+min-width: 0 !important;
+}
 .glyphicon-flipped {
     transform: scaleX(-1);
     -moz-transform: scaleX(-1);
@@ -20,6 +25,13 @@ body { padding-top: 70px; }
   margin-bottom:10px; 
   display:none;
 }
+
+.modal-dialog {
+    /* new custom width */
+    width: 700px;
+    /* must be half of the width, minus scrollbar on the left (30px) */
+}
+
 .spinner {
   width: 40px;
   height: 40px;

@@ -12,62 +12,114 @@ title: Home
 </div>
 <div class="col-md-6">
 <ul id="project-pill" class="nav nav-pills">
-				<li class="active"><a id="home-tab" href="#home">Edit</a></li>
-				<li><a href="#issues" id="issues-tab">Issues</a></li>
-			</ul>
-			<div class="tab-content">
-				<div id="history" class="tab-pane pill">
+	<li class="active"><a href="#issues" id="issues-tab">Proposed Changes</a></li>
+	<li><a id="home-tab" href="#home">New Change</a></li>
+	
+</ul>
+<div class="tab-content">
+	<div id="issues" class="tab-pane pill active">
+		<div class="row">
+			<div class="col-md-12">
+				<h3>List of Proposed Changes</h3>
+				<p>
+					Below you'll find a table of all proposed changes to functional classes made for roads 
+					in <strong><span class="county"></span> County</strong>.  
+					Use the <strong>Search</strong> field to search for other changes and view the contents 
+					of each change by clicking <strong>View</strong>.
+				</p>
+			</div>
+		
+			<div id="issue-table" class="col-md-12"></div>
+		</div>
+	 </div>
 
-					
-				</div>
-				<div id="issues" class="tab-pane pill">
-					<div class="row">
-						<div class="col-md-12">
-							<button class="btn btn-primary pull-right" style="margin-top:5px; margin-bottom:5px;" id="gh-view-issues">
-								View issues on GitHub
-							</button>
-						</div>
-					
-						<div id="issue-table" class="col-md-12"></div>
-					</div>
+	<div id="home" class="tab-pane pill">
 
-				 </div>
-
-	<div id="home" class="tab-pane pill active">
+		<div id="instructions" class="col-md-12">
+			<h3>Proposing a Change</h3>
+			<p>
+				If you'd like to propose a change for a road segment 
+				in <strong><span class="county"></span> County</strong>, 
+				the process starts by clicking on the road segment of interest on the map to the left.
+			</p>
+			<h4>Finding the road</h4>
+			<p>
+				If you know generally where the road is, try typing a city name (e.g., <em>Snellville, GA</em>) 
+				into the search box in the bottom left corner of the map.
+			</p>
+			<p>
+				<strong><em>Can't find the road you're looking for?</em></strong>
+			</p>
+			<p>
+				Right now this process focuses on arterials and collectors (i.e., no freeways or local roads).  
+				If you would like to propose a change for a local road, please email ARC at 
+				<a href="mailto:mwillis@atlantaregional.com">mwillis@atlantaregional.com</a>.
+			</p>
+			<h4>View entire region</h4>
+			<p>
+				Because many roads run across county boundaries, it's important to consider your proposed change
+				in a regional context.  Click the layers icon in the upper left corner to turn on the <strong>Entire Region</strong>
+				layer to see how roads are classified in other counties.
+			</p>
+			<h4>View proposed changes</h4>
+			<p>
+				Turn on the <strong>Proposed Changes</strong> layer to view changes already proposed by ARC and/or GDOT.
+				We also strongly suggest you search for your road in the <strong>List of Proposed Changes</strong>.
+			</p>
+			<p></p>
+		</div>	
 		<div class="change panel panel-default" style="display:none;"> 
-			<div class="panel-heading" >RC <span class="id"></span>		
+			<div class="panel-heading" ><span style="font-size:large;" class="NAME" id="name-title"></span> ID: <span class="id"></span>		
 				<button type="button" data-value="" title="Remove street segment to edits" class="pull-right btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button>
 			</div> 
 			<div class="panel-body">
 					<div class="form-group"> 
-						<label for="NAME">Name of road</label> 
-						<input type="text" class="form-control" id="NAME" placeholder="Enter road name here..."> 
+						<label class="sr-only" for="NAME">Name of road</label> 
+						<input type="text" class="form-control" id="NAME" placeholder="Name of road"> 
 					</div> 
 					<div class="checkbox"> 
 						<label> 
 							<input type="checkbox" id="WHOLE-SEG"> Entire segment? 
 						</label> 
 					</div> 
-				<div class="form-group intersection"> 
-					<label for="FROM">From Intersection</label> 
-					<input type="text" class="form-control" id="FROM" placeholder="Enter beginning intersection here..."> 
-					<label for="TO">To Intersection</label> 
-					<input type="text" class="form-control" id="TO" placeholder="Enter ending intersection here..."> 
-				</div> 
-				<div class="row"> 
-					<div class="form-group col-md-9"> 
-						<label for="FC_NEW">Functional Class</label> 
-						<select id="FC_NEW" class="form-control"> 
-							<option value="1">1 - Interstate</option> 
-							<option value="2">2 - Freeway</option> 
-							<option value="3">3 - Principal Arterial</option> 
-							<option value="4">4 - Minor Arterial</option> 
-							<option value="5">5 - Major Collector</option> 
-							<option value="6">6 - Minor Collector</option> 
-							<option value="7">7 - Local Road</option> 
-						</select> 
-					</div> 
-				</div> 
+					<div class="form-group row">
+						<div class="col-md-6 intersection"> 
+							<label class="sr-only" for="FROM">From Intersection</label> 
+							<input type="text" class="form-control" id="FROM" placeholder="From Intersection"> 
+						</div>
+						<div class="col-md-6 intersection"> 
+							<label class="sr-only" for="TO">To Intersection</label> 
+							<input type="text" class="form-control" id="TO" placeholder="To Intersection"> 
+						</div> 
+				 	</div>
+						<fieldset disabled>
+						<div class="form-group"> 
+							<label for="F_SYSTEM">Existing Functional Class</label> 
+							<select id="F_SYSTEM" class="form-control" style="display:inline-block; width:250px;"> 
+								<option value="1">1 - Interstate</option> 
+								<option value="2">2 - Freeway</option> 
+								<option value="3">3 - Principal Arterial</option> 
+								<option value="4">4 - Minor Arterial</option> 
+								<option value="5">5 - Major Collector</option> 
+								<option value="6">6 - Minor Collector</option> 
+								<option value="7">7 - Local Road</option> 
+							</select> 
+						</div> 
+						</fieldset>
+						<div class="form-group"> 
+							<label for="FC_NEW">Proposed Functional Class</label> 
+							<select id="FC_NEW" class="form-control" style="display:inline-block; width:250px;"> 
+								<option value="">Select a new functional class</option> 
+								<option value="1">1 - Interstate</option> 
+								<option value="2">2 - Freeway</option> 
+								<option value="3">3 - Principal Arterial</option> 
+								<option value="4">4 - Minor Arterial</option> 
+								<option value="5">5 - Major Collector</option> 
+								<option value="6">6 - Minor Collector</option> 
+								<option value="7">7 - Local Road</option> 
+							</select> 
+						</div> 
+				
 				<div class="form-group"> 
 					<label for="DESC">Description of road segment</label> 
 					<textarea rows="3" type="text" class="form-control" id="DESC" placeholder="Please provide a description of the road segment"></textarea> 
@@ -88,7 +140,7 @@ title: Home
 	<div class="modal-content">
 		<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-		<h2 class="modal-title" id="myModalLabel">Are you sure you want to open an issue for <span class="id"></span>?</h2>
+		<h2 class="modal-title" id="myModalLabel">Are you sure you want to open an issue for <span class="NAME"></span>?</h2>
 		</div>
 			<div class="modal-body">
 				<h4 id="issue-modal-title"></h4>
@@ -111,10 +163,11 @@ title: Home
 					<p><span class="county"></span> County</p>
 				<br><br>
 				</div>
+				<div class="spinner" style="display:none;"></div>
 		</div>
 		<div class="modal-footer">
-		<button type="button" class="btn btn-default" id="dismiss-issue" data-dismiss="modal">Back</button>
-		<button type="button" class="btn btn-success" id="submit-issue">Submit Issue</button>
+			<button type="button" class="btn btn-default" id="dismiss-issue" data-dismiss="modal">Back</button>
+			<button type="button" class="btn btn-success" id="submit-issue">Submit Issue</button>
 		</div>
 	</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
@@ -126,20 +179,25 @@ title: Home
 	<div class="modal-dialog">
 	<div class="modal-content">
 		<div class="modal-header">
-		<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-		<h2 class="modal-title" id="myModalLabel">Changes for <span class="issue-title"></span></h2>
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+			<h2 class="modal-title" id="myModalLabel">Change # <span class="issue-number"></span>: <span class="issue-title"></span></h2>
 		</div>
-		<div class="modal-body">
-		<div class="issue-body"></div>
-		<!-- <div class="spinner"></div> -->
-		<div class="issue-map">
-			<script src="https://embed.github.com/view/geojson/atlregional/fc-review/gh-pages/data/atl.geojson?width=558"></script>
+		<div class="modal-body show-body">
+		<div class="row">
+			<div class="issue-body col-md-4">
+				
+			</div>
+		
+			<div class="issue-map col-md-8">
+				<script src="https://embed.github.com/view/geojson/atlregional/fc-review/gh-pages/data/atl.geojson?width=300">
+				</script>
+			</div>
 		</div>
 		</div>
-<!-- 		<div class="modal-footer">
-		<button type="button" class="btn btn-default" id="dismiss-issue" data-dismiss="modal">Back</button>
-		<button type="button" class="btn btn-success" id="submit-issue">Submit Issue</button>
-		</div> -->
+		<div class="modal-footer">
+			<span class="pull-left"><strong>Change created: </strong><span class="issue-date">04/09/2014</span></span>
+			<button type="button" class="btn btn-default" id="dismiss-issue" data-dismiss="modal">Back</button>
+		</div>
 	</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->
 </div><!-- /.modal -->

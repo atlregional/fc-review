@@ -6,13 +6,26 @@ var token = $.cookie('token') ? '&access_token=' + $.cookie('token') : ""
 
 var messages = []
 var tables = {}
+var formChange = false
 var edit = false
 var segments = [];
+var issues = {};
+var previous;
+var id;
+var historyClick = false
+$(document).ready(function(){
+	$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?"+token, function (issuesData) {
+		issues = issuesData
+		console.log(issues)
+		populateIssues()
+	});
+})
 $('#undo-changes').click(function(){
 	$("div.panel").remove()
 })
 
 $('.form-control').change(function(){
+	formChange = true;
 	var newValue = $(this).val()
 	console.log(newValue)
 	$('#modal-edits').show()
@@ -22,7 +35,6 @@ $('.form-control').change(function(){
 
 
 })
-
 $('#submit-issue').click(function(){
 	// alert('Your changes have been submitted!')
 	
@@ -33,6 +45,8 @@ $('#submit-issue').click(function(){
 		//   // visualizeit();
 		// });
 	var newFeature = $('.change').data('value')
+	$('#modal-edits').hide()
+	$('.spinner').show()
 
 	$.each(raw.features, function(i, feature){
 		if (feature.properties.RCLINK == newFeature.RCLINK && feature.properties.END_MEASUR == newFeature.END_MEASUR && feature.properties.BEG_MEASUR == newFeature.BEG_MEASUR ){
@@ -56,24 +70,24 @@ $('#submit-issue').click(function(){
 		console.log(err)
 		var username = $.cookie('user').login
 		var patchNum = 1
-		var segment = $('#WHOLE-SEG').is(':checked') ? $('#FROM').val() + 
+		var segment = $('#WHOLE-SEG').is(':checked') ? '\n#### Entire segment' : '\n#### From\n' + $('#FROM').val() + 
 					'\n#### To\n' + 
-					$('#TO').val() +
-					'\n#### County\n' : '#### Entire segment'
+					$('#TO').val()
+					
 		var base = 'gh-pages'
 		var title = $('#NAME').val()
-		var body = 'Changing ' + newFeature.RCLINK + ' from ' + newFeature.F_SYSTEM + ' to ' + newFeature.FC_NEW + '.\n' +
+		var body = 'Changing road ID #' + newFeature.RCLINK + ' functional class from ' + newFeature.F_SYSTEM + ' ('+type[newFeature.F_SYSTEM ]+') to ' + newFeature.FC_NEW + ' ('+type[newFeature.FC_NEW ]+').\n' +
 					'### Description\n' + 
 					$('#DESC').val() + 
 					'\n### Justification\n' + 
 					$('#JUST').val() + 
-					'\n#### From\n' + 
 					segment + 
+					'\n#### County\n' +
 					$.cookie('team') .name + ' County'
 		var newContent = JSON.stringify(raw)
 		console.log(newContent)
 		var comments = 'Test comments.'
-		var newBranch = 'p-1-' + newFeature.RCLINK
+		var newBranch = 'rc-' + newFeature.RCLINK + '-' + newFeature.BEG_MEASUR + '-' + newFeature.END_MEASUR
 		var pull = {
 				"title": title,
 				"body": body,
@@ -104,6 +118,7 @@ $('#submit-issue').click(function(){
 					userRepo.write(newBranch, 'data/'+$.cookie('team').name+'.geojson', newContent, comments, function(err) {
 						console.log(err)
 						if(err){
+								$('.spinner').hide()
 								 $('#issue-modal-title').html('Hmmm...something went wrong with creating your new branch.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
 							}
 						// Check list of existing pull requests to find the correct url to send the user to.
@@ -124,12 +139,22 @@ $('#submit-issue').click(function(){
 								$.each(changes, function(i, change){undoChange()})
 								console.log(pulls)
 								console.log('Success!')
+								setTimeout(function(){
+									$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?"+token, function (issuesData) {
+										issues = issuesData
+										console.log(issues)
+										populateIssues()
+									});
+								}, 3000);
 								$('#modal-edits').hide()
+								$('.spinner').hide()
 								$('#issue-modal-success').show()
 								if (oldPull != null){
+									$('.spinner').hide()
 									$('#issue-modal-success-link').html('See your issue <a href="' + oldPull.html_url + '">here</a>.')  
 								}
 								else{
+									$('.spinner').hide()
 									$('#issue-modal-success-link').html('Can\'t create a new issue.  Check <strong>Issues</strong> tab for '+id+' to see if you already have created an issue for this project.')  
 								}
 								
@@ -152,8 +177,33 @@ $('#submit-issue').click(function(){
 })
 
 $('.add-street').live('click', function(){
+	formChange = false;
+	$('#name-title').text('[Please input name of road]')
+	$('#instructions').hide()
 	var rc = $(this).attr('id')
 	var data = $(this).data('value')
+	var duplicateCheck = false
+	var issueBranch = ''
+	var issue;
+	$.each(issues, function(i, iss){
+		issueBranch = iss.head.ref
+		var branch = issueBranch.split('-')
+		console.log(branch)
+		if (branch[1] == String(data.RCLINK) && branch[2] == String(data.BEG_MEASUR) && branch[3] == String(data.END_MEASUR)){
+			duplicateCheck = true;
+			issue = iss
+		}
+		console.log(duplicateCheck)
+	})
+	if (duplicateCheck){
+		var message = '<p><strong>Warning!</strong> A change has already been submitted for this road segment!  Be sure to check the proposed changes below submitted by <a href="'+issue.user.html_url+'">'+issue.user.login+'</a>.</p><p><strong>There may be additional changes in the list of proposed changes.</strong></p>'
+		// alert(message)
+		populateIssueModal(issue)
+		$( '#showIssueModal' ).modal('show');
+		$('.show-body').prepend('<div class="alert alert-warning alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'+message+'</div>')
+		console.log(message)
+	}
+	
 	console.log(data)
 	var fc = ''
 	segments.push(data)
@@ -161,29 +211,43 @@ $('.add-street').live('click', function(){
 	// Remove attributes needs to be moved to validation function
 	$('.edits').removeAttr('disabled');
 	$(this).attr('disabled', 'disabled')
-	// console.log(this.attr(id))
-	$.each(raw.features, function(i, feature){
-		if (rc == feature.properties.RCLINK){
-			console.log(feature.properties.F_SYSTEM)
-			fc = feature.properties.F_SYSTEM
-		}
 
-	})
 	$('.change').show();
 	$('.change').data('value', data);
-	$('#FC_NEW').val(fc)
+	$('#F_SYSTEM').val(data.F_SYSTEM)
+	$('#FC_NEW').val('')
 	$('.id').text(data.RCLINK)
+	
+	
 
 		//'<li data-options=\'' + '{"id":"' + this.id + '"}\'>' + this.id + '<button type="button" title="Remove street segment to edits" class="btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></li>')
 })
-$('.remove-street').live('click', function(){
+$('.remove-street').click(function(){
+	confirmChanges(segments[0].RCLINK)
+})
+
+function confirmChanges(id){
+	if (formChange){
+	 	var r=confirm("You've started making changes for road ID "+id+".\n\nAre you sure you want to start working on a new road segment?\n\n(All changes will be lost.)");
+		if (r==true){
+			removeStreet()
+		}
+	 }
+	 else{
+	 	removeStreet()
+	 }
+	
+}
+
+function removeStreet(){
 	$('.change').hide();
-	console.log($(this).data('value'))
-	$('#'+segments[0].RCLINK).removeAttr('disabled');
+	$('.form-control').val('')
+	$('#instructions').fadeIn()
+	$('.add-street').removeAttr('disabled');
 	segments.splice(0, 1)
 	
 	$('.edits').attr('disabled', 'disabled');
-})
+}
 $('#WHOLE-SEG').change(function() {
 		// do your staff here. It will fire any checkbox change
 		$('.intersection').toggle();
@@ -207,23 +271,20 @@ $('#WHOLE-SEG').change(function() {
 	$('#gh-view-issues').click(function () {
 		window.location = 'https://github.com/{{ site.githubuser }}/fc-review/search?q='+id+'&type=Issues'
 	})
-	$('#issues-tab').click(function () {
-		console.log("issues tab")
-		if(jQuery.isEmptyObject(issues)){
-			$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?"+token, function (issuesData) {
-				issues = issuesData
-				console.log(issues)
-				populateIssues()
-			});
-		}
-		else{
-			populateIssues()
-		}
-	})
-	var issues = {};
-	var previous;
-	var id;
-	var historyClick = false
+	// $('#issues-tab').click(function () {
+	// 	console.log("issues tab")
+	// 	if(jQuery.isEmptyObject(issues)){
+	// 		$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?"+token, function (issuesData) {
+	// 			issues = issuesData
+	// 			console.log(issues)
+	// 			populateIssues()
+	// 		});
+	// 	}
+	// 	else{
+	// 		populateIssues()
+	// 	}
+	// })
+	
 		$("select").focus(function () {
 				// Store the current value on focus and on change
 				previous = this.value;
@@ -296,11 +357,7 @@ $('#WHOLE-SEG').change(function() {
 	$('#undo').click(function(){
 		undoChange()
 	})
-	$('.show-issue').live('click', function(){
-		// console.log('show issue')
-		// $('.spinner').show().delay(1500).fadeOut('fast')
-		// $('.issue-map').hide().delay(1500).fadeIn()
-	})
+
 	$('#delete-row').click(function(){
 		// var row = jQuery.extend(true, {}, grid.collection.models[rowNum-2])
 		console.log("removed row:")
@@ -610,9 +667,17 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 						console.log(pullRequest)
 						// $.each(changes, function(i, change){undoChange()})
 						$('#issue-modal-title').html('Success!')
+						$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?"+token, function (issuesData) {
+							issues = issuesData
+							console.log(issues)
+							populateIssues()
+						});
+						$('.spinner').hide()
 						$('#modal-edits').hide()
 						$('#issue-modal-success').show()
 						$('#issue-modal-success-link').html('See your issue <a href="' + pullRequest.html_url + '">here</a>.  The modified file is <a href="https://github.com/'+ pullRequest.head.user.login +'/fc-review/blob/'+ pullRequest.head.ref +'/data/'+ $.cookie('team').name +'.geojson">here</a>')  
+						$('#submit-issue').attr('disabled', 'disabled');
+
 					}
 				});
 			});
@@ -630,24 +695,8 @@ function populateIssues(){
 
 	$.each(issues, function(i, issue){
 	
-		if (countyReg.test(issue.body)){
-			var issueText = issue.body.split('\n')
-			var county = _.last(issueText).split(' ')[0]
-			console.log(county)
-			var changes = ""
-			var comments = ""
-			if (issueText.length > 1){
-				changes = issueText[1]
-				comments = _.last(issueText)
-			}
-			else{
-				changes = _.last(issueText)
-			}
-			// var created = moment(issue.created_at).format("M/D, h:mma");
-			var updated = moment(issue.updated_at).format("M/D, h:mma");
-			// console.log(created.format("ddd, hA"))
-			console.log(comments)
-			console.log(issueText)
+
+			var updated = moment(issue.updated_at).format("M/D/YYYY");
 			issuesArray.push([
 				issue.number.toString(), 
 				'<a href="'+issue.user.html_url+'">'+issue.user.login+'</a>', 
@@ -655,7 +704,7 @@ function populateIssues(){
 				updated,
 				// issue.assignee,
 				issue.title,																					   //https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson
-				'<a class="btn btn-default show-issue" data-name="'+issue.title+'" data-body="'+issue.body+'" data-toggle="modal" data-target="#showIssueModal" data-value="https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/'+ issue.user.login + '/fc-review/' + issue.head.ref + '/data/' +county+'.geojson">View</a>'
+				'<a id="'+issue.head.ref+'" class="btn btn-default show-issue" data-issue=\''+JSON.stringify(issue)+'\' data-toggle="modal" data-target="#showIssueModal">View</a>'
 				// converter.makeHtml(changes.substring(2)),
 				// https://embed.github.com/view/geojson/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson?width=558
 				// '<a class="btn btn-default" href="'+issue.html_url+'">View</a>'
@@ -664,13 +713,17 @@ function populateIssues(){
 			console.log(_.last(issuesArray))
 			var state = issue.state == "open" ? 'success' : 'important'
 			// $("#issue-list").append('<div class="panel panel-default col-md-6 col-xs-12" style="padding:0px;"><div class="panel-heading"><h3 class="panel-title"><span class="badge pull-right" title="Issue #'+issue.number+'">#'+issue.number+'</span><a href="'+issue.user.url+'" title="'+issue.user.login+'"><img src="'+issue.user.avatar_url+'" height="30" width="30"></a> Created by <a href="' + issue.user.url + '">' + issue.user.login + '' + '</a></h3></div><div class="panel-body" style="min-height:120px;"><p>'+converter.makeHtml(issue.body)+'</p></div><div class="panel-footer"><a class="btn btn-default" href="' + issue.html_url + '">View on GitHub</a></div></div>');
-		}
+		// }
 		if (!--count && issuesArray.length != 0){
-			$('#issue-table').html( '<table cellpadding="0" cellspacing="0" border="0" id="issues-table-table"></table>' );
+			$('#issue-table').html( '<table id="issues-table-table"></table>' );
 			var issueTable = $('#issues-table-table').dataTable( {
-				"bPaginate": false,
 				"aaData": issuesArray,
+				 // "sScrollY": "350px",
+				"bPaginate": true,
+				"bLengthChange": false,
+				"iDisplayLength": 7,
 				"aaSorting": [[ 0, "asc" ]],
+				"oSearch": {"sSearch": $.cookie('team').name},
 				"aoColumns": [
 					{ "sTitle": "#", "sWidth": "20px" },
 					{ "sTitle": "Creator" },
@@ -683,6 +736,7 @@ function populateIssues(){
 
 				]
 			});
+			issueTable.fnAdjustColumnSizing();
 		}
 	})
 	if (issuesArray.length == 0){
@@ -699,19 +753,28 @@ function populateIssues(){
 $('.show-issue').live('click', function(){
 	// var script = document.createElement( 'script' );
 	// script.type = 'text/javascript';
-	var mapUrl = String($(this).data('value'));
-	var title = String($(this).data('name'));
-	var converter = new Showdown.converter();
-	var body =  String($(this).data('body'));
-
-	// console.log($(this).data('value'))
-	// $("#gh-map").append(script)
-	$('iframe').attr('src', mapUrl);
-	$('.issue-title').text(title);
-	$('.issue-body').html(converter.makeHtml(body));
+	
+	var issue = $(this).data('issue');
+	console.log(issue)
+	populateIssueModal(issue);
 
 	// $("#gh-map").attr('src', mapUrl );  // '<script src="'+$(this).data('value')+'"></script>'
 })
+
+function populateIssueModal(issue){
+	var issueText = issue.body.split('\n')
+	var county = _.last(issueText).split(' ')[0]
+	console.log(county)
+	var converter = new Showdown.converter();
+	var body =  issue.body;
+	var url = 'https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/'+ issue.user.login + '/fc-review/' + issue.head.ref + '/data/' +county+'.geojson'
+	// console.log($(this).data('value'))
+	// $("#gh-map").append(script)
+	$('iframe').attr('src', url);
+	$('.issue-title').text(issue.title);
+	$('.issue-number').text(issue.number);
+	$('.issue-body').html(converter.makeHtml(issue.body));
+}
 
 function addPhase(){
 	$('#phaseModal').modal('hide')
