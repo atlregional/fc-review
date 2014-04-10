@@ -307,11 +307,11 @@ var base = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/22677/256/{z}/{x}/{y
 		attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
 		key: '7486205c8fd540b0903a0298b3d7c447'
 	}).addTo(map)
-var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.6ml8r529/{z}/{x}/{y}.png', {
+var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.e95ghkt9/{z}/{x}/{y}.png', {
 		attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
 		// key: '7486205c8fd540b0903a0298b3d7c447'
 	})
-var gdot = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.21acq5mi/{z}/{x}/{y}.png', {
+var proposed = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.ge23ayvi/{z}/{x}/{y}.png', {
 		attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
 		// key: '7486205c8fd540b0903a0298b3d7c447'
 	})
@@ -325,8 +325,9 @@ var minimal   = L.tileLayer(cloudmadeUrl, {styleId: 22677, attribution: cloudmad
 
 var overlayMaps = {
 	// "Edits": geojson,
-	"Entire region": streets,
-	"GDOT recommendations": gdot
+	
+	"Proposed Changes": proposed,
+	"Entire region": streets
 };
 var baseMaps = {
 	"Base map": base,
@@ -454,6 +455,7 @@ function resetHighlight(e) {
 	
 }
 function zoomToFeature(e) {
+	$('#home-tab').trigger('click');
 	map.fitBounds(e.target.getBounds());
 	console.log(ePrev)
 	var layer = e.target;

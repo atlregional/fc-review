@@ -296,6 +296,11 @@ $('#WHOLE-SEG').change(function() {
 	$('#undo').click(function(){
 		undoChange()
 	})
+	$('.show-issue').live('click', function(){
+		// console.log('show issue')
+		// $('.spinner').show().delay(1500).fadeOut('fast')
+		// $('.issue-map').hide().delay(1500).fadeIn()
+	})
 	$('#delete-row').click(function(){
 		// var row = jQuery.extend(true, {}, grid.collection.models[rowNum-2])
 		console.log("removed row:")
@@ -616,7 +621,7 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 }
 
 function populateIssues(){
-	var converter = new Showdown.converter();
+	
 	var issuesArray = []
 	var count = issues.length
 	var countyReg = new RegExp($.cookie('team').name + ' County', 'g')
@@ -650,7 +655,7 @@ function populateIssues(){
 				updated,
 				// issue.assignee,
 				issue.title,																					   //https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson
-				'<a class="btn btn-default show-issue" data-name="'+issue.title+'" data-toggle="modal" data-target="#showIssueModal" data-value="https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/'+ issue.user.login + '/fc-review/' + issue.head.ref + '/data/' +county+'.geojson">View</a>'
+				'<a class="btn btn-default show-issue" data-name="'+issue.title+'" data-body="'+issue.body+'" data-toggle="modal" data-target="#showIssueModal" data-value="https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/'+ issue.user.login + '/fc-review/' + issue.head.ref + '/data/' +county+'.geojson">View</a>'
 				// converter.makeHtml(changes.substring(2)),
 				// https://embed.github.com/view/geojson/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson?width=558
 				// '<a class="btn btn-default" href="'+issue.html_url+'">View</a>'
@@ -696,10 +701,15 @@ $('.show-issue').live('click', function(){
 	// script.type = 'text/javascript';
 	var mapUrl = String($(this).data('value'));
 	var title = String($(this).data('name'));
+	var converter = new Showdown.converter();
+	var body =  String($(this).data('body'));
+
 	// console.log($(this).data('value'))
 	// $("#gh-map").append(script)
 	$('iframe').attr('src', mapUrl);
 	$('.issue-title').text(title);
+	$('.issue-body').html(converter.makeHtml(body));
+
 	// $("#gh-map").attr('src', mapUrl );  // '<script src="'+$(this).data('value')+'"></script>'
 })
 

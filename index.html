@@ -12,7 +12,7 @@ title: Home
 </div>
 <div class="col-md-6">
 <ul id="project-pill" class="nav nav-pills">
-				<li id="home-tab" class="active"><a href="#home">Edit</a></li>
+				<li class="active"><a id="home-tab" href="#home">Edit</a></li>
 				<li><a href="#issues" id="issues-tab">Issues</a></li>
 			</ul>
 			<div class="tab-content">
@@ -131,8 +131,10 @@ title: Home
 		</div>
 		<div class="modal-body">
 		<div class="issue-body"></div>
-		<script src="https://embed.github.com/view/geojson/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson?width=558"></script>
-
+		<!-- <div class="spinner"></div> -->
+		<div class="issue-map">
+			<script src="https://embed.github.com/view/geojson/atlregional/fc-review/gh-pages/data/atl.geojson?width=558"></script>
+		</div>
 		</div>
 <!-- 		<div class="modal-footer">
 		<button type="button" class="btn btn-default" id="dismiss-issue" data-dismiss="modal">Back</button>
