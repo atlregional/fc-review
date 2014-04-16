@@ -225,7 +225,13 @@ $('.add-street').live('click', function(){
 $('.remove-street').click(function(){
 	confirmChanges(segments[0].RCLINK)
 })
-
+$('label').tooltip()
+$('#TO').tooltip()
+$('#FROM').tooltip()
+$('#NAME').tooltip()
+$('#JUST').tooltip()
+$('#DESC').tooltip()
+// $('#WHOLE-SEG').tooltip()
 function confirmChanges(id){
 	if (formChange){
 	 	var r=confirm("You've started making changes for road ID "+id+".\n\nAre you sure you want to start working on a new road segment?\n\n(All changes will be lost.)");

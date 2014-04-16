@@ -298,23 +298,22 @@ var eHov = null;
 var click = false;
 var map = L.map('map', {
 	center: [33.77686437792359, -84.3145751953125],
-	zoom: 9,
-	scrollWheelZoom: false
+	zoom: 9
 });
 // map.on('click', onMapClick);
 var geojson;
 var raw;
 // var popup = new L.popup();
-var base = L.tileLayer('http://{s}.tile.cloudmade.com/{key}/22677/256/{z}/{x}/{y}.png', {
-		attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
+var base = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{x}/{y}.png', {
+		attribution: '© Mapbox © OpenStreetMap',
 		key: '7486205c8fd540b0903a0298b3d7c447'
 	}).addTo(map)
-var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.e95ghkt9/{z}/{x}/{y}.png', {
-		attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
+var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.s173z0k9/{z}/{x}/{y}.png', {
+		attribution: '© Atlanta Regional Commission',
 		// key: '7486205c8fd540b0903a0298b3d7c447'
 	})
 var proposed = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.ge23ayvi/{z}/{x}/{y}.png', {
-		attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
+		attribution: '© GDOT',
 		// key: '7486205c8fd540b0903a0298b3d7c447'
 	})
 
@@ -328,15 +327,25 @@ var minimal   = L.tileLayer(cloudmadeUrl, {styleId: 22677, attribution: cloudmad
 var overlayMaps = {
 	// "Edits": geojson,
 	
-	"Proposed Changes": proposed,
+	"GDOT Proposed Changes": proposed,
 	"Entire region": streets
 };
 var baseMaps = {
 	"Base map": base,
 };
 L.control.layers(baseMaps, overlayMaps, {position: 'topleft'}).addTo(map);
-
-
+map.on('overlayadd',function(e){
+	if (e.name == "GDOT Proposed Changes"){
+		$('.gdot').show()
+	}
+	console.log(e);
+});
+map.on('overlayremove',function(e){
+	if (e.name == "GDOT Proposed Changes"){
+		$('.gdot').hide()
+	}
+	console.log(e);
+});
 var legend = L.control({position: 'bottomright'});
 
 var type = {
@@ -360,9 +369,10 @@ legend.onAdd = function (map) {
 		if (parseInt(key) < 7){
 			div.innerHTML +=
 				'<i style="background:' + getColor(parseInt(key)) + '"></i> ' +
-				val + '<br>';
+				key + ' - ' + val + '<br>';
 		}
 	})
+	div.innerHTML += '<span style="display:none;" class="gdot"><br><i style="background:rgb(0,197,255)"></i>4 to 3<br><i style="background:rgb(85,255,0)"></i>3 to 4</span>'
 
 	return div;
 };
@@ -405,7 +415,7 @@ info.update = function (props) {
 		'ID #: ' + props.RCLINK + ' <button type="button" ' + disabled + ' data-value=\''+JSON.stringify(props)+'\' title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+props.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button><br />' +
 		'County: ' + toTitleCase(props.County) + '<br />' +
 		'Functional Class: ' + props.F_SYSTEM + ' - ' + type[String(props.F_SYSTEM)]
-		: 'Hover over a street segment');
+		: 'Click a street segment');
 };
 
 info.addTo(map);
@@ -476,7 +486,7 @@ function zoomToFeature(e) {
 				weight: '8',
 				color: '#000',
 				dashArray: '',
-				opacity:.5
+				opacity:.3
 			});
 		 }
 	 }

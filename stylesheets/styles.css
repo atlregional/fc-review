@@ -25,7 +25,12 @@ min-width: 0 !important;
   margin-bottom:10px; 
   display:none;
 }
-
+.legend {
+  font-size: small;
+}
+#footer {
+  height: 40px;
+}
 .modal-dialog {
     /* new custom width */
     width: 700px;

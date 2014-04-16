@@ -75,29 +75,29 @@ title: Home
 			<div class="panel-body">
 					<div class="form-group"> 
 						<label class="sr-only" for="NAME">Name of road</label> 
-						<input type="text" class="form-control" id="NAME" placeholder="Name of road"> 
+						<input type="text" class="form-control" id="NAME" placeholder="Name of road" data-toggle="tooltip" title="For example, Ponce de Leon Ave or US-78"> 
 					</div> 
 					<div class="checkbox"> 
-						<label> 
+						<label data-toggle="tooltip" title="Check box if your change in functional class covers the entire road segment (highlighted in grey on map)"> 
 							<input type="checkbox" id="WHOLE-SEG"> Entire segment? 
 						</label> 
 					</div> 
 					<div class="form-group row">
 						<div class="col-md-6 intersection"> 
 							<label class="sr-only" for="FROM">From Intersection</label> 
-							<input type="text" class="form-control" id="FROM" placeholder="From Intersection"> 
+							<input type="text" class="form-control" id="FROM" placeholder="From Intersection" data-toggle="tooltip" title="The beginning intersection (or other description of beginning point)"> 
 						</div>
 						<div class="col-md-6 intersection"> 
 							<label class="sr-only" for="TO">To Intersection</label> 
-							<input type="text" class="form-control" id="TO" placeholder="To Intersection"> 
+							<input type="text" class="form-control" id="TO" placeholder="To Intersection"  data-toggle="tooltip" title="The ending intersection (or other description of ending point)"> 
 						</div> 
 				 	</div>
 						<fieldset disabled>
 						<div class="form-group"> 
-							<label for="F_SYSTEM">Existing Functional Class</label> 
+							<label for="F_SYSTEM" data-toggle="tooltip" title="This is the existing functional class">Existing Functional Class</label> 
 							<select id="F_SYSTEM" class="form-control" style="display:inline-block; width:250px;"> 
-								<option value="1">1 - Interstate</option> 
-								<option value="2">2 - Freeway</option> 
+								<!-- <option value="1">1 - Interstate</option> 
+								<option value="2">2 - Freeway</option>  -->
 								<option value="3">3 - Principal Arterial</option> 
 								<option value="4">4 - Minor Arterial</option> 
 								<option value="5">5 - Major Collector</option> 
@@ -107,11 +107,11 @@ title: Home
 						</div> 
 						</fieldset>
 						<div class="form-group"> 
-							<label for="FC_NEW">Proposed Functional Class</label> 
+							<label for="FC_NEW" data-toggle="tooltip" title="Select your proposed functional class for the road segment">Proposed Functional Class</label> 
 							<select id="FC_NEW" class="form-control" style="display:inline-block; width:250px;"> 
-								<option value="">Select a new functional class</option> 
-								<option value="1">1 - Interstate</option> 
-								<option value="2">2 - Freeway</option> 
+								<option value="">Select a functional class</option> 
+								<!-- <option value="1">1 - Interstate</option> 
+								<option value="2">2 - Freeway</option>  -->
 								<option value="3">3 - Principal Arterial</option> 
 								<option value="4">4 - Minor Arterial</option> 
 								<option value="5">5 - Major Collector</option> 
@@ -121,14 +121,16 @@ title: Home
 						</div> 
 				
 				<div class="form-group"> 
-					<label for="DESC">Description of road segment</label> 
-					<textarea rows="3" type="text" class="form-control" id="DESC" placeholder="Please provide a description of the road segment"></textarea> 
+					<label for="DESC" class="sr-only">Description of road segment</label> 
+					<textarea rows="2" type="text" class="form-control" data-toggle="tooltip" title="The ending intersection" id="DESC" placeholder="Please provide a description of the road segment"></textarea> 
 				</div> 
 				<div class="form-group"> 
-					<label for="JUST">Justification</label> 
-					<textarea rows="3" type="text" class="form-control" id="JUST" placeholder="Please provide justification for this functional class change"></textarea> 
+					<label for="JUST" class="sr-only" >Justification</label> 
+					<textarea rows="2" type="text" data-toggle="tooltip" title="The ending intersection" class="form-control" id="JUST" placeholder="Please provide justification for this functional class change"></textarea> 
 				</div> 
+				<div class="form-group">
 					<button type="button" class="pull-right btn-xs btn btn-primary edits" id="submit-changes" data-toggle="modal" data-target="#issueModal" id="create-issue" title="Create issue from changes" disabled="disabled">Submit</button>
+				</div>
 			</div> 
 		</div>
 	</div>
