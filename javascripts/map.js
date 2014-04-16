@@ -298,7 +298,8 @@ var eHov = null;
 var click = false;
 var map = L.map('map', {
 	center: [33.77686437792359, -84.3145751953125],
-	zoom: 9
+	zoom: 9,
+	scrollWheelZoom: false
 });
 // map.on('click', onMapClick);
 var geojson;
@@ -456,28 +457,29 @@ function resetHighlight(e) {
 	
 }
 function zoomToFeature(e) {
-	
-	$('#home-tab').trigger('click');
-	map.fitBounds(e.target.getBounds());
-	console.log(ePrev)
 	var layer = e.target;
-	if (ePrev != null && ePrev.click){
-		geojson.resetStyle(ePrev.target);
-	}
-	click = true;
-	e.click = true;
-	if (click){
-		geojson.resetStyle(e.target);
-		layer.setStyle({
-			weight: '8',
-			color: '#000',
-			// fillColor: 'blue',
-			dashArray: '',
-			opacity:.5
-		});
-	 }
 	
-	 confirmChanges(layer.feature.properties.RCLINK)
+	
+	 if (confirmChanges(layer.feature.properties.RCLINK)){
+	 	$('#home-tab').trigger('click');
+		map.fitBounds(e.target.getBounds());
+		console.log(ePrev)
+		
+		if (ePrev != null && ePrev.click){
+			geojson.resetStyle(ePrev.target);
+		}
+		click = true;
+		e.click = true;
+		if (click){
+			geojson.resetStyle(e.target);
+			layer.setStyle({
+				weight: '8',
+				color: '#000',
+				dashArray: '',
+				opacity:.5
+			});
+		 }
+	 }
 	 
 		
 	

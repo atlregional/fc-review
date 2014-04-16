@@ -231,10 +231,12 @@ function confirmChanges(id){
 	 	var r=confirm("You've started making changes for road ID "+id+".\n\nAre you sure you want to start working on a new road segment?\n\n(All changes will be lost.)");
 		if (r==true){
 			removeStreet()
+			return true;
 		}
 	 }
 	 else{
 	 	removeStreet()
+	 	return true;
 	 }
 	
 }
@@ -247,6 +249,7 @@ function removeStreet(){
 	segments.splice(0, 1)
 	
 	$('.edits').attr('disabled', 'disabled');
+	formChange = false;
 }
 $('#WHOLE-SEG').change(function() {
 		// do your staff here. It will fire any checkbox change
