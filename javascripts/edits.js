@@ -86,7 +86,7 @@ $('#submit-issue').click(function(){
 					$.cookie('team') .name + ' County'
 		var newContent = JSON.stringify(raw)
 		console.log(newContent)
-		var comments = 'Test comments.'
+		var comments = 'Change ' + title + ' from ' + type[newFeature.F_SYSTEM ] + ' to ' + type[newFeature.FC_NEW ]
 		var newBranch = 'rc-' + newFeature.RCLINK + '-' + newFeature.BEG_MEASUR + '-' + newFeature.END_MEASUR
 		var pull = {
 				"title": title,
@@ -146,6 +146,7 @@ $('#submit-issue').click(function(){
 										populateIssues()
 									});
 								}, 3000);
+								removeStreet()
 								$('#modal-edits').hide()
 								$('.spinner').hide()
 								$('#issue-modal-success').show()
@@ -196,11 +197,14 @@ $('.add-street').live('click', function(){
 		console.log(duplicateCheck)
 	})
 	if (duplicateCheck){
-		var message = '<p><strong>Warning!</strong> A change has already been submitted for this road segment!  Be sure to check the proposed changes below submitted by <a href="'+issue.user.html_url+'">'+issue.user.login+'</a>.</p><p><strong>There may be additional changes in the list of proposed changes.</strong></p>'
+		var message = '<p><strong>Warning!</strong> A change has already been submitted for this road segment!  Be sure to check the proposed changes below submitted by <a href="'+issue.user.html_url+'">'+issue.user.login+'</a>.</p><p>If you wish to comment on this change click <strong>Comment on this issue</strong> below.</p>'
 		// alert(message)
 		populateIssueModal(issue)
 		$( '#showIssueModal' ).modal('show');
-		$('.show-body').prepend('<div class="alert alert-warning alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'+message+'</div>')
+		if (!$('.alert').length){
+			$('.show-body').prepend('<div class="alert alert-warning alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'+message+'</div>')
+		}
+		
 		console.log(message)
 	}
 	
@@ -676,11 +680,13 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 						console.log(pullRequest)
 						// $.each(changes, function(i, change){undoChange()})
 						$('#issue-modal-title').html('Success!')
+
 						$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?"+token, function (issuesData) {
 							issues = issuesData
 							console.log(issues)
 							populateIssues()
 						});
+						removeStreet()
 						$('.spinner').hide()
 						$('#modal-edits').hide()
 						$('#issue-modal-success').show()
@@ -783,6 +789,19 @@ function populateIssueModal(issue){
 	$('.issue-title').text(issue.title);
 	$('.issue-number').text(issue.number);
 	$('.issue-body').html(converter.makeHtml(issue.body));
+	$('#issue-comment').attr('href', issue.html_url)
+	var count = 0;
+	$('#loadingtext').show()
+	var dots = setInterval(function(){
+	    count++;
+	    var dots = new Array(count % 10).join('.');
+	    document.getElementById('loadingtext').innerHTML = "Please wait while the map loads." + dots;
+	  }, 500);
+	setTimeout(function(){
+		clearInterval(dots)
+		$('#loadingtext').fadeOut()
+	}, 3000)
+	
 }
 
 function addPhase(){
