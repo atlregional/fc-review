@@ -14,7 +14,7 @@ var previous;
 var id;
 var historyClick = false
 $(document).ready(function(){
-	$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?"+token, function (issuesData) {
+	$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?state=all&"+token, function (issuesData) {
 		issues = issuesData
 		console.log(issues)
 		populateIssues()
@@ -74,7 +74,7 @@ $('#submit-issue').click(function(){
 					'\n#### To\n' + 
 					$('#TO').val()
 					
-		var base = 'gh-pages'
+		var base = 'proposed'
 		var title = $('#NAME').val()
 		var body = 'Changing road ID #' + newFeature.RCLINK + ' functional class from ' + newFeature.F_SYSTEM + ' ('+type[newFeature.F_SYSTEM ]+') to ' + newFeature.FC_NEW + ' ('+type[newFeature.FC_NEW ]+').\n' +
 					'### Description\n' + 
@@ -85,7 +85,7 @@ $('#submit-issue').click(function(){
 					'\n#### County\n' +
 					$.cookie('team') .name + ' County'
 		var newContent = JSON.stringify(raw)
-		console.log(newContent)
+		// console.log(newContent)
 		var comments = 'Change ' + title + ' from ' + type[newFeature.F_SYSTEM ] + ' to ' + type[newFeature.FC_NEW ]
 		var newBranch = 'rc-' + newFeature.RCLINK + '-' + newFeature.BEG_MEASUR + '-' + newFeature.END_MEASUR
 		var pull = {
@@ -101,7 +101,8 @@ $('#submit-issue').click(function(){
 				console.log("forking repo...")
 				console.log(err)
 				// userRepo.show(function(err, data){console.log(data)})
-				alert("This is your first issue.  If you experience a problem creating the issue, please wait about a minute and hit 'Submit' again.")
+				var message = "This is your first proposed change.  If you experience a problem submitting this change, please wait a few minutes, reload the website, and try again."
+				$('#modal-edits').prepend('<div class="alert alert-warning alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'+message+'</div>').delay(5000).fadeOut()
 				setTimeout(function(){branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, newContent)}, 10000)
 				
 				
@@ -168,7 +169,7 @@ $('#submit-issue').click(function(){
 				else{
 					console.log('creating branch!')
 					// If repo exists, but branch does not exist, create a new branch directly in that repo and proceed.
-					branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, 'gh-pages', newBranch, newContent)
+					branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, newContent)
 				}
 			})
 			
@@ -178,9 +179,7 @@ $('#submit-issue').click(function(){
 })
 
 $('.add-street').live('click', function(){
-	formChange = false;
-	$('#name-title').text('[Please input name of road]')
-	$('#instructions').hide()
+	
 	var rc = $(this).attr('id')
 	var data = $(this).data('value')
 	var duplicateCheck = false
@@ -197,7 +196,7 @@ $('.add-street').live('click', function(){
 		console.log(duplicateCheck)
 	})
 	if (duplicateCheck){
-		var message = '<p><strong>Warning!</strong> A change has already been submitted for this road segment!  Be sure to check the proposed changes below submitted by <a href="'+issue.user.html_url+'">'+issue.user.login+'</a>.</p><p>If you wish to comment on this change click <strong>Comment on this issue</strong> below.</p>'
+		var message = '<p><strong>Warning!</strong> A change has already been submitted for this road segment!  Please review the proposed changes below submitted by <a href="'+issue.user.html_url+'">'+issue.user.login+'</a>.</p><p>If you wish to comment on this change or propose an alternative change, click <strong>Comment on this change</strong> below.</p>'
 		// alert(message)
 		populateIssueModal(issue)
 		$( '#showIssueModal' ).modal('show');
@@ -207,20 +206,27 @@ $('.add-street').live('click', function(){
 		
 		console.log(message)
 	}
+	else{
+		formChange = false;
+		$('#name-title').text('[Please input name of road]')
+		$('#instructions').hide()
+
+		// Remove attributes needs to be moved to validation function
+		$('.edits').removeAttr('disabled');
+		$(this).attr('disabled', 'disabled')
+
+		$('.change').show();
+		$('.change').data('value', data);
+		$('#F_SYSTEM').val(data.F_SYSTEM)
+		$('#FC_NEW').val('')
+		$('.id').text(data.RCLINK)
+	}
 	
 	console.log(data)
 	var fc = ''
 	segments.push(data)
 
-	// Remove attributes needs to be moved to validation function
-	$('.edits').removeAttr('disabled');
-	$(this).attr('disabled', 'disabled')
-
-	$('.change').show();
-	$('.change').data('value', data);
-	$('#F_SYSTEM').val(data.F_SYSTEM)
-	$('#FC_NEW').val('')
-	$('.id').text(data.RCLINK)
+	
 	
 	
 
@@ -375,37 +381,7 @@ $('#WHOLE-SEG').change(function() {
 		undoChange()
 	})
 
-	$('#delete-row').click(function(){
-		// var row = jQuery.extend(true, {}, grid.collection.models[rowNum-2])
-		console.log("removed row:")
-		console.log(row)
-		if (! row ){
-					alert("No row selected!")
-			}
-			else{
-					console.log("remove that row!")
-					// Generate messages
-					var message = row.model.attributes['Phase'] + " phase removed" // +"<br>"
-					// messages.html.push(message)
-					// console.log()
-					var lineNumber = row.model.attributes.index + 1
-					// console.log(lineNumber)
-					var issueMessage = "* [" + strip(message) + "](https://github.com/{{ site.githubuser }}/fc-review/blob/gh-pages/data/TIP/individual/"+ id +".csv#L" + lineNumber + ")"
-					changes.push(newChange("delete-row", row, message, issueMessage))
-					updateMessages(changes, false)
-					grid.removeRow(row.model)
-					
-					$('.change').removeAttr('disabled')
-					row = null
-			}
-			console.log(row)
 
-			})
-	$('#create-row').click(function(){
-
-		addPhase();
-		
-			})
 	$('#report').click(function(){
 		// var name = 'results.' + type
 		var a = document.createElement("a");
@@ -714,23 +690,41 @@ function populateIssues(){
 
 	$.each(issues, function(i, issue){
 	
-
-			var updated = moment(issue.updated_at).format("M/D/YYYY");
-			issuesArray.push([
-				issue.number.toString(), 
-				'<a href="'+issue.user.html_url+'">'+issue.user.login+'</a>', 
-				// created,
-				updated,
-				// issue.assignee,
-				issue.title,																					   //https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson
-				'<a id="'+issue.head.ref+'" class="btn btn-default show-issue" data-issue=\''+JSON.stringify(issue)+'\' data-toggle="modal" data-target="#showIssueModal">View</a>'
-				// converter.makeHtml(changes.substring(2)),
-				// https://embed.github.com/view/geojson/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson?width=558
-				// '<a class="btn btn-default" href="'+issue.html_url+'">View</a>'
-				// converter.makeHtml(comments)
-			])
-			console.log(_.last(issuesArray))
-			var state = issue.state == "open" ? 'success' : 'important'
+			var status = "";
+			var drop = false;
+			if (issue.milestone != null && issue.milestone.title == "Accepted"){
+				status = '<span class="label label-success">Accepted</span>'
+			}
+			else if (issue.milestone != null && issue.milestone.title == "In Review"){
+				status = '<span class="label label-warning">In Review</span>'
+			}
+			else if (issue.state == "open"){
+				status = '<span class="label label-primary">Proposed</span>'
+			}
+			// else if (issue.label)
+			else{
+				drop = true;
+				// issues.splice(i, 1)
+			}
+			var updated = moment(issue.updated_at).format("M/D/YY");
+			if (!drop){
+				issuesArray.push([
+					issue.number.toString(), 
+					'<small><a href="'+issue.user.html_url+'">'+issue.user.login+'</a></small>', 
+					// created,
+					updated,
+					// issue.assignee,
+					issue.title,
+					// "Fulton",
+					status,																				   //https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson
+					'<a id="'+issue.head.ref+'" class="btn btn-default btn-sm show-issue" data-issue=\''+JSON.stringify(issue)+'\' data-toggle="modal" data-target="#showIssueModal">View</a>'
+					// converter.makeHtml(changes.substring(2)),
+					// https://embed.github.com/view/geojson/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson?width=558
+					// '<a class="btn btn-default" href="'+issue.html_url+'">View</a>'
+					// converter.makeHtml(comments)
+				])
+				console.log(_.last(issuesArray))
+			}
 			// $("#issue-list").append('<div class="panel panel-default col-md-6 col-xs-12" style="padding:0px;"><div class="panel-heading"><h3 class="panel-title"><span class="badge pull-right" title="Issue #'+issue.number+'">#'+issue.number+'</span><a href="'+issue.user.url+'" title="'+issue.user.login+'"><img src="'+issue.user.avatar_url+'" height="30" width="30"></a> Created by <a href="' + issue.user.url + '">' + issue.user.login + '' + '</a></h3></div><div class="panel-body" style="min-height:120px;"><p>'+converter.makeHtml(issue.body)+'</p></div><div class="panel-footer"><a class="btn btn-default" href="' + issue.html_url + '">View on GitHub</a></div></div>');
 		// }
 		var defaultSearch = typeof $.cookie('team') !== 'undefined' ? $.cookie('team').name : ""
@@ -742,7 +736,7 @@ function populateIssues(){
 				"bPaginate": true,
 				"bLengthChange": false,
 				"iDisplayLength": 7,
-				"aaSorting": [[ 0, "asc" ]],
+				"aaSorting": [[ 0, "desc" ]],
 				"oSearch": {"sSearch": defaultSearch},
 				"aoColumns": [
 					{ "sTitle": "#", "sWidth": "20px" },
@@ -751,6 +745,8 @@ function populateIssues(){
 					{ "sTitle": "Updated" },
 					// { "sTitle": "Assigned to" },
 					{ "sTitle": "Title" },
+					// { "sTitle": "County" },
+					{ "sTitle": "Status" },
 					{ "sTitle": "", "bSortable": false }
 					// { "sTitle": "Comments" }
 
@@ -809,42 +805,7 @@ function populateIssueModal(issue){
 	
 }
 
-function addPhase(){
-	$('#phaseModal').modal('hide')
-				// var newnew-phase-type = $("#new-phase-type").val()
-		var newRow = new Backgrid.Row.extend({
-			columns: columns,
-			model: territories.model
-		}) 
-		// Backgrid.EmptyRow({
-		//  emptyText: '',
-		//  columns: columns
-		// })
-		var newIndex = parseInt(_.last(grid.collection.models).attributes["index"]) + 1
-		console.log(newIndex)
-		grid.collection.add(newRow)
-		_.last(grid.collection.models).attributes["index"] = newIndex
-		_.last(grid.collection.models).attributes["Phase"] = $('#new-phase-type').val()
-		_.last(grid.collection.models).attributes["FundSource"] = $('#new-fund-source').val()
-		_.last(grid.collection.models).attributes["FY"] = $('#new-fy').val()
-		_.last(grid.collection.models).attributes["Auth"] = $('#new-auth').val()
-		_.last(grid.collection.models).attributes["Federal"] = $('#new-federal').val()
-		_.last(grid.collection.models).attributes["State"] = $('#new-state').val()
-		_.last(grid.collection.models).attributes["Local"] = $('#new-local').val()
-		_.last(grid.collection.models).attributes["Bond"] = $('#new-bond').val()
-		_.last(grid.collection.models).attributes["Total"] = $('#new-total').val()
-		grid.render()
-		// $('#phaseModal').modal('hide')
-		console.log(changes)
-		// Generate messages
-				var message = "<strong>Phase added</strong>" // +"<br>"
-				// messages.html.push(message)
-				// console.log()
-				var issueMessage = "* [" + strip(message) + "](https://github.com/{{ site.githubuser }}/fc-review/blob/gh-pages/data/TIP/individual/"+ id +".csv)"
-				changes.push(newChange("add-row", _.last(grid.collection.models), message, issueMessage))
-				updateMessages(changes, false)
-				$('.change').removeAttr('disabled')
-}
+
 function undoChange(){
 	var last = _.last(changes)
 	console.log(_.last(changes))
@@ -1082,10 +1043,6 @@ function getMap(id){
 	$('#map-tab').click(function(){
 		
 	})
-	$('#edit').click(function(){
-		window.location='https://github.com/{{ site.githubuser }}/fc-review/edit/gh-pages/data/TIP/individual/'+ $('.arcid').html() +'.csv'
-	})
-	// var href='https://github.com/{{ site.githubuser }}/fc-review/edit/gh-pages/data/TIP/individual/'+el.ARCID+'.csv'
 	var projectList = [];
 	var jsonHtmlTable;
 	var color = 'active'
