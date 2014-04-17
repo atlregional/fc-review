@@ -260,6 +260,10 @@ function removeStreet(){
 	
 	$('.edits').attr('disabled', 'disabled');
 	formChange = false;
+
+	// map reset
+	geojson.resetStyle(zoom)
+	info.update()
 }
 $('#WHOLE-SEG').change(function() {
 		// do your staff here. It will fire any checkbox change
