@@ -186,14 +186,17 @@ $('.add-street').live('click', function(){
 	var issueBranch = ''
 	var issue;
 	$.each(issues, function(i, iss){
-		issueBranch = iss.head.ref
-		var branch = issueBranch.split('-')
-		console.log(branch)
-		if (branch[1] == String(data.RCLINK) && branch[2] == String(data.BEG_MEASUR) && branch[3] == String(data.END_MEASUR)){
-			duplicateCheck = true;
-			issue = iss
+		if (iss != ""){
+			issueBranch = iss.head.ref
+			var branch = issueBranch.split('-')
+			console.log(branch)
+			if (branch[1] == String(data.RCLINK) && branch[2] == String(data.BEG_MEASUR) && branch[3] == String(data.END_MEASUR)){
+				duplicateCheck = true;
+				issue = iss
+			}
+			console.log(duplicateCheck)
 		}
-		console.log(duplicateCheck)
+		
 	})
 	if (duplicateCheck){
 		var message = '<p><strong>Warning!</strong> A change has already been submitted for this road segment!  Please review the proposed changes below submitted by <a href="'+issue.user.html_url+'">'+issue.user.login+'</a>.</p><p>If you wish to comment on this change or propose an alternative change, click <strong>Comment on this change</strong> below.</p>'
@@ -691,6 +694,7 @@ function populateIssues(){
 	$.each(issues, function(i, issue){
 	
 			var status = "";
+			var updated = moment(issue.updated_at).format("M/D/YY");
 			var drop = false;
 			if (issue.milestone != null && issue.milestone.title == "Accepted"){
 				status = '<span class="label label-success">Accepted</span>'
@@ -702,11 +706,17 @@ function populateIssues(){
 				status = '<span class="label label-primary">Proposed</span>'
 			}
 			// else if (issue.label)
+
 			else{
 				drop = true;
-				// issues.splice(i, 1)
+				issues.splice(i, 1, "")
 			}
-			var updated = moment(issue.updated_at).format("M/D/YY");
+
+			// Drop all test issues
+			if (issue.milestone != null && issue.milestone.title == "Test"){
+				drop = true;
+				issues.splice(i, 1, "")
+			}
 			if (!drop){
 				issuesArray.push([
 					issue.number.toString(), 
@@ -757,7 +767,7 @@ function populateIssues(){
 	})
 	if (issuesArray.length == 0){
 	// if($('#issue-list').is(':empty')){
-		$("#issue-list").append('<h3>There are currently no issues for ' + $.cookie('team').name + '.</h3>')
+		$("#issue-table").append('<h3>There are currently no proposed changes.</h3>')
 		$('#gh-view-issues').attr('disabled', 'disabled')
 	}
 	else{
