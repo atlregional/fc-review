@@ -708,7 +708,7 @@ function populateIssues(){
 	
 	var issuesArray = []
 	var count = issues.length
-	var countyReg = new RegExp($.cookie('team').name + ' County', 'g')
+	// var countyReg = new RegExp($.cookie('team').name + ' County', 'g')
 	$("#issue-list").empty()
 	$("#issue-table").empty()
 
