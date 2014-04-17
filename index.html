@@ -8,7 +8,8 @@ title: Home
 	Map of Atlanta region street network
 	</h3>
 	<div id="map"></div>
-	<p class="edit-message"><span class="user"></span> has access to edit data for <span class="county"></span> county.</p>
+	<p class="no-login"><em>Please log in (upper right corner) to propose changes to roadway segments.  If you are logged in and still need access to your county's data, please email <a href="mailto:mwillis@atlantaregional.com">Marshall Willis</a>.</em></p>
+	<p class="edit-message login" style="display:none;"><span class="user"></span> has access to propose changes for <span class="county"></span> county.</p>
 </div>
 <div class="col-md-6">
 <ul id="project-pill" class="nav nav-pills">
@@ -126,7 +127,7 @@ title: Home
 				</div> 
 				<div class="form-group"> 
 					<label for="JUST" class="sr-only" >Justification</label> 
-					<textarea rows="2" type="text" data-toggle="tooltip" title="The ending intersection" class="form-control" id="JUST" placeholder="Please provide justification for this functional class change"></textarea> 
+					<textarea rows="2" type="text" data-toggle="tooltip" title="Some possible justifications could include lane additions, dramatic increase in traffic volume, or need to conform to surrounding network.  Please be thorough." class="form-control" id="JUST" placeholder="Please provide justification for this functional class change"></textarea> 
 				</div> 
 				<div class="form-group">
 					<button type="button" class="pull-right btn-xs btn btn-primary edits" id="submit-changes" data-toggle="modal" data-target="#issueModal" id="create-issue" title="Create issue from changes" disabled="disabled">Submit</button>

@@ -18,6 +18,8 @@ function checkTeams(){
 				$.cookie('team', team)
 				drawGeoJSON(team.name);
 				$('.county').text(team.name)
+				$('.no-login').hide()
+ 				$('.login').show()
 			}
 			})
 		}
@@ -32,58 +34,60 @@ function checkTeams(){
 	 	$('.county').text($.cookie('team').name)
 		
 		drawGeoJSON($.cookie('team').name);
+		$('.no-login').hide()
+ 		$('.login').show()
 	 }
 	$('.user').text($.cookie('user').login)
 }
-	$.cookie.json = true;
 
-	// Code to make the appropriate nav active
-	var nav = '{{ page.category }}'
-	if(nav != '')
-		$('.' + nav ).addClass('active');
+$.cookie.json = true;
 
-	// Check if working on development server
-	var dev = false
-	if ('{{ site.baseurl }}' != '/fc-review')
-	dev = true;
+// Code to make the appropriate nav active
+var nav = '{{ page.category }}'
+if(nav != '')
+	$('.' + nav ).addClass('active');
+
+// Check if working on development server
+var dev = false
+if ('{{ site.baseurl }}' != '/fc-review')
+dev = true;
 
 
-	var code = '';
-	if($.cookie('token') !== undefined){
-		console.log("cookie worked!")
-	}
-	else
-		console.log("cookie didn't work!")
+var code = '';
+if($.cookie('token') !== undefined){
+	console.log("cookie worked!")
+}
+else
+	console.log("cookie didn't work!")
 
-	var github;
-	if(window.location.href.split('?').length > 1){
-	code = window.location.href.match(/\?code=(.*)/)[1];
-	$('.btn').button()
-	$('#gh-login').button('loading')
+var github;
+if(window.location.href.split('?').length > 1){
+code = window.location.href.match(/\?code=(.*)/)[1];
+$('.btn').button()
+$('#gh-login').button('loading')
+
+var authUrl = dev ? 'http://localhost:9999' : 'http://gatekeeper-fc-review.herokuapp.com/'
+$.getJSON(authUrl + '/authenticate/'+code, function(data) {
 	
-	var authUrl = dev ? 'http://localhost:9999' : 'http://gatekeeper-fc-review.herokuapp.com/'
-	$.getJSON(authUrl + '/authenticate/'+code, function(data) {
-		
-	 console.log(data.token);
-	 $.cookie('token', data.token);
-	 window.history.pushState("object or string", "Title", "{{ site.baseurl }}/")
-	 $.getJSON("https://api.github.com/user?access_token="+ data.token, function(data){
-		
-
-		$.cookie('user', data)
-		$('#welcome-message').html('<a style="margin-right:5px;" href="'+$.cookie('user').html_url+'">'+$.cookie('user').login+'</a><a style="margin-right:5px;" href="'+$.cookie('user').html_url+'"><img width="34px" style="margin-right:5px;" height="34px" src="'+$.cookie('user').avatar_url+'"></a>').show()
-		$('#gh-login').removeClass('btn-success').addClass('btn-danger').text('Log out').attr('title', 'Log out of Plan-It')
-		console.log('showing username')
-		$('#gh-login').button('reset').text('Log out')
-		checkTeams()
-		if($.cookie('return-href') !== undefined){
-			window.location = $.cookie('return-href')
-		}
-	 })
-
-
-	});
+ console.log(data.token);
+ $.cookie('token', data.token);
+ window.history.pushState("object or string", "Title", "{{ site.baseurl }}/")
+ $.getJSON("https://api.github.com/user?access_token="+ data.token, function(data){
+	
+	$.cookie('user', data)
+	$('#welcome-message').html('<a style="margin-right:5px;" href="'+$.cookie('user').html_url+'">'+$.cookie('user').login+'</a><a style="margin-right:5px;" href="'+$.cookie('user').html_url+'"><img width="34px" style="margin-right:5px;" height="34px" src="'+$.cookie('user').avatar_url+'"></a>').show()
+	$('#gh-login').removeClass('btn-success').addClass('btn-danger').text('Log out').attr('title', 'Log out of Plan-It')
+	console.log('showing username')
+	$('#gh-login').button('reset').text('Log out')
+	checkTeams()
+	if($.cookie('return-href') !== undefined){
+		window.location = $.cookie('return-href')
 	}
+ })
+
+
+});
+}
 	var teams = [
 		{
 		"name": "Barrow",
