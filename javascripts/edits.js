@@ -733,6 +733,7 @@ function populateIssues(){
 			var state = issue.state == "open" ? 'success' : 'important'
 			// $("#issue-list").append('<div class="panel panel-default col-md-6 col-xs-12" style="padding:0px;"><div class="panel-heading"><h3 class="panel-title"><span class="badge pull-right" title="Issue #'+issue.number+'">#'+issue.number+'</span><a href="'+issue.user.url+'" title="'+issue.user.login+'"><img src="'+issue.user.avatar_url+'" height="30" width="30"></a> Created by <a href="' + issue.user.url + '">' + issue.user.login + '' + '</a></h3></div><div class="panel-body" style="min-height:120px;"><p>'+converter.makeHtml(issue.body)+'</p></div><div class="panel-footer"><a class="btn btn-default" href="' + issue.html_url + '">View on GitHub</a></div></div>');
 		// }
+		var defaultSearch = $.cookie('team').name ? $.cookie('team').name : ""
 		if (!--count && issuesArray.length != 0){
 			$('#issue-table').html( '<table id="issues-table-table"></table>' );
 			var issueTable = $('#issues-table-table').dataTable( {
@@ -742,7 +743,7 @@ function populateIssues(){
 				"bLengthChange": false,
 				"iDisplayLength": 7,
 				"aaSorting": [[ 0, "asc" ]],
-				"oSearch": {"sSearch": $.cookie('team').name},
+				"oSearch": {"sSearch": defaultSearch},
 				"aoColumns": [
 					{ "sTitle": "#", "sWidth": "20px" },
 					{ "sTitle": "Creator" },
