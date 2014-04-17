@@ -312,7 +312,7 @@ var base = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{
 		attribution: '© Mapbox © OpenStreetMap',
 		key: '7486205c8fd540b0903a0298b3d7c447'
 	}).addTo(map)
-var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.s173z0k9/{z}/{x}/{y}.png', {
+var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.hve4gqfr/{z}/{x}/{y}.png', {
 		attribution: '© Atlanta Regional Commission',
 		// key: '7486205c8fd540b0903a0298b3d7c447'
 	})
