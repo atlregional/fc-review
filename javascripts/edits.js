@@ -120,7 +120,7 @@ $('#submit-issue').click(function(){
 						console.log(err)
 						if(err){
 								$('.spinner').hide()
-								 $('#issue-modal-title').html('Hmmm...something went wrong with creating your new branch.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
+								 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change.  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
 							}
 						// Check list of existing pull requests to find the correct url to send the user to.
 						else{
@@ -650,13 +650,13 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 			userRepo.write(branch, 'data/'+$.cookie('team').name+'.geojson', data, comments, function(err) {
 				console.log(err)
 				if(err){
-						 $('#issue-modal-title').html('Hmmm...something went wrong with creating your new commit.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
+						 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change.  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
 					}
 				
 				repo.createPullRequest(pull, function(err, pullRequest) {
 					console.log(err)
 					if(err){
-						 $('#issue-modal-title').html('Hmmm...something went wrong with creating your pull request.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
+						 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change.  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
 					}
 					else{
 						// $(this).button('reset')
