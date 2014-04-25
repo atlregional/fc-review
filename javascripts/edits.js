@@ -1,7 +1,6 @@
 ---
 
 ---
-var repo = github.getRepo('{{ site.githubuser }}', 'fc-review');
 var token = $.cookie('token') ? '&access_token=' + $.cookie('token') : ""
 
 var messages = []
@@ -14,11 +13,7 @@ var previous;
 var id;
 var historyClick = false
 $(document).ready(function(){
-	$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?state=all&"+token, function (issuesData) {
-		issues = issuesData
-		console.log(issues)
-		populateIssues()
-	});
+	getPulls();
 })
 $('#undo-changes').click(function(){
 	$("div.panel").remove()
@@ -32,20 +27,17 @@ $('.form-control').change(function(){
 	var formId = $(this).attr('id')
 	$('.change').data('value')[formId] = parseInt(newValue) ? parseInt(newValue) : newValue
 	$('.' + formId).text(newValue)
-
+	token = $.cookie('token') ? '&access_token=' + $.cookie('token') : ""
 
 
 })
 $('#submit-issue').click(function(){
-	// alert('Your changes have been submitted!')
-	
-		// d3.json("{{ site.baseurl}}/data/" + $.cookie(team.name) + '.geojson', function(error, json) {
-		//   if (error) return console.warn(error);
-		//   data = json;
-		//   console.log(data)
-		//   // visualizeit();
-		// });
-	token = $.cookie('token') ? '&access_token=' + $.cookie('token') : ""
+	var github = new Github({
+				token: $.cookie('token'),
+				auth: "oauth"
+			 })
+	var repo = github.getRepo('{{ site.githubuser }}', 'fc-review');
+
 	var newFeature = $('.change').data('value')
 	$('#modal-edits').hide()
 	$('.spinner').show()
@@ -123,7 +115,7 @@ $('#submit-issue').click(function(){
 						console.log(err)
 						if(err){
 								$('.spinner').hide()
-								 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change.  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
+								 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change.  <br><br>Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
 							}
 						// Check list of existing pull requests to find the correct url to send the user to.
 						else{
@@ -144,11 +136,7 @@ $('#submit-issue').click(function(){
 								console.log(pulls)
 								console.log('Success!')
 								setTimeout(function(){
-									$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?"+token, function (issuesData) {
-										issues = issuesData
-										console.log(issues)
-										populateIssues()
-									});
+									getPulls();
 								}, 3000);
 								removeStreet()
 								$('#modal-edits').hide()
@@ -471,174 +459,7 @@ $('#WHOLE-SEG').change(function() {
 		a.click();
 		window.URL.revokeObjectURL(url);
 	})
-	$('#history-tab').click(function(){
-		var branches = ['2008Q1',
-						'2008Q2',
-						'2008Q3',
-						'2008Q4',
-						'2009Q1',
-						'2009Q2',
-						'2009Q3',
-						'2009Q4',
-						'2010Q1',
-						'2010Q2',
-						'2010Q3',
-						'2010Q34',
-						'2011Q1',
-						'2011Q2',
-						'2011Q3',
-						'2011Q4',
-						'gh-pages']
-		var rows = []
-		
-		console.log('View HIstory!')
-		console.log("history tab")
-		if($('#history').is(':empty')){
-			$("#history").empty()
-			var count = 0
-			$.each(branches, function(i, branch){
-				count++
-				var path = 'data/TIP/individual/'+id+'.csv'
-				
-				// Should probably be using this guy
-				// repo.read(branch, path, function(err, data) {console.log(data)});
-				$.get('https://api.github.com/repos/{{ site.githubuser }}/fc-review/contents/'+path+'?ref='+branch+token, function (file) {
-					console.log(file.content)
-					tables[branch] = d3.csv.parse(Base64.decode(file.content), function(rows){
-							delete rows.ARCID
-									delete rows.Description
-									delete rows.Jurisdiction
-									delete rows.ModelingNetworkYear
-									delete rows.Sponsor
-									delete rows.ExistLanes
-									delete rows.ProposedLanes
-									delete rows.Length
-									delete rows.GDOTPI
-									delete rows.Limits
-									delete rows.Status
-									delete rows.ProjectType
-									delete rows.Analysis
-									// delete rows.FundSource
-									delete rows.FederalSum
-									delete rows.StateSum
-									delete rows.LocalSum
-									delete rows.BondSum
-									delete rows.TotalSum
-									return rows;
-						})
 
-					
-				}).done(function() {
-					$("#history").empty()
-					console.log(count)
-					if(count == branches.length) {
-						console.log("match!")
-						var previous = []
-						var prevBranch = ''
-						$.each(branches, function(i, branch){
-							
-							if (tables[branch]){
-								var tableString = '<div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title"><a href="https://github.com/{{ site.githubuser }}/fc-review/blob/' + branch + '/data/TIP/individual/'+'.csv">' + branch + '</a><small class="pull-right"><em>Hover over shaded cells for more info!</em></small></h3></div><div class="panel-body"><div class="table-responsive"><table id="'+branch+'" class="table table-hover table-condensed">'
-								console.log('****************from '+prevBranch+' to '+branch+'****************')
-								tableString += '<thead><tr>'
-								for (var key in tables[branch][0]) {
-									// Hack to change heading titles
-									if (key == "FiscalYear")
-										key = "FY"
-									else if (key == "PhaseStatus")
-										key = "Auth"
-
-									tableString += '<th>' + key
-										tableString += '</th>'
-								}
-								tableString += '</tr></thead>'
-								tableString += '<tbody>'
-								$.each(tables[branch], function(j, row){
-									
-									
-
-									// Checks if row existed in previous branch
-									if(previous[j] != undefined){
-										tableString += '<tr>'
-										$.each(row, function(key, data) {
-											// Check if data has changed from previous year
-													if(data !== previous[j][key]){
-															console.log(key + ' changed from '+ previous[j][key] + ' to '+ data);
-															if(data.substring(0,1) === '$'){
-																var prev = Number(previous[j][key].replace(/[^0-9\.]+/g,""))
-																var curr = Number(data.replace(/[^0-9\.]+/g,""))
-																console.log(prev)
-																var diff = curr - prev
-																console.log('that\'s a diff of ' + diff)
-																if (diff > 0){
-																	tableString += '<td class="success" title="'+key+' funding increased by '+accounting.formatMoney(Math.abs(diff))+'">' + data + '</td>'
-																}
-																else{
-																	tableString += '<td class="danger" title="'+key+' funding decreased by '+accounting.formatMoney(Math.abs(diff))+'">' + data + '</td>' 
-																}
-															}
-															else {
-																var prev = previous[j][key]
-																var curr = data
-																tableString += '<td class="warning" title="'+key+' changed from '+prev+' to '+curr+'">' + data + '</td>'
-															}
-															// else if (key == 'FiscalYear') {
-															//  var prev = previous[j][key].parseInt()
-															//  var curr = data.parseInt()
-															//  var diff = curr - prev
-															//  console.log('that\'s a diff of ' + diff)
-															// }
-
-													}
-													// If data is not new from previous branch, just draw it to the table
-													else {
-														tableString += '<td>' + data + '</td>'
-													}
-												})
-									}
-											else{
-													console.log('row ' + j + ' is new ')
-													tableString += '<tr class="success" title="Phase added">'
-													$.each(row, function(key, data){
-											tableString += '<td>' + data + '</td>'
-										})
-											}
-										tableString += '</tr>'
-															// var string = ''
-								
-															// string += '<thead><tr>'
-															// for (var key in record[0]) {
-															//    string += '<th>' + key
-														//        string += '</th>'
-															// }
-															// string += '</tr></thead>'
-															// string += '<tbody>'
-															// $.each(records, function(i, record){
-															//  string += '<tr>'
-															//  for (var key in record) {
-															//      string += '<td>' + record[key]
-														 //         string += '</td>'
-															//  }
-															//  string += '</tr>'
-															// })
-															// string += '</tbody>'
-															// return string
-								})
-								tableString += '</tbody></table></div></div></div>'
-								
-								$("#history").append(tableString) //'<h4><a href="https://github.com/{{ site.githubuser }}/fc-review/blob/' + branch + '/data/TIP/individual/'+'.csv">' + branch + '' + '</a></h4><div class="table-responsive"><table id="'+branch+'" class="table">'+populateTable(tables[branch])+'</table></div>');  
-								previous = tables[branch]
-								prevBranch = branch
-								console.log(previous)
-							}
-						})
-					}
-				})
-				
-			})
-		}
-		
-	})
 var rtp;
 
 function branchAndPull(repo, path, userRepo, username, title, body, comments, base, branch, data){
@@ -655,14 +476,15 @@ function branchAndPull(repo, path, userRepo, username, title, body, comments, ba
 			console.log(err)
 			userRepo.write(branch, path, data, comments, function(err) {
 				console.log(err)
+				console.log(path)
 				if(err){
-						 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change.  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
+						 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change (branch error).  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
 					}
 				
 				repo.createPullRequest(pull, function(err, pullRequest) {
 					console.log(err)
 					if(err){
-						 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change.  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
+						 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change (pull request error).  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
 					}
 					else{
 						// $(this).button('reset')
@@ -670,11 +492,7 @@ function branchAndPull(repo, path, userRepo, username, title, body, comments, ba
 						// $.each(changes, function(i, change){undoChange()})
 						$('#issue-modal-title').html('Success!')
 
-						$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?"+token, function (issuesData) {
-							issues = issuesData
-							console.log(issues)
-							populateIssues()
-						});
+						getPulls();
 						removeStreet()
 						$('.spinner').hide()
 						$('#modal-edits').hide()
@@ -688,7 +506,24 @@ function branchAndPull(repo, path, userRepo, username, title, body, comments, ba
 		});
 		repo.show(function(err, repo) {console.log(repo)});
 }
-
+var tries = 0
+function getPulls(){
+	$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?state=all"+token, function (issuesData) {
+		issues = issuesData
+		console.log(issues)
+		populateIssues()
+	}).fail(function(error) {
+		tries += 1;
+		console.log(error)
+		if (tries < 6){
+		    token = $.cookie('token') ? '&access_token=' + $.cookie('token') : ""
+		    setTimeout(function(){getPulls();},2000);
+		}
+		else{
+			$('#issues-table').html('<h3>GitHub API exhausted.  Please log in to see issues.</h3>')
+		}
+	});
+}
 function populateIssues(){
 	
 	var issuesArray = []
