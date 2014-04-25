@@ -189,6 +189,8 @@ $('.add-street').live('click', function(){
 	var issueBranch = ''
 	var issue;
 	$('.link-county').text(data.County)
+	$('.F_SYSTEM').text(data.F_SYSTEM)
+
 	$.each(issues, function(i, iss){
 		if (iss != ""){
 			issueBranch = iss.head.ref
