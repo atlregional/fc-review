@@ -640,6 +640,18 @@ function populateIssueModal(issue){
 	var url = 'https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/'+ issue.user.login + '/fc-review/' + issue.head.ref + '/data/' +county+'.geojson'
 	// console.log($(this).data('value'))
 	// $("#gh-map").append(script)
+	if (typeof issueData !== 'undefined')
+		issueData.clearLayers();
+	setTimeout(function() {
+	    issueMap.invalidateSize();
+	  }, 200);
+	var repo = github.getRepo(issue.user.login, 'fc-review');
+	repo.read(issue.head.ref, 'data/' + county + '.geojson', function(err, data) {
+		var json = jQuery.parseJSON(data)
+		console.log(json)
+		drawIssueData(json, issueMap)
+	});
+
 	$('iframe').attr('src', url);
 	$('.issue-title').text(issue.title);
 	$('.issue-number').text(issue.number);

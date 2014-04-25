@@ -262,170 +262,6 @@ $.getJSON(authUrl + '/authenticate/'+code, function(data) {
 
 });
 }
-	var teams = [
-		{
-		"name": "Barrow",
-		"id": 738687,
-		"slug": "barrow",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738687",
-		"members_url": "https://api.github.com/teams/738687/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738687/repos"
-		},
-		{
-		"name": "Bartow",
-		"id": 738688,
-		"slug": "bartow",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738688",
-		"members_url": "https://api.github.com/teams/738688/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738688/repos"
-		},
-		{
-		"name": "Cherokee",
-		"id": 738689,
-		"slug": "cherokee",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738689",
-		"members_url": "https://api.github.com/teams/738689/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738689/repos"
-		},
-		{
-		"name": "Clayton",
-		"id": 738690,
-		"slug": "clayton",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738690",
-		"members_url": "https://api.github.com/teams/738690/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738690/repos"
-		},
-		{
-		"name": "Cobb",
-		"id": 738691,
-		"slug": "cobb",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738691",
-		"members_url": "https://api.github.com/teams/738691/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738691/repos"
-		},
-		{
-		"name": "Coweta",
-		"id": 738692,
-		"slug": "coweta",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738692",
-		"members_url": "https://api.github.com/teams/738692/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738692/repos"
-		},
-		{
-		"name": "DeKalb",
-		"id": 738693,
-		"slug": "dekalb",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738693",
-		"members_url": "https://api.github.com/teams/738693/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738693/repos"
-		},
-		{
-		"name": "Douglas",
-		"id": 738694,
-		"slug": "douglas",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738694",
-		"members_url": "https://api.github.com/teams/738694/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738694/repos"
-		},
-		{
-		"name": "Fayette",
-		"id": 738695,
-		"slug": "fayette",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738695",
-		"members_url": "https://api.github.com/teams/738695/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738695/repos"
-		},
-		{
-		"name": "Forsyth",
-		"id": 738696,
-		"slug": "forsyth",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738696",
-		"members_url": "https://api.github.com/teams/738696/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738696/repos"
-		},
-		{
-		"name": "Fulton",
-		"id": 738697,
-		"slug": "fulton",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738697",
-		"members_url": "https://api.github.com/teams/738697/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738697/repos"
-		},
-		{
-		"name": "Gwinnett",
-		"id": 738698,
-		"slug": "gwinnett",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738698",
-		"members_url": "https://api.github.com/teams/738698/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738698/repos"
-		},
-		{
-		"name": "Henry",
-		"id": 738700,
-		"slug": "henry",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738700",
-		"members_url": "https://api.github.com/teams/738700/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738700/repos"
-		},
-		{
-		"name": "Newton",
-		"id": 738701,
-		"slug": "newton",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738701",
-		"members_url": "https://api.github.com/teams/738701/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738701/repos"
-		},
-		{
-		"name": "Paulding",
-		"id": 738702,
-		"slug": "paulding",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738702",
-		"members_url": "https://api.github.com/teams/738702/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738702/repos"
-		},
-		{
-		"name": "Rockdale",
-		"id": 738703,
-		"slug": "rockdale",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738703",
-		"members_url": "https://api.github.com/teams/738703/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738703/repos"
-		},
-		{
-		"name": "Spalding",
-		"id": 738704,
-		"slug": "spalding",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738704",
-		"members_url": "https://api.github.com/teams/738704/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738704/repos"
-		},
-		{
-		"name": "Walton",
-		"id": 738705,
-		"slug": "walton",
-		"permission": "pull",
-		"url": "https://api.github.com/teams/738705",
-		"members_url": "https://api.github.com/teams/738705/members{/member}",
-		"repositories_url": "https://api.github.com/teams/738705/repos"
-		}
-]
 
 	github = new Github({
 		token: $.cookie('token'),
@@ -479,6 +315,16 @@ var map = L.map('map', {
 	center: [33.77686437792359, -84.3145751953125],
 	zoom: 9
 });
+
+var issueMap  = L.map('issue-map', {
+		center: [33.77686437792359, -84.3145751953125],
+		zoom: 9
+	});
+	var issueBase = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{x}/{y}.png', {
+		attribution: '© Mapbox © OpenStreetMap',
+		key: '7486205c8fd540b0903a0298b3d7c447'
+	}).addTo(issueMap)
+var issueData;
 // map.on('click', onMapClick);
 var geojson;
 var raw = {};
@@ -487,6 +333,7 @@ var base = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{
 		attribution: '© Mapbox © OpenStreetMap',
 		key: '7486205c8fd540b0903a0298b3d7c447'
 	}).addTo(map)
+
 var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.hve4gqfr/{z}/{x}/{y}.png', {
 		attribution: '© Atlanta Regional Commission',
 		// key: '7486205c8fd540b0903a0298b3d7c447'
@@ -809,37 +656,35 @@ function drawUab(){
 		}
 	})
 }
-function drawCounty(county){
-	$.ajax({
-		type: "GET",
-		url: "{{ site.baseurl}}/data/counties.geojson", 
-		dataType: "json",
-		success: function(data){
-			console.log(data)
-			raw = data;
-			geojson = L.geoJson(data, {
-				filter: function(feature, layer){
-					if (feature.properties.NAME10 == county){
-						return true;
-					}
-					return false
-				},
-				style: function (feature) {
-						return {
-							color: "#000",
-							weight: 2,
-							fill: false,
-							fillColor: "#ffffff",
-							opacity: 1,
-							fillOpacity:0,
-							clickable: false
-						}
-
+function issuePopup(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.RCLINK) {
+        layer.bindPopup(feature.properties.RCLINK);
+    }
+}
+function drawIssueData(data, issueMap){
+	
+	issueData = L.geoJson(data, {
+		style: function (feature) {
+			var color = feature.properties.FC_NEW ? '#00FF00' : '#CCC'
+				return {
+					color: color,
+					weight: 16/(feature.properties.F_SYSTEM+1),
+					fill: false,
+					fillColor: color,
+					opacity: .5,
+					fillOpacity:0,
+					clickable: false
 				}
 
-			}).addTo(map);
-		}
-	})
+		},
+		onEachFeature: function (feature, layer) {
+	         layer.bindPopup(feature.properties.RCLINK);
+	     }
+
+	}).addTo(issueMap);
+	issueMap.fitBounds(issueData.getBounds())
 }
+
 
 	
