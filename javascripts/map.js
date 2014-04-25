@@ -481,7 +481,7 @@ var map = L.map('map', {
 });
 // map.on('click', onMapClick);
 var geojson;
-var raw;
+var raw = {};
 // var popup = new L.popup();
 var base = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{x}/{y}.png', {
 		attribution: '© Mapbox © OpenStreetMap',
@@ -724,7 +724,7 @@ function drawGeoJSON(county){
 			dataType: "json",
 			success: function(data){
 				console.log(data)
-				raw = data;
+				raw.county = data;
 				geojson = L.geoJson(data, {
 					filter: function(feature, layer){
 						if (feature.properties.F_SYSTEM > 2 && feature.properties.F_SYSTEM < 7){

@@ -50,7 +50,7 @@ $('#submit-issue').click(function(){
 	$('#modal-edits').hide()
 	$('.spinner').show()
 
-	$.each(raw.features, function(i, feature){
+	$.each(raw[newFeature.County].features, function(i, feature){
 		if (feature.properties.RCLINK == newFeature.RCLINK && feature.properties.END_MEASUR == newFeature.END_MEASUR && feature.properties.BEG_MEASUR == newFeature.BEG_MEASUR ){
 			console.log(feature.properties)
 			feature.properties = newFeature
@@ -87,7 +87,7 @@ $('#submit-issue').click(function(){
 					segment + 
 					'\n#### County\n' +
 					newFeature.County + ' County'
-		var newContent = JSON.stringify(raw)
+		var newContent = JSON.stringify(raw[newFeature.County])
 		// console.log(newContent)
 		var comments = 'Change ' + title + ' from ' + type[newFeature.F_SYSTEM ] + ' to ' + type[newFeature.FC_NEW ]
 		var newBranch = 'rc-' + newFeature.RCLINK + '-' + newFeature.BEG_MEASUR + '-' + newFeature.END_MEASUR
