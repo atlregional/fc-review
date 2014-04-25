@@ -724,7 +724,7 @@ function drawGeoJSON(county){
 			dataType: "json",
 			success: function(data){
 				console.log(data)
-				raw.county = data;
+				raw[county] = data;
 				geojson = L.geoJson(data, {
 					filter: function(feature, layer){
 						if (feature.properties.F_SYSTEM > 2 && feature.properties.F_SYSTEM < 7){
