@@ -34,6 +34,7 @@ $('.form-control').change(function(){
 	$('.' + formId).text(newValue)
 
 
+
 })
 $('#submit-issue').click(function(){
 	// alert('Your changes have been submitted!')
@@ -74,6 +75,7 @@ $('#submit-issue').click(function(){
 					'\n#### To\n' + 
 					$('#TO').val()
 		var path = 'data/'+newFeature.County+'.geojson'
+		console.log(path)
 		var base = 'proposed'
 		var title = $('#NAME').val()
 		var body = 'Changing road ID #' + newFeature.RCLINK + ' functional class from ' + newFeature.F_SYSTEM + ' ('+type[newFeature.F_SYSTEM ]+') to ' + newFeature.FC_NEW + ' ('+type[newFeature.FC_NEW ]+').\n' +
@@ -185,6 +187,7 @@ $('.add-street').live('click', function(){
 	var duplicateCheck = false
 	var issueBranch = ''
 	var issue;
+	$('.link-county').text(data.County)
 	$.each(issues, function(i, iss){
 		if (iss != ""){
 			issueBranch = iss.head.ref
