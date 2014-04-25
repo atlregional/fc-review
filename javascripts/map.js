@@ -166,40 +166,50 @@ var teams = [
 		}
 ]
 function checkTeams(){
-	// for loop to check which team this guy is a part of
-	// console.log()
-	var success = false;
+	var membership = []
 	if ($.cookie('user') == undefined || $.cookie('team') == undefined){
-	console.log('let\'s go!')
-	$.each(teams, function (i, team){
-		if (!success){
+		console.log('let\'s go!')
+		$.each(teams, function (i, team){
 			$.get("https://api.github.com/teams/" + team.id + "/members/"+$.cookie('user').login+"?access_token="+$.cookie('token'), function(data, status){
-			// if a part of county X, make X streets editable on the map for them.
-			console.log(status + " for " + team.name)
-			if (status === "success"){
-				success = true;
-				// drawCounty(team.name);
-				$.cookie('team', team)
-				drawGeoJSON(team.name);
-				$('.county').text(team.name)
-				$('.no-login').hide()
- 				$('.login').show()
-			}
+				// if a part of county X, make X streets editable on the map for them.
+				console.log(status + " for " + team.name)
+				if (status === "success"){
+					membership.push(team)
+					$.cookie('team', membership)
+					console.log(membership)
+					drawGeoJSON(team.name);
+					if ($('.county').is(':empty')){
+						$('.county').append(team.name)
+					}
+					else{
+						$('.county').append(' and ' + team.name)
+					}
+					$('.no-login').hide()
+	 				$('.login').show()
+				}
 			})
-		}
-		console.log(i +" " + teams.length )
-		if (i == teams.length - 1){
-	 //  	drawUab();
-		
-		}
-	})
+			console.log(i +" " + teams.length )
+			if (i == teams.length - 1){
+				 //  	drawUab();
+				 console.log('last?')
+		 		
+			
+			}
+		})
 	 }
 	 else {
-	 	$('.county').text($.cookie('team').name)
-		
-		drawGeoJSON($.cookie('team').name);
-		$('.no-login').hide()
- 		$('.login').show()
+	 	$.each($.cookie('team'), function (i, team){
+	 		if ($('.county').is(':empty')){
+				$('.county').append(team.name)
+			}
+			else{
+				$('.county').append(' and ' + team.name)
+			}
+			drawGeoJSON(team.name);
+			$('.no-login').hide()
+	 		$('.login').show()
+	 	})
+	 	
 	 }
 	$('.user').text($.cookie('user').login)
 }
@@ -453,6 +463,7 @@ $.getJSON(authUrl + '/authenticate/'+code, function(data) {
 		window.location='{{ site.baseurl }}/'
 		$.removeCookie('user', { path: '{{ site.baseurl }}' })
 		$.removeCookie('token', { path: '{{ site.baseurl }}' })
+		$.removeCookie('team', { path: '{{ site.baseurl }}' })
 		$('#welcome-message').hide()
 		$('#gh-login').removeClass('btn-danger').addClass('btn-success').text('Log in').attr('title', 'Log in with GitHub')
 		// window.location = '{{ site.baseurl }}/'
