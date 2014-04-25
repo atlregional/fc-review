@@ -45,6 +45,7 @@ $('#submit-issue').click(function(){
 		//   console.log(data)
 		//   // visualizeit();
 		// });
+	token = $.cookie('token') ? '&access_token=' + $.cookie('token') : ""
 	var newFeature = $('.change').data('value')
 	$('#modal-edits').hide()
 	$('.spinner').show()
