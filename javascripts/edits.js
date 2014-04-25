@@ -73,7 +73,7 @@ $('#submit-issue').click(function(){
 		var segment = $('#WHOLE-SEG').is(':checked') ? '\n#### Entire segment' : '\n#### From\n' + $('#FROM').val() + 
 					'\n#### To\n' + 
 					$('#TO').val()
-					
+		var path = 'data/'+newFeature.County+'.geojson'
 		var base = 'proposed'
 		var title = $('#NAME').val()
 		var body = 'Changing road ID #' + newFeature.RCLINK + ' functional class from ' + newFeature.F_SYSTEM + ' ('+type[newFeature.F_SYSTEM ]+') to ' + newFeature.FC_NEW + ' ('+type[newFeature.FC_NEW ]+').\n' +
@@ -83,7 +83,7 @@ $('#submit-issue').click(function(){
 					$('#JUST').val() + 
 					segment + 
 					'\n#### County\n' +
-					$.cookie('team') .name + ' County'
+					newFeature.County + ' County'
 		var newContent = JSON.stringify(raw)
 		// console.log(newContent)
 		var comments = 'Change ' + title + ' from ' + type[newFeature.F_SYSTEM ] + ' to ' + type[newFeature.FC_NEW ]
@@ -103,7 +103,7 @@ $('#submit-issue').click(function(){
 				// userRepo.show(function(err, data){console.log(data)})
 				var message = "This is your first proposed change.  If you experience a problem submitting this change, please wait a few minutes, reload the website, and try again."
 				$('#modal-edits').prepend('<div class="alert alert-warning alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'+message+'</div>').delay(5000).fadeOut()
-				setTimeout(function(){branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, newContent)}, 10000)
+				setTimeout(function(){branchAndPull(repo, path, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, newContent)}, 10000)
 				
 				
 			})
@@ -116,7 +116,7 @@ $('#submit-issue').click(function(){
 				// If branch exists, write to the branch and then call success.
 				if(_.contains(branches, newBranch)){
 					console.log('branch exists already!')
-					userRepo.write(newBranch, 'data/'+$.cookie('team').name+'.geojson', newContent, comments, function(err) {
+					userRepo.write(newBranch, path, newContent, comments, function(err) {
 						console.log(err)
 						if(err){
 								$('.spinner').hide()
@@ -169,7 +169,7 @@ $('#submit-issue').click(function(){
 				else{
 					console.log('creating branch!')
 					// If repo exists, but branch does not exist, create a new branch directly in that repo and proceed.
-					branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, newContent)
+					branchAndPull(repo, path, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, newContent)
 				}
 			})
 			
@@ -635,7 +635,7 @@ $('#WHOLE-SEG').change(function() {
 	})
 var rtp;
 
-function branchAndPull(repo, userRepo, username, title, body, comments, base, branch, data){
+function branchAndPull(repo, path, userRepo, username, title, body, comments, base, branch, data){
 		var patchNum = 1
 		var pull = {
 				"title": title,
@@ -647,7 +647,7 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 		// This stuff should probably be in a function.
 		userRepo.branch(base, branch, function(err) {
 			console.log(err)
-			userRepo.write(branch, 'data/'+$.cookie('team').name+'.geojson', data, comments, function(err) {
+			userRepo.write(branch, path, data, comments, function(err) {
 				console.log(err)
 				if(err){
 						 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change.  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
@@ -673,7 +673,7 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 						$('.spinner').hide()
 						$('#modal-edits').hide()
 						$('#issue-modal-success').show()
-						$('#issue-modal-success-link').html('See your issue <a href="' + pullRequest.html_url + '">here</a>.  The modified file is <a href="https://github.com/'+ pullRequest.head.user.login +'/fc-review/blob/'+ pullRequest.head.ref +'/data/'+ $.cookie('team').name +'.geojson">here</a>')  
+						$('#issue-modal-success-link').html('See your issue <a href="' + pullRequest.html_url + '">here</a>.  The modified file is <a href="https://github.com/'+ pullRequest.head.user.login +'/fc-review/blob/'+ pullRequest.head.ref + '/' + path +'">here</a>')  
 						$('#submit-issue').attr('disabled', 'disabled');
 
 					}
@@ -687,7 +687,6 @@ function populateIssues(){
 	
 	var issuesArray = []
 	var count = issues.length
-	// var countyReg = new RegExp($.cookie('team').name + ' County', 'g')
 	$("#issue-list").empty()
 	$("#issue-table").empty()
 
@@ -718,6 +717,8 @@ function populateIssues(){
 				issues.splice(i, 1, "")
 			}
 			if (!drop){
+				issue.body = issue.body.replace(/'/g, "\"")
+				console.log(issue)
 				issuesArray.push([
 					issue.number.toString(), 
 					'<small><a href="'+issue.user.html_url+'">'+issue.user.login+'</a></small>', 
@@ -726,7 +727,7 @@ function populateIssues(){
 					// issue.assignee,
 					issue.title,
 					// "Fulton",
-					status,																				   //https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson
+					status,
 					'<a id="'+issue.head.ref+'" class="btn btn-default btn-sm show-issue" data-issue=\''+JSON.stringify(issue)+'\' data-toggle="modal" data-target="#showIssueModal">View</a>'
 					// converter.makeHtml(changes.substring(2)),
 					// https://embed.github.com/view/geojson/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson?width=558
@@ -737,7 +738,9 @@ function populateIssues(){
 			}
 			// $("#issue-list").append('<div class="panel panel-default col-md-6 col-xs-12" style="padding:0px;"><div class="panel-heading"><h3 class="panel-title"><span class="badge pull-right" title="Issue #'+issue.number+'">#'+issue.number+'</span><a href="'+issue.user.url+'" title="'+issue.user.login+'"><img src="'+issue.user.avatar_url+'" height="30" width="30"></a> Created by <a href="' + issue.user.url + '">' + issue.user.login + '' + '</a></h3></div><div class="panel-body" style="min-height:120px;"><p>'+converter.makeHtml(issue.body)+'</p></div><div class="panel-footer"><a class="btn btn-default" href="' + issue.html_url + '">View on GitHub</a></div></div>');
 		// }
-		var defaultSearch = typeof $.cookie('team') !== 'undefined' ? $.cookie('team').name : ""
+		var defaultSearch = ""
+		if (typeof $.cookie('team') !== "undefined")
+			defaultSearch = $.cookie('team').length < 2 ? $.cookie('team')[0].name : ""
 		if (!--count && issuesArray.length != 0){
 			$('#issue-table').html( '<table id="issues-table-table"></table>' );
 			var issueTable = $('#issues-table-table').dataTable( {
