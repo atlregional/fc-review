@@ -2,7 +2,7 @@
 # this script will split geojson file into county-specific geojson files
 # ************************************************************************************************************
 file=${1:-}
-counties=(Barrow Bartow Cherokee Clayton Cobb Coweta DeKalb Douglas Fayette Forsyth Fulton Gwinnett Henry Newton Paulding Rockdale Spalding Walton)
+counties=(Barrow Bartow Carroll Cherokee Clayton Cobb Coweta Dawson DeKalb Douglas Fayette Forsyth Fulton Gwinnett Hall Henry Newton Paulding Rockdale Spalding Walton)
 for county in "${counties[@]}"
 do
 	echo "Processing $county..."
