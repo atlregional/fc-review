@@ -8,6 +8,7 @@ do
 	echo "Processing $county..."
 	ogr2ogr \
 	-f "GeoJSON" \
+	-t_srs crs:84 \
 	-where "County like '$county'" \
 	"$county.geojson" $file
 done
