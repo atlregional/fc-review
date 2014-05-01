@@ -463,14 +463,27 @@ info.onAdd = function (map) {
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
 	var disabled = ''
-	if (props && segments.length > 0)
-		disabled = 'disabled="disabled"' 
+	console.log(props)
+	var vol12 = 'N/A'
+	var vol11 = 'N/A'
+	var vol10 = 'N/A'
+	var volume = 'N/A'
+	if (props){
+		vol12 = props['2012AvAADT'] ? commaSeparateNumber(parseInt(props['2012AvAADT'])) : 'N/A'
+		vol11 = props['2011AvAADT'] ? commaSeparateNumber(parseInt(props['2011AvAADT'])) : 'N/A'
+		vol10 = props['2010AvAADT'] ? commaSeparateNumber(parseInt(props['2010AvAADT'])) : 'N/A' 
+		if (vol12 !== 'N/A' && vol11 !== 'N/A' && vol10 !== 'N/A'){
+			volume = '<br />' + '&lsquo;12: ' + vol12 + ' | &lsquo;11: ' + vol11 + ' | &lsquo;10: ' + vol10
+		}
+	}
+	if (props && segments.length > 0){
+		disabled = 'disabled="disabled"'
+	}
 	this._div.innerHTML = '<h4>Functional Class Review</h4>' +  (props ?
 		'ID #: ' + props.RCLINK + ' <button type="button" ' + disabled + ' data-value=\''+JSON.stringify(props)+'\' title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+props.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button><br />' +
 		'County: ' + toTitleCase(props.County) + '<br />' +
 		'Functional Class: ' + props.F_SYSTEM + ' - ' + type[String(props.F_SYSTEM)] + '<br />' +
-		'<strong>Volume: </strong>' + '<br />' +
-		'&lsquo;12: ' + commaSeparateNumber(parseInt(props['2012AvAADT'])) + ' | &lsquo;11: ' + commaSeparateNumber(parseInt(props['2011AvAADT'])) + ' | &lsquo;10: ' + commaSeparateNumber(parseInt(props['2010AvAADT']))
+		'Volume: ' + volume
 		: 'Click a street segment');
 };
 
