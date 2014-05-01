@@ -21,6 +21,15 @@ var teams = [
 		"repositories_url": "https://api.github.com/teams/738688/repos"
 		},
 		{
+		"name": "Carroll",
+		"id": 807180,
+		"slug": "carroll",
+		"permission": "pull",
+		"url": "https://api.github.com/teams/807180",
+		"members_url": "https://api.github.com/teams/807180/members{/member}",
+		"repositories_url": "https://api.github.com/teams/807180/repos"
+		},
+		{
 		"name": "Cherokee",
 		"id": 738689,
 		"slug": "cherokee",
@@ -55,6 +64,15 @@ var teams = [
 		"url": "https://api.github.com/teams/738692",
 		"members_url": "https://api.github.com/teams/738692/members{/member}",
 		"repositories_url": "https://api.github.com/teams/738692/repos"
+		},
+		{
+		"name": "Dawson",
+		"id": 807184,
+		"slug": "dawson",
+		"permission": "pull",
+		"url": "https://api.github.com/teams/807184",
+		"members_url": "https://api.github.com/teams/807184/members{/member}",
+		"repositories_url": "https://api.github.com/teams/807184/repos"
 		},
 		{
 		"name": "DeKalb",
@@ -109,6 +127,15 @@ var teams = [
 		"url": "https://api.github.com/teams/738698",
 		"members_url": "https://api.github.com/teams/738698/members{/member}",
 		"repositories_url": "https://api.github.com/teams/738698/repos"
+		},
+		{
+		"name": "Hall",
+		"id": 807182,
+		"slug": "hall",
+		"permission": "pull",
+		"url": "https://api.github.com/teams/807182",
+		"members_url": "https://api.github.com/teams/807182/members{/member}",
+		"repositories_url": "https://api.github.com/teams/807182/repos"
 		},
 		{
 		"name": "Henry",
@@ -441,7 +468,9 @@ info.update = function (props) {
 	this._div.innerHTML = '<h4>Functional Class Review</h4>' +  (props ?
 		'ID #: ' + props.RCLINK + ' <button type="button" ' + disabled + ' data-value=\''+JSON.stringify(props)+'\' title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+props.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button><br />' +
 		'County: ' + toTitleCase(props.County) + '<br />' +
-		'Functional Class: ' + props.F_SYSTEM + ' - ' + type[String(props.F_SYSTEM)]
+		'Functional Class: ' + props.F_SYSTEM + ' - ' + type[String(props.F_SYSTEM)] + '<br />' +
+		'<strong>Volume: </strong>' + '<br />' +
+		'&lsquo;12: ' + commaSeparateNumber(parseInt(props['2012AvAADT'])) + ' | &lsquo;11: ' + commaSeparateNumber(parseInt(props['2011AvAADT'])) + ' | &lsquo;10: ' + commaSeparateNumber(parseInt(props['2010AvAADT']))
 		: 'Click a street segment');
 };
 
