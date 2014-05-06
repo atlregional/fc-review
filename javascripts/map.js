@@ -419,7 +419,7 @@ legend.onAdd = function (map) {
 
 	// loop through our density intervals and generate a label with a colored square for each interval
 	$.each(type, function(key,val){
-		if (parseInt(key) < 7){
+		if (parseInt(key) < 8){
 			div.innerHTML +=
 				'<i style="background:' + getColor(parseInt(key)) + '"></i> ' +
 				key + ' - ' + val + '<br>';
@@ -497,7 +497,7 @@ function getColor(d) {
 			 d === 4  ? "#38a800" :
 			 d === 5   ? "#ab42e0" :
 			 d === 6  ? "#ffaa00" :
-			 d === 7  ? "#b2b2b2" :
+			 d === 7  ? "#666" :
 					 "#000000" ;
 }
 function highlightFeature(e) {
@@ -515,7 +515,7 @@ function highlightFeature(e) {
 		e.click = false
 		layer.setStyle({
 			weight: layer.options.weight,
-			color: '#666',
+			color: '#444',
 			dashArray: '',
 			opacity: 0.7
 		});
@@ -616,7 +616,7 @@ function drawGeoJSON(county){
 				raw[county] = data;
 				geojson = L.geoJson(data, {
 					filter: function(feature, layer){
-						if (feature.properties.F_SYSTEM > 2 && feature.properties.F_SYSTEM < 7){
+						if (feature.properties.F_SYSTEM > 2){  // && feature.properties.F_SYSTEM < 7){
 							return true;
 						}
 						return false
