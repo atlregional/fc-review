@@ -79,7 +79,7 @@ $('#submit-issue').click(function(){
 					segment + 
 					'\n#### County\n' +
 					newFeature.County + ' County'
-		var newContent = JSON.stringify(raw[newFeature.County])
+		var newContent = JSON.stringify(raw[newFeature.County], null, 2)
 		// console.log(newContent)
 		var comments = 'Change ' + title + ' from ' + type[newFeature.F_SYSTEM ] + ' to ' + type[newFeature.FC_NEW ]
 		var newBranch = 'rc-' + newFeature.RCLINK + '-' + newFeature.BEG_MEASUR + '-' + newFeature.END_MEASUR
