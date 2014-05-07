@@ -1,7 +1,6 @@
 ---
 
 ---
-var repo = github.getRepo('{{ site.githubuser }}', 'fc-review');
 var token = $.cookie('token') ? '&access_token=' + $.cookie('token') : ""
 
 var messages = []
@@ -14,11 +13,7 @@ var previous;
 var id;
 var historyClick = false
 $(document).ready(function(){
-	$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?"+token, function (issuesData) {
-		issues = issuesData
-		console.log(issues)
-		populateIssues()
-	});
+	getPulls();
 })
 $('#undo-changes').click(function(){
 	$("div.panel").remove()
@@ -32,23 +27,22 @@ $('.form-control').change(function(){
 	var formId = $(this).attr('id')
 	$('.change').data('value')[formId] = parseInt(newValue) ? parseInt(newValue) : newValue
 	$('.' + formId).text(newValue)
+	token = $.cookie('token') ? '&access_token=' + $.cookie('token') : ""
 
 
 })
 $('#submit-issue').click(function(){
-	// alert('Your changes have been submitted!')
-	
-		// d3.json("{{ site.baseurl}}/data/" + $.cookie(team.name) + '.geojson', function(error, json) {
-		//   if (error) return console.warn(error);
-		//   data = json;
-		//   console.log(data)
-		//   // visualizeit();
-		// });
+	var github = new Github({
+				token: $.cookie('token'),
+				auth: "oauth"
+			 })
+	var repo = github.getRepo('{{ site.githubuser }}', 'fc-review');
+
 	var newFeature = $('.change').data('value')
 	$('#modal-edits').hide()
 	$('.spinner').show()
 
-	$.each(raw.features, function(i, feature){
+	$.each(raw[newFeature.County].features, function(i, feature){
 		if (feature.properties.RCLINK == newFeature.RCLINK && feature.properties.END_MEASUR == newFeature.END_MEASUR && feature.properties.BEG_MEASUR == newFeature.BEG_MEASUR ){
 			console.log(feature.properties)
 			feature.properties = newFeature
@@ -73,8 +67,9 @@ $('#submit-issue').click(function(){
 		var segment = $('#WHOLE-SEG').is(':checked') ? '\n#### Entire segment' : '\n#### From\n' + $('#FROM').val() + 
 					'\n#### To\n' + 
 					$('#TO').val()
-					
-		var base = 'gh-pages'
+		var path = 'data/'+newFeature.County+'.geojson'
+		console.log(path)
+		var base = 'proposed'
 		var title = $('#NAME').val()
 		var body = 'Changing road ID #' + newFeature.RCLINK + ' functional class from ' + newFeature.F_SYSTEM + ' ('+type[newFeature.F_SYSTEM ]+') to ' + newFeature.FC_NEW + ' ('+type[newFeature.FC_NEW ]+').\n' +
 					'### Description\n' + 
@@ -83,9 +78,9 @@ $('#submit-issue').click(function(){
 					$('#JUST').val() + 
 					segment + 
 					'\n#### County\n' +
-					$.cookie('team') .name + ' County'
-		var newContent = JSON.stringify(raw)
-		console.log(newContent)
+					newFeature.County + ' County'
+		var newContent = JSON.stringify(raw[newFeature.County])
+		// console.log(newContent)
 		var comments = 'Change ' + title + ' from ' + type[newFeature.F_SYSTEM ] + ' to ' + type[newFeature.FC_NEW ]
 		var newBranch = 'rc-' + newFeature.RCLINK + '-' + newFeature.BEG_MEASUR + '-' + newFeature.END_MEASUR
 		var pull = {
@@ -101,8 +96,9 @@ $('#submit-issue').click(function(){
 				console.log("forking repo...")
 				console.log(err)
 				// userRepo.show(function(err, data){console.log(data)})
-				alert("This is your first issue.  If you experience a problem creating the issue, please wait about a minute and hit 'Submit' again.")
-				setTimeout(function(){branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, newContent)}, 10000)
+				var message = "This is your first proposed change.  If you experience a problem submitting this change, please wait a few minutes, reload the website, and try again."
+				$('#modal-edits').prepend('<div class="alert alert-warning alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'+message+'</div>').delay(5000).fadeOut()
+				setTimeout(function(){branchAndPull(repo, path, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, newContent)}, 10000)
 				
 				
 			})
@@ -115,11 +111,11 @@ $('#submit-issue').click(function(){
 				// If branch exists, write to the branch and then call success.
 				if(_.contains(branches, newBranch)){
 					console.log('branch exists already!')
-					userRepo.write(newBranch, 'data/'+$.cookie('team').name+'.geojson', newContent, comments, function(err) {
+					userRepo.write(newBranch, path, newContent, comments, function(err) {
 						console.log(err)
 						if(err){
 								$('.spinner').hide()
-								 $('#issue-modal-title').html('Hmmm...something went wrong with creating your new branch.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
+								 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change.  <br><br>Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
 							}
 						// Check list of existing pull requests to find the correct url to send the user to.
 						else{
@@ -140,11 +136,7 @@ $('#submit-issue').click(function(){
 								console.log(pulls)
 								console.log('Success!')
 								setTimeout(function(){
-									$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?"+token, function (issuesData) {
-										issues = issuesData
-										console.log(issues)
-										populateIssues()
-									});
+									getPulls();
 								}, 3000);
 								removeStreet()
 								$('#modal-edits').hide()
@@ -168,7 +160,7 @@ $('#submit-issue').click(function(){
 				else{
 					console.log('creating branch!')
 					// If repo exists, but branch does not exist, create a new branch directly in that repo and proceed.
-					branchAndPull(repo, userRepo, $.cookie('user').login, title, body, comments, 'gh-pages', newBranch, newContent)
+					branchAndPull(repo, path, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, newContent)
 				}
 			})
 			
@@ -178,26 +170,30 @@ $('#submit-issue').click(function(){
 })
 
 $('.add-street').live('click', function(){
-	formChange = false;
-	$('#name-title').text('[Please input name of road]')
-	$('#instructions').hide()
+	
 	var rc = $(this).attr('id')
 	var data = $(this).data('value')
 	var duplicateCheck = false
 	var issueBranch = ''
 	var issue;
+	$('.link-county').text(data.County)
+	$('.F_SYSTEM').text(data.F_SYSTEM)
+
 	$.each(issues, function(i, iss){
-		issueBranch = iss.head.ref
-		var branch = issueBranch.split('-')
-		console.log(branch)
-		if (branch[1] == String(data.RCLINK) && branch[2] == String(data.BEG_MEASUR) && branch[3] == String(data.END_MEASUR)){
-			duplicateCheck = true;
-			issue = iss
+		if (iss != ""){
+			issueBranch = iss.head.ref
+			var branch = issueBranch.split('-')
+			console.log(branch)
+			if (branch[1] == String(data.RCLINK) && branch[2] == String(data.BEG_MEASUR) && branch[3] == String(data.END_MEASUR)){
+				duplicateCheck = true;
+				issue = iss
+			}
+			console.log(duplicateCheck)
 		}
-		console.log(duplicateCheck)
+		
 	})
 	if (duplicateCheck){
-		var message = '<p><strong>Warning!</strong> A change has already been submitted for this road segment!  Be sure to check the proposed changes below submitted by <a href="'+issue.user.html_url+'">'+issue.user.login+'</a>.</p><p>If you wish to comment on this change click <strong>Comment on this issue</strong> below.</p>'
+		var message = '<p><strong>Warning!</strong> A change has already been submitted for this road segment!  Please review the proposed changes below submitted by <a href="'+issue.user.html_url+'">'+issue.user.login+'</a>.</p><p>If you wish to comment on this change or propose an alternative change, click <strong>Comment on this change</strong> below.</p>'
 		// alert(message)
 		populateIssueModal(issue)
 		$( '#showIssueModal' ).modal('show');
@@ -207,20 +203,27 @@ $('.add-street').live('click', function(){
 		
 		console.log(message)
 	}
+	else{
+		formChange = false;
+		$('#name-title').text('[Please input name of road]')
+		$('#instructions').hide()
+
+		// Remove attributes needs to be moved to validation function
+		$('.edits').removeAttr('disabled');
+		$(this).attr('disabled', 'disabled')
+
+		$('.change').show();
+		$('.change').data('value', data);
+		$('#F_SYSTEM').val(data.F_SYSTEM)
+		$('#FC_NEW').val('')
+		$('.id').text(data.RCLINK)
+	}
 	
 	console.log(data)
 	var fc = ''
 	segments.push(data)
 
-	// Remove attributes needs to be moved to validation function
-	$('.edits').removeAttr('disabled');
-	$(this).attr('disabled', 'disabled')
-
-	$('.change').show();
-	$('.change').data('value', data);
-	$('#F_SYSTEM').val(data.F_SYSTEM)
-	$('#FC_NEW').val('')
-	$('.id').text(data.RCLINK)
+	
 	
 	
 
@@ -375,37 +378,7 @@ $('#WHOLE-SEG').change(function() {
 		undoChange()
 	})
 
-	$('#delete-row').click(function(){
-		// var row = jQuery.extend(true, {}, grid.collection.models[rowNum-2])
-		console.log("removed row:")
-		console.log(row)
-		if (! row ){
-					alert("No row selected!")
-			}
-			else{
-					console.log("remove that row!")
-					// Generate messages
-					var message = row.model.attributes['Phase'] + " phase removed" // +"<br>"
-					// messages.html.push(message)
-					// console.log()
-					var lineNumber = row.model.attributes.index + 1
-					// console.log(lineNumber)
-					var issueMessage = "* [" + strip(message) + "](https://github.com/{{ site.githubuser }}/fc-review/blob/gh-pages/data/TIP/individual/"+ id +".csv#L" + lineNumber + ")"
-					changes.push(newChange("delete-row", row, message, issueMessage))
-					updateMessages(changes, false)
-					grid.removeRow(row.model)
-					
-					$('.change').removeAttr('disabled')
-					row = null
-			}
-			console.log(row)
 
-			})
-	$('#create-row').click(function(){
-
-		addPhase();
-		
-			})
 	$('#report').click(function(){
 		// var name = 'results.' + type
 		var a = document.createElement("a");
@@ -486,177 +459,10 @@ $('#WHOLE-SEG').change(function() {
 		a.click();
 		window.URL.revokeObjectURL(url);
 	})
-	$('#history-tab').click(function(){
-		var branches = ['2008Q1',
-						'2008Q2',
-						'2008Q3',
-						'2008Q4',
-						'2009Q1',
-						'2009Q2',
-						'2009Q3',
-						'2009Q4',
-						'2010Q1',
-						'2010Q2',
-						'2010Q3',
-						'2010Q34',
-						'2011Q1',
-						'2011Q2',
-						'2011Q3',
-						'2011Q4',
-						'gh-pages']
-		var rows = []
-		
-		console.log('View HIstory!')
-		console.log("history tab")
-		if($('#history').is(':empty')){
-			$("#history").empty()
-			var count = 0
-			$.each(branches, function(i, branch){
-				count++
-				var path = 'data/TIP/individual/'+id+'.csv'
-				
-				// Should probably be using this guy
-				// repo.read(branch, path, function(err, data) {console.log(data)});
-				$.get('https://api.github.com/repos/{{ site.githubuser }}/fc-review/contents/'+path+'?ref='+branch+token, function (file) {
-					console.log(file.content)
-					tables[branch] = d3.csv.parse(Base64.decode(file.content), function(rows){
-							delete rows.ARCID
-									delete rows.Description
-									delete rows.Jurisdiction
-									delete rows.ModelingNetworkYear
-									delete rows.Sponsor
-									delete rows.ExistLanes
-									delete rows.ProposedLanes
-									delete rows.Length
-									delete rows.GDOTPI
-									delete rows.Limits
-									delete rows.Status
-									delete rows.ProjectType
-									delete rows.Analysis
-									// delete rows.FundSource
-									delete rows.FederalSum
-									delete rows.StateSum
-									delete rows.LocalSum
-									delete rows.BondSum
-									delete rows.TotalSum
-									return rows;
-						})
 
-					
-				}).done(function() {
-					$("#history").empty()
-					console.log(count)
-					if(count == branches.length) {
-						console.log("match!")
-						var previous = []
-						var prevBranch = ''
-						$.each(branches, function(i, branch){
-							
-							if (tables[branch]){
-								var tableString = '<div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title"><a href="https://github.com/{{ site.githubuser }}/fc-review/blob/' + branch + '/data/TIP/individual/'+'.csv">' + branch + '</a><small class="pull-right"><em>Hover over shaded cells for more info!</em></small></h3></div><div class="panel-body"><div class="table-responsive"><table id="'+branch+'" class="table table-hover table-condensed">'
-								console.log('****************from '+prevBranch+' to '+branch+'****************')
-								tableString += '<thead><tr>'
-								for (var key in tables[branch][0]) {
-									// Hack to change heading titles
-									if (key == "FiscalYear")
-										key = "FY"
-									else if (key == "PhaseStatus")
-										key = "Auth"
-
-									tableString += '<th>' + key
-										tableString += '</th>'
-								}
-								tableString += '</tr></thead>'
-								tableString += '<tbody>'
-								$.each(tables[branch], function(j, row){
-									
-									
-
-									// Checks if row existed in previous branch
-									if(previous[j] != undefined){
-										tableString += '<tr>'
-										$.each(row, function(key, data) {
-											// Check if data has changed from previous year
-													if(data !== previous[j][key]){
-															console.log(key + ' changed from '+ previous[j][key] + ' to '+ data);
-															if(data.substring(0,1) === '$'){
-																var prev = Number(previous[j][key].replace(/[^0-9\.]+/g,""))
-																var curr = Number(data.replace(/[^0-9\.]+/g,""))
-																console.log(prev)
-																var diff = curr - prev
-																console.log('that\'s a diff of ' + diff)
-																if (diff > 0){
-																	tableString += '<td class="success" title="'+key+' funding increased by '+accounting.formatMoney(Math.abs(diff))+'">' + data + '</td>'
-																}
-																else{
-																	tableString += '<td class="danger" title="'+key+' funding decreased by '+accounting.formatMoney(Math.abs(diff))+'">' + data + '</td>' 
-																}
-															}
-															else {
-																var prev = previous[j][key]
-																var curr = data
-																tableString += '<td class="warning" title="'+key+' changed from '+prev+' to '+curr+'">' + data + '</td>'
-															}
-															// else if (key == 'FiscalYear') {
-															//  var prev = previous[j][key].parseInt()
-															//  var curr = data.parseInt()
-															//  var diff = curr - prev
-															//  console.log('that\'s a diff of ' + diff)
-															// }
-
-													}
-													// If data is not new from previous branch, just draw it to the table
-													else {
-														tableString += '<td>' + data + '</td>'
-													}
-												})
-									}
-											else{
-													console.log('row ' + j + ' is new ')
-													tableString += '<tr class="success" title="Phase added">'
-													$.each(row, function(key, data){
-											tableString += '<td>' + data + '</td>'
-										})
-											}
-										tableString += '</tr>'
-															// var string = ''
-								
-															// string += '<thead><tr>'
-															// for (var key in record[0]) {
-															//    string += '<th>' + key
-														//        string += '</th>'
-															// }
-															// string += '</tr></thead>'
-															// string += '<tbody>'
-															// $.each(records, function(i, record){
-															//  string += '<tr>'
-															//  for (var key in record) {
-															//      string += '<td>' + record[key]
-														 //         string += '</td>'
-															//  }
-															//  string += '</tr>'
-															// })
-															// string += '</tbody>'
-															// return string
-								})
-								tableString += '</tbody></table></div></div></div>'
-								
-								$("#history").append(tableString) //'<h4><a href="https://github.com/{{ site.githubuser }}/fc-review/blob/' + branch + '/data/TIP/individual/'+'.csv">' + branch + '' + '</a></h4><div class="table-responsive"><table id="'+branch+'" class="table">'+populateTable(tables[branch])+'</table></div>');  
-								previous = tables[branch]
-								prevBranch = branch
-								console.log(previous)
-							}
-						})
-					}
-				})
-				
-			})
-		}
-		
-	})
 var rtp;
 
-function branchAndPull(repo, userRepo, username, title, body, comments, base, branch, data){
+function branchAndPull(repo, path, userRepo, username, title, body, comments, base, branch, data){
 		var patchNum = 1
 		var pull = {
 				"title": title,
@@ -668,16 +474,17 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 		// This stuff should probably be in a function.
 		userRepo.branch(base, branch, function(err) {
 			console.log(err)
-			userRepo.write(branch, 'data/'+$.cookie('team').name+'.geojson', data, comments, function(err) {
+			userRepo.write(branch, path, data, comments, function(err) {
 				console.log(err)
+				console.log(path)
 				if(err){
-						 $('#issue-modal-title').html('Hmmm...something went wrong with creating your new commit.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
+						 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change (branch error).  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
 					}
 				
 				repo.createPullRequest(pull, function(err, pullRequest) {
 					console.log(err)
 					if(err){
-						 $('#issue-modal-title').html('Hmmm...something went wrong with creating your pull request.  Please tweet at <a href="https://twitter.com/eltiar">Landon Reed</a> for help.')
+						 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change (pull request error).  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
 					}
 					else{
 						// $(this).button('reset')
@@ -685,16 +492,12 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 						// $.each(changes, function(i, change){undoChange()})
 						$('#issue-modal-title').html('Success!')
 
-						$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?"+token, function (issuesData) {
-							issues = issuesData
-							console.log(issues)
-							populateIssues()
-						});
+						getPulls();
 						removeStreet()
 						$('.spinner').hide()
 						$('#modal-edits').hide()
 						$('#issue-modal-success').show()
-						$('#issue-modal-success-link').html('See your issue <a href="' + pullRequest.html_url + '">here</a>.  The modified file is <a href="https://github.com/'+ pullRequest.head.user.login +'/fc-review/blob/'+ pullRequest.head.ref +'/data/'+ $.cookie('team').name +'.geojson">here</a>')  
+						$('#issue-modal-success-link').html('See your issue <a href="' + pullRequest.html_url + '">here</a>.  The modified file is <a href="https://github.com/'+ pullRequest.head.user.login +'/fc-review/blob/'+ pullRequest.head.ref + '/' + path +'">here</a>')  
 						$('#submit-issue').attr('disabled', 'disabled');
 
 					}
@@ -703,37 +506,82 @@ function branchAndPull(repo, userRepo, username, title, body, comments, base, br
 		});
 		repo.show(function(err, repo) {console.log(repo)});
 }
-
+var tries = 0
+function getPulls(){
+	$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?state=all"+token, function (issuesData) {
+		issues = issuesData
+		console.log(issues)
+		populateIssues()
+	}).fail(function(error) {
+		tries += 1;
+		console.log(error)
+		if (tries < 6){
+		    token = $.cookie('token') ? '&access_token=' + $.cookie('token') : ""
+		    setTimeout(function(){getPulls();},2000);
+		}
+		else{
+			$('#issues-table').html('<h3>GitHub API exhausted.  Please log in to see issues.</h3>')
+		}
+	});
+}
 function populateIssues(){
 	
 	var issuesArray = []
 	var count = issues.length
-	// var countyReg = new RegExp($.cookie('team').name + ' County', 'g')
 	$("#issue-list").empty()
 	$("#issue-table").empty()
 
 	$.each(issues, function(i, issue){
 	
+			var status = "";
+			var updated = moment(issue.updated_at).format("M/D/YY");
+			var drop = false;
+			if (issue.milestone != null && issue.milestone.title == "Accepted"){
+				status = '<span class="label label-success">Accepted</span>'
+			}
+			else if (issue.milestone != null && issue.milestone.title == "In Review"){
+				status = '<span class="label label-warning">In Review</span>'
+			}
+			else if (issue.state == "open"){
+				status = '<span class="label label-primary">Proposed</span>'
+			}
+			// else if (issue.label)
 
-			var updated = moment(issue.updated_at).format("M/D/YYYY");
-			issuesArray.push([
-				issue.number.toString(), 
-				'<a href="'+issue.user.html_url+'">'+issue.user.login+'</a>', 
-				// created,
-				updated,
-				// issue.assignee,
-				issue.title,																					   //https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson
-				'<a id="'+issue.head.ref+'" class="btn btn-default show-issue" data-issue=\''+JSON.stringify(issue)+'\' data-toggle="modal" data-target="#showIssueModal">View</a>'
-				// converter.makeHtml(changes.substring(2)),
-				// https://embed.github.com/view/geojson/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson?width=558
-				// '<a class="btn btn-default" href="'+issue.html_url+'">View</a>'
-				// converter.makeHtml(comments)
-			])
-			console.log(_.last(issuesArray))
-			var state = issue.state == "open" ? 'success' : 'important'
+			else{
+				drop = true;
+				issues.splice(i, 1, "")
+			}
+
+			// Drop all test issues
+			if (issue.milestone != null && issue.milestone.title == "Test"){
+				drop = true;
+				issues.splice(i, 1, "")
+			}
+			if (!drop){
+				issue.body = issue.body.replace(/'/g, "\"")
+				console.log(issue)
+				issuesArray.push([
+					issue.number.toString(), 
+					'<small><a href="'+issue.user.html_url+'">'+issue.user.login+'</a></small>', 
+					// created,
+					updated,
+					// issue.assignee,
+					issue.title,
+					// "Fulton",
+					status,
+					'<a id="'+issue.head.ref+'" class="btn btn-default btn-sm show-issue" data-issue=\''+JSON.stringify(issue)+'\' data-toggle="modal" data-target="#showIssueModal">View</a>'
+					// converter.makeHtml(changes.substring(2)),
+					// https://embed.github.com/view/geojson/cityofatlantadummy/fc-review/p-1-1213005717/data/Fulton.geojson?width=558
+					// '<a class="btn btn-default" href="'+issue.html_url+'">View</a>'
+					// converter.makeHtml(comments)
+				])
+				console.log(_.last(issuesArray))
+			}
 			// $("#issue-list").append('<div class="panel panel-default col-md-6 col-xs-12" style="padding:0px;"><div class="panel-heading"><h3 class="panel-title"><span class="badge pull-right" title="Issue #'+issue.number+'">#'+issue.number+'</span><a href="'+issue.user.url+'" title="'+issue.user.login+'"><img src="'+issue.user.avatar_url+'" height="30" width="30"></a> Created by <a href="' + issue.user.url + '">' + issue.user.login + '' + '</a></h3></div><div class="panel-body" style="min-height:120px;"><p>'+converter.makeHtml(issue.body)+'</p></div><div class="panel-footer"><a class="btn btn-default" href="' + issue.html_url + '">View on GitHub</a></div></div>');
 		// }
-		var defaultSearch = typeof $.cookie('team') !== 'undefined' ? $.cookie('team').name : ""
+		var defaultSearch = ""
+		if (typeof $.cookie('team') !== "undefined")
+			defaultSearch = $.cookie('team').length < 2 ? $.cookie('team')[0].name : ""
 		if (!--count && issuesArray.length != 0){
 			$('#issue-table').html( '<table id="issues-table-table"></table>' );
 			var issueTable = $('#issues-table-table').dataTable( {
@@ -742,7 +590,7 @@ function populateIssues(){
 				"bPaginate": true,
 				"bLengthChange": false,
 				"iDisplayLength": 7,
-				"aaSorting": [[ 0, "asc" ]],
+				"aaSorting": [[ 0, "desc" ]],
 				"oSearch": {"sSearch": defaultSearch},
 				"aoColumns": [
 					{ "sTitle": "#", "sWidth": "20px" },
@@ -751,6 +599,8 @@ function populateIssues(){
 					{ "sTitle": "Updated" },
 					// { "sTitle": "Assigned to" },
 					{ "sTitle": "Title" },
+					// { "sTitle": "County" },
+					{ "sTitle": "Status" },
 					{ "sTitle": "", "bSortable": false }
 					// { "sTitle": "Comments" }
 
@@ -761,7 +611,7 @@ function populateIssues(){
 	})
 	if (issuesArray.length == 0){
 	// if($('#issue-list').is(':empty')){
-		$("#issue-list").append('<h3>There are currently no issues for ' + $.cookie('team').name + '.</h3>')
+		$("#issue-table").append('<h3>There are currently no proposed changes.</h3>')
 		$('#gh-view-issues').attr('disabled', 'disabled')
 	}
 	else{
@@ -790,6 +640,18 @@ function populateIssueModal(issue){
 	var url = 'https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/'+ issue.user.login + '/fc-review/' + issue.head.ref + '/data/' +county+'.geojson'
 	// console.log($(this).data('value'))
 	// $("#gh-map").append(script)
+	if (typeof issueData !== 'undefined')
+		issueData.clearLayers();
+	setTimeout(function() {
+	    issueMap.invalidateSize();
+	  }, 200);
+	var repo = github.getRepo(issue.user.login, 'fc-review');
+	repo.read(issue.head.ref, 'data/' + county + '.geojson', function(err, data) {
+		var json = jQuery.parseJSON(data)
+		console.log(json)
+		drawIssueData(json, issueMap)
+	});
+
 	$('iframe').attr('src', url);
 	$('.issue-title').text(issue.title);
 	$('.issue-number').text(issue.number);
@@ -809,42 +671,7 @@ function populateIssueModal(issue){
 	
 }
 
-function addPhase(){
-	$('#phaseModal').modal('hide')
-				// var newnew-phase-type = $("#new-phase-type").val()
-		var newRow = new Backgrid.Row.extend({
-			columns: columns,
-			model: territories.model
-		}) 
-		// Backgrid.EmptyRow({
-		//  emptyText: '',
-		//  columns: columns
-		// })
-		var newIndex = parseInt(_.last(grid.collection.models).attributes["index"]) + 1
-		console.log(newIndex)
-		grid.collection.add(newRow)
-		_.last(grid.collection.models).attributes["index"] = newIndex
-		_.last(grid.collection.models).attributes["Phase"] = $('#new-phase-type').val()
-		_.last(grid.collection.models).attributes["FundSource"] = $('#new-fund-source').val()
-		_.last(grid.collection.models).attributes["FY"] = $('#new-fy').val()
-		_.last(grid.collection.models).attributes["Auth"] = $('#new-auth').val()
-		_.last(grid.collection.models).attributes["Federal"] = $('#new-federal').val()
-		_.last(grid.collection.models).attributes["State"] = $('#new-state').val()
-		_.last(grid.collection.models).attributes["Local"] = $('#new-local').val()
-		_.last(grid.collection.models).attributes["Bond"] = $('#new-bond').val()
-		_.last(grid.collection.models).attributes["Total"] = $('#new-total').val()
-		grid.render()
-		// $('#phaseModal').modal('hide')
-		console.log(changes)
-		// Generate messages
-				var message = "<strong>Phase added</strong>" // +"<br>"
-				// messages.html.push(message)
-				// console.log()
-				var issueMessage = "* [" + strip(message) + "](https://github.com/{{ site.githubuser }}/fc-review/blob/gh-pages/data/TIP/individual/"+ id +".csv)"
-				changes.push(newChange("add-row", _.last(grid.collection.models), message, issueMessage))
-				updateMessages(changes, false)
-				$('.change').removeAttr('disabled')
-}
+
 function undoChange(){
 	var last = _.last(changes)
 	console.log(_.last(changes))
@@ -1082,10 +909,6 @@ function getMap(id){
 	$('#map-tab').click(function(){
 		
 	})
-	$('#edit').click(function(){
-		window.location='https://github.com/{{ site.githubuser }}/fc-review/edit/gh-pages/data/TIP/individual/'+ $('.arcid').html() +'.csv'
-	})
-	// var href='https://github.com/{{ site.githubuser }}/fc-review/edit/gh-pages/data/TIP/individual/'+el.ARCID+'.csv'
 	var projectList = [];
 	var jsonHtmlTable;
 	var color = 'active'

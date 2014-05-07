@@ -1,94 +1,7 @@
 ---
 
 ---
-function checkTeams(){
-	// for loop to check which team this guy is a part of
-	// console.log()
-	var success = false;
-	if ($.cookie('user') == undefined || $.cookie('team') == undefined){
-	console.log('let\'s go!')
-	$.each(teams, function (i, team){
-		if (!success){
-			$.get("https://api.github.com/teams/" + team.id + "/members/"+$.cookie('user').login+"?access_token="+$.cookie('token'), function(data, status){
-			// if a part of county X, make X streets editable on the map for them.
-			console.log(status + " for " + team.name)
-			if (status === "success"){
-				success = true;
-				// drawCounty(team.name);
-				$.cookie('team', team)
-				drawGeoJSON(team.name);
-				$('.county').text(team.name)
-				$('.no-login').hide()
- 				$('.login').show()
-			}
-			})
-		}
-		console.log(i +" " + teams.length )
-		if (i == teams.length - 1){
-	 //  	drawUab();
-		
-		}
-	})
-	 }
-	 else {
-	 	$('.county').text($.cookie('team').name)
-		
-		drawGeoJSON($.cookie('team').name);
-		$('.no-login').hide()
- 		$('.login').show()
-	 }
-	$('.user').text($.cookie('user').login)
-}
-
-$.cookie.json = true;
-
-// Code to make the appropriate nav active
-var nav = '{{ page.category }}'
-if(nav != '')
-	$('.' + nav ).addClass('active');
-
-// Check if working on development server
-var dev = false
-if ('{{ site.baseurl }}' != '/fc-review')
-dev = true;
-
-
-var code = '';
-if($.cookie('token') !== undefined){
-	console.log("cookie worked!")
-}
-else
-	console.log("cookie didn't work!")
-
-var github;
-if(window.location.href.split('?').length > 1){
-code = window.location.href.match(/\?code=(.*)/)[1];
-$('.btn').button()
-$('#gh-login').button('loading')
-
-var authUrl = dev ? 'http://localhost:9999' : 'http://gatekeeper-fc-review.herokuapp.com/'
-$.getJSON(authUrl + '/authenticate/'+code, function(data) {
-	
- console.log(data.token);
- $.cookie('token', data.token);
- window.history.pushState("object or string", "Title", "{{ site.baseurl }}/")
- $.getJSON("https://api.github.com/user?access_token="+ data.token, function(data){
-	
-	$.cookie('user', data)
-	$('#welcome-message').html('<a style="margin-right:5px;" href="'+$.cookie('user').html_url+'">'+$.cookie('user').login+'</a><a style="margin-right:5px;" href="'+$.cookie('user').html_url+'"><img width="34px" style="margin-right:5px;" height="34px" src="'+$.cookie('user').avatar_url+'"></a>').show()
-	$('#gh-login').removeClass('btn-success').addClass('btn-danger').text('Log out').attr('title', 'Log out of Plan-It')
-	console.log('showing username')
-	$('#gh-login').button('reset').text('Log out')
-	checkTeams()
-	if($.cookie('return-href') !== undefined){
-		window.location = $.cookie('return-href')
-	}
- })
-
-
-});
-}
-	var teams = [
+var teams = [
 		{
 		"name": "Barrow",
 		"id": 738687,
@@ -106,6 +19,15 @@ $.getJSON(authUrl + '/authenticate/'+code, function(data) {
 		"url": "https://api.github.com/teams/738688",
 		"members_url": "https://api.github.com/teams/738688/members{/member}",
 		"repositories_url": "https://api.github.com/teams/738688/repos"
+		},
+		{
+		"name": "Carroll",
+		"id": 807180,
+		"slug": "carroll",
+		"permission": "pull",
+		"url": "https://api.github.com/teams/807180",
+		"members_url": "https://api.github.com/teams/807180/members{/member}",
+		"repositories_url": "https://api.github.com/teams/807180/repos"
 		},
 		{
 		"name": "Cherokee",
@@ -142,6 +64,15 @@ $.getJSON(authUrl + '/authenticate/'+code, function(data) {
 		"url": "https://api.github.com/teams/738692",
 		"members_url": "https://api.github.com/teams/738692/members{/member}",
 		"repositories_url": "https://api.github.com/teams/738692/repos"
+		},
+		{
+		"name": "Dawson",
+		"id": 807184,
+		"slug": "dawson",
+		"permission": "pull",
+		"url": "https://api.github.com/teams/807184",
+		"members_url": "https://api.github.com/teams/807184/members{/member}",
+		"repositories_url": "https://api.github.com/teams/807184/repos"
 		},
 		{
 		"name": "DeKalb",
@@ -198,6 +129,15 @@ $.getJSON(authUrl + '/authenticate/'+code, function(data) {
 		"repositories_url": "https://api.github.com/teams/738698/repos"
 		},
 		{
+		"name": "Hall",
+		"id": 807182,
+		"slug": "hall",
+		"permission": "pull",
+		"url": "https://api.github.com/teams/807182",
+		"members_url": "https://api.github.com/teams/807182/members{/member}",
+		"repositories_url": "https://api.github.com/teams/807182/repos"
+		},
+		{
 		"name": "Henry",
 		"id": 738700,
 		"slug": "henry",
@@ -252,6 +192,103 @@ $.getJSON(authUrl + '/authenticate/'+code, function(data) {
 		"repositories_url": "https://api.github.com/teams/738705/repos"
 		}
 ]
+function checkTeams(){
+	var membership = []
+	if ($.cookie('user') == undefined || $.cookie('team') == undefined){
+		console.log('let\'s go!')
+		$.each(teams, function (i, team){
+			$.get("https://api.github.com/teams/" + team.id + "/members/"+$.cookie('user').login+"?access_token="+$.cookie('token'), function(data, status){
+				// if a part of county X, make X streets editable on the map for them.
+				console.log(status + " for " + team.name)
+				if (status === "success"){
+					membership.push(team)
+					$.cookie('team', membership)
+					console.log(membership)
+					drawGeoJSON(team.name);
+					if ($('.county').is(':empty')){
+						$('.county').append(team.name)
+					}
+					else{
+						$('.county').append(' and ' + team.name)
+					}
+					$('.no-login').hide()
+	 				$('.login').show()
+				}
+			})
+			console.log(i +" " + teams.length )
+			if (i == teams.length - 1){
+				 //  	drawUab();
+				 console.log('last?')
+		 		
+			
+			}
+		})
+	 }
+	 else {
+	 	$.each($.cookie('team'), function (i, team){
+	 		if ($('.county').is(':empty')){
+				$('.county').append(team.name)
+			}
+			else{
+				$('.county').append(' and ' + team.name)
+			}
+			drawGeoJSON(team.name);
+			$('.no-login').hide()
+	 		$('.login').show()
+	 	})
+	 	
+	 }
+	$('.user').text($.cookie('user').login)
+}
+
+$.cookie.json = true;
+
+// Code to make the appropriate nav active
+var nav = '{{ page.category }}'
+if(nav != '')
+	$('.' + nav ).addClass('active');
+
+// Check if working on development server
+var dev = false
+if ('{{ site.baseurl }}' != '/fc-review')
+dev = true;
+
+
+var code = '';
+if($.cookie('token') !== undefined){
+	console.log("cookie worked!")
+}
+else
+	console.log("cookie didn't work!")
+
+var github;
+if(window.location.href.split('?').length > 1){
+code = window.location.href.match(/\?code=(.*)/)[1];
+$('.btn').button()
+$('#gh-login').button('loading')
+
+var authUrl = dev ? 'http://localhost:9999' : 'http://gatekeeper-fc-review.herokuapp.com/'
+$.getJSON(authUrl + '/authenticate/'+code, function(data) {
+	
+ console.log(data.token);
+ $.cookie('token', data.token);
+ window.history.pushState("object or string", "Title", "{{ site.baseurl }}/")
+ $.getJSON("https://api.github.com/user?access_token="+ data.token, function(data){
+	
+	$.cookie('user', data)
+	$('#welcome-message').html('<a style="margin-right:5px;" href="'+$.cookie('user').html_url+'">'+$.cookie('user').login+'</a><a style="margin-right:5px;" href="'+$.cookie('user').html_url+'"><img width="34px" style="margin-right:5px;" height="34px" src="'+$.cookie('user').avatar_url+'"></a>').show()
+	$('#gh-login').removeClass('btn-success').addClass('btn-danger').text('Log out').attr('title', 'Log out of Plan-It')
+	console.log('showing username')
+	$('#gh-login').button('reset').text('Log out')
+	checkTeams()
+	if($.cookie('return-href') !== undefined){
+		window.location = $.cookie('return-href')
+	}
+ })
+
+
+});
+}
 
 	github = new Github({
 		token: $.cookie('token'),
@@ -289,6 +326,7 @@ $.getJSON(authUrl + '/authenticate/'+code, function(data) {
 		window.location='{{ site.baseurl }}/'
 		$.removeCookie('user', { path: '{{ site.baseurl }}' })
 		$.removeCookie('token', { path: '{{ site.baseurl }}' })
+		$.removeCookie('team', { path: '{{ site.baseurl }}' })
 		$('#welcome-message').hide()
 		$('#gh-login').removeClass('btn-danger').addClass('btn-success').text('Log in').attr('title', 'Log in with GitHub')
 		// window.location = '{{ site.baseurl }}/'
@@ -304,14 +342,25 @@ var map = L.map('map', {
 	center: [33.77686437792359, -84.3145751953125],
 	zoom: 9
 });
+
+var issueMap  = L.map('issue-map', {
+		center: [33.77686437792359, -84.3145751953125],
+		zoom: 9
+	});
+	var issueBase = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{x}/{y}.png', {
+		attribution: '© Mapbox © OpenStreetMap',
+		key: '7486205c8fd540b0903a0298b3d7c447'
+	}).addTo(issueMap)
+var issueData;
 // map.on('click', onMapClick);
 var geojson;
-var raw;
+var raw = {};
 // var popup = new L.popup();
 var base = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{x}/{y}.png', {
 		attribution: '© Mapbox © OpenStreetMap',
 		key: '7486205c8fd540b0903a0298b3d7c447'
 	}).addTo(map)
+
 var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.hve4gqfr/{z}/{x}/{y}.png', {
 		attribution: '© Atlanta Regional Commission',
 		// key: '7486205c8fd540b0903a0298b3d7c447'
@@ -370,7 +419,7 @@ legend.onAdd = function (map) {
 
 	// loop through our density intervals and generate a label with a colored square for each interval
 	$.each(type, function(key,val){
-		if (parseInt(key) < 7){
+		if (parseInt(key) < 8){
 			div.innerHTML +=
 				'<i style="background:' + getColor(parseInt(key)) + '"></i> ' +
 				key + ' - ' + val + '<br>';
@@ -414,12 +463,27 @@ info.onAdd = function (map) {
 // method that we will use to update the control based on feature properties passed
 info.update = function (props) {
 	var disabled = ''
-	if (props && segments.length > 0)
-		disabled = 'disabled="disabled"' 
+	console.log(props)
+	var vol12 = 'N/A'
+	var vol11 = 'N/A'
+	var vol10 = 'N/A'
+	var volume = 'N/A'
+	if (props){
+		vol12 = props['2012AvAADT'] ? commaSeparateNumber(parseInt(props['2012AvAADT'])) : 'N/A'
+		vol11 = props['2011AvAADT'] ? commaSeparateNumber(parseInt(props['2011AvAADT'])) : 'N/A'
+		vol10 = props['2010AvAADT'] ? commaSeparateNumber(parseInt(props['2010AvAADT'])) : 'N/A' 
+		if (vol12 !== 'N/A' && vol11 !== 'N/A' && vol10 !== 'N/A'){
+			volume = '<br />' + '&lsquo;12: ' + vol12 + ' | &lsquo;11: ' + vol11 + ' | &lsquo;10: ' + vol10
+		}
+	}
+	if (props && segments.length > 0){
+		disabled = 'disabled="disabled"'
+	}
 	this._div.innerHTML = '<h4>Functional Class Review</h4>' +  (props ?
 		'ID #: ' + props.RCLINK + ' <button type="button" ' + disabled + ' data-value=\''+JSON.stringify(props)+'\' title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+props.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button><br />' +
 		'County: ' + toTitleCase(props.County) + '<br />' +
-		'Functional Class: ' + props.F_SYSTEM + ' - ' + type[String(props.F_SYSTEM)]
+		'Functional Class: ' + props.F_SYSTEM + ' - ' + type[String(props.F_SYSTEM)] + '<br />' +
+		'Volume: ' + volume
 		: 'Click a street segment');
 };
 
@@ -433,7 +497,7 @@ function getColor(d) {
 			 d === 4  ? "#38a800" :
 			 d === 5   ? "#ab42e0" :
 			 d === 6  ? "#ffaa00" :
-			 d === 7  ? "#b2b2b2" :
+			 d === 7  ? "#666" :
 					 "#000000" ;
 }
 function highlightFeature(e) {
@@ -451,7 +515,7 @@ function highlightFeature(e) {
 		e.click = false
 		layer.setStyle({
 			weight: layer.options.weight,
-			color: '#666',
+			color: '#444',
 			dashArray: '',
 			opacity: 0.7
 		});
@@ -549,10 +613,10 @@ function drawGeoJSON(county){
 			dataType: "json",
 			success: function(data){
 				console.log(data)
-				raw = data;
+				raw[county] = data;
 				geojson = L.geoJson(data, {
 					filter: function(feature, layer){
-						if (feature.properties.F_SYSTEM > 2 && feature.properties.F_SYSTEM < 7){
+						if (feature.properties.F_SYSTEM > 2){  // && feature.properties.F_SYSTEM < 7){
 							return true;
 						}
 						return false
@@ -634,35 +698,35 @@ function drawUab(){
 		}
 	})
 }
-function drawCounty(county){
-	$.ajax({
-		type: "GET",
-		url: "{{ site.baseurl}}/data/counties.geojson", 
-		dataType: "json",
-		success: function(data){
-			console.log(data)
-			raw = data;
-			geojson = L.geoJson(data, {
-				filter: function(feature, layer){
-					if (feature.properties.NAME10 == county){
-						return true;
-					}
-					return false
-				},
-				style: function (feature) {
-						return {
-							color: "#000",
-							weight: 2,
-							fill: false,
-							fillColor: "#ffffff",
-							opacity: 1,
-							fillOpacity:0,
-							clickable: false
-						}
-
+function issuePopup(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.RCLINK) {
+        layer.bindPopup(feature.properties.RCLINK);
+    }
+}
+function drawIssueData(data, issueMap){
+	
+	issueData = L.geoJson(data, {
+		style: function (feature) {
+			var color = feature.properties.FC_NEW ? '#00FF00' : '#CCC'
+				return {
+					color: color,
+					weight: 16/(feature.properties.F_SYSTEM+1),
+					fill: false,
+					fillColor: color,
+					opacity: .5,
+					fillOpacity:0,
+					clickable: false
 				}
 
-			}).addTo(map);
-		}
-	})
+		},
+		onEachFeature: function (feature, layer) {
+	         layer.bindPopup(feature.properties.RCLINK);
+	     }
+
+	}).addTo(issueMap);
+	issueMap.fitBounds(issueData.getBounds())
 }
+
+
+	

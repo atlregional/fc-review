@@ -53,8 +53,8 @@ title: Home
 			</p>
 			<p>
 				Right now this process focuses on arterials and collectors (i.e., no freeways or local roads).  
-				If you would like to propose a change for a local road, please email ARC at 
-				<a href="mailto:mwillis@atlantaregional.com">mwillis@atlantaregional.com</a>.
+				If you would like to propose a change for a local road or some other missing road, please email 
+				<a href="mailto:mwillis@atlantaregional.com">Marshall Willis</a>.
 			</p>
 			<h4>View entire region</h4>
 			<p>
@@ -123,7 +123,7 @@ title: Home
 				
 				<div class="form-group"> 
 					<label for="DESC" class="sr-only">Description of road segment</label> 
-					<textarea rows="2" type="text" class="form-control" data-toggle="tooltip" title="Please include the current annual average daily traffic, length of roadway, and existing traffic generators" id="DESC" placeholder="Please provide a description of the road segment"></textarea> 
+					<textarea rows="2" type="text" class="form-control" data-toggle="tooltip" title="Please include the current annual average daily traffic, existing traffic generators, and other pertinent info." id="DESC" placeholder="Please provide a description of the road segment"></textarea> 
 				</div> 
 				<div class="form-group"> 
 					<label for="JUST" class="sr-only" >Justification</label> 
@@ -163,7 +163,7 @@ title: Home
 					<h4>To</h4>
 					<p><span class="TO"></span></p>
 					<h4>County</h4>
-					<p><span class="county"></span> County</p>
+					<p><span class="link-county"></span> County</p>
 				<br><br>
 				</div>
 				<div class="spinner" style="display:none;"></div>
@@ -192,8 +192,9 @@ title: Home
 			</div>
 		
 			<div class="issue-map col-md-8">
-				<script src="https://embed.github.com/view/geojson/atlregional/fc-review/gh-pages/data/atl.geojson?width=300">
-				</script>
+				<div id="issue-map" style="width:400px; height:350px;"></div>
+				<!--<script src="https://embed.github.com/view/geojson/atlregional/fc-review/gh-pages/data/atl.geojson?width=300">
+				</script>-->
 				<p id="loadingtext"></p>
 			</div>
 		</div>
@@ -201,7 +202,7 @@ title: Home
 		<div class="modal-footer">
 			<span class="pull-left"><strong>Change created: </strong><span class="issue-date">04/09/2014</span></span>
 			<button type="button" class="btn btn-default" id="dismiss-issue" data-dismiss="modal">Back</button>
-			<a type="button" class="btn btn-primary" id="issue-comment">Comment on this issue</a>
+			<a type="button" class="btn btn-primary" id="issue-comment">Comment on this change</a>
 		</div>
 	</div><!-- /.modal-content -->
 	</div><!-- /.modal-dialog -->

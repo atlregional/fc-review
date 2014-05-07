@@ -29,7 +29,12 @@ function strip(html){
 function apiRemaining(){
 	$.getJSON('https://api.github.com/rate_limit?access_token='+$.cookie('token'), function(data){console.log(data.rate.remaining)})
 }
-
+function commaSeparateNumber(val){
+    while (/(\d+)(\d{3})/.test(val.toString())){
+      val = val.toString().replace(/(\d+)(\d{3})/, '$1'+','+'$2');
+    }
+    return val;
+  }
 function tableToJson(table) { 
 	var data = []; // first row needs to be headers 
 	var headers = []; 
