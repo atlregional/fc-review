@@ -36050,12 +36050,7 @@
         "2011AvAADT": 9810,
         "2010AvAADT": 9960,
         "OBJECTID_1": 2966,
-        "County": "Gwinnett",
-        "NAME": "Collins Hill Rd",
-        "FC_NEW": 4,
-        "DESC": "Test",
-        "JUST": "Test",
-        "stroke": "#00ff00"
+        "County": "Gwinnett"
       },
       "geometry": {
         "type": "LineString",
@@ -113020,7 +113015,12 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3226,
-        "County": "Gwinnett"
+        "County": "Gwinnett",
+        "NAME": "Suwanee Dam Rd",
+        "FC_NEW": 6,
+        "DESC": "Test",
+        "JUST": "Test",
+        "stroke": "#00ff00"
       },
       "geometry": {
         "type": "LineString",
