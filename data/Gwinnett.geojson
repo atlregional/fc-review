@@ -36050,7 +36050,12 @@
         "2011AvAADT": 9810,
         "2010AvAADT": 9960,
         "OBJECTID_1": 2966,
-        "County": "Gwinnett"
+        "County": "Gwinnett",
+        "NAME": "Collins Hill Rd",
+        "FC_NEW": 4,
+        "DESC": "Test",
+        "JUST": "Test",
+        "stroke": "#00ff00"
       },
       "geometry": {
         "type": "LineString",
@@ -40432,12 +40437,7 @@
         "2011AvAADT": 6115,
         "2010AvAADT": 6615,
         "OBJECTID_1": 2977,
-        "County": "Gwinnett",
-        "NAME": "Joe Hewatt Rd",
-        "FC_NEW": 4,
-        "DESC": "Test",
-        "JUST": "Test",
-        "stroke": "#00ff00"
+        "County": "Gwinnett"
       },
       "geometry": {
         "type": "LineString",
