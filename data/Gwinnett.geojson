@@ -22829,12 +22829,7 @@
         "2011AvAADT": 29166,
         "2010AvAADT": 28608,
         "OBJECTID_1": 2953,
-        "County": "Gwinnett",
-        "NAME": "Buford Dr",
-        "FC_NEW": 4,
-        "DESC": "Test",
-        "JUST": "Test",
-        "stroke": "#00ff00"
+        "County": "Gwinnett"
       },
       "geometry": {
         "type": "LineString",
@@ -113020,7 +113015,12 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3226,
-        "County": "Gwinnett"
+        "County": "Gwinnett",
+        "NAME": "Suwanee Dam Rd",
+        "FC_NEW": 6,
+        "DESC": "Test",
+        "JUST": "Test",
+        "stroke": "#00ff00"
       },
       "geometry": {
         "type": "LineString",
