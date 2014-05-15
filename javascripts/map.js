@@ -361,15 +361,27 @@ var base = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{
 		key: '7486205c8fd540b0903a0298b3d7c447'
 	}).addTo(map)
 
-var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.hve4gqfr/{z}/{x}/{y}.png', {
+var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.i17fd2t9/{z}/{x}/{y}.png', {
 		attribution: '© Atlanta Regional Commission',
+		// key: '7486205c8fd540b0903a0298b3d7c447'
+	})
+
+var fringe = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.o8rm5cdi/{z}/{x}/{y}.png', {
+		attribution: '',
 		// key: '7486205c8fd540b0903a0298b3d7c447'
 	})
 var proposed = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.ge23ayvi/{z}/{x}/{y}.png', {
 		attribution: '© GDOT',
 		// key: '7486205c8fd540b0903a0298b3d7c447'
 	})
-
+var cities = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.7gvw8kt9/{z}/{x}/{y}.png', {
+		attribution: '',
+		// key: '7486205c8fd540b0903a0298b3d7c447'
+	})
+var uab = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.o3hj8aor/{z}/{x}/{y}.png', {
+		attribution: '',
+		// key: '7486205c8fd540b0903a0298b3d7c447'
+	})
 var cloudmadeUrl = 'http://{s}.tile.cloudmade.com/API-key/{styleId}/256/{z}/{x}/{y}.png',
 	cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade';
 
@@ -381,7 +393,10 @@ var overlayMaps = {
 	// "Edits": geojson,
 	
 	"GDOT Proposed Changes": proposed,
-	"Entire region": streets
+	"Atlanta Region Roads": streets,
+	"External County Roads": fringe,
+	"City Boundaries": cities,
+	"Urbanized Areas": uab
 };
 var baseMaps = {
 	"Base map": base,
@@ -704,11 +719,11 @@ function issuePopup(feature, layer) {
         layer.bindPopup(feature.properties.RCLINK);
     }
 }
-function drawIssueData(data, issueMap){
+function drawIssueData(data, issueMap, linkdata){
 	
 	issueData = L.geoJson(data, {
 		style: function (feature) {
-			var color = feature.properties.FC_NEW ? '#00FF00' : '#CCC'
+			var color = (feature.properties.RCLINK == linkdata[1] && feature.properties.BEG_MEASUR == linkdata[2] && feature.properties.END_MEASUR == linkdata[3]) ? '#00FF00' : '#CCC'
 				return {
 					color: color,
 					weight: 16/(feature.properties.F_SYSTEM+1),
