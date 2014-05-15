@@ -75053,7 +75053,12 @@
         "2011AvAADT": 4780,
         "2010AvAADT": 4750,
         "OBJECTID_1": 3050,
-        "County": "Gwinnett"
+        "County": "Gwinnett",
+        "NAME": "Lakes Pkwy",
+        "FC_NEW": 4,
+        "DESC": "Test",
+        "JUST": "Test",
+        "stroke": "#00ff00"
       },
       "geometry": {
         "type": "LineString",
