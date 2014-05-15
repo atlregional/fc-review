@@ -4176,11 +4176,6 @@
         "2010AvAADT": 0,
         "OBJECTID_1": 3761,
         "County": "Newton",
-        "NAME": "Alcovy Trestle Rd",
-        "FC_NEW": 5,
-        "DESC": "Test",
-        "JUST": "Test",
-        "stroke": "#00ff00"
       },
       "geometry": {
         "type": "LineString",
