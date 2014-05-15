@@ -8,12 +8,12 @@ var tables = {}
 var formChange = false
 var edit = false
 var segments = [];
-var issues = {};
+var issues = [];
 var previous;
 var id;
 var historyClick = false
 $(document).ready(function(){
-	getPulls();
+	getPulls(1);
 })
 $('#undo-changes').click(function(){
 	$("div.panel").remove()
@@ -37,7 +37,7 @@ $('#submit-issue').click(function(){
 				auth: "oauth"
 			 })
 	var repo = github.getRepo('{{ site.githubuser }}', 'fc-review');
-
+	var token = $.cookie('token') ? '&access_token=' + $.cookie('token') : ""
 	var newFeature = $('.change').data('value')
 	$('#modal-edits').hide()
 	$('.spinner').show()
@@ -47,6 +47,7 @@ $('#submit-issue').click(function(){
 			console.log(feature.properties)
 			feature.properties = newFeature
 			feature.properties.stroke = "#00ff00"
+			feature.properties.user = $.cookie('user').login
 			// feature.properties.FC_NEW = 5
 			// feature.properties.NAME = "Ponce de Leon Ave"
 			// feature.properties.DESC = "This is a road."
@@ -57,116 +58,32 @@ $('#submit-issue').click(function(){
 			console.log(i)
 		}
 	})
-	
+	var username = $.cookie('user').login
+	var patchNum = 1
+	var segment = $('#WHOLE-SEG').is(':checked') ? '\n#### Entire segment' : '\n#### From\n' + $('#FROM').val() + 
+				'\n#### To\n' + 
+				$('#TO').val()
+	var path = 'data/'+newFeature.County+'.geojson'
+	console.log(path)
+	var base = 'proposed'
+	var title = $('#NAME').val()
+	var body = 'Changing road ID #' + newFeature.RCLINK + ' functional class from ' + newFeature.F_SYSTEM + ' ('+type[newFeature.F_SYSTEM ]+') to ' + newFeature.FC_NEW + ' ('+type[newFeature.FC_NEW ]+').\n' +
+				'### Description\n' + 
+				$('#DESC').val() + 
+				'\n### Justification\n' + 
+				$('#JUST').val() + 
+				segment + 
+				'\n#### County\n' +
+				newFeature.County + ' County'
+	var newContent = JSON.stringify(raw[newFeature.County], null, 2)
+	// console.log(newContent)
+	var comments = 'Change ' + title + ' from ' + type[newFeature.F_SYSTEM ] + ' to ' + type[newFeature.FC_NEW ]
+	var newBranch = 'rc-' + newFeature.RCLINK + '-' + newFeature.BEG_MEASUR + '-' + newFeature.END_MEASUR
 
-	var userRepo = github.getRepo($.cookie('user').login, 'fc-review')
-	userRepo.show(function(err, data){
-		console.log(err)
-		var username = $.cookie('user').login
-		var patchNum = 1
-		var segment = $('#WHOLE-SEG').is(':checked') ? '\n#### Entire segment' : '\n#### From\n' + $('#FROM').val() + 
-					'\n#### To\n' + 
-					$('#TO').val()
-		var path = 'data/'+newFeature.County+'.geojson'
-		console.log(path)
-		var base = 'proposed'
-		var title = $('#NAME').val()
-		var body = 'Changing road ID #' + newFeature.RCLINK + ' functional class from ' + newFeature.F_SYSTEM + ' ('+type[newFeature.F_SYSTEM ]+') to ' + newFeature.FC_NEW + ' ('+type[newFeature.FC_NEW ]+').\n' +
-					'### Description\n' + 
-					$('#DESC').val() + 
-					'\n### Justification\n' + 
-					$('#JUST').val() + 
-					segment + 
-					'\n#### County\n' +
-					newFeature.County + ' County'
-		var newContent = JSON.stringify(raw[newFeature.County], null, 2)
-		// console.log(newContent)
-		var comments = 'Change ' + title + ' from ' + type[newFeature.F_SYSTEM ] + ' to ' + type[newFeature.FC_NEW ]
-		var newBranch = 'rc-' + newFeature.RCLINK + '-' + newFeature.BEG_MEASUR + '-' + newFeature.END_MEASUR
-		var pull = {
-				"title": title,
-				"body": body,
-				"base": base,
-				"head": username + ':' + newBranch
-		};
-			
-		// If the repo doesn't exist, fork the repo... and then branch and pull
-		if (err && err.error==404){
-			repo.fork(function(err){
-				console.log("forking repo...")
-				console.log(err)
-				// userRepo.show(function(err, data){console.log(data)})
-				var message = "This is your first proposed change.  If you experience a problem submitting this change, please wait a few minutes, reload the website, and try again."
-				$('#modal-edits').prepend('<div class="alert alert-warning alert-dismissable"><button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>'+message+'</div>').delay(5000).fadeOut()
-				setTimeout(function(){branchAndPull(repo, path, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, newContent)}, 10000)
-				
-				
-			})
-		}
-		// If the repo does exist, check if the branch exists.
-		else{
-			console.log("repo exists already!")
-			console.log(data)
-			userRepo.listBranches(function(err, branches) {
-				// If branch exists, write to the branch and then call success.
-				if(_.contains(branches, newBranch)){
-					console.log('branch exists already!')
-					userRepo.write(newBranch, path, newContent, comments, function(err) {
-						console.log(err)
-						if(err){
-								$('.spinner').hide()
-								 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change.  <br><br>Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
-							}
-						// Check list of existing pull requests to find the correct url to send the user to.
-						else{
-							
-							userRepo.listPulls('open', function(err, pulls) {
-								var oldPull;
-								$.each(pulls, function(i, obj){
-									if(obj.head.ref == newBranch){
-										oldPull = obj
-									}
-									else{
-										oldPull = null
-									}
-								})
-								$(this).button('reset')
-								// console.log(pullRequest)
-								$.each(changes, function(i, change){undoChange()})
-								console.log(pulls)
-								console.log('Success!')
-								setTimeout(function(){
-									getPulls();
-								}, 3000);
-								removeStreet()
-								$('#modal-edits').hide()
-								$('.spinner').hide()
-								$('#issue-modal-success').show()
-								if (oldPull != null){
-									$('.spinner').hide()
-									$('#issue-modal-success-link').html('See your issue <a href="' + oldPull.html_url + '">here</a>.')  
-								}
-								else{
-									$('.spinner').hide()
-									$('#issue-modal-success-link').html('Can\'t create a new issue.  Check <strong>Issues</strong> tab for '+id+' to see if you already have created an issue for this project.')  
-								}
-								
-							})
-							
-						}
-						
-					})
-				}
-				else{
-					console.log('creating branch!')
-					// If repo exists, but branch does not exist, create a new branch directly in that repo and proceed.
-					branchAndPull(repo, path, userRepo, $.cookie('user').login, title, body, comments, base, newBranch, newContent)
-				}
-			})
-			
-			repo.show(function(err, repo) {console.log(repo)});
-		}
-	})
+	branchAndPull(repo, path, $.cookie('user').login, title, body, comments, base, newBranch, newContent)
+
+	repo.show(function(err, repo) {console.log(repo)});
+
 })
 
 $('.add-street').live('click', function(){
@@ -224,10 +141,6 @@ $('.add-street').live('click', function(){
 	segments.push(data)
 
 	
-	
-	
-
-		//'<li data-options=\'' + '{"id":"' + this.id + '"}\'>' + this.id + '<button type="button" title="Remove street segment to edits" class="btn btn-xs btn-danger remove-street"><span class="glyphicon glyphicon-minus-sign"></span></button></li>')
 })
 $('.remove-street').click(function(){
 	confirmChanges(segments[0].RCLINK)
@@ -462,68 +375,156 @@ $('#WHOLE-SEG').change(function() {
 
 var rtp;
 
-function branchAndPull(repo, path, userRepo, username, title, body, comments, base, branch, data){
+function branchAndPull(repo, path, username, title, body, comments, base, branch, data){
 		var patchNum = 1
 		var pull = {
 				"title": title,
 				"body": body,
 				"base": base,
-				"head": username + ':' + branch
+				"head": branch
 		};
 		console.log(pull)
 		// This stuff should probably be in a function.
-		userRepo.branch(base, branch, function(err) {
-			console.log(err)
-			userRepo.write(branch, path, data, comments, function(err) {
-				console.log(err)
-				console.log(path)
-				if(err){
+		repo.listBranches(function(err, branches) {
+			// If branch exists, write to the branch and then call success.
+			if(_.contains(branches, branch)){
+				repo.write(branch, path, data, comments, function(err) {
+					console.log(err)
+					console.log(path)
+					if(err){
 						 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change (branch error).  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
 					}
-				
-				repo.createPullRequest(pull, function(err, pullRequest) {
-					console.log(err)
-					if(err){
-						 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change (pull request error).  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
-					}
-					else{
-						// $(this).button('reset')
-						console.log(pullRequest)
-						// $.each(changes, function(i, change){undoChange()})
-						$('#issue-modal-title').html('Success!')
-
-						getPulls();
-						removeStreet()
-						$('.spinner').hide()
-						$('#modal-edits').hide()
-						$('#issue-modal-success').show()
-						$('#issue-modal-success-link').html('See your issue <a href="' + pullRequest.html_url + '">here</a>.  The modified file is <a href="https://github.com/'+ pullRequest.head.user.login +'/fc-review/blob/'+ pullRequest.head.ref + '/' + path +'">here</a>')  
-						$('#submit-issue').attr('disabled', 'disabled');
-
-					}
+					createPull(repo, pull, path)
 				});
-			});
-		});
+			}
+			else{
+				repo.branch(base, branch, function(err) {
+					console.log(err)
+					if (err){
+
+					}
+					repo.write(branch, path, data, comments, function(err) {
+						console.log(err)
+						console.log(path)
+						if(err){
+							 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change (branch error).  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
+						}
+						createPull(repo, pull, path)
+					});
+					repo.write('gh-pages', path, data, comments, function(err) {
+						console.log(err)
+						console.log(path)
+						if(err){
+							 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change (master branch error).  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
+						}
+					});
+				});
+			}
+		})
 		repo.show(function(err, repo) {console.log(repo)});
 }
 var tries = 0
-function getPulls(){
-	$.get("https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?state=all"+token, function (issuesData) {
-		issues = issuesData
-		console.log(issues)
-		populateIssues()
+
+function createPull(repo, pull, path){
+	repo.createPullRequest(pull, function(err, pullRequest) {
+		console.log(err)
+		if(err){
+			 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change (pull request error).  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
+		}
+		else{
+			// $(this).button('reset')
+			console.log(pullRequest)
+			// $.each(changes, function(i, change){undoChange()})
+			$('#issue-modal-title').html('Success!')
+			var message = "Merge #"+pullRequest.number + " from @" +pullRequest.user.login + " for " + pullRequest.title
+
+			// $.ajax({
+			// 	url: 'https://api.github.com/repos/atlregional/fc-review/pulls/'+pullRequest.number+'/merge?access_token=' + $.cookie('token'),
+			// 	type: 'PUT',
+			// 	data: {commit_message: message},
+			// 	success: function(data){
+			// 		console.log(data)
+			// 	},
+			// 	error: function(err){
+			// 		console.log(err)
+			// 	}
+			// })
+			getPulls(1);
+			removeStreet()
+			$('.spinner').hide()
+			$('#modal-edits').hide()
+			$('#issue-modal-success').show()
+			$('#issue-modal-success-link').html('See your issue <a href="' + pullRequest.html_url + '">here</a>.  The modified file is <a href="https://github.com/'+ pullRequest.head.user.login +'/fc-review/blob/'+ pullRequest.head.ref + '/' + path +'">here</a>')  
+			$('#submit-issue').attr('disabled', 'disabled');
+
+		}
+	});
+}
+
+function getPulls(page){
+	var url = "https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?page="+page+"&per_page=100&state=all"+token
+	$.get(url, function (issuesData, status, xhr) {
+		$.each(issuesData, function(i, issue){
+			issues.push(issue)
+		})
+		console.log(xhr.getResponseHeader('Link'))
+
+		var linkheader = parse_link_header(xhr.getResponseHeader('Link'))
+		console.log(linkheader)
+		
+		if (typeof linkheader.last !== "undefined"){
+			page++
+			getPulls(page)
+		}
+		else{
+			populateIssues()
+		}
+		// console.log(issues)
+		
 	}).fail(function(error) {
 		tries += 1;
 		console.log(error)
 		if (tries < 6){
 		    token = $.cookie('token') ? '&access_token=' + $.cookie('token') : ""
-		    setTimeout(function(){getPulls();},2000);
+		    setTimeout(function(){getPulls(page);},2000);
 		}
 		else{
 			$('#issues-table').html('<h3>GitHub API exhausted.  Please log in to see issues.</h3>')
 		}
 	});
+		
+	
+	
 }
+
+/*
+ * parse_link_header()
+ *
+ * Parse the Github Link HTTP header used for pageination
+ * http://developer.github.com/v3/#pagination
+ */
+function parse_link_header(header) {
+  if (header.length == 0) {
+    throw new Error("input must not be of zero length");
+  }
+ 
+  // Split parts by comma
+  var parts = header.split(',');
+  var links = {};
+  // Parse each part into a named link
+  _.each(parts, function(p) {
+    var section = p.split(';');
+    if (section.length != 2) {
+      throw new Error("section could not be split on ';'");
+    }
+    var url = section[0].replace(/<(.*)>/, '$1').trim();
+    var name = section[1].replace(/rel="(.*)"/, '$1').trim();
+    links[name] = url;
+  });
+ 
+  return links;
+}
+
 function populateIssues(){
 	
 	var issuesArray = []
@@ -575,7 +576,7 @@ function populateIssues(){
 					// '<a class="btn btn-default" href="'+issue.html_url+'">View</a>'
 					// converter.makeHtml(comments)
 				])
-				console.log(_.last(issuesArray))
+				// console.log(_.last(issuesArray))
 			}
 			// $("#issue-list").append('<div class="panel panel-default col-md-6 col-xs-12" style="padding:0px;"><div class="panel-heading"><h3 class="panel-title"><span class="badge pull-right" title="Issue #'+issue.number+'">#'+issue.number+'</span><a href="'+issue.user.url+'" title="'+issue.user.login+'"><img src="'+issue.user.avatar_url+'" height="30" width="30"></a> Created by <a href="' + issue.user.url + '">' + issue.user.login + '' + '</a></h3></div><div class="panel-body" style="min-height:120px;"><p>'+converter.makeHtml(issue.body)+'</p></div><div class="panel-footer"><a class="btn btn-default" href="' + issue.html_url + '">View on GitHub</a></div></div>');
 		// }
@@ -637,37 +638,41 @@ function populateIssueModal(issue){
 	console.log(county)
 	var converter = new Showdown.converter();
 	var body =  issue.body;
-	var url = 'https://render.githubusercontent.com/view/geojson?url=https://raw.github.com/'+ issue.user.login + '/fc-review/' + issue.head.ref + '/data/' +county+'.geojson'
-	// console.log($(this).data('value'))
-	// $("#gh-map").append(script)
-	if (typeof issueData !== 'undefined')
-		issueData.clearLayers();
-	setTimeout(function() {
-	    issueMap.invalidateSize();
-	  }, 200);
-	var repo = github.getRepo(issue.user.login, 'fc-review');
-	repo.read(issue.head.ref, 'data/' + county + '.geojson', function(err, data) {
-		var json = jQuery.parseJSON(data)
-		console.log(json)
-		drawIssueData(json, issueMap)
-	});
 
-	$('iframe').attr('src', url);
-	$('.issue-title').text(issue.title);
-	$('.issue-number').text(issue.number);
-	$('.issue-body').html(converter.makeHtml(issue.body));
-	$('#issue-comment').attr('href', issue.html_url)
-	var count = 0;
-	$('#loadingtext').show()
-	var dots = setInterval(function(){
-	    count++;
-	    var dots = new Array(count % 10).join('.');
-	    document.getElementById('loadingtext').innerHTML = "Please wait while the map loads." + dots;
-	  }, 500);
-	setTimeout(function(){
-		clearInterval(dots)
-		$('#loadingtext').fadeOut()
-	}, 3000)
+	// $.get(issue.pull_request.url+token, function(data){
+		console.log(issue)
+		var linkdata = issue.head.ref.split('-')
+		console.log(linkdata)
+		// $("#gh-map").append(script)
+		if (typeof issueData !== 'undefined')
+			issueData.clearLayers();
+		setTimeout(function() {
+		    issueMap.invalidateSize();
+		  }, 200);
+		var repo = github.getRepo(issue.head.repo.owner.login, 'fc-review');
+		repo.read(issue.head.ref, 'data/' + county + '.geojson', function(err, data) {
+			var json = jQuery.parseJSON(data)
+			console.log(json)
+			drawIssueData(json, issueMap, linkdata)
+		});
+
+		$('.issue-title').text(issue.title);
+		$('.issue-number').text(issue.number);
+		$('.issue-body').html(converter.makeHtml(issue.body));
+		$('#issue-comment').attr('href', issue.html_url)
+		var count = 0;
+		$('#loadingtext').show()
+		var dots = setInterval(function(){
+		    count++;
+		    var dots = new Array(count % 10).join('.');
+		    document.getElementById('loadingtext').innerHTML = "Please wait while the map loads." + dots;
+		  }, 500);
+		setTimeout(function(){
+			clearInterval(dots)
+			$('#loadingtext').fadeOut()
+		}, 3000)
+	// })
+	
 	
 }
 
