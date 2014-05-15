@@ -31,71 +31,95 @@ $('.form-control').change(function(){
 
 
 })
+$('#submit-changes').click(function(){
+	$('#submit-issue').removeAttr('disabled')
+})
+$('#reject').click(function(){
+	// write to county file
+
+	// create comment
+
+	// assign label?
+})
+$('#approve').click(function(){
+	// write to county file
+
+	// create comment
+
+	// assign label?
+})
 $('#submit-issue').click(function(){
 	var github = new Github({
 				token: $.cookie('token'),
 				auth: "oauth"
-			 })
+		});
+	getPulls(1)
+
 	var repo = github.getRepo('{{ site.githubuser }}', 'fc-review');
 	var token = $.cookie('token') ? '&access_token=' + $.cookie('token') : ""
 	var newFeature = $('.change').data('value')
 	$('#modal-edits').hide()
 	$('.spinner').show()
-
-	$.each(raw[newFeature.County].features, function(i, feature){
-		if (feature.properties.RCLINK == newFeature.RCLINK && feature.properties.END_MEASUR == newFeature.END_MEASUR && feature.properties.BEG_MEASUR == newFeature.BEG_MEASUR ){
-			console.log(feature.properties)
-			feature.properties = newFeature
-			feature.properties.stroke = "#00ff00"
-			feature.properties.user = $.cookie('user').login
-			// feature.properties.FC_NEW = 5
-			// feature.properties.NAME = "Ponce de Leon Ave"
-			// feature.properties.DESC = "This is a road."
-			// feature.properties.FROM = "Courtland Ave"
-			// feature.properties.TO = "Peachtree St"
-			// Check if repo exists for logged-in user
-			console.log(feature)
-			console.log(i)
+	$(this).attr('disabled', 'disabled')
+	repo.read('gh-pages', 'data/' + newFeature.County + '.geojson', function(err, data) {
+		var json = jQuery.parseJSON(data)
+		raw[newFeature.County] = json;
+		var dupe = checkDuplicate(newFeature)
+		if (dupe[0]){
+			alert('An change has been proposed for this segment since you first loaded this website.  The application will now reload and allow you to comment on the proposed change for ' + newFeature.NAME + '.')
+			window.location='{{ site.baseurl }}/'
 		}
-	})
-	var username = $.cookie('user').login
-	var patchNum = 1
-	var segment = $('#WHOLE-SEG').is(':checked') ? '\n#### Entire segment' : '\n#### From\n' + $('#FROM').val() + 
-				'\n#### To\n' + 
-				$('#TO').val()
-	var path = 'data/'+newFeature.County+'.geojson'
-	console.log(path)
-	var base = 'proposed'
-	var title = $('#NAME').val()
-	var body = 'Changing road ID #' + newFeature.RCLINK + ' functional class from ' + newFeature.F_SYSTEM + ' ('+type[newFeature.F_SYSTEM ]+') to ' + newFeature.FC_NEW + ' ('+type[newFeature.FC_NEW ]+').\n' +
-				'### Description\n' + 
-				$('#DESC').val() + 
-				'\n### Justification\n' + 
-				$('#JUST').val() + 
-				segment + 
-				'\n#### County\n' +
-				newFeature.County + ' County'
-	var newContent = JSON.stringify(raw[newFeature.County], null, 2)
-	// console.log(newContent)
-	var comments = 'Change ' + title + ' from ' + type[newFeature.F_SYSTEM ] + ' to ' + type[newFeature.FC_NEW ]
-	var newBranch = 'rc-' + newFeature.RCLINK + '-' + newFeature.BEG_MEASUR + '-' + newFeature.END_MEASUR
+		else{
+			$.each(raw[newFeature.County].features, function(i, feature){
+				if (feature.properties.RCLINK == newFeature.RCLINK && feature.properties.END_MEASUR == newFeature.END_MEASUR && feature.properties.BEG_MEASUR == newFeature.BEG_MEASUR ){
+					console.log(feature.properties)
+					feature.properties = newFeature
+					feature.properties.stroke = "#00ff00"
+					feature.properties.user = $.cookie('user').login
+					// feature.properties.FC_NEW = 5
+					// feature.properties.NAME = "Ponce de Leon Ave"
+					// feature.properties.DESC = "This is a road."
+					// feature.properties.FROM = "Courtland Ave"
+					// feature.properties.TO = "Peachtree St"
+					// Check if repo exists for logged-in user
+					console.log(feature)
+					console.log(i)
+				}
+			})
+			var username = $.cookie('user').login
+			var patchNum = 1
+			var segment = $('#WHOLE-SEG').is(':checked') ? '\n#### Entire segment' : '\n#### From\n' + $('#FROM').val() + 
+						'\n#### To\n' + 
+						$('#TO').val()
+			var path = 'data/'+newFeature.County+'.geojson'
+			console.log(path)
+			var base = 'proposed'
+			var title = $('#NAME').val()
+			var body = 'Changing road ID #' + newFeature.RCLINK + ' functional class from ' + newFeature.F_SYSTEM + ' ('+type[newFeature.F_SYSTEM ]+') to ' + newFeature.FC_NEW + ' ('+type[newFeature.FC_NEW ]+').\n' +
+						'### Description\n' + 
+						$('#DESC').val() + 
+						'\n### Justification\n' + 
+						$('#JUST').val() + 
+						segment + 
+						'\n#### County\n' +
+						newFeature.County + ' County'
+			var newContent = JSON.stringify(raw[newFeature.County], null, 2)
+			// console.log(newContent)
+			var comments = 'Change ' + title + ' from ' + type[newFeature.F_SYSTEM ] + ' to ' + type[newFeature.FC_NEW ]
+			var newBranch = 'rc-' + newFeature.RCLINK + '-' + newFeature.BEG_MEASUR + '-' + newFeature.END_MEASUR
 
-	branchAndPull(repo, path, $.cookie('user').login, title, body, comments, base, newBranch, newContent)
+			branchAndPull(repo, path, $.cookie('user').login, title, body, comments, base, newBranch, newContent)
 
-	repo.show(function(err, repo) {console.log(repo)});
+			repo.show(function(err, repo) {console.log(repo)});
+		}
+	});
+	
 
 })
 
-$('.add-street').live('click', function(){
-	
-	var rc = $(this).attr('id')
-	var data = $(this).data('value')
-	var duplicateCheck = false
-	var issueBranch = ''
+function checkDuplicate(data){
+	var duplicateCheck = false;
 	var issue;
-	$('.link-county').text(data.County)
-	$('.F_SYSTEM').text(data.F_SYSTEM)
-
 	$.each(issues, function(i, iss){
 		if (iss != ""){
 			issueBranch = iss.head.ref
@@ -105,11 +129,24 @@ $('.add-street').live('click', function(){
 				duplicateCheck = true;
 				issue = iss
 			}
-			console.log(duplicateCheck)
+			console.log(duplicateCheck);
 		}
 		
 	})
-	if (duplicateCheck){
+	return [duplicateCheck, issue];
+}
+
+$('.add-street').live('click', function(){
+	
+	var rc = $(this).attr('id')
+	var data = $(this).data('value')
+	var duplicateCheck = checkDuplicate(data)
+	var issueBranch = ''
+	var issue = duplicateCheck[1];
+	$('.link-county').text(data.County)
+	$('.F_SYSTEM').text(data.F_SYSTEM)
+
+	if (duplicateCheck[0]){
 		var message = '<p><strong>Warning!</strong> A change has already been submitted for this road segment!  Please review the proposed changes below submitted by <a href="'+issue.user.html_url+'">'+issue.user.login+'</a>.</p><p>If you wish to comment on this change or propose an alternative change, click <strong>Comment on this change</strong> below.</p>'
 		// alert(message)
 		populateIssueModal(issue)

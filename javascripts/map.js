@@ -102,6 +102,15 @@ var teams = [
 		"repositories_url": "https://api.github.com/teams/738695/repos"
 		},
 		{
+		    "name": "FC Approval",
+		    "id": 796559,
+		    "slug": "fc-approval",
+		    "permission": "push",
+		    "url": "https://api.github.com/teams/796559",
+		    "members_url": "https://api.github.com/teams/796559/members{/member}",
+		    "repositories_url": "https://api.github.com/teams/796559/repos"
+		  },
+		{
 		"name": "Forsyth",
 		"id": 738696,
 		"slug": "forsyth",
@@ -201,18 +210,25 @@ function checkTeams(){
 				// if a part of county X, make X streets editable on the map for them.
 				console.log(status + " for " + team.name)
 				if (status === "success"){
-					membership.push(team)
-					$.cookie('team', membership)
-					console.log(membership)
-					drawGeoJSON(team.name);
-					if ($('.county').is(':empty')){
-						$('.county').append(team.name)
+					if (team.slug == "fc-approval"){
+						$('.owner').show()
+						$.cookie('owner', 1)
 					}
 					else{
-						$('.county').append(' and ' + team.name)
+						membership.push(team)
+						$.cookie('team', membership)
+						console.log(membership)
+						drawGeoJSON(team.name);
+						if ($('.county').is(':empty')){
+							$('.county').append(team.name)
+						}
+						else{
+							$('.county').append(' and ' + team.name)
+						}
+						$('.no-login').hide()
+		 				$('.login').show()
 					}
-					$('.no-login').hide()
-	 				$('.login').show()
+					
 				}
 			})
 			console.log(i +" " + teams.length )
@@ -225,6 +241,10 @@ function checkTeams(){
 		})
 	 }
 	 else {
+	 	if ($.cookie('owner') == 1){
+	 		$('.owner').show()
+	 	}
+			
 	 	$.each($.cookie('team'), function (i, team){
 	 		if ($('.county').is(':empty')){
 				$('.county').append(team.name)
@@ -327,6 +347,8 @@ $.getJSON(authUrl + '/authenticate/'+code, function(data) {
 		$.removeCookie('user', { path: '{{ site.baseurl }}' })
 		$.removeCookie('token', { path: '{{ site.baseurl }}' })
 		$.removeCookie('team', { path: '{{ site.baseurl }}' })
+		$.removeCookie('owner', { path: '{{ site.baseurl }}' })
+
 		$('#welcome-message').hide()
 		$('#gh-login').removeClass('btn-danger').addClass('btn-success').text('Log in').attr('title', 'Log in with GitHub')
 		// window.location = '{{ site.baseurl }}/'

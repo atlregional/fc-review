@@ -36,7 +36,9 @@ min-width: 0 !important;
     width: 700px;
     /* must be half of the width, minus scrollbar on the left (30px) */
 }
-
+.owner {
+  display:none;
+}
 .spinner {
   width: 40px;
   height: 40px;
