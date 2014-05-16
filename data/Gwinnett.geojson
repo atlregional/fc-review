@@ -51492,7 +51492,13 @@
         "2011AvAADT": 6510,
         "2010AvAADT": 7680,
         "OBJECTID_1": 3004,
-        "County": "Gwinnett"
+        "County": "Gwinnett",
+        "NAME": "Old Norcross Tucker Rd",
+        "FC_NEW": 6,
+        "DESC": "Test",
+        "JUST": "Test",
+        "stroke": "#00ff00",
+        "user": "landonreed"
       },
       "geometry": {
         "type": "LineString",
