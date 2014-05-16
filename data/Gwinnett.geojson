@@ -49216,8 +49216,8 @@
         "County": "Gwinnett",
         "NAME": "Old Norcross Rd",
         "FC_NEW": 4,
-        "DESC": 2,
-        "JUST": "System continuity with connecting principal arterials.",
+        "DESC": "Test",
+        "JUST": "Test",
         "stroke": "#00ff00",
         "user": "landonreed"
       },
