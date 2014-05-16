@@ -123878,7 +123878,12 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1831,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Perimeter Center W",
+        "FC_NEW": 3,
+        "JUST": "Sandy Springs is proposing to extend Principal Arterial to City Limit.  Propose extending in DeKalb to Ashford Dunwoody.",
+        "stroke": "#00ff00",
+        "user": "MSmith-DunwoodyGa"
       },
       "geometry": {
         "type": "LineString",
