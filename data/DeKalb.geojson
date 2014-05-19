@@ -21,7 +21,15 @@
         "2011AvAADT": 24840,
         "2010AvAADT": 24593.3333333,
         "OBJECTID_1": 1510,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Moreland Ave",
+        "FROM": "Constitution Rd",
+        "TO": "I-285",
+        "FC_NEW": 3,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "user": "MFowler-GDOT"
       },
       "geometry": {
         "type": "LineString",
