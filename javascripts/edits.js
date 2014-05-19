@@ -583,7 +583,7 @@ function populateIssues(){
 			else if (issue.milestone != null && issue.milestone.title == "Withdrawn"){
 				status = '<span class="label label-danger">Withdrawn</span>'
 			}
-			else if (issue.state == "open"){
+			else if (issue.milestone == null){
 				status = '<span class="label label-primary">Proposed</span>'
 			}
 			// else if (issue.label)
