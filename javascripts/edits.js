@@ -580,6 +580,9 @@ function populateIssues(){
 			else if (issue.milestone != null && issue.milestone.title == "In Review"){
 				status = '<span class="label label-warning">In Review</span>'
 			}
+			else if (issue.milestone != null && issue.milestone.title == "Withdrawn"){
+				status = '<span class="label label-danger">Withdrawn</span>'
+			}
 			else if (issue.state == "open"){
 				status = '<span class="label label-primary">Proposed</span>'
 			}
