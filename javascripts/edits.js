@@ -18,7 +18,12 @@ $(document).ready(function(){
 $('#undo-changes').click(function(){
 	$("div.panel").remove()
 })
-
+$('#map-tab').click(function(){
+	setTimeout(function() {
+	    changesMap.invalidateSize();
+	  }, 200);
+	drawChanges()
+})
 $('.form-control').change(function(){
 	formChange = true;
 	var newValue = $(this).val()
@@ -34,6 +39,7 @@ $('.form-control').change(function(){
 $('#submit-changes').click(function(){
 	$('#submit-issue').removeAttr('disabled')
 })
+
 $('#reject').click(function(){
 	// write to county file
 
@@ -43,7 +49,31 @@ $('#reject').click(function(){
 })
 $('#approve').click(function(){
 	// write to county file
-
+	var github = new Github({
+				token: $.cookie('token'),
+				auth: "oauth"
+		});
+	var repo = github.getRepo('{{ site.githubuser }}', 'fc-review');
+	var token = $.cookie('token') ? '&access_token=' + $.cookie('token') : "";
+	var path = 'data/'+newFeature.County+'.geojson';
+	var comments = "Approved " + 
+	repo.read('gh-pages', 'data/' + newFeature.County + '.geojson', function(err, data) {
+		var json = jQuery.parseJSON(data)
+		raw[newFeature.County] = json;
+		$.each(raw[newFeature.County].features, function(i, feature){
+			if (feature.properties.RCLINK == newFeature.RCLINK && feature.properties.END_MEASUR == newFeature.END_MEASUR && feature.properties.BEG_MEASUR == newFeature.BEG_MEASUR ){
+				console.log(feature.properties)
+				feature.properties.status = "Approved"
+			}
+		})
+		repo.write('gh-pages', path, json, comments, function(err) {
+			console.log(err)
+			console.log(path)
+			if(err){
+				 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change (master branch error).  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
+			}
+		});
+	})
 	// create comment
 
 	// assign label?
@@ -951,9 +981,7 @@ function getMap(id){
 			}
 		}
 }
-	$('#map-tab').click(function(){
-		
-	})
+	
 	var projectList = [];
 	var jsonHtmlTable;
 	var color = 'active'

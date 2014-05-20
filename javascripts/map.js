@@ -1,6 +1,142 @@
 ---
 
 ---
+var ePrev = null;
+var previous = null;
+var eHov = null;
+var click = false;
+var map = L.map('map', {
+	center: [33.77686437792359, -84.3145751953125],
+	zoom: 9
+});
+var changesMap = L.map('changes-map', {
+	center: [33.77686437792359, -84.3145751953125],
+	zoom: 9
+});
+var issueMap  = L.map('issue-map', {
+		center: [33.77686437792359, -84.3145751953125],
+		zoom: 9
+	});
+var issueBase = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{x}/{y}.png', {
+		attribution: '© Mapbox © OpenStreetMap',
+		key: '7486205c8fd540b0903a0298b3d7c447'
+}).addTo(issueMap)
+var changesBase = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{x}/{y}.png', {
+		attribution: '© Mapbox © OpenStreetMap',
+		key: '7486205c8fd540b0903a0298b3d7c447'
+}).addTo(changesMap)
+var issueData;
+// map.on('click', onMapClick);
+var geojson;
+
+map.on("zoomend", function (e) { 
+	console.log("ZOOMEND", e); 
+	changesMap.setView(map.getCenter(), map.getZoom())
+});
+map.on("dragend", function (e) { console.log("ZOOMEND", e);
+	changesMap.setView(map.getCenter(), map.getZoom())
+ });
+
+ changesMap.on("zoomend", function (e) { 
+	console.log("ZOOMEND", e); 
+	map.setView(changesMap.getCenter(), changesMap.getZoom())
+});
+changesMap.on("dragend", function (e) { console.log("ZOOMEND", e);
+	map.setView(changesMap.getCenter(), changesMap.getZoom())
+ });
+map.on("zoomend", function (e) { console.log("ZOOMEND", e); });
+map.on("dragstart", function (e) { console.log("ZOOMSTART", e); });
+
+map.on("drag", function (e) { console.log("draggin", e); });
+var raw = {};
+// var popup = new L.popup();
+var base = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{x}/{y}.png', {
+		attribution: '© Mapbox © OpenStreetMap',
+		key: '7486205c8fd540b0903a0298b3d7c447'
+	}).addTo(map)
+
+var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.i17fd2t9/{z}/{x}/{y}.png', {
+		attribution: '© Atlanta Regional Commission',
+		// key: '7486205c8fd540b0903a0298b3d7c447'
+	})
+
+var fringe = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.o8rm5cdi/{z}/{x}/{y}.png', {
+		attribution: '',
+		// key: '7486205c8fd540b0903a0298b3d7c447'
+	})
+var streets2 = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.i17fd2t9/{z}/{x}/{y}.png', {
+		attribution: '© Atlanta Regional Commission',
+		// key: '7486205c8fd540b0903a0298b3d7c447'
+	})
+
+var fringe2 = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.o8rm5cdi/{z}/{x}/{y}.png', {
+		attribution: '',
+		// key: '7486205c8fd540b0903a0298b3d7c447'
+	})
+var proposed = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.ge23ayvi/{z}/{x}/{y}.png', {
+		attribution: '© GDOT',
+		// key: '7486205c8fd540b0903a0298b3d7c447'
+	})
+var cities = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.7gvw8kt9/{z}/{x}/{y}.png', {
+		attribution: '',
+		// key: '7486205c8fd540b0903a0298b3d7c447'
+	})
+var uab = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.o3hj8aor/{z}/{x}/{y}.png', {
+		attribution: '',
+		// key: '7486205c8fd540b0903a0298b3d7c447'
+	})
+var cloudmadeUrl = 'http://{s}.tile.cloudmade.com/API-key/{styleId}/256/{z}/{x}/{y}.png',
+	cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade';
+
+var minimal   = L.tileLayer(cloudmadeUrl, {styleId: 22677, attribution: cloudmadeAttribution}),
+	midnight  = L.tileLayer(cloudmadeUrl, {styleId: 999,   attribution: cloudmadeAttribution}),
+	motorways = L.tileLayer(cloudmadeUrl, {styleId: 46561, attribution: cloudmadeAttribution});
+
+var overlayMaps = {
+	// "Edits": geojson,
+	
+	"GDOT Proposed Changes": proposed,
+	"Atlanta Region Roads": streets,
+	"External County Roads": fringe,
+	"City Boundaries": cities,
+	"Urbanized Areas": uab
+};
+var changeOverlays = {
+	"Atlanta Region Roads": streets2,
+	"External County Roads": fringe2,
+
+}
+var baseMaps = {
+	"Base map": base,
+};
+var baseMaps2 = {
+	"Base map": changesBase,
+};
+L.control.layers(baseMaps, overlayMaps, {position: 'topleft'}).addTo(map);
+L.control.layers(baseMaps2, changeOverlays, {position: 'topleft'}).addTo(changesMap);
+map.on('overlayadd',function(e){
+	if (e.name == "GDOT Proposed Changes"){
+		$('.gdot').show()
+	}
+	console.log(e);
+});
+map.on('overlayremove',function(e){
+	if (e.name == "GDOT Proposed Changes"){
+		$('.gdot').hide()
+	}
+	console.log(e);
+});
+var legend = L.control({position: 'bottomright'});
+
+var type = {
+	"1": "Interstate",
+	"2": "Freeway",
+	"3": "Principal arterial",
+	"4": "Minor arterial",
+	"5": "Major Collector",
+	"6": "Minor Collector",
+	"7": "Local"
+}
 var teams = [
 		{
 		"name": "Barrow",
@@ -218,7 +354,7 @@ function checkTeams(){
 						membership.push(team)
 						$.cookie('team', membership)
 						console.log(membership)
-						drawGeoJSON(team.name);
+						drawGeoJSON(team.name, false, map);
 						if ($('.county').is(':empty')){
 							$('.county').append(team.name)
 						}
@@ -252,7 +388,7 @@ function checkTeams(){
 			else{
 				$('.county').append(' and ' + team.name)
 			}
-			drawGeoJSON(team.name);
+			drawGeoJSON(team.name, false, map);
 			$('.no-login').hide()
 	 		$('.login').show()
 	 	})
@@ -356,97 +492,7 @@ $.getJSON(authUrl + '/authenticate/'+code, function(data) {
 	}
 
 	})
-var ePrev = null;
-var previous = null;
-var eHov = null;
-var click = false;
-var map = L.map('map', {
-	center: [33.77686437792359, -84.3145751953125],
-	zoom: 9
-});
 
-var issueMap  = L.map('issue-map', {
-		center: [33.77686437792359, -84.3145751953125],
-		zoom: 9
-	});
-	var issueBase = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{x}/{y}.png', {
-		attribution: '© Mapbox © OpenStreetMap',
-		key: '7486205c8fd540b0903a0298b3d7c447'
-	}).addTo(issueMap)
-var issueData;
-// map.on('click', onMapClick);
-var geojson;
-var raw = {};
-// var popup = new L.popup();
-var base = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{x}/{y}.png', {
-		attribution: '© Mapbox © OpenStreetMap',
-		key: '7486205c8fd540b0903a0298b3d7c447'
-	}).addTo(map)
-
-var streets = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.i17fd2t9/{z}/{x}/{y}.png', {
-		attribution: '© Atlanta Regional Commission',
-		// key: '7486205c8fd540b0903a0298b3d7c447'
-	})
-
-var fringe = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.o8rm5cdi/{z}/{x}/{y}.png', {
-		attribution: '',
-		// key: '7486205c8fd540b0903a0298b3d7c447'
-	})
-var proposed = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.ge23ayvi/{z}/{x}/{y}.png', {
-		attribution: '© GDOT',
-		// key: '7486205c8fd540b0903a0298b3d7c447'
-	})
-var cities = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.7gvw8kt9/{z}/{x}/{y}.png', {
-		attribution: '',
-		// key: '7486205c8fd540b0903a0298b3d7c447'
-	})
-var uab = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.o3hj8aor/{z}/{x}/{y}.png', {
-		attribution: '',
-		// key: '7486205c8fd540b0903a0298b3d7c447'
-	})
-var cloudmadeUrl = 'http://{s}.tile.cloudmade.com/API-key/{styleId}/256/{z}/{x}/{y}.png',
-	cloudmadeAttribution = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade';
-
-var minimal   = L.tileLayer(cloudmadeUrl, {styleId: 22677, attribution: cloudmadeAttribution}),
-	midnight  = L.tileLayer(cloudmadeUrl, {styleId: 999,   attribution: cloudmadeAttribution}),
-	motorways = L.tileLayer(cloudmadeUrl, {styleId: 46561, attribution: cloudmadeAttribution});
-
-var overlayMaps = {
-	// "Edits": geojson,
-	
-	"GDOT Proposed Changes": proposed,
-	"Atlanta Region Roads": streets,
-	"External County Roads": fringe,
-	"City Boundaries": cities,
-	"Urbanized Areas": uab
-};
-var baseMaps = {
-	"Base map": base,
-};
-L.control.layers(baseMaps, overlayMaps, {position: 'topleft'}).addTo(map);
-map.on('overlayadd',function(e){
-	if (e.name == "GDOT Proposed Changes"){
-		$('.gdot').show()
-	}
-	console.log(e);
-});
-map.on('overlayremove',function(e){
-	if (e.name == "GDOT Proposed Changes"){
-		$('.gdot').hide()
-	}
-	console.log(e);
-});
-var legend = L.control({position: 'bottomright'});
-
-var type = {
-	"1": "Interstate",
-	"2": "Freeway",
-	"3": "Principal arterial",
-	"4": "Minor arterial",
-	"5": "Major Collector",
-	"6": "Minor Collector",
-	"7": "Local"
-}
 
 legend.onAdd = function (map) {
 
@@ -527,8 +573,8 @@ info.update = function (props) {
 info.addTo(map);
 
 function getColor(d) {
-	
-	return d === 1 ? "#0070ff" :
+
+		return d === 1 ? "#0070ff" :
 			 d === 2 ? "#730000" :
 			 d === 3 ? "#ff0000" :
 			 d === 4  ? "#38a800" :
@@ -536,84 +582,93 @@ function getColor(d) {
 			 d === 6  ? "#ffaa00" :
 			 d === 7  ? "#666" :
 					 "#000000" ;
+	
 }
 function highlightFeature(e) {
 	// if (ePrev && ePrev.target != e.target)
 	// 	geojson.resetStyle(ePrev.target);
-
-	target = e.target;
 	console.log(e)
-	if (zoom != null && zoom == target){
-		return;
-	}
-	else{
-		var layer = e.target;
-		click = false;
-		e.click = false
-		layer.setStyle({
-			weight: layer.options.weight,
-			color: '#444',
-			dashArray: '',
-			opacity: 0.7
-		});
+	if (e.target._map._container.id === "map"){
+		console.log('test')
+		target = e.target;
+		if (zoom != null && zoom == target){
+			return;
+		}
+		else{
+			var layer = e.target;
+			click = false;
+			e.click = false
+			layer.setStyle({
+				weight: layer.options.weight,
+				color: '#444',
+				dashArray: '',
+				opacity: 0.7
+			});
 
-		if (!L.Browser.ie && !L.Browser.opera) {
-			layer.bringToFront();
-		}
-		eHov = e
-		if (ePrev != null && eHov != null && eHov.target == ePrev.target){
-			ePrev.click = false;
-		}
-		// info.update(layer.feature.properties);
+			if (!L.Browser.ie && !L.Browser.opera) {
+				layer.bringToFront();
+			}
+			eHov = e
+			if (ePrev != null && eHov != null && eHov.target == ePrev.target){
+				ePrev.click = false;
+			}
+			// info.update(layer.feature.properties);
+		}	
 	}
+	
 	
 }
 function resetHighlight(e) {
-	if (zoom != null && zoom == target){
-		return;
-	}
-	else{
-		if (!click){
-			geojson.resetStyle(e.target);
-			
+	if (e.target._map._container.id === "map"){
+		if (zoom != null && zoom == target){
+			return;
 		}
-		if (ePrev != null && eHov != null && !ePrev.click && !eHov.click){
-			info.update();
+		else{
+			if (!click){
+				geojson.resetStyle(e.target);
+				
+			}
+			if (ePrev != null && eHov != null && !ePrev.click && !eHov.click){
+				info.update();
+			}
 		}
 	}
-	
 }
 function zoomToFeature(e) {
-	var layer = e.target;
-	zoom = e.target;
-	
-	 if (confirmChanges(layer.feature.properties.RCLINK)){
-	 	$('#home-tab').trigger('click');
-		map.fitBounds(e.target.getBounds());
-		console.log(ePrev)
+	if (e.target._map._container.id === "map"){
+
+		var layer = e.target;
+		zoom = e.target;
 		
-		if (ePrev != null && ePrev.click){
-			geojson.resetStyle(ePrev.target);
-		}
-		click = true;
-		e.click = true;
-		if (click){
-			geojson.resetStyle(e.target);
-			layer.setStyle({
-				weight: '8',
-				color: '#000',
-				dashArray: '',
-				opacity:.3
-			});
+		 if (confirmChanges(layer.feature.properties.RCLINK)){
+		 	$('#home-tab').trigger('click');
+			map.fitBounds(e.target.getBounds());
+			console.log(ePrev)
+			
+			if (ePrev != null && ePrev.click){
+				geojson.resetStyle(ePrev.target);
+			}
+			click = true;
+			e.click = true;
+			if (click){
+				geojson.resetStyle(e.target);
+				layer.setStyle({
+					weight: '8',
+					color: '#000',
+					dashArray: '',
+					opacity:.3
+				});
+			 }
 		 }
-	 }
-	 
+		 
+			
 		
-	
-	 info.update(layer.feature.properties);
-	 ePrev = e;
-	 previous = layer.feature.properties;
-	 console.log(previous)
+		 info.update(layer.feature.properties);
+		 ePrev = e;
+		 console.log(ePrev)
+		 previous = layer.feature.properties;
+		 console.log(previous)
+	}
 }
 $(document).ready(function() {
 	var counties = [
@@ -636,14 +691,10 @@ $(document).ready(function() {
 		"Spalding",
 		"Walton"
 	];
-	// $.each(counties, function(i, county){
-	// 	drawGeoJSON(county)
-		
-	// })
 	
 })
 
-function drawGeoJSON(county){
+function drawGeoJSON(county, changes, drawMap){
 	$.ajax({
 			type: "GET",
 			url: "{{ site.baseurl}}/data/"+county+".geojson", 
@@ -651,90 +702,72 @@ function drawGeoJSON(county){
 			success: function(data){
 				console.log(data)
 				raw[county] = data;
-				geojson = L.geoJson(data, {
-					filter: function(feature, layer){
-						if (feature.properties.F_SYSTEM > 2){  // && feature.properties.F_SYSTEM < 7){
-							return true;
-						}
-						return false
-					},
-					style: function (feature) {
-						// var projType = feature.properties.PRJ_TYPE;
-						// var description = feature.properties.PRJ_DESC;
-						// console.log(feature.properties.PRJ_DESC+': '+feature.properties.PRJ_TYPE)
-						return {
-							color: getColor(feature.properties.F_SYSTEM),
-							weight: 16/(feature.properties.F_SYSTEM+1),
-							// dashArray: '3',
-							opacity: .5
-						}
-						
-					},
-					onEachFeature: onEachFeature,
-					pointToLayer: function (feature, latlng) {
+				if (!changes){
+					geojson = L.geoJson(data, {
+						filter: function(feature, layer){
+							if (feature.properties.F_SYSTEM > 2){  // && feature.properties.F_SYSTEM < 7){
+									return true;
+							}
+							return false
+						},
+						style: function (feature) {
+							return {
+								color: getColor(feature.properties.F_SYSTEM),
+								weight: 16/(feature.properties.F_SYSTEM+1),
+								// dashArray: '3',
+								opacity: .5
+							}
+							
+						},
+						onEachFeature: onEachFeature,
+						pointToLayer: function (feature, latlng) {
 
-					}
-				}).addTo(map);
+						}
+					}).addTo(map);
+				}
+				else if (changes){
+					var geojsonChanges = L.geoJson(data, {
+						filter: function(feature, layer){
+							if (typeof feature.properties.FC_NEW !== 'undefined' && feature.properties.status === "Advancing"){  // && feature.properties.F_SYSTEM < 7){
+									return true
+							}
+							return false
+						},
+						style: function (feature) {
+							return {
+								color: getColor(feature.properties.FC_NEW),
+								weight: 16/(feature.properties.F_SYSTEM+1),
+								// dashArray: '3',
+								opacity: .5
+							}
+							
+						},
+						onEachFeature: function(feature, layer) {
+								if (feature.properties) {
+									popupContent = "<table>"
+									$.each(feature.properties, function(key, value){
+										if (key === "NAME" || key === "County" || key === "FC_NEW" || key === "F_SYSTEM" || key === "user"){
+											if (key === "FC_NEW")
+												key = "Proposed FC"
+											else if (key === "F_SYSTEM")
+												key = "Existing FC"
+
+											popupContent += "<tr><td><strong>" + key + "</strong></td>" + "<td>" + value + "</td></tr>"
+										}
+									})
+									popupContent += "</table>"
+								}
+								layer.bindPopup(popupContent, null, {maxHeight: 80});
+						},
+						pointToLayer: function (feature, latlng) {
+
+						}
+					}).addTo(changesMap);
+				}
 			}
 		})
 }
 
-function drawUab(){
-	$.ajax({
-		type: "GET",
-		url: "{{ site.baseurl}}/data/uab_2010.geojson", 
-		dataType: "json",
-		success: function(data){
-			console.log(data)
-			raw = data;
-			geojson = L.geoJson(data, {
-				// filter: function(feature, layer){
-				// 	if (feature.properties.F_SYSTEM > 2 && feature.properties.F_SYSTEM < 7){
-				// 		return true;
-				// 	}
-				// 	return false
-				// },
-				style: function (feature) {
-					// var projType = feature.properties.PRJ_TYPE;
-					// var description = feature.properties.PRJ_DESC;
-					// console.log(feature.properties.PRJ_DESC+': '+feature.properties.PRJ_TYPE)
-					if (feature.properties.NAME10 == "Atlanta, GA"){
-						return {
-							color: "#bbe3d4",
-							weight: 0,
-							// // dashArray: '3',
-							fillOpacity: .5,
-							clickable: false
-						}
-					}
-					else if(feature.properties.ALAND10 > 254841000){
-						return {
-							color: "#fdcc8a",
-							weight: 0,
-							// // dashArray: '3',
-							fillOpacity: .5,
-							clickable: false
-						}
-					}
-					else {
-						return {
-							color: "#ffbebe",
-							weight: 0,
-							// // dashArray: '3',
-							fillOpacity: .5,
-							clickable: false
-						}
-					}
-					
-				}
-				// onEachFeature: onEachFeature,
-				// pointToLayer: function (feature, latlng) {
-
-				// }
-			}).addTo(map);
-		}
-	})
-}
 function issuePopup(feature, layer) {
     // does this feature have a property named popupContent?
     if (feature.properties && feature.properties.RCLINK) {
@@ -763,6 +796,34 @@ function drawIssueData(data, issueMap, linkdata){
 
 	}).addTo(issueMap);
 	issueMap.fitBounds(issueData.getBounds())
+}
+
+function drawChanges(){
+	var counties = [
+		"Barrow",
+		"Bartow",
+		"Cherokee",
+		"Clayton",
+		"Cobb",
+		"Coweta",
+		"DeKalb",
+		"Douglas",
+		"Fayette",
+		"Forsyth",
+		"Fulton",
+		"Gwinnett",
+		"Henry",
+		"Newton",
+		"Paulding",
+		"Rockdale",
+		"Spalding",
+		"Walton"
+	];
+	console.log('drawing changes')
+	$.each(counties, function(i, county){
+		drawGeoJSON(county, true, changesMap)	
+	})
+
 }
 
 
