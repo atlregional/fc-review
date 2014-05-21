@@ -17,11 +17,11 @@ var issueMap  = L.map('issue-map', {
 		center: [33.77686437792359, -84.3145751953125],
 		zoom: 9
 	});
-var issueBase = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{x}/{y}.png', {
+var issueBase = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.i86o780c/{z}/{x}/{y}.png', {
 		attribution: '© Mapbox © OpenStreetMap',
 		key: '7486205c8fd540b0903a0298b3d7c447'
 }).addTo(issueMap)
-var changesBase = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{x}/{y}.png', {
+var changesBase = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.i86o780c/{z}/{x}/{y}.png', {
 		attribution: '© Mapbox © OpenStreetMap',
 		key: '7486205c8fd540b0903a0298b3d7c447'
 }).addTo(changesMap)
