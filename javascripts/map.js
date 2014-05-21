@@ -729,6 +729,7 @@ function drawGeoJSON(county, changes, drawMap){
 					var geojsonChanges = L.geoJson(data, {
 						filter: function(feature, layer){
 							if (typeof feature.properties.FC_NEW !== 'undefined' && feature.properties.status === "Advancing"){  // && feature.properties.F_SYSTEM < 7){
+									console.log(feature.properties);
 									return true
 							}
 							return false

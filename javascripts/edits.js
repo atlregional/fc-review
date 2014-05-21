@@ -11,6 +11,8 @@ var segments = [];
 var issues = [];
 var previous;
 var id;
+var pullBranchData;
+var currentIssue;
 var historyClick = false
 $(document).ready(function(){
 	getPulls(1);
@@ -50,27 +52,60 @@ $('#reject').click(function(){
 $('#approve').click(function(){
 	// write to county file
 	var github = new Github({
-				token: $.cookie('token'),
-				auth: "oauth"
-		});
+		token: $.cookie('token'),
+		auth: "oauth"
+	});
+	$(this).attr('disabled', 'disabled');
 	var repo = github.getRepo('{{ site.githubuser }}', 'fc-review');
 	var token = $.cookie('token') ? '&access_token=' + $.cookie('token') : "";
-	var path = 'data/'+newFeature.County+'.geojson';
-	var comments = "Approved " + 
-	repo.read('gh-pages', 'data/' + newFeature.County + '.geojson', function(err, data) {
+	var path = 'data/'+currentIssue.county+'.geojson';
+	var currentLink;
+	var comments = "#" + currentIssue.number + " marked as **Advancing** " + " by @" + $.cookie('user').login + " at " + moment().format('HH:mm a on M/DD/YY') // need issue information here
+	$.ajax({
+		url: 'https://api.github.com/repos/atlregional/fc-review/issues/'+currentIssue.number+'?access_token=' + $.cookie('token'),
+		type: 'PATCH',
+		data: '{"milestone": 1}',
+		success: function(data){
+			console.log(data)
+		},
+		error: function(err){
+			console.log(err)
+		}
+	})
+	$.ajax({
+		url: 'https://api.github.com/repos/atlregional/fc-review/issues/'+currentIssue.number+'/comments?access_token=' + $.cookie('token'),
+		type: 'POST',
+		data: '{"body": "'+comments+'""}',
+		success: function(data){
+			console.log(data)
+		},
+		error: function(err){
+			console.log(err)
+		}
+	})
+	repo.read('gh-pages', 'data/' + currentIssue.county + '.geojson', function(err, data) {
 		var json = jQuery.parseJSON(data)
-		raw[newFeature.County] = json;
-		$.each(raw[newFeature.County].features, function(i, feature){
-			if (feature.properties.RCLINK == newFeature.RCLINK && feature.properties.END_MEASUR == newFeature.END_MEASUR && feature.properties.BEG_MEASUR == newFeature.BEG_MEASUR ){
+		raw[currentIssue.county] = json;
+		$.each(pullBranchData.features, function(i, feature){
+			if (feature.properties.RCLINK == currentIssue.linkdata[1] && feature.properties.BEG_MEASUR == currentIssue.linkdata[2] && feature.properties.END_MEASUR == currentIssue.linkdata[3] ){
 				console.log(feature.properties)
-				feature.properties.status = "Approved"
+				currentLink = feature.properties;
+				currentLink.status = "Advancing";
+				currentLink.issue_num = currentIssue.number;
 			}
 		})
-		repo.write('gh-pages', path, json, comments, function(err) {
+		$.each(raw[currentIssue.county].features, function(i, feature){
+			if (feature.properties.RCLINK == currentIssue.linkdata[1] && feature.properties.BEG_MEASUR == currentIssue.linkdata[2] && feature.properties.END_MEASUR == currentIssue.linkdata[3] ){
+				console.log(feature.properties);
+				feature.properties = currentLink;
+			}
+		})
+		var newContent = JSON.stringify(raw[currentIssue.county], null, 2)
+		repo.write('gh-pages', path, newContent, comments, function(err) {
 			console.log(err)
 			console.log(path)
 			if(err){
-				 $('#issue-modal-title').html('Hmmm...something went wrong with submitting your proposed change (master branch error).  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
+				 $('#loadingtext').html('Hmmm...something went wrong with approving the proposed change.  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
 			}
 		});
 	})
@@ -604,7 +639,7 @@ function populateIssues(){
 			var status = "";
 			var updated = moment(issue.updated_at).format("M/D/YY");
 			var drop = false;
-			if (issue.milestone != null && issue.milestone.title == "Accepted"){
+			if (issue.milestone != null && issue.milestone.title == "Advancing"){
 				status = '<span class="label label-success">Accepted</span>'
 			}
 			else if (issue.milestone != null && issue.milestone.title == "In Review"){
@@ -697,14 +732,19 @@ $('.show-issue').live('click', function(){
 	$('.alert').remove()
 	var issue = $(this).data('issue');
 	console.log(issue)
+	$('.owner').removeAttr('disabled')
 	populateIssueModal(issue);
 
 	// $("#gh-map").attr('src', mapUrl );  // '<script src="'+$(this).data('value')+'"></script>'
 })
 
 function populateIssueModal(issue){
+
+	// TODO: check if issue has been marked advancing or on hold and disable owner buttons accordingly
+	currentIssue = issue;
 	var issueText = issue.body.split('\n')
 	var county = _.last(issueText).split(' ')[0]
+	currentIssue.county = county
 	console.log(county)
 	var converter = new Showdown.converter();
 	var body =  issue.body;
@@ -712,6 +752,7 @@ function populateIssueModal(issue){
 	// $.get(issue.pull_request.url+token, function(data){
 		console.log(issue)
 		var linkdata = issue.head.ref.split('-')
+		currentIssue.linkdata = linkdata
 		console.log(linkdata)
 		// $("#gh-map").append(script)
 		if (typeof issueData !== 'undefined')
@@ -721,9 +762,9 @@ function populateIssueModal(issue){
 		  }, 200);
 		var repo = github.getRepo(issue.head.repo.owner.login, 'fc-review');
 		repo.read(issue.head.ref, 'data/' + county + '.geojson', function(err, data) {
-			var json = jQuery.parseJSON(data)
-			console.log(json)
-			drawIssueData(json, issueMap, linkdata)
+			pullBranchData = jQuery.parseJSON(data)
+			console.log(pullBranchData)
+			drawIssueData(pullBranchData, issueMap, linkdata)
 		});
 
 		$('.issue-title').text(issue.title);
