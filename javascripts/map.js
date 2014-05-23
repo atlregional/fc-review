@@ -50,7 +50,7 @@ map.on("dragstart", function (e) { console.log("ZOOMSTART", e); });
 map.on("drag", function (e) { console.log("draggin", e); });
 var raw = {};
 // var popup = new L.popup();
-var base = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.i0bdlocf/{z}/{x}/{y}.png', {
+var base = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.i86o780c/{z}/{x}/{y}.png', {
 		attribution: '© Mapbox © OpenStreetMap',
 		key: '7486205c8fd540b0903a0298b3d7c447'
 	}).addTo(map)
