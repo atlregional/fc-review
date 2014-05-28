@@ -584,7 +584,15 @@
         "Shape_Leng": 8668.66816375,
         "ARC_Length": 1.64179321283,
         "RCLINK_1": "1353104103",
-        "County": "Gwinnett"
+        "County": "Gwinnett",
+        "NAME": "Shadburn Avenue",
+        "FROM": "Poplar Street",
+        "TO": "Shadburn Ferry Road",
+        "FC_NEW": 6,
+        "JUST": "Shadburn Avenue meets all of the criteria of an Urban Minor Collector as described in the FHWA Functional Classification Manual, 2013 Edition.  It serves both land access and traffic circulation in lower density residential and commercial areas, penetrates a residential neighborhood only for a short distance, distributes and channels trips between West Shadburn Avenue (minor arterial) to Shadburn Ferry Road (minor arterial) for a length of 1.25 miles and has operating characteristics which include lower speeds and no signalized intersections.  Shadburn Avenue collects traffic from the adjacent residential areas from the north and routes it to the City of Buford Historic Downtown business district.  There are three gateway streets feeding Shadburn Avenue (W Shadburn Ave - Minor Arterial, Little Mill Road - Major Collector, Shadburn Ferry Rd - Minor Arterial) into downtown Buford from Peachtree Industrial Boulevard (Principal Arterial).  Traffic volume also increases along Shadburn Avenue when the adjacent Norfolk Southern railway is active and traffic is unable to cross the railroad tracks to access Main Street (Minor Arterial) which also runs parallel to the railway.",
+        "DESC": "AADT from GDOT STARS not available.  Existing traffic generator includes residential areas and three gateway streets (W Shadburn Ave - Minor Arterial, Little Mill Road - Major Collector, Shadburn Ferry Rd - Minor Arterial) into downtown Buford from Peachtree Industrial Boulevard (Principal Arterial).",
+        "stroke": "#00ff00",
+        "user": "sserio-bufordga"
       },
       "geometry": {
         "type": "LineString",
