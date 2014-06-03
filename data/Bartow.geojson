@@ -59699,7 +59699,13 @@
         "2011AvAADT": 2670,
         "2010AvAADT": 3500,
         "OBJECTID_1": 258,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "Postelle Street",
+        "FC_NEW": 5,
+        "DESC": "AADT 2680",
+        "JUST": "This section of road has diminished in importance as a connection between the state routes and southern downtown Cartersville.",
+        "stroke": "#00ff00",
+        "user": "TSills-BartowCo"
       },
       "geometry": {
         "type": "LineString",
