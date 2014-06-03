@@ -63084,7 +63084,13 @@
         "2011AvAADT": 4235,
         "2010AvAADT": 4310,
         "OBJECTID_1": 290,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "West Avenue",
+        "FC_NEW": 5,
+        "DESC": "AADT 3390, 3510",
+        "JUST": "Thjs section of road has diminished in importance as a connector to the state routes from south Cartersville.",
+        "stroke": "#00ff00",
+        "user": "TSills-BartowCo"
       },
       "geometry": {
         "type": "LineString",
