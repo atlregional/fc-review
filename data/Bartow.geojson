@@ -3540,7 +3540,15 @@
         "URBAN_CODE": "14185",
         "LOC_ERROR": "NO ERROR",
         "Shape_Leng": 6334.68134155,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "Pine Grove Road",
+        "FROM": "Etowah Drive",
+        "TO": "Douthit Ferry Road",
+        "FC_NEW": 5,
+        "DESC": "AADT 2595",
+        "JUST": "Road serves significant developments of Dellinger Park, The Shops at Grove Park, Pine Grove subdivision, and The Villas multifamily development.",
+        "stroke": "#00ff00",
+        "user": "TSills-BartowCo"
       },
       "geometry": {
         "type": "LineString",
