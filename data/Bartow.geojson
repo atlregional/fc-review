@@ -4056,7 +4056,13 @@
         "URBAN_CODE": "14185",
         "LOC_ERROR": "NO ERROR",
         "Shape_Leng": 2786.20272774,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "Gentilly Road",
+        "FC_NEW": 5,
+        "DESC": "AADT 2502",
+        "JUST": "Road serves as major connector between SR 61 and SR 3/US 41 and provides access to Home Depot and Harbin Clinic.",
+        "stroke": "#00ff00",
+        "user": "TSills-BartowCo"
       },
       "geometry": {
         "type": "LineString",
