@@ -2673,7 +2673,13 @@
         "URBAN_CODE": "14185",
         "LOC_ERROR": "NO ERROR",
         "Shape_Leng": 7540.25111466,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "Busch Drive",
+        "FC_NEW": 5,
+        "DESC": "Existing traffic generators: Anheuser Busch brewery, Gerdau Ameristeel, Trinity Railcar",
+        "JUST": "Since the improvement of this route to accommodate the brewery, this segment has become the route of choice for access to I-75 over other local roads.",
+        "stroke": "#00ff00",
+        "user": "TSills-BartowCo"
       },
       "geometry": {
         "type": "LineString",
