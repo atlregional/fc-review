@@ -935,7 +935,13 @@
         "URBAN_CODE": "14185",
         "LOC_ERROR": "NO ERROR",
         "Shape_Leng": 9791.12472972,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "MacJohnson Road",
+        "FC_NEW": 6,
+        "DESC": "Traffic generators: residential developments on Grassdale, Rudy York, and Peoples Valley roads",
+        "JUST": "Route provides access to US 41 for a large residential area. Recommended by CBMPO Policy Committee 6/2/2014.",
+        "stroke": "#00ff00",
+        "user": "TSills-BartowCo"
       },
       "geometry": {
         "type": "LineString",
