@@ -2868,7 +2868,13 @@
         "URBAN_CODE": "03817",
         "LOC_ERROR": "NO ERROR",
         "Shape_Leng": 7875.78177385,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "New Hope Road",
+        "FC_NEW": 6,
+        "DESC": "Traffic generators: Red Top Mountain State Park, Allatoona Lake",
+        "JUST": "Reflects the fact that traffic along this road is coming from Cherokee County residents seeking access to Allatoona Lake and its amenities. Recommended by CBMPO Policy Committee 6/2/2014.",
+        "stroke": "#00ff00",
+        "user": "TSills-BartowCo"
       },
       "geometry": {
         "type": "LineString",
