@@ -42292,7 +42292,14 @@
         "2011AvAADT": 1380,
         "2010AvAADT": 1430,
         "OBJECTID_1": 202,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "Euharlee Road",
+        "FROM": "Hardin Bridge Road",
+        "TO": "Macedonia Road",
+        "DESC": "Traffic generators: Plant Bowen, Euharlee Elementary and Woodland Middle Schools.",
+        "JUST": "Creates network connectivity using logical terminus of road intersection instead of artificial city limts. Recommended by CBMPO Policy Committee 6/2/2014.",
+        "stroke": "#00ff00",
+        "user": "TSills-BartowCo"
       },
       "geometry": {
         "type": "LineString",
