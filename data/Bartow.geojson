@@ -534,7 +534,15 @@
         "URBAN_CODE": "14185",
         "LOC_ERROR": "NO ERROR",
         "Shape_Leng": 7708.75089764,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "Rudy York Road",
+        "FROM": "Valley View Drive",
+        "TO": "MacJohnson Road",
+        "FC_NEW": 6,
+        "DESC": "Serves residential developments",
+        "JUST": "Provides residential access to US 41. Recommended by CBMPO Policy Committee 6/2/2014",
+        "stroke": "#00ff00",
+        "user": "TSills-BartowCo"
       },
       "geometry": {
         "type": "LineString",
