@@ -1324,7 +1324,12 @@
         "URBAN_CODE": "03817",
         "LOC_ERROR": "NO ERROR",
         "Shape_Leng": 1916.02007518,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "Dabbs Bridge Road",
+        "FC_NEW": 5,
+        "JUST": "Network conformity with segment in Paulding County. Recommended by CBMPO Policy Committee 6/2/2014",
+        "stroke": "#00ff00",
+        "user": "TSills-BartowCo"
       },
       "geometry": {
         "type": "LineString",
