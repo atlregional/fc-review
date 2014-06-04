@@ -29802,7 +29802,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 177,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "Burnt Hickory Road",
+        "FC_NEW": 4,
+        "DESC": "AADT: 5900",
+        "JUST": "Traffic count does not fall within FHWA guidelines for Principal Arterials. Recommended by CBMPO Policy Committee 6/2/2014.",
+        "stroke": "#00ff00",
+        "user": "TSills-BartowCo"
       },
       "geometry": {
         "type": "LineString",
