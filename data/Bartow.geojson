@@ -73656,7 +73656,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 351,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "Grassdale Road",
+        "FC_NEW": 4,
+        "DESC": "AADT: 3000+",
+        "JUST": "This section of Grassdale Road accepts traffic from substantial residential areas to the south and west of US 41. The segment provides residential access to US 41, and eventually I-75. Recommended by CBMPO Policy Committee 6/2/2014.",
+        "stroke": "#00ff00",
+        "user": "TSills-BartowCo"
       },
       "geometry": {
         "type": "LineString",
