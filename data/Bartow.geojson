@@ -17,7 +17,15 @@
         "URBAN_CODE": "14185",
         "LOC_ERROR": "NO ERROR",
         "Shape_Leng": 6492.4194865,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "Grassdale Road",
+        "FROM": "Old Grassdale Road",
+        "TO": "Rudy York Drive",
+        "FC_NEW": 6,
+        "DESC": "Serves numerous residential developments.",
+        "JUST": "Route serves as collector for large residential area getting access to US 41. Recommended by CBMPO Policy Committee 6/2/2014",
+        "stroke": "#00ff00",
+        "user": "TSills-BartowCo"
       },
       "geometry": {
         "type": "LineString",
