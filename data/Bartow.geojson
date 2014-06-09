@@ -3242,7 +3242,13 @@
         "URBAN_CODE": "14185",
         "LOC_ERROR": "NO ERROR",
         "Shape_Leng": 1684.63382415,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "Collins Drive",
+        "FC_NEW": 5,
+        "DESC": "AADT: 2500",
+        "JUST": "Road serves increased traffic as connector between SR 61 and SR 3/US 41",
+        "stroke": "#00ff00",
+        "user": "TSills-BartowCo"
       },
       "geometry": {
         "type": "LineString",
