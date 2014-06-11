@@ -11939,7 +11939,13 @@
         "Shape_Leng": 5281.09980355,
         "ARC_Length": 1.00020829613,
         "RCLINK_1": "0772046200",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Palmetto - Tyrone Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Requested FC is included in County FC Plan; connectivity between Coweta and Fayette counties; matches FC in Fayette/Tyrone; AADT - 2,841",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
