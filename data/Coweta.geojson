@@ -72164,7 +72164,15 @@
         "2011AvAADT": 6455,
         "2010AvAADT": 6685,
         "OBJECTID_1": 1395,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Collinsworth Road",
+        "FROM": "I-85",
+        "TO": "Weldon Road",
+        "FC_NEW": 4,
+        "DESC": 2,
+        "JUST": "Requested FC is included in County FC Plan; I-85 interchange access; matches FC east of I-85",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
