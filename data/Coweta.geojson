@@ -7644,7 +7644,15 @@
         "Shape_Leng": 18267.0623386,
         "ARC_Length": 3.45967089746,
         "RCLINK_1": "0772004800",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Andrew Bailey Road",
+        "FROM": "Fischer Rd",
+        "TO": "SR 34",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "AADT - 9,277",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
