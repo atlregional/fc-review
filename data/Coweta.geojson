@@ -71414,7 +71414,13 @@
         "2011AvAADT": 6130,
         "2010AvAADT": 6340,
         "OBJECTID_1": 1390,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Weldon Road",
+        "FC_NEW": 4,
+        "DESC": 2,
+        "JUST": "Connectivity between I-85 and US 29; AADT - 5,659",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
