@@ -15726,7 +15726,13 @@
         "Shape_Leng": 5160.47087352,
         "ARC_Length": 0.977361907864,
         "RCLINK_1": "0772221200",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Coweta Industrial Pkwy",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Requested FC is included in County FC Plan; access to Coweta Industrial Park; plans to extend road to proposed I-85 @ Amlajack Interchange; AADT - not available",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
