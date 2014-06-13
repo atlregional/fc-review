@@ -15294,7 +15294,12 @@
         "Shape_Leng": 1819.9696275,
         "ARC_Length": 0.34469121733,
         "RCLINK_1": "0633123315",
-        "County": "Clayton"
+        "County": "Clayton",
+        "JUST": "Proposed change from Local road to Urban Collector was previously approved by TCC on 1/6/12, TAQC on 1/12/12, and ARC Board on 1/25/12.",
+        "DESC": 4,
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
