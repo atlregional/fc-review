@@ -1835,7 +1835,15 @@
         "Shape_Leng": 6346.47294559,
         "ARC_Length": 1.20198058097,
         "RCLINK_1": "0632025500",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Norman Dr",
+        "FROM": "SR 314 (W. Fayetteville Rd)",
+        "TO": "SR 139 (Riverdale Rd)",
+        "FC_NEW": 5,
+        "DESC": "Existing 2-Lane road currently undergoing construction to convert to 3-lane section.  Adjacent land uses include commercial shopping centers, a high school, church, and residential subdivisions and apartments.  ADT (7,438)",
+        "JUST": "Norman Dr. provides east-west connectivity between SR 314 and SR 139, both Minor Arterials.  ",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
