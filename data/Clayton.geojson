@@ -1589,7 +1589,13 @@
         "Shape_Leng": 5571.52654836,
         "ARC_Length": 1.05521336143,
         "RCLINK_1": "0632011800",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Anvil Block Rd",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Recent nearby developments, including Walmart, Villages of Ellenwood S/D, and other distribution centers have increased volumes in this area.  Anvil Block is already identified as a Minor Arterial west of Stagecoach Rd.  Most of the traffic continues east-west on Anvil Block from/to Henry County as opposed to north/south via Stagecoach Rd.  This change will require an accompanying change for the section of Anvil Block in Henry County.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
