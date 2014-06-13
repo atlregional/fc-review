@@ -9409,7 +9409,13 @@
         "Shape_Leng": 9791.15720881,
         "ARC_Length": 1.854385835,
         "RCLINK_1": "0632112000",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Garden Walk Blvd",
+        "FC_NEW": 5,
+        "DESC": 4,
+        "JUST": "Proposed change from Local road to Urban Collector was previously approved by TCC on 1/6/12, TAQC on 1/12/12, and ARC Board on 1/25/12.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
