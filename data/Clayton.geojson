@@ -11638,7 +11638,13 @@
         "Shape_Leng": 2193.42228521,
         "ARC_Length": 0.415420887351,
         "RCLINK_1": "0632278100",
-        "County": "Clayton"
+        "County": "Clayton",
+        "JUST": "Flat Shoals Rd & Airport South Pkwy provide for the direct east-west movement connecting to SR 85.  Clayton will submit another request to convert Rock Hill Dr from Major Collector to Minor Collector.",
+        "NAME": "Airport South Pkwy",
+        "FC_NEW": 5,
+        "DESC": 3,
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
