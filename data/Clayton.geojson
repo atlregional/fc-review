@@ -10864,7 +10864,15 @@
         "Shape_Leng": 4681.32799811,
         "ARC_Length": 0.886615151157,
         "RCLINK_1": "0632151600",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Charles W. Grant Pkwy",
+        "FROM": "US 19/41 (Old Dixie Road)",
+        "TO": "Airport Loop Road",
+        "FC_NEW": 5,
+        "DESC": 4,
+        "JUST": "Multiple Lane roadway on Regional Thoroughfare Network serving east-west traffic to and from Atlanta Airport.  GDOT project 0001817 (June 2014 Let) will connect east-west traffic directly to/from Conley Road, resulting in increased volumes over the next few years.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
