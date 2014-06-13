@@ -34446,7 +34446,15 @@
         "2011AvAADT": 4355,
         "2010AvAADT": 4560,
         "OBJECTID_1": 798,
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Rock Hill Dr",
+        "FROM": "Flat Shoals Rd",
+        "TO": "SR 85",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Flat Shoals Rd & Airport South Pkwy provide for the direct east-west movement connecting to SR 85.  Rock Hill Dr. is used less frequently, therefore suggest downgrade to minor collector to indicate more accurate movement of traffic.  Flat Shoals Rd from Riverdale Rd to Flat Shoals/Rock Hill Dr intersection should remain a major collector.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
