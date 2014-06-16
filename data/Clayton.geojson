@@ -30950,7 +30950,8 @@
         "JUST": "Provides east-west connection between Riverdale and Tara Blvd / Old Dixie / US 19/41.  Also provides direct access to Southern Regional Medical Center and nearby medical offices.",
         "DESC": 5,
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "NAME": "Upper Riverdale Rd"
       },
       "geometry": {
         "type": "LineString",
