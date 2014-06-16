@@ -4062,7 +4062,13 @@
         "Shape_Leng": 3639.1516467,
         "ARC_Length": 0.68923326642,
         "RCLINK_1": "0632054400",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Camp Ave",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "This road functions as a connecting segment between Lake Jodeco Rd (Minor Arterial) and Walt Stephens Rd (Minor Arterial) depending on the user's intended destination, i.e. downtown Jonesboro, SR 138, Stockbridge, McDonough/I-75 South.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
