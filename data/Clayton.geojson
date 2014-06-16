@@ -5333,7 +5333,13 @@
         "Shape_Leng": 9184.6042457,
         "ARC_Length": 1.73950837987,
         "RCLINK_1": "0632051200",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Panhandle Rd",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "ADT for this section of Panhandle Rd is only slightly lower than section that is south of McDonough Rd (7,437), which is classified as Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
