@@ -12974,7 +12974,15 @@
         "Shape_Leng": 4468.34173861,
         "ARC_Length": 0.846276844433,
         "RCLINK_1": "0633056505",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "N. McDonough St.",
+        "FROM": "Spring St",
+        "TO": "SR 138",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "This route serves as an alternate to N. Main St and Jonesboro Rd for north-south travelers in/through Jonesboro and provides access to adjacent County governmental complexes.  This road should be converted to 5-Major Collector north of the intersection of SR 138, where ADT jumps to 13,346.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
