@@ -15101,7 +15101,15 @@
         "Shape_Leng": 5620.76570573,
         "ARC_Length": 1.06453895942,
         "RCLINK_1": "0633116711",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Southlake Pkwy",
+        "FROM": "SR 54 (Jonesboro Rd)",
+        "TO": "Nolan Ct",
+        "FC_NEW": 5,
+        "DESC": 3,
+        "JUST": "Southlake Pkwy is an alternate to Jonesboro Rd/SR 54 (Minor Arterial) for north-southbound traffic and many travelers use this road due to adjacent high-density residential, governmental complexes to the south, schools, and access to I-75 to the north.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
