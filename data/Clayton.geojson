@@ -30945,7 +30945,12 @@
         "2011AvAADT": 30310,
         "2010AvAADT": 30760,
         "OBJECTID_1": 784,
-        "County": "Clayton"
+        "County": "Clayton",
+        "FC_NEW": 4,
+        "JUST": "Provides east-west connection between Riverdale and Tara Blvd / Old Dixie / US 19/41.  Also provides direct access to Southern Regional Medical Center and nearby medical offices.",
+        "DESC": 5,
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
