@@ -38128,7 +38128,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 806,
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Hampton Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Volume data doesn't support a classification as Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
