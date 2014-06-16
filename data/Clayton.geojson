@@ -834,7 +834,13 @@
         "Shape_Leng": 4167.57916252,
         "ARC_Length": 0.789314235325,
         "RCLINK_1": "0632002800",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Mt. Zion Blvd",
+        "FC_NEW": 5,
+        "DESC": "Current 2-lane road is under construction to covert to 3-lane section.  Current ADT (10,264).",
+        "JUST": "Currently, there is roughly a 50/50 split between traffic that continues on this section of road vs. traffic that takes Lake Harbin Rd (Minor Arterial) east to SR 42/Macon Hwy.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
