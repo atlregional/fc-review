@@ -11374,7 +11374,13 @@
         "Shape_Leng": 11169.4438954,
         "ARC_Length": 2.1154249802,
         "RCLINK_1": "0632228700",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Mt. Zion Pkwy",
+        "FC_NEW": 5,
+        "DESC": 4,
+        "JUST": "This road is an alternate route to Mt. Zion Rd for travel between Morrow and Stockbridge.  ADTs for Mt. Zion Rd are slightly higher (13,458), justifying it's classification as Minor Arterial over Mt. Zion Pkwy.  This change will require short segment in Henry County also be upgraded to Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
