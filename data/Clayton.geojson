@@ -6597,7 +6597,13 @@
         "Shape_Leng": 15424.3291235,
         "ARC_Length": 2.9212744552,
         "RCLINK_1": "0632050400",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Tara Rd",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "This road provides east-west connection between SR 920 (McDonough Rd) from/to Fayette County and US 19/41 (Tara Blvd).",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
