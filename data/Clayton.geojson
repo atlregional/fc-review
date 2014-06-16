@@ -31556,7 +31556,15 @@
         "2011AvAADT": 2595,
         "2010AvAADT": 2710,
         "OBJECTID_1": 787,
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Panhandle Rd",
+        "FROM": "N. Bridge Rd",
+        "TO": "Hampton Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Majority of travel on Panhandle Rd takes N. Bridge Rd toward Fayette County, as evidenced by ADT on Panhandle Rd north of N. Bridge Rd (4,828) and on N. Bridge Rd just west of Panhandle Rd (4,522).  There is a large drop in volumes south of N. Bridge Rd.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
