@@ -9865,7 +9865,13 @@
         "Shape_Leng": 6325.02876453,
         "ARC_Length": 1.19792211449,
         "RCLINK_1": "0632134000",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Conkle Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "This road is probably a borderline candidate for upgrade to a Major Collector; however, adjacent Mt. Zion Pkwy (proposed upgrade to Major Collector) carries slightly more traffic.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
