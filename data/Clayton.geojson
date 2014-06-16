@@ -1080,7 +1080,15 @@
         "Shape_Leng": 8530.23542888,
         "ARC_Length": 1.61557489183,
         "RCLINK_1": "0632000200",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Mt. Zion Blvd",
+        "FROM": "Southlake Pkwy",
+        "TO": "Battle Creek Rd",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Traffic heading north/south between Jonesboro and Mt. Zion Blvd at I-75 (commercial shopping area) generally take this route as opposed to turning at intersection of Battle Creek Rd.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
