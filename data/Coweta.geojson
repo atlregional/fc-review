@@ -7438,7 +7438,13 @@
         "Shape_Leng": 8546.09758573,
         "ARC_Length": 1.61857908821,
         "RCLINK_1": "0772009000",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Marion Beavers Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Requested FC change is included in County FC Plan",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
