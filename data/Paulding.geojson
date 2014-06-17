@@ -32563,7 +32563,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3901,
-        "County": "Paulding"
+        "County": "Paulding",
+        "NAME": "Mulberry Rock Road",
+        "FROM": "SR 61 ",
+        "TO": "Marshall Fuller Road",
+        "FC_NEW": 5,
+        "DESC": "Traffic ADT is 5300 and is gradually increasing year to year.",
+        "JUST": "Conform to network.",
+        "stroke": "#00ff00",
+        "user": "EParish-PauldingCo"
       },
       "geometry": {
         "type": "LineString",
