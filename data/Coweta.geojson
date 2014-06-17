@@ -11527,7 +11527,13 @@
         "Shape_Leng": 12633.0548438,
         "ARC_Length": 2.39262402344,
         "RCLINK_1": "0772006300",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Lora Smith Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Requested FC change is included in County FC Plan. ",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
