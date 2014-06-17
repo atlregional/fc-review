@@ -2089,7 +2089,15 @@
         "Shape_Leng": 11711.2040086,
         "ARC_Length": 2.21803106223,
         "RCLINK_1": "0772004600",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Posey Road",
+        "FROM": "SR 34",
+        "TO": "Hammock Road",
+        "FC_NEW": 5,
+        "JUST": "Growing commercial uses at SR 34; used to access SR 154 and I-85.",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
