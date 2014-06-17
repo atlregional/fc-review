@@ -2405,7 +2405,13 @@
         "Shape_Leng": 5225.74417543,
         "ARC_Length": 0.989724275649,
         "RCLINK_1": "0632008900",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Evans Dr",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Provides North-South connection between Rex Rd (Minor Arterial) and SR 42 (Minor Arterial).",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
