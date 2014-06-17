@@ -7555,7 +7555,13 @@
         "Shape_Leng": 6272.23053953,
         "ARC_Length": 1.18792245067,
         "RCLINK_1": "0632049400",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Webb Rd",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Provides north-south connection to SR 85 for travel from Thomas Rd south (Major Collector).",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
