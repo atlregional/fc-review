@@ -10697,7 +10697,13 @@
         "Shape_Leng": 11694.6109473,
         "ARC_Length": 2.21488843698,
         "RCLINK_1": "0772006100",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Parks Road",
+        "FC_NEW": 5,
+        "JUST": "Requested FC change is included in County FC Plan; ",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
