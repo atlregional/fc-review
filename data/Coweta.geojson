@@ -13376,7 +13376,13 @@
         "Shape_Leng": 6142.68761114,
         "ARC_Length": 1.16338780514,
         "RCLINK_1": "0772046800",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "International Park",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Access to Creekside Industrial Park, Whitlock Park, Coweta EMS. ",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
