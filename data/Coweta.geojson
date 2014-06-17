@@ -17460,7 +17460,15 @@
         "Shape_Leng": 720.022369412,
         "ARC_Length": 0.136367872995,
         "RCLINK_1": "0772193600",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Hollz Pkwy",
+        "FC_NEW": 4,
+        "DESC": 4,
+        "JUST": "Growing commercial, industrial, and residential uses; plans to extend road to proposed I-85 @ Amlajack Interchange",
+        "FROM": "SR 34",
+        "TO": "Current terminus",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
