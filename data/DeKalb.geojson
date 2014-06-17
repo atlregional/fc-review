@@ -79696,7 +79696,15 @@
         "2011AvAADT": 28190,
         "2010AvAADT": 27068.3333333,
         "OBJECTID_1": 1656,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "North Druid Hill Road",
+        "FROM": "Buford Hwy",
+        "TO": "Stone Mountain Freeway",
+        "FC_NEW": 3,
+        "DESC": "AADT between 32K and 50K.  Connects Buford Hwy to I-85 to Lawrenceville Hwy to Stone Mountain Freeway.  Also connects to major state routes:  Briarcliff, Lavista, Clairmont",
+        "JUST": "System connectivity.  Major east/west road in DeKalb.  Gateway to Emory/CDC/VA from two major limited access facilities.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
