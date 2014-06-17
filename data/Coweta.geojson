@@ -11292,7 +11292,13 @@
         "Shape_Leng": 1708.82281288,
         "ARC_Length": 0.323640684258,
         "RCLINK_1": "0772006200",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Mary Freeman Road",
+        "FC_NEW": 5,
+        "JUST": "Requested FC change is included in County FC Plan. ",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
