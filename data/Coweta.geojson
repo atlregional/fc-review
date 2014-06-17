@@ -17702,7 +17702,12 @@
         "Shape_Leng": 2502.75830582,
         "ARC_Length": 0.47400725489,
         "RCLINK_1": "0772234700",
-        "County": "Coweta"
+        "County": "Coweta",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Requested FC change is included in County FC Plan",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
