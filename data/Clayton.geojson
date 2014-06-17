@@ -8145,7 +8145,13 @@
         "Shape_Leng": 4381.97754719,
         "ARC_Length": 0.829919989999,
         "RCLINK_1": "0632072600",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Arrowhead Blvd",
+        "FC_NEW": 5,
+        "DESC": 3,
+        "JUST": "This road provides an alternative for travel through the intersection of Upper Riverdale Rd and Tara Blvd for access to numerous medical offices/hospital and Tara Blvd south.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
