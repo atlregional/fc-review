@@ -12099,7 +12099,13 @@
         "2011AvAADT": 12490,
         "2010AvAADT": 11835,
         "OBJECTID_1": 3878,
-        "County": "Paulding"
+        "County": "Paulding",
+        "NAME": "Dallas Acworth Highway (SR 92)",
+        "FC_NEW": 3,
+        "DESC": "Traffic along SR 92 has increased over the years and in 2011 traffic counter 194 had an actual ADT count of 15790.  SR 92 carries a large amount of traffic trying to get to I-20 in Douglasville, I-75 in Cobb County or Trucks trying to get to the intermodal yard in Austell",
+        "JUST": "This segment of SR 92 is in the design phase to be widened from a 2 lane roadway to a divided 4 lane highway. The majority of the trips entering and leaving Paulding County are either along US 278 or SR 92.",
+        "stroke": "#00ff00",
+        "user": "EParish-PauldingCo"
       },
       "geometry": {
         "type": "LineString",
