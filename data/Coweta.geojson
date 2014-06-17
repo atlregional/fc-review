@@ -4067,7 +4067,13 @@
         "Shape_Leng": 17487.764702,
         "ARC_Length": 3.3120766481,
         "RCLINK_1": "0772012200",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Turkey Creek Road",
+        "FC_NEW": 5,
+        "JUST": "Requested FC change is included in County FC Plan; currently designated local truck route and regional freight corridor between Bypass and SR 16.",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
