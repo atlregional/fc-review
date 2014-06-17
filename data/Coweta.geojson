@@ -56259,7 +56259,13 @@
         "2011AvAADT": 810,
         "2010AvAADT": 820,
         "OBJECTID_1": 1357,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "East Gordon Road",
+        "FC_NEW": 7,
+        "DESC": 2,
+        "JUST": "same as above",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
