@@ -19,7 +19,15 @@
         "Shape_Leng": 17984.7994248,
         "ARC_Length": 3.40621201227,
         "RCLINK_1": "0632003800",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Maddox Rd",
+        "FROM": "Rex Rd",
+        "TO": "Mt. Zion Blvd",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "This road provides north-south connection between Rex Rd (Major Collector) and Mt. Zion Blvd (Major Collector).  Mt. Zion Blvd on the south end will be submitted for an upgrade to Minor Arterial in near future after a major widening project is completed.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
