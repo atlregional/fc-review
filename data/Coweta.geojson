@@ -7807,7 +7807,13 @@
         "Shape_Leng": 10820.0306173,
         "ARC_Length": 2.04924822298,
         "RCLINK_1": "0772006400",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Sullivan Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Requested FC is included in County FC Plan; increasing traffic volumes; used by commuters accessing SR 154 and I-85 (Summergrove, White Oak). ",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
