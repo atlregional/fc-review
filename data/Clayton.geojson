@@ -11288,7 +11288,13 @@
         "Shape_Leng": 1725.44891568,
         "ARC_Length": 0.326789567363,
         "RCLINK_1": "0632187000",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Thomas Rd ",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "This road provides the north-south link for travel from Thomas Rd (existing Major Collector) to/from SR 85.  ADTs on adjacent Webb Rd south of Thomas Rd (fka Flint River Rd) indicate significantly less travel on that segment (ADT = 1,760).",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
