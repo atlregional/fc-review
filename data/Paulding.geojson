@@ -13116,7 +13116,13 @@
         "2011AvAADT": 13997.5,
         "2010AvAADT": 14233.75,
         "OBJECTID_1": 3879,
-        "County": "Paulding"
+        "County": "Paulding",
+        "NAME": "Hiram-Douglasville Highway (SR 92)",
+        "FC_NEW": 3,
+        "DESC": "Through this segment of SR 92 counts were taken as high as 18340 in 2012 at US 278 counter 0174.  SR 92 carries a large amount of traffic trying to get to I-20 in Douglasville, I-75 in Cobb County or Trucks trying to get to the intermodal yard in Austell",
+        "JUST": "All of SR 92 is under design to be widened and reconstructed.  A portion of this segment is going from a 2 lane to a 6 lane roadway.  All other legs are going from a 2 lane to a 4 lane roadway with a divided median.  The majority of the trips entering and leaving Paulding County are either along US 278 or SR 92.",
+        "stroke": "#00ff00",
+        "user": "EParish-PauldingCo"
       },
       "geometry": {
         "type": "LineString",
