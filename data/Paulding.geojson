@@ -49287,7 +49287,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3920,
-        "County": "Paulding"
+        "County": "Paulding",
+        "NAME": "Frey Road",
+        "FROM": "Ivey Gulledge Road",
+        "TO": "Dallas Acworth Highway",
+        "FC_NEW": 6,
+        "DESC": "This segment of Frey Road has an ADT of 2830",
+        "JUST": "conform to the surrounding network. ",
+        "stroke": "#00ff00",
+        "user": "EParish-PauldingCo"
       },
       "geometry": {
         "type": "LineString",
