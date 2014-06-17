@@ -43941,7 +43941,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3912,
-        "County": "Paulding"
+        "County": "Paulding",
+        "NAME": "Harmony Grove Church Road",
+        "FROM": "Cedarcrest Road",
+        "TO": "Pumpkinvine Creek",
+        "FC_NEW": 6,
+        "DESC": "Current ADT on Harmony Grove Church Road is 5750",
+        "JUST": "Conforming to the surrounding network.  A good portion of Harmony Grove Church Road is already a Minor Collector.",
+        "stroke": "#00ff00",
+        "user": "EParish-PauldingCo"
       },
       "geometry": {
         "type": "LineString",
