@@ -33424,7 +33424,15 @@
         "2011AvAADT": 24985,
         "2010AvAADT": 25812.5,
         "OBJECTID_1": 1550,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "North Druid Hills Road",
+        "FROM": "Buford Hwy",
+        "TO": "Briarcliff Road",
+        "FC_NEW": 3,
+        "DESC": "AADT 50K.  Requested from Buford Hwy (SR 13) to I-85 to Lawrenceville Hwy (SR 8) to Stone Mountain Freeway.  Connects to major state routes:  Clairmont (SR 155), Lavista      (SR 236), Briarcliff (SR 42).",
+        "JUST": "Network connectivity- Major east/west road in DeKalb.  Gateway to Emory/CDC/VA from two limited access facilities.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
