@@ -13644,7 +13644,15 @@
         "Shape_Leng": 7150.69302579,
         "ARC_Length": 1.35427416703,
         "RCLINK_1": "0633090315",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Church St",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Provides north-south alternative for travel between SR 139/Riverdale Rd (Minor Arterial) and SR 85 (Principal Arterial).  This road could probably be classified as a Major Collector but suggested as Minor Collector due to unknown ADT.",
+        "FROM": "SR 139 (Church St)",
+        "TO": "SR 85",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
