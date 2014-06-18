@@ -26348,7 +26348,13 @@
         "Shape_Leng": 6781.49560221,
         "ARC_Length": 1.28437416709,
         "RCLINK_1": "0773098609",
-        "County": "Coweta"
+        "County": "Coweta",
+        "FC_NEW": 6,
+        "JUST": "serves as a major route  and entrance into a planned community with several pods provides connectivity to other principle arterial and would conform to the surrounding network.",
+        "DESC": "starts out as a two lane curb and gutter section with sidewalks that provides entrance to Avery Park a planned community with both commercial and residential uses then transitions to a one way divided parkway providing access to several pods within the community",
+        "NAME": "The Blvd",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
