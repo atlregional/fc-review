@@ -23670,7 +23670,13 @@
         "2011AvAADT": 5420,
         "2010AvAADT": 5390,
         "OBJECTID_1": 2192,
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Robinson Road",
+        "FC_NEW": 4,
+        "DESC": "Curb & gutter road with varying number of lanes.",
+        "JUST": "Request from Peachtree City.  Connects Minor Arterial with Principal Arterial.  One of few north-south corridors in PTC.  ",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
