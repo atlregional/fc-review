@@ -24097,7 +24097,15 @@
         "Shape_Leng": 4751.05134515,
         "ARC_Length": 0.899820330521,
         "RCLINK_1": "0773108409",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Fairway Drive",
+        "FROM": "Highwoods Parkway",
+        "TO": "West Hill Drive",
+        "FC_NEW": 6,
+        "DESC": "two lane residential road with sidewalks on both sides serves as part of the entrance route to this section which has over 10 pods no AADT available.",
+        "JUST": "provide a connection between two major routes within this planned community that both function as minor collectors and this section needs to be upgraded to conform to the surrounding network.",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
