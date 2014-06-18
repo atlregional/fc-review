@@ -39521,7 +39521,13 @@
         "2011AvAADT": 550,
         "2010AvAADT": 2170,
         "OBJECTID_1": 1564,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "FC_NEW": 6,
+        "NAME": "Rockland Road",
+        "DESC": "Lower than expected AADT.  Would like to keep as a collector because historic counts data looks inconsistent.  Can revisit whether this should be local next time.  ",
+        "JUST": "Need to coordinate with Rockdale County.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
