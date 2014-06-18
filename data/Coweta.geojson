@@ -20438,7 +20438,13 @@
         "Shape_Leng": 2679.38156345,
         "ARC_Length": 0.507458629441,
         "RCLINK_1": "0773077909",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Fourth Street",
+        "FC_NEW": 6,
+        "JUST": "this section of fourth street is used as an alternate route to downtown from belt road which is a major collector and the rest of fourth is already classified as a major collector so this change would conform to the surrounding network",
+        "DESC": "two lane street with sidewalks and curb and gutter ",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
