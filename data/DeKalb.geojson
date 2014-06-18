@@ -44214,7 +44214,13 @@
         "2011AvAADT": 6300,
         "2010AvAADT": 5925,
         "OBJECTID_1": 1579,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Salem Road",
+        "FC_NEW": 5,
+        "DESC": "AADT 4K-6K",
+        "JUST": "Network Connectivity.  Context/Landuse.  Consistent with DeKalb CTP.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
