@@ -6643,7 +6643,15 @@
         "2011AvAADT": 23086.6666667,
         "2010AvAADT": 22603.3333333,
         "OBJECTID_1": 1517,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Lawrenceville Hwy (SR 8)",
+        "FROM": "Stone Mountain Freeway",
+        "TO": "Lavista Road",
+        "FC_NEW": 3,
+        "DESC": "AADT 25K- Connects Stone Mountain Freeway with I-285. Gwinnett commuters- often used as an alternate to I-85 north.  RTOP corridor.",
+        "JUST": "Network Connectivity.  Might make sense to extend limits to the intersection of Jimmy Carter (Principal Arterial) intersection.  Important commuter link between City of Decatur, Emory, CDC, VA and Gwinnett County.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
