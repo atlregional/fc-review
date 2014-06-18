@@ -32317,7 +32317,15 @@
         "Shape_Leng": 2441.04081866,
         "ARC_Length": 0.462318336867,
         "RCLINK_1": "0773136809",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "McIntosh Parkway",
+        "FC_NEW": 5,
+        "FROM": "Parkway North",
+        "TO": "End",
+        "DESC": "It is a four lane divided urban section with curb and gutter and sidewalks has experienced significant commercial and Institutional growth in the past several years",
+        "JUST": "serves as a major route  and entrance into several commercial developments, provides connectivity to Newnan Crossing Bypass which is operating at least a major collector or minor arterial and would conform to the surrounding network",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
