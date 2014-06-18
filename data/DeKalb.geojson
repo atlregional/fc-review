@@ -102146,7 +102146,15 @@
         "2011AvAADT": 11120,
         "2010AvAADT": 11110,
         "OBJECTID_1": 1714,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "S Johnson Ferry Road",
+        "FROM": "City Limits/Sandy Springs",
+        "TO": "Ashford Dunwoody Rpad",
+        "FC_NEW": 4,
+        "DESC": 2,
+        "JUST": "This segment of S Johnson Ferry serves as a North/South connection between Sandy Springs and \"Pill Hill\" area of Northside/St Josephs Hospital and Peachtree Road/SR 141.  Traffic volumes are over 11,000 vpd, much higher that the guidance criteria of 6300 vpd for major collectors.  The road is shown as a Minor Arterial in the current DeKalb County Comprehensive Transportation Plan.",
+        "stroke": "#00ff00",
+        "user": "RMeehan-BrookhavenGa"
       },
       "geometry": {
         "type": "LineString",
