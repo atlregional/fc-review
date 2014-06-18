@@ -26034,7 +26034,13 @@
         "Shape_Leng": 2534.08525471,
         "ARC_Length": 0.47994038915,
         "RCLINK_1": "0773099009",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Calumet Parkway",
+        "FC_NEW": 5,
+        "DESC": "four lane divided urban section with grass median and curb and gutter has commercial uses at the beginning and then also have apartments, and single family residential mixed use development that it serves",
+        "JUST": "serves as a major route  and entrance into a planned community with several pods provides connectivity to other principle arterials and would conform to the surrounding network",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
