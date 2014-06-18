@@ -20271,7 +20271,15 @@
         "Shape_Leng": 5642.1447794,
         "ARC_Length": 1.0685880264,
         "RCLINK_1": "0773078209",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "West Washington ",
+        "FROM": "Belt Road",
+        "TO": "Lagrange Street",
+        "FC_NEW": 5,
+        "JUST": "serves as alternate route to the state route system in the downtown road network and provides connectivity to downtown and other major collectors",
+        "DESC": "two lane street with curb and gutter many sections also have sidewalk is an integral part of the downtown road network system",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
