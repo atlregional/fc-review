@@ -21913,7 +21913,13 @@
         "Shape_Leng": 2070.77106522,
         "ARC_Length": 0.392191489625,
         "RCLINK_1": "0773102609",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Lake Forest Drive",
+        "FC_NEW": 6,
+        "DESC": "Two lane residential street with sidewalks on both sides that serves as a major collection route for more than 14 individual residential pods within Summer Grove Subdivision.",
+        "JUST": "connects to Summer Grove Parkway and serves as a major route to access several pods within the subdivision has an AADT of 522 as measured in August of 2013.",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
