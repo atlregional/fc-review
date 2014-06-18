@@ -19693,7 +19693,13 @@
         "Shape_Leng": 2540.71728473,
         "ARC_Length": 0.481196455441,
         "RCLINK_1": "0773091209",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Jefferson Parkway",
+        "FC_NEW": 5,
+        "DESC": "two lane street with curb and gutter serves several commercial businesses and apartment complexes",
+        "JUST": "connects between a principle arterial and a major collector and is used as a short cut between the two as well as major access route for commercial business and apartments located on the road",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
