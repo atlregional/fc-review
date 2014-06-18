@@ -39795,7 +39795,13 @@
         "2011AvAADT": 2370,
         "2010AvAADT": 2410,
         "OBJECTID_1": 1566,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Hayden Quarry Road",
+        "FC_NEW": 6,
+        "DESC": "Low AADT- 2K",
+        "JUST": "Network Connectivity, Parallel Routes. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
