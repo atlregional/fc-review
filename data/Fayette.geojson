@@ -7088,7 +7088,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 2158,
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Goza Road",
+        "FC_NEW": 5,
+        "DESC": "A two-lane, shoulder & ditch road.",
+        "JUST": "Provides east-west connectivity between SR 85 and SR 92.  Proposed change is consistent with adjacent Bernhard Road and a better fit with East Fayetteville Bypass to the east.",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
