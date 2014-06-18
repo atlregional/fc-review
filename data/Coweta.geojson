@@ -32470,7 +32470,13 @@
         "Shape_Leng": 3388.8714517,
         "ARC_Length": 0.641831714337,
         "RCLINK_1": "0773136409",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Ashley Park Blvd",
+        "FC_NEW": 5,
+        "JUST": "serves as a major route  and entrance into several commercial developments including a 900 unit multifamily development, provides connectivity from Bullsboro Drive to McIntosh Parkway which is operating at least a major collector or minor arterial and would conform to the surrounding network",
+        "DESC": "section is mostly two lane divided urban section with curb and gutter and sidewalks some is not divided",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
