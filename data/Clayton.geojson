@@ -2831,7 +2831,13 @@
         "Shape_Leng": 1443.38820558,
         "ARC_Length": 0.273363628121,
         "RCLINK_1": "0632029600",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "King Rd",
+        "FC_NEW": 6,
+        "JUST": "Provides east-west connection between City of Riverdale/SR 85 (Pricipal Arterial) and SR 314/W. Fayetteville Rd (Minor Arterial).  This road carries slightly less traffic than E. Fayetteville Rd to the north.",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
