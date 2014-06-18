@@ -91267,7 +91267,15 @@
         "2011AvAADT": 4450,
         "2010AvAADT": 4720,
         "OBJECTID_1": 1672,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "FROM": "Evans Mill Road/Mall Parkway",
+        "TO": "Klondike Road",
+        "FC_NEW": 5,
+        "DESC": "AADT-4K,  ",
+        "NAME": "Woodrow Drive",
+        "JUST": "Network Connectivity/Context.  Low traffic counts.  Consistent with DeKalb CTP.",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
