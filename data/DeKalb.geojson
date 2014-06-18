@@ -2465,7 +2465,15 @@
         "2011AvAADT": 17892.5,
         "2010AvAADT": 18296.25,
         "OBJECTID_1": 1513,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Covington Hwy",
+        "FROM": "Memorial Drive",
+        "TO": "Turner Hill Road",
+        "FC_NEW": 3,
+        "DESC": "AADT range up to 35K.  Major east/west route in DeKalb.  Often used as an alternative to I-20.  Commuters use Covington Hwy to get to lower classified roads to avoid the east wall of I-285",
+        "JUST": "Network Connectivity.  Connects Cities of Decatur/Avondale to I-285 to South Hairston (principal) to City of Lithonia to Turner Hill/Rock Chapel (principal) to I-20.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
