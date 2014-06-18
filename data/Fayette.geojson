@@ -13183,7 +13183,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 2167,
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Banks Road",
+        "FC_NEW": 4,
+        "DESC": "Two-lane road, shoulder and ditch",
+        "JUST": "Increasing traffic, connects two Principal Arterials.  Used as option around downtown Fayetteville.",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
