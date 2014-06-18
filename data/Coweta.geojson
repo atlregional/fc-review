@@ -19602,7 +19602,13 @@
         "Shape_Leng": 2143.89824666,
         "ARC_Length": 0.406041334595,
         "RCLINK_1": "0773075609",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Spence Ave",
+        "FC_NEW": 6,
+        "JUST": "this road is often used as a short cut from the Principle Arterial (Greenville Street) to the Major Collector Sewell Road and this change will provide conformity within the surrounding network",
+        "DESC": "two lane street with sidewalks that connects between a Principle Arterial/Minor Arterial and a Major Collector",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
