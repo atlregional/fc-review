@@ -19550,7 +19550,13 @@
         "Shape_Leng": 2358.20629795,
         "ARC_Length": 0.446629980672,
         "RCLINK_1": "0773081209",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "College Street",
+        "FC_NEW": 6,
+        "JUST": "provides connectivity between a minor arterial and major collector, is an integral part of the downtown road system and would conform to the surrounding network",
+        "DESC": "two lane urban section with sidewalks with AADT of 1202 when last measured in July of 2009",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
