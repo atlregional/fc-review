@@ -20087,7 +20087,13 @@
         "Shape_Leng": 2798.1547256,
         "ARC_Length": 0.529953546514,
         "RCLINK_1": "0773088009",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Werz Industrial Blvd",
+        "FC_NEW": 5,
+        "JUST": "serves as a major route  and entrance into a  commercial and industrial developed area and ultimately to a planned community with several pods provides connectivity to other principle arterial and would conform to the surrounding network",
+        "DESC": "two lane street with some curb and gutter has commercial and industrial at one end then transitions to multi and single family residential at the other end connects to Calumet Parkway",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
