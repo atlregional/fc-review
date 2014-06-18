@@ -12428,7 +12428,13 @@
         "Shape_Leng": 5886.42135036,
         "ARC_Length": 1.11483353533,
         "RCLINK_1": "0632357400",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Walker Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Provides North-South connection between SR 139/Riverdale Rd (Minor Arterial) and Bethsaida Rd (Minor Arterial).  ",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
