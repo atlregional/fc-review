@@ -39374,7 +39374,13 @@
         "2011AvAADT": 600,
         "2010AvAADT": 600,
         "OBJECTID_1": 1563,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "McDaniel Mill Road",
+        "FC_NEW": 6,
+        "DESC": "Low AADT.  Would like to keep this as a collector because historic counts are inconsistent.  ",
+        "JUST": "Need to coordinate with Rockdale County- turns into Hurst Road.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
