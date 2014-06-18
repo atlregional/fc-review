@@ -57446,7 +57446,13 @@
         "2011AvAADT": 10780,
         "2010AvAADT": 10940,
         "OBJECTID_1": 1614,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Lithonia Industrial Blvd",
+        "FC_NEW": 4,
+        "DESC": "Two phases of LIB completed in recent years to provide a truck/freight route connecting Rock Chapel Road (principal) to I-20.  Provides connectivity to S St Mtn Lithonia Road (minor) and Covington Hwy (proposed principal, existing minor) to take trucks out of the City of Lithonia.  ",
+        "JUST": "Network Connectivity, Truck/Freight Route.  Industrial Area.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
