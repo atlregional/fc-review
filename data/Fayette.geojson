@@ -29461,7 +29461,15 @@
         "2011AvAADT": 3450,
         "2010AvAADT": 3500,
         "OBJECTID_1": 2207,
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Planterra Way",
+        "FROM": "SR 54",
+        "TO": "Kelly Drive",
+        "FC_NEW": 6,
+        "DESC": "Two -lane road, residential area.",
+        "JUST": "Request from Peacthree City.",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
