@@ -25423,7 +25423,15 @@
         "Shape_Leng": 2315.06593988,
         "ARC_Length": 0.43845945831,
         "RCLINK_1": "0773118009",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Summerlin Blvd",
+        "FROM": "Lower Fayetteville Road",
+        "TO": "Newnan Crossing Blvd East",
+        "FC_NEW": 6,
+        "JUST": "serves as a major route  and entrance into several commercial developments, and one single family development provides connectivity between Lower Fayettville Road and Newnan Crossing Blvd East which are major collector or minor arterial and would conform to the surrounding network",
+        "DESC": "three lane urban section with center turn lane and curb and gutter and sidewalk is used as a short cut from Lower Fayetteville road to Newnan Crossing Blvd East",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
