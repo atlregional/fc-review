@@ -19883,7 +19883,15 @@
         "Shape_Leng": 8019.36454568,
         "ARC_Length": 1.51881904274,
         "RCLINK_1": "0773070609",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "East Washington ",
+        "FROM": "Lagrange Street",
+        "TO": "Roberts Road",
+        "FC_NEW": 5,
+        "JUST": "serves as alternate route to the state route system in the downtown road network and provides connectivity to downtown and other major collectors",
+        "DESC": "two lane street with sidewalk and curb and gutter some sections are one way is an integral part of the downtown road network system",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
