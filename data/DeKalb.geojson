@@ -103289,7 +103289,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1717,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Dresden Drive",
+        "FC_NEW": 4,
+        "DESC": "AADT 2012: 10040 vpd (from GDOT)",
+        "JUST": "Serves as a e-w connection from SR 141 to I-85/Chamblee Tucker area, crossing Clairmont Road and Buford Hwy/SR 23.  Connection between Brookhaven, Chamblee, and Doraville.  Designated in DeKalb CTP as a minor arterial.",
+        "stroke": "#00ff00",
+        "user": "RMeehan-BrookhavenGa"
       },
       "geometry": {
         "type": "LineString",
