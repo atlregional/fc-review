@@ -32772,7 +32772,15 @@
         "2011AvAADT": 2990,
         "2010AvAADT": 3030,
         "OBJECTID_1": 2218,
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Banks Road",
+        "FROM": "City/County border (east)",
+        "TO": "SR 314 ( W. Fayetteville Rd) (West)",
+        "FC_NEW": 4,
+        "DESC": "Varying number of lanes; curb & gutter; two traffic signals; non-residential land use.",
+        "JUST": "Connects two State Routes and classification change matches recommendation to eastern segment of Banks.  Heavy use for commercial shopping, residential areas, and commuter traffic.  ",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
