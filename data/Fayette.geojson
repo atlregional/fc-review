@@ -14435,7 +14435,13 @@
         "2011AvAADT": 5020,
         "2010AvAADT": 5090,
         "OBJECTID_1": 2171,
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Corinth Road",
+        "FC_NEW": 4,
+        "DESC": "Two-lane road, shoulder & ditch, recent traffic signal installation at SR 54.",
+        "JUST": "Road receives heavy traffic between SR 85 and SR 54.  Recommend consistent classification from SR 54 to 855 (i.e., through Clayton County segment)",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
