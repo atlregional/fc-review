@@ -31322,7 +31322,15 @@
         "Shape_Leng": 4637.37233637,
         "ARC_Length": 0.878290215222,
         "RCLINK_1": "0773105409",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Highwoods Parkway",
+        "FROM": "Summergrove Parkway",
+        "TO": "Fairway Drive",
+        "FC_NEW": 6,
+        "DESC": "Starts as a 4 lane divided then goes down to two lane with sidewalks on both sides",
+        "JUST": "Serves as an entrance route to this section of Summer Grove connects to Summer Grove Parkway and connects over 10 pods within this planned development to a major collector, has an AADT of 2474 non-directional as measured in April of 2014",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
