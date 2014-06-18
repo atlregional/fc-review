@@ -22260,7 +22260,13 @@
         "Shape_Leng": 4423.06329644,
         "ARC_Length": 0.837701381902,
         "RCLINK_1": "0773108509",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "West Hill Drive",
+        "FC_NEW": 6,
+        "JUST": "Serves as an entrance route to this section of Summer Grove connects to Newnan Crossing Blvd East which operates as a major collector and connects over 10 pods within this planned development to a major collector, has an AADT of 2719 non-directional as measured in November of 2011",
+        "DESC": "two lane residential major route that is an entrance to the planned community and connects to Newnan Crossing Blvd East which functions as a major collector ",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA"
       },
       "geometry": {
         "type": "LineString",
