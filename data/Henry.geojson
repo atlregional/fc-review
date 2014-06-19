@@ -63026,7 +63026,13 @@
         "2011AvAADT": 3950,
         "2010AvAADT": 5560,
         "OBJECTID_1": 3682,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "East Main St, aka Old Hwy 3",
+        "FC_NEW": 5,
+        "DESC": "AADT 4000, 2 lane road.  Major collector street that runs through Hampton as a local alternate to Hwy 19/41",
+        "JUST": "Lower traffic volume.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
