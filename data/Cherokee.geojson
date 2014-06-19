@@ -9439,7 +9439,13 @@
         "Shape_Leng": 8209.48152367,
         "ARC_Length": 1.55482604615,
         "RCLINK_1": "0572028900",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Bart Manous Rd",
+        "FC_NEW": 6,
+        "DESC": "Roadway provides a connection between Hickory Flat Hwy and East Cherokee Dr.",
+        "JUST": "Roadway is a east west connection between a Minor Arterial and a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
