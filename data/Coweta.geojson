@@ -17458,7 +17458,13 @@
         "Shape_Leng": 3881.3396701,
         "ARC_Length": 0.735102210245,
         "RCLINK_1": "0772115500",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Newnan Bypass",
+        "FC_NEW": 4,
+        "DESC": 4,
+        "JUST": "Requested FC change is included in County FC Plan; primary north-south roadway; proposed extension to SR 16 (CST to begin this summer).",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
@@ -19512,7 +19518,13 @@
         "Shape_Leng": 3881.3396701,
         "ARC_Length": 0.735102210245,
         "RCLINK_1": "0772115500",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Newnan Bypass",
+        "FC_NEW": 4,
+        "DESC": 4,
+        "JUST": "Requested FC change is included in County FC Plan; primary north-south roadway; proposed extension to SR 16 (CST to begin this summer).",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
