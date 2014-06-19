@@ -7665,7 +7665,15 @@
         "Shape_Leng": 15178.501129,
         "ARC_Length": 2.87471612291,
         "RCLINK_1": "2478044500",
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Dogwood Drive",
+        "FROM": "West of West Avenue",
+        "TO": "Newton County Line",
+        "FC_NEW": 4,
+        "DESC": "Two lane I-20 frontage roadway with 6,870 ADT.",
+        "JUST": "Roadway should be upgraded to minor arterial due to traffic volumes and conformance to surrounding network. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
