@@ -40667,7 +40667,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3603,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Floyd Road",
+        "FC_NEW": 6,
+        "DESC": "Portion of roadway is 2 lane paved roadway and portion (southern portion) is 2 lane surface treatment roadway. ",
+        "JUST": "Lower traffic volume than most Henry Co FC-5's.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
