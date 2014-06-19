@@ -30083,7 +30083,13 @@
         "2011AvAADT": 7645,
         "2010AvAADT": 3845,
         "OBJECTID_1": 3575,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Old Conyers Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Roadway is candidate for lowering to Major Collector based on expected traffic volumes.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
