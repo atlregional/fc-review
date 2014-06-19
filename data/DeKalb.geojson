@@ -53493,7 +53493,13 @@
         "2011AvAADT": 19530,
         "2010AvAADT": 19820,
         "OBJECTID_1": 1603,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Clifton Road",
+        "FC_NEW": 4,
+        "DESC": "AADT 20K.  Major Traffic Generators Emory Hospital, Emory Univ, CDC",
+        "JUST": "Network Connectivity.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
