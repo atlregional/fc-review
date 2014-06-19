@@ -47748,7 +47748,13 @@
         "2011AvAADT": 2600,
         "2010AvAADT": 2410,
         "OBJECTID_1": 3966,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "McCalla Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway with moderate traffic volumes.",
+        "JUST": "Roadway should be reduced to minor collector to conform to surrounding network. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
