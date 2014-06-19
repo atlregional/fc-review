@@ -11818,7 +11818,13 @@
         "Shape_Leng": 838.315736759,
         "ARC_Length": 0.158771919841,
         "RCLINK_1": "0572027000",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Owens Store Rd",
+        "JUST": "This is a roadway that connects a Major Collector as well as a Minor Collector.  It also serves a middle school and a high school.",
+        "DESC": "A high school and middle school are major traffic generators.",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
