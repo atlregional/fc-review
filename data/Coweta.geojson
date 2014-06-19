@@ -14191,7 +14191,13 @@
         "Shape_Leng": 5856.72607262,
         "ARC_Length": 1.10922842284,
         "RCLINK_1": "0772021700",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Pine Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Requested FC change is included in County FC Plan; primary east-west roadway; enhanced connection via US 29 @ Pine Road, SR 16 widening and SE Bypass extension projects (CST to begin this summer on all 3 projects).",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
