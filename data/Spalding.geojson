@@ -15275,7 +15275,15 @@
         "2011AvAADT": 1465,
         "2010AvAADT": 1640,
         "OBJECTID_1": 4091,
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "S",
+        "FROM": "North Expressway",
+        "TO": "Malier Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "traffic volumes and residential densities support FC-5",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
