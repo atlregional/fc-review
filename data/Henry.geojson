@@ -8731,7 +8731,13 @@
         "2011AvAADT": 370,
         "2010AvAADT": 380,
         "OBJECTID_1": 3542,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Turner Church Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Lower traffic volume than other Henry Co. FC-5's.  Please add Turner Church Road between SR20 and McGarity as an FC-6 also (currently shown as local).",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
