@@ -44957,7 +44957,13 @@
         "2011AvAADT": 1660,
         "2010AvAADT": 1370,
         "OBJECTID_1": 3622,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Snapping Shoals Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Lower traffic volume than other Henry Co. FC-5 roadways.  Also, please add Snapping Shoals Road as an FC-6 between Honey Creek Road and North Ola Road.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
