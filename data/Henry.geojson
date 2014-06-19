@@ -35214,7 +35214,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3587,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Stroud Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Lower traffic volume that most FC-5 roads in Henry Co.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
