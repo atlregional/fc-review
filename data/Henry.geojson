@@ -51135,7 +51135,13 @@
         "2011AvAADT": 540,
         "2010AvAADT": 550,
         "OBJECTID_1": 3641,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Moseley Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "drop to fc-6 due to low traffic volume.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
