@@ -10306,7 +10306,13 @@
         "Shape_Leng": 7196.55821183,
         "ARC_Length": 1.36298450982,
         "RCLINK_1": "0632113400",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Thornton Blvd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Connecting route between Lake Jodeco Rd and Noah's Ark Rd.  Some commuters from farther south elect to use this corridor in conjunction with Dixon Industrial Blvd & Freeman Rd as a bypass for S. Main St (downtown Jonesboro) for access to Tara Blvd and Lovejoy.  ",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
