@@ -5360,7 +5360,13 @@
         "Shape_Leng": 10880.3501742,
         "ARC_Length": 2.06067238147,
         "RCLINK_1": "0632053700",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Freeman Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Connecting route between Tara Blvd and McDonough Rd.  Some commuters from farther south elect to use this corridor in conjunction with Dixon Industrial Blvd & Thornton Blvd as a bypass for S. Main St (downtown Jonesboro) for access to Tara Blvd (south) and Lovejoy.  ",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
