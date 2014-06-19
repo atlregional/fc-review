@@ -21542,7 +21542,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3794,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "Crowell Rd.",
+        "FC_NEW": 4,
+        "DESC": 13,
+        "FROM": "I-20",
+        "TO": "S.R. 81",
+        "JUST": "The bypass is proposed by GDOT to be a Minor Arterial.  Need to provide continuity in classification along the entire Covington bypass.",
+        "stroke": "#00ff00",
+        "user": "TGarrett-NewtonCo"
       },
       "geometry": {
         "type": "LineString",
