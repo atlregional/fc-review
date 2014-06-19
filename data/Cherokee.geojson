@@ -9005,7 +9005,13 @@
         "Shape_Leng": 14950.8546529,
         "ARC_Length": 2.83160126001,
         "RCLINK_1": "0572029500",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Lower Union Hill Rd",
+        "FC_NEW": 6,
+        "DESC": "Two Lane roadway that connects East Cherokee Drive and Union Hill Road.",
+        "JUST": "A portion of this road is already a Minor Collector so the change is proposed for continuity.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
