@@ -9036,7 +9036,13 @@
         "2011AvAADT": 1710,
         "2010AvAADT": 1560,
         "OBJECTID_1": 3543,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Swan Lake Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "low traffic volume.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
