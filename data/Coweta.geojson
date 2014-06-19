@@ -86465,7 +86465,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1456,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Corinth Road",
+        "FC_NEW": 5,
+        "JUST": "Minor Arterial FC is not appropriate for this roadway; Requested FC change is included in County FC Plan.",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
