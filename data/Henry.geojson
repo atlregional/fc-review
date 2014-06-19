@@ -2539,7 +2539,13 @@
         "2011AvAADT": 15744,
         "2010AvAADT": 14864,
         "OBJECTID_1": 3530,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Hampton Road, aka SR20/81, and portion wb in McDonough is John Frank Ward (aka Covington Street)",
+        "FC_NEW": 3,
+        "DESC": "From I-75 to McDonough Square (SR42) 2 lane roadway.  Macon St, b/t Hampton St and John Frank Ward, is a 2 lane northbound section on east side of square.  John Frank Ward Blvd (aka Covington St) is a 2 lane eastbound existing portion of one way pair.  AADT approx 16,000.",
+        "JUST": "High traffic volume and roadways sections that make up this segment are important part of mobility through McDonough to SR20, 81, 155, and I-75.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
