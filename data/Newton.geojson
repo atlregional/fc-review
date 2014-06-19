@@ -21374,7 +21374,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3793,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "Henderson Mill Rd.",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Continuity with the rest of Henderson Mill Rd.",
+        "stroke": "#00ff00",
+        "user": "TGarrett-NewtonCo"
       },
       "geometry": {
         "type": "LineString",
