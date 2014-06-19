@@ -34721,7 +34721,13 @@
         "2011AvAADT": 3000,
         "2010AvAADT": 2930,
         "OBJECTID_1": 3958,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Rockbridge Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane rural roadway with 2,950 ADT",
+        "JUST": "Two lane rural roadway with 2,950 ADT",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
