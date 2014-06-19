@@ -58492,7 +58492,15 @@
         "2011AvAADT": 12175,
         "2010AvAADT": 12360,
         "OBJECTID_1": 1615,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Snapfinger Woods Drive",
+        "FROM": "DeKalb Medical Parkway",
+        "TO": "Wesley Chapel Road",
+        "FC_NEW": 5,
+        "DESC": "Extend to include new alignment to DeKalb Medical Parkway",
+        "JUST": "New alignment since last FC review.",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
