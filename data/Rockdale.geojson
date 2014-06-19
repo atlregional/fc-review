@@ -48211,7 +48211,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3967,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Old Salem Rd",
+        "FROM": "Hwy 138/GA 20",
+        "TO": "Salem Rd",
+        "FC_NEW": 4,
+        "DESC": "Two lane roadway with high traffic volumes",
+        "JUST": "Roadway should be increased to minor arterial due to increased traffic and conformance to surrounding network. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
