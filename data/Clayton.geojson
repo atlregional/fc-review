@@ -13879,7 +13879,15 @@
         "Shape_Leng": 5621.73254538,
         "ARC_Length": 1.06472207299,
         "RCLINK_1": "0633062309",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Lovejoy Rd",
+        "FROM": "US 19/41 (Tara Blvd)",
+        "TO": "Panhandle Rd",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Connecting route for travel between Panhandle and Tara Blvd.  Development along this corridor has boomed in the last several years.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
