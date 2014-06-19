@@ -2442,7 +2442,13 @@
         "2011AvAADT": 840,
         "2010AvAADT": 850,
         "OBJECTID_1": 3529,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Pleasant Grove Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Minor collector type roadway with lower traffic volume.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
