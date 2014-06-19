@@ -12691,7 +12691,12 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1528,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Welland Ave",
+        "FC_NEW": 6,
+        "DESC": "Low AADT",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
