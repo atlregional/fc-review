@@ -14412,7 +14412,13 @@
         "Shape_Leng": 7776.90845814,
         "ARC_Length": 1.47289932919,
         "RCLINK_1": "0772027000",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Ishman Ballard Road",
+        "FC_NEW": 4,
+        "DESC": 2,
+        "JUST": "Requested FC change is included in County FC Plan; increasing traffic volumes; connectivity to SR 34 Bypass to the north. ",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
