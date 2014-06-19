@@ -78161,7 +78161,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1405,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Rockaway Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Increasing traffic volumes; connectivity between Coweta and Fayette/PTC; Will match FC in Fayette/PTC. ",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
