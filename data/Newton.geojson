@@ -25063,7 +25063,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3799,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "Alcovy Trestle Rd.",
+        "FC_NEW": 7,
+        "DESC": 2,
+        "JUST": "Traffic does not warrant Collector classification.",
+        "stroke": "#00ff00",
+        "user": "TGarrett-NewtonCo"
       },
       "geometry": {
         "type": "LineString",
