@@ -1868,7 +1868,13 @@
         "Shape_Leng": 3596.90210338,
         "ARC_Length": 0.681231458974,
         "RCLINK_1": "0632001800",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Richardson Pkwy",
+        "FC_NEW": 5,
+        "DESC": 3,
+        "JUST": "This road provides for alternative access to I-75 at Mt. Zion Blvd compared to Mt. Zion Rd/Mt. Zion Pkwy and joins Mt. Zion Rd (Minor Arterial) to service trips to/from the City Stockbridge/SR 138.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
