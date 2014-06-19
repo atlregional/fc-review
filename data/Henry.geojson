@@ -9422,7 +9422,13 @@
         "2011AvAADT": 1230,
         "2010AvAADT": 1250,
         "OBJECTID_1": 3544,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Patillo Road & Gardner Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Lower traffic volume than most Major Collector roadways.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
