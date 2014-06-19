@@ -36839,7 +36839,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3591,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Peeksville Road",
+        "FC_NEW": 6,
+        "DESC": "Roadway section has recently been paved to 2 lane paved facility (between New Hope Road and Keys Ferry Road), but AADT likely < 1500.  ",
+        "FROM": "New Hope Road",
+        "TO": "Keys Ferry Road",
+        "JUST": "Recently constructed reservoir has increased traffic, but likely not to the point of being an FC-5 classification.  Also, please change the northern terminus of Keys Ferry Road for the FC-6 classification of Peeksville Rd.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
