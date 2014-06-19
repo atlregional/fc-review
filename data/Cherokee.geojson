@@ -16497,7 +16497,15 @@
         "Shape_Leng": 9346.13373719,
         "ARC_Length": 1.77010108659,
         "RCLINK_1": "0572050000",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Airport Dr",
+        "FROM": "W Hanger Dr",
+        "TO": "Ball Ground Hwy",
+        "FC_NEW": 5,
+        "DESC": "This road is a 2 lane road that serves many industrial businesses as well as the airport.",
+        "JUST": "The land use in the area is largely industrial and serves multiple businesses as well as the Cherokee County Airport and has an exit on 575.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
