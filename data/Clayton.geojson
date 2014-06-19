@@ -16520,7 +16520,15 @@
         "Shape_Leng": 5922.03090951,
         "ARC_Length": 1.12159676317,
         "RCLINK_1": "0633111211",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "S. Lee St",
+        "FROM": "Southlake Pkwy",
+        "TO": "Old Rex Morrow Rd",
+        "FC_NEW": 5,
+        "JUST": "In conjunction with N. Lee St and North Pkwy, this road provides an alternate to SR 54 (Jonesboro Rd) for north-south travel between Southlake Pkwy/Mt. Zion Rd and Forest Pkwy.  Also provides access to Clayton State University.  The Lee Street Bridge over I-75 was recently finished in or around 2012, changing travel patterns in this area and resulting in greater use of Lee St as a north-south route.   ",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
