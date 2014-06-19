@@ -1834,7 +1834,13 @@
         "Shape_Leng": 12174.6495562,
         "ARC_Length": 2.30580484019,
         "RCLINK_1": "0772002900",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Cedar Creek Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Requested FC change is included in County FC Plan; used by commuters to access US 29/SR 154/I-85.",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
