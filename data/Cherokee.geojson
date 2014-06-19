@@ -1744,7 +1744,13 @@
         "Shape_Leng": 23205.79923,
         "ARC_Length": 4.39503773371,
         "RCLINK_1": "0572005200",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Land Rd",
+        "FC_NEW": 6,
+        "DESC": "East west connection from Reinhardt College Pkwy to Upper Bethany Road.",
+        "JUST": "Connection will be between a Major Collector and a proposed Minor Collector and has a section that crosses another Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
