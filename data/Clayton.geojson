@@ -6193,7 +6193,13 @@
         "Shape_Leng": 4561.32148509,
         "ARC_Length": 0.863886644903,
         "RCLINK_1": "0632051400",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Folsom Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Connecting route between Tara Rd (Proposed upgrade to Major Collector) and SR 920 (McDonough Rd - Minor Arterial).",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
