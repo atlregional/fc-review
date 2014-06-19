@@ -21,7 +21,13 @@
         "2011AvAADT": 4800,
         "2010AvAADT": 4870,
         "OBJECTID_1": 3749,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "Jack Neely Rd.",
+        "FC_NEW": 6,
+        "DESC": 4,
+        "JUST": "Traffic does not justify Major Collector classification.",
+        "stroke": "#00ff00",
+        "user": "TGarrett-NewtonCo"
       },
       "geometry": {
         "type": "LineString",
