@@ -63695,7 +63695,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3685,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "East King Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Traffic volume and local street tie-ins should be such that the volume is lower than most FC-5 roadways.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
