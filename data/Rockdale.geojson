@@ -23556,7 +23556,13 @@
         "2011AvAADT": 2460,
         "2010AvAADT": 2480,
         "OBJECTID_1": 3947,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Honey Creek Road",
+        "FC_NEW": 5,
+        "DESC": "Two lane rural roadway. 8,610 ADT",
+        "JUST": "This is a two lane rural roadway with 8,610 ADT",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
