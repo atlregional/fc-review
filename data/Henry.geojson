@@ -12210,7 +12210,13 @@
         "2011AvAADT": 18924,
         "2010AvAADT": 17798,
         "OBJECTID_1": 3555,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Jonesboro Road and Jonesboro Street (between r/r tracks and SR42)",
+        "FC_NEW": 3,
+        "DESC": "From west of I-75 (at Mount Olive Intersection) to near r/r track Jonesboro is a 4 lane road with raised median.  East and west of that section Jonesboro is a 2 lane road.  AADT ~ 19,000  ",
+        "JUST": "High traffic volume along the whole segment of roadway.  Connects from McDonough into Clayton County at/near Hwy 19/41.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
