@@ -41738,7 +41738,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3970,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Flat Shoals Rd",
+        "FROM": "McDaniel Mill Rd",
+        "TO": "Ebenezer Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane rural roadway with 1,138 ADT.",
+        "JUST": "Two lane rural roadway with 1,138 ADT.",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
