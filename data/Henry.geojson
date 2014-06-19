@@ -10074,7 +10074,13 @@
         "2011AvAADT": 1660,
         "2010AvAADT": 1680,
         "OBJECTID_1": 3546,
-        "County": "Henry"
+        "County": "Henry",
+        "FC_NEW": 6,
+        "NAME": "Linecrest Road",
+        "DESC": 2,
+        "JUST": "Functions as a minor roadway; Linecrest is Henry/Dekalb County Line",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
