@@ -33230,7 +33230,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3581,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Indian Creek Road",
+        "FC_NEW": 7,
+        "DESC": "Low volume 2 lane paved road",
+        "JUST": "Low volume - local road",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
