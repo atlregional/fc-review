@@ -12164,7 +12164,15 @@
         "Shape_Leng": 39248.8976141,
         "ARC_Length": 7.43350333601,
         "RCLINK_1": "0772029600",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Thomas Powers Road, Hewlette South Road, and Bud Davis Road",
+        "FC_NEW": 6,
+        "FROM": "SR 34",
+        "TO": "Flat Rock Road",
+        "DESC": 2,
+        "JUST": "Used as a main access to Chattahoochee Bend State Park. ",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
