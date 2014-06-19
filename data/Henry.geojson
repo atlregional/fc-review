@@ -63732,7 +63732,13 @@
         "2011AvAADT": 3940,
         "2010AvAADT": 4040,
         "OBJECTID_1": 3687,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Woolsey Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Short length roadway that collects various local streets and distributes to arterial roadway and other major collectors.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
