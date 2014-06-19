@@ -3680,7 +3680,15 @@
         "Shape_Leng": 12379.0303057,
         "ARC_Length": 2.34451331548,
         "RCLINK_1": "0572008600",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Heard Rd",
+        "FC_NEW": 6,
+        "FROM": "Fate Conn Rd",
+        "TO": "Lower Bethany Rd",
+        "DESC": "This roadway connects Fate Conn Rd and Lower Bethany.",
+        "JUST": "Once of the roads it connects is currently a Minor Collector and the other is proposed to be a Minor Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
