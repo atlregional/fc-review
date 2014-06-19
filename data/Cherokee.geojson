@@ -14889,7 +14889,13 @@
         "Shape_Leng": 2492.48284906,
         "ARC_Length": 0.472061145655,
         "RCLINK_1": "0572077900",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Sixes Rd",
+        "FC_NEW": 5,
+        "DESC": "The majority of Sixes Road is already a Major Collector.  For some reason this last segment was not included.",
+        "JUST": "The change is needed for continuity along Sixes Road.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -16069,7 +16075,13 @@
         "Shape_Leng": 2605.18969644,
         "ARC_Length": 0.493407139477,
         "RCLINK_1": "0572077100",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "New Hope Rd",
+        "FC_NEW": 6,
+        "DESC": "New Hope Road is a two-lane roadway that connects the Southwest portion of Cherokee County over to Red Top Mountain State Park and portion of Lake Alatoona.",
+        "JUST": "This roadway is frequently used by recreational vehicles and vehicles with boat trailers accessing the many campgrounds and lake access points in the area.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -16239,7 +16251,13 @@
         "Shape_Leng": 4745.0412135,
         "ARC_Length": 0.89868204801,
         "RCLINK_1": "0572076800",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Woodstock Rd",
+        "FC_NEW": 6,
+        "DESC": "Several new residential subdivisions are building in this area with the potential to add several hundred housing units.  Current ADT on this portion is 1,575 vpd.",
+        "JUST": "This road will be handling more traffic in the immediate future and also connects two Minor Arterials.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -64839,13 +64857,7 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 633,
-        "County": "Cherokee",
-        "NAME": "Arthur Dr",
-        "FC_NEW": 7,
-        "DESC": "Arthur Drive has some sections with bad horizontal geometry and the use of the roadway is light.",
-        "JUST": "There are more appropriate roadways that have more volume that connect Univeter Road and Hickory Rd.",
-        "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "County": "Cherokee"
       },
       "geometry": {
         "type": "LineString",
