@@ -84359,7 +84359,13 @@
         "2011AvAADT": 940,
         "2010AvAADT": 950,
         "OBJECTID_1": 663,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Fate Conn Rd",
+        "FC_NEW": 6,
+        "DESC": "This roadway is segmented between classifications.",
+        "JUST": "To provide continuity with the segments of this roadway to the north and south, the change to Minor Collector is proposed.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
