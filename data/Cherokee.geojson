@@ -5238,7 +5238,15 @@
         "Shape_Leng": 17391.1361003,
         "ARC_Length": 3.29377577657,
         "RCLINK_1": "0572025000",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Trinity Church Rd",
+        "FC_NEW": 6,
+        "FROM": "Arbor Hill Rd",
+        "TO": "Freehome Hwy",
+        "DESC": "Continuation of an east west route with Owens Store Road.",
+        "JUST": "Continuity with Owens Store Road connects two Major Collectors.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
