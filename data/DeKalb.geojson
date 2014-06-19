@@ -19,7 +19,13 @@
         "Shape_Leng": 4022.54539841,
         "ARC_Length": 0.761845719397,
         "RCLINK_1": "0892162500",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Plaster Road",
+        "FC_NEW": 6,
+        "DESC": "Network Connectivity",
+        "JUST": "Mostly residential landuse.  Need to coordinate with the City of Chamblee.  Consistent with DeKalb CTP. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
