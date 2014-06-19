@@ -5930,7 +5930,15 @@
         "Shape_Leng": 5930.68266293,
         "ARC_Length": 1.12323535283,
         "RCLINK_1": "0632046800",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Tara Rd",
+        "FROM": "O'Hara Dr",
+        "TO": "SR 138",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Provides north-south connection between SR 138 and Battle Creek Rd.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
