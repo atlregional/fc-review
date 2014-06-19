@@ -43350,7 +43350,13 @@
         "2011AvAADT": 1310,
         "2010AvAADT": 1360,
         "OBJECTID_1": 3615,
-        "County": "Henry"
+        "County": "Henry",
+        "FC_NEW": 5,
+        "NAME": "North Ola Road",
+        "DESC": 2,
+        "JUST": "This roadway serves as major collector for those traveling between State Rt 81 and several local streets and developments.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
