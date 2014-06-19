@@ -16131,7 +16131,13 @@
         "Shape_Leng": 5955.87544687,
         "ARC_Length": 1.12800671342,
         "RCLINK_1": "0772055700",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Hal Jones Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Increasing traffic volumes; used by commuters to access US 29 to Newnan.",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
