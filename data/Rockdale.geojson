@@ -51116,7 +51116,13 @@
         "2011AvAADT": 3820,
         "2010AvAADT": 3910,
         "OBJECTID_1": 3993,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Pine Log Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway with 3,780 ADT",
+        "JUST": "Two lane roadway with 3,780 ADT",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
