@@ -21225,7 +21225,15 @@
         "2011AvAADT": 270,
         "2010AvAADT": 270,
         "OBJECTID_1": 3933,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Goode Rd",
+        "FROM": "Tucker Mill Rd",
+        "TO": "Stanton Rd",
+        "FC_NEW": 7,
+        "DESC": "Two lane rural roadway with 421 ADT",
+        "JUST": "Road should be reduced to Local road due to low traffic volumes. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
