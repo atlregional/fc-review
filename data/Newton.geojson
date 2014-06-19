@@ -28333,7 +28333,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3806,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "N Johnson St.",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Traffic does not justify a Major Collector classification",
+        "stroke": "#00ff00",
+        "user": "TGarrett-NewtonCo"
       },
       "geometry": {
         "type": "LineString",
