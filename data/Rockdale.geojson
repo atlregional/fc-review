@@ -42269,7 +42269,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3951,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Gees Mill Rd",
+        "FROM": "Old Covington Hwy",
+        "TO": "Centennial Olympic Pkwy",
+        "FC_NEW": 6,
+        "DESC": "Two lane rural roadway with 2,180 ADT.",
+        "JUST": "Roadway should be reduced to minor collector to conform to surrounding network. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
