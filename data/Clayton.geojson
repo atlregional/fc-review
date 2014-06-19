@@ -15099,7 +15099,13 @@
         "Shape_Leng": 5304.63570216,
         "ARC_Length": 1.00466585268,
         "RCLINK_1": "0633094403",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Rock Cut Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Provides residential and school access and connectivity between Thurman Rd (Minor Arterial) and SR 42 (Macon Hwy - Minor Arterial).",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
