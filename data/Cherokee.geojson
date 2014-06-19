@@ -10657,7 +10657,15 @@
         "Shape_Leng": 17539.4052103,
         "ARC_Length": 3.3218570474,
         "RCLINK_1": "0572028100",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Scott Rd",
+        "FROM": "Cumming Hwy",
+        "TO": "Epperson Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway connecting Hickory Flat Highway and Cumming Hwy.\n",
+        "JUST": "This road connects a Minor Arterial and a Principal Arterial.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
