@@ -17868,7 +17868,13 @@
         "Shape_Leng": 1543.39212641,
         "ARC_Length": 0.29230911485,
         "RCLINK_1": "0773056115",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "McIntosh Trail",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Will provide direct access to proposed Twelve Parks and McIntosh Village developments (both DRIs), and eventually to Peachtree City/Fayette Co via future Vernon Hunter Pkwy/TDK Blvd Extension.",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
