@@ -6543,7 +6543,13 @@
         "Shape_Leng": 24452.1834873,
         "ARC_Length": 4.63109535745,
         "RCLINK_1": "0772007600",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Elders Mill Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Requested FC change is included in County FC Plan. ",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
