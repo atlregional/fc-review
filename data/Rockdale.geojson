@@ -67857,7 +67857,15 @@
         "2011AvAADT": 13160,
         "2010AvAADT": 13480,
         "OBJECTID_1": 4030,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "FC_NEW": 4,
+        "NAME": "Iris Drive",
+        "FROM": "Dekalb County Line",
+        "TO": "Newton County Line",
+        "DESC": "Two lane roadway, with 12,930 ADT. I-20 frontage road. \nTermini needs to be updated. ",
+        "JUST": "Two lane roadway, with 12,930 ADT. I-20 frontage road. \nTermini needs to be updated. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
