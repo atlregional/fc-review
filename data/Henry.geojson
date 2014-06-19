@@ -60917,7 +60917,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3668,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "McDonough Street",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Formerly part of SR20 network, now acts as a collector between Hampton and relocated SR20.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
