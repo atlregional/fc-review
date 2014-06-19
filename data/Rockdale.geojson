@@ -20639,7 +20639,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3944,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Ebenezer Rd",
+        "FROM": "Hwy 138",
+        "TO": "Honey Creek Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane rural roadway, moderate volume",
+        "JUST": "Two lane rural roadway, moderate volume",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
