@@ -2212,7 +2212,13 @@
         "2011AvAADT": 16860,
         "2010AvAADT": 17270,
         "OBJECTID_1": 4045,
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "SR 16 West Taylor Street",
+        "FC_NEW": 3,
+        "DESC": 4,
+        "JUST": "increase in traffic due to new large scale commercial development",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
