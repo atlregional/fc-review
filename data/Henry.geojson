@@ -26336,7 +26336,13 @@
         "2011AvAADT": 4650,
         "2010AvAADT": 4550,
         "OBJECTID_1": 3572,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Highway 81 West",
+        "FC_NEW": 4,
+        "DESC": 2,
+        "JUST": "Lower volume of traffic roadway",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
