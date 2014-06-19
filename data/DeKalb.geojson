@@ -92215,14 +92215,14 @@
         "2010AvAADT": 14340,
         "OBJECTID_1": 1675,
         "County": "DeKalb",
-        "NAME": "Mall Parkway",
+        "NAME": "Mall Pkwy",
         "FC_NEW": 4,
-        "DESC": "Extend limits of current segment to Iris Drive in Rockdale County.  Coordinate with Rockdale.  ",
-        "JUST": "Back entrance to Stone Crest Mall retail area from I-20 (at Evans Mill) and Rockdale and Henry Counties.  ",
+        "DESC": "Mall Pkwy turns into Iris Drive in Rockdale.  Network Consistency.  ",
+        "JUST": "Back entrance to Stonecrest Mall Retail area from I-20 (Evans Mill Rd) and Rockdale and Henry Counties",
         "stroke": "#00ff00",
         "user": "PKeeter-DeKalbCo",
         "FROM": "Evans Mill Rd",
-        "TO": "Iris Drive"
+        "TO": "Rockdale Co/Iris Drive"
       },
       "geometry": {
         "type": "LineString",
