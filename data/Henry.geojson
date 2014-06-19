@@ -35485,7 +35485,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3589,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Rocky Creek Road",
+        "FROM": "SR20",
+        "TO": "Spalding County Line",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Please extend limits of FC-6 classification further south to the Spalding County Line.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
