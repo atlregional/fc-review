@@ -8702,7 +8702,15 @@
         "Shape_Leng": 11159.2228313,
         "ARC_Length": 2.11348917259,
         "RCLINK_1": "0632048600",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Kendrick Rd and Old Rountree Rd",
+        "FROM": "SR 138",
+        "TO": "Flint River Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Provides access to multiple adjacent subdivisions as well as north-south connection between Flint River Rd and SR 138 & Rountree Rd.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
