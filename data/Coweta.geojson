@@ -53274,7 +53274,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1352,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Johnson Road",
+        "FC_NEW": 7,
+        "DESC": 2,
+        "JUST": "Local road FC is more appropriate here than minor collector FC",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
