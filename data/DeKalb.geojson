@@ -33181,7 +33181,13 @@
         "2011AvAADT": 6610,
         "2010AvAADT": 7155,
         "OBJECTID_1": 1548,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Thurman Rd (Conn 54)",
+        "FC_NEW": 5,
+        "DESC": "AADT 7K.  Collector is consistent with DeKalb CTP",
+        "JUST": "Need coordination with GDOT and Clayton County. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
