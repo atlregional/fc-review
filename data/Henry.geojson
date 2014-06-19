@@ -64799,7 +64799,13 @@
         "2011AvAADT": 12560,
         "2010AvAADT": 13825,
         "OBJECTID_1": 3695,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Bill Gardner Parkway",
+        "FC_NEW": 4,
+        "DESC": "Major roadway, high volumes of traffic",
+        "JUST": "High volumes of traffic ",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
