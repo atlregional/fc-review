@@ -15051,7 +15051,13 @@
         "Shape_Leng": 15420.253993,
         "ARC_Length": 2.9205026502,
         "RCLINK_1": "0572077600",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Avery Rd",
+        "FC_NEW": 6,
+        "DESC": "This roadway is an east west connector between Hickory Flat Hwy and E Cherokee Dr.",
+        "JUST": "The road connects a Minor Arterial with a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
