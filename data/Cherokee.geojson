@@ -6739,7 +6739,15 @@
         "Shape_Leng": 9065.66804974,
         "ARC_Length": 1.71698258518,
         "RCLINK_1": "0572031300",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Mountain Rd",
+        "FROM": "Arnold Mill Rd",
+        "TO": "Reese Rd",
+        "FC_NEW": 6,
+        "DESC": "Connects two Minor Arterial Roadways.",
+        "JUST": "A school is located along this roadway and it handles the school traffic as well as cut through movements.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
