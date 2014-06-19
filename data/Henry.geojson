@@ -7707,7 +7707,13 @@
         "2011AvAADT": 1280,
         "2010AvAADT": 1310,
         "OBJECTID_1": 3536,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Hemphill Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Lower traffic volume compared to other Henry Co arterial roadways.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
