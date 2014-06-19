@@ -23300,7 +23300,13 @@
         "2011AvAADT": 3960,
         "2010AvAADT": 4060,
         "OBJECTID_1": 3569,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Flat Rock Road",
+        "FC_NEW": 5,
+        "DESC": "paved 2 lane roadway with moderate traffic volume (AADT ~ 4000)",
+        "JUST": "Lower traffic volume than most Henry County arterial roadways.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
