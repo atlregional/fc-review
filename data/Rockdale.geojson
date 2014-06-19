@@ -38551,7 +38551,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3949,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Cowan Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane rural roadway, moderate traffic volumes. ",
+        "JUST": "Should be reduced to minor collector to conform to surrounding network. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
