@@ -63937,7 +63937,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3688,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Hampton-Locust Grove Road",
+        "FC_NEW": 5,
+        "FROM": "McDonough St",
+        "TO": "SR20",
+        "DESC": 2,
+        "JUST": "Reduction in traffic volume due to SR20 improvements.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
