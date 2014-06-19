@@ -42686,7 +42686,15 @@
         "2011AvAADT": 1240,
         "2010AvAADT": 1330,
         "OBJECTID_1": 3953,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Hi Roc Rd",
+        "FROM": "GA 20",
+        "TO": "Hwy 138",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway with 1,240 ADT.",
+        "JUST": "Two lane roadway with 1,240 ADT.",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
