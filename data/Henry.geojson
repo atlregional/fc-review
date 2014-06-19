@@ -34557,7 +34557,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3585,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Lester Mill Road",
+        "FC_NEW": 7,
+        "DESC": "Dirt Road, low volume",
+        "JUST": "Dirt Road, low volume",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
