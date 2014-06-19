@@ -27252,7 +27252,13 @@
         "2011AvAADT": 3460,
         "2010AvAADT": 3510,
         "OBJECTID_1": 3936,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Troupe Smith Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane local roadway with 3,450 ADT",
+        "JUST": "Two lane local roadway with 3,450 ADT",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
