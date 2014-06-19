@@ -7961,7 +7961,13 @@
         "Shape_Leng": 9417.09786507,
         "ARC_Length": 1.78354126232,
         "RCLINK_1": "0632050300",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Fitzgerald Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Connecting route between Mundy's Mill Rd / SR 54 (Fayetteville Rd) and Tara Rd / SR 920 (McDonough Rd)",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
