@@ -8242,7 +8242,13 @@
         "Shape_Leng": 3697.46072468,
         "ARC_Length": 0.700235208279,
         "RCLINK_1": "0632049900",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Helmer Rd",
+        "FC_NEW": 6,
+        "DESC": 4,
+        "JUST": "Provides for east-west travel between SR 85 and SR 279.  Requires section in Fayette County also be upgraded to Minor Collector.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
