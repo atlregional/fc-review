@@ -74491,8 +74491,8 @@
         "OBJECTID_1": 1646,
         "County": "DeKalb",
         "NAME": "Oak Grove Rd",
-        "FC_NEW": 5,
-        "DESC": "Landuse/Context/School",
+        "FC_NEW": 6,
+        "DESC": "Land use/Context/School/Local Traffic",
         "stroke": "#00ff00",
         "user": "PKeeter-DeKalbCo"
       },
