@@ -56616,7 +56616,13 @@
         "2011AvAADT": 5195,
         "2010AvAADT": 5380,
         "OBJECTID_1": 3656,
-        "County": "Henry"
+        "County": "Henry",
+        "FC_NEW": 4,
+        "NAME": "Hampton-Locust Grove Road",
+        "DESC": "This is a 2-lane roadway ",
+        "JUST": "This roadway has high volumes of traffic and serves as a connection between state routes and interstate 75",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
