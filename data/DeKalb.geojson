@@ -60947,7 +60947,13 @@
         "2011AvAADT": 17260,
         "2010AvAADT": 16135,
         "OBJECTID_1": 1621,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Dekalb Industrial Way/North Arcadia Ave",
+        "FC_NEW": 4,
+        "DESC": "AADT 17K.  Connects to SR 8 (principal)  to City of Decatur and Avondale.  ",
+        "JUST": "Network Connectivity.  DeKalb Farmers Market Generator.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
