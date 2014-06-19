@@ -43001,7 +43001,13 @@
         "2011AvAADT": 930,
         "2010AvAADT": 950,
         "OBJECTID_1": 3614,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "East Lake Road",
+        "FC_NEW": 5,
+        "DESC": "AADT ~ 1000, 2 lane paved road, 10-11' lanes; rural area",
+        "JUST": "Low traffic volume.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
