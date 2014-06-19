@@ -52030,7 +52030,15 @@
         "2011AvAADT": 2930,
         "2010AvAADT": 3005,
         "OBJECTID_1": 3644,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Asa Moseley Road",
+        "FROM": "Kelleytown Road",
+        "TO": "Camp Creek Rd / Bentley Hill Rd Intersection",
+        "FC_NEW": 7,
+        "DESC": 2,
+        "JUST": "this segment appears to be linked to Kellytown Road, and shouldn't be.  Kellytown should be minor arterial, but not Asa Moseley Rd.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
