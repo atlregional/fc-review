@@ -95042,7 +95042,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1685,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Briarcliff Way",
+        "FC_NEW": 6,
+        "DESC": "Due to length and landuse.  ",
+        "JUST": "Cut through traffic.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
