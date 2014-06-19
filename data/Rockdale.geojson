@@ -26109,7 +26109,15 @@
         "2011AvAADT": 2120,
         "2010AvAADT": 2150,
         "OBJECTID_1": 3935,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Tucker Mill Rd",
+        "FROM": "Hwy 138",
+        "TO": "Hwy 138",
+        "FC_NEW": 6,
+        "DESC": "Two lane rural roadway with 2,120 ADT",
+        "JUST": "Two lane rural roadway with 2,120 ADT",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
