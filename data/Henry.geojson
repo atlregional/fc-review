@@ -47339,7 +47339,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3629,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Canup Road",
+        "FC_NEW": 7,
+        "DESC": 2,
+        "JUST": "Very low volume roadway",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
