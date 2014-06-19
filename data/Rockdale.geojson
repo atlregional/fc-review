@@ -42490,7 +42490,15 @@
         "2011AvAADT": 2290,
         "2010AvAADT": 2350,
         "OBJECTID_1": 3973,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Hurst Rd",
+        "FROM": "McDaniel Mill Rd",
+        "TO": "Dekalb County Line",
+        "FC_NEW": 7,
+        "DESC": "Two lane rural roadway with 909 ADT",
+        "JUST": "Two lane rural roadway with 909 ADT",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
