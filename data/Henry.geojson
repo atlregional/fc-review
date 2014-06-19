@@ -30265,7 +30265,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3576,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Atlanta St, aka SR42 southbound into McDonough",
+        "FC_NEW": 3,
+        "DESC": 2,
+        "JUST": "Related to request to upgrade SR42 to FC-3 between SR155 and SR42/138.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
