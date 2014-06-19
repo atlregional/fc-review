@@ -1319,7 +1319,13 @@
         "2011AvAADT": 11140,
         "2010AvAADT": 11410,
         "OBJECTID_1": 3528,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "SR20, aka McDonough Hampton Road",
+        "FC_NEW": 3,
+        "DESC": 4,
+        "JUST": "Continuation of recommended change on SR20 east of this section.  SR20 connects to Hwy 19/41 & I-75.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
