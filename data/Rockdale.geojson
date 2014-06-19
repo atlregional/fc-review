@@ -56467,7 +56467,15 @@
         "2011AvAADT": 2810,
         "2010AvAADT": 2910,
         "OBJECTID_1": 3985,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Smyrna Rd",
+        "FROM": "Ebenezer Rd",
+        "TO": "SR 212",
+        "FC_NEW": 4,
+        "DESC": "Two lane roadway with 5,617 ADT",
+        "JUST": "Roadway should be upgraded to minor arterial to conform to surrounding network. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
