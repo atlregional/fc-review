@@ -64864,7 +64864,13 @@
         "2011AvAADT": 950,
         "2010AvAADT": 970,
         "OBJECTID_1": 3694,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Rosenwald Drive",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Volume was heavier prior to SR20 relocation.  Reduce classification due to reduction in volume.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
