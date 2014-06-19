@@ -11062,7 +11062,15 @@
         "Shape_Leng": 5277.38991437,
         "ARC_Length": 0.999502859564,
         "RCLINK_1": "0632133700",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Thomas Rd",
+        "FROM": "SR 85",
+        "TO": "Webb Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Provides connection for school and residential traffic to/from SR 85.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
