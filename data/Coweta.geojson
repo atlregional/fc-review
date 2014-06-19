@@ -739,7 +739,13 @@
         "Shape_Leng": 21323.1428862,
         "ARC_Length": 4.03847403147,
         "RCLINK_1": "0772055000",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Old Highway 85",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Connectivity between two state routes; increased traffic volumes.",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
