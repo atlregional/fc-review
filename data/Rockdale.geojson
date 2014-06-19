@@ -56696,7 +56696,15 @@
         "2011AvAADT": 1340,
         "2010AvAADT": 1360,
         "OBJECTID_1": 3981,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Mt Zion Rd",
+        "FROM": "Irwin Bridge Rd",
+        "TO": "Almond Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane rural roadway with low traffic volumes.",
+        "JUST": "Roadway should be reduced to a minor collector to conform to surrounding network. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
