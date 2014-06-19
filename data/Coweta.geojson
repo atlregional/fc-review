@@ -2988,7 +2988,15 @@
         "Shape_Leng": 14366.4724112,
         "ARC_Length": 2.72092280514,
         "RCLINK_1": "0772007100",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Reese Road",
+        "FROM": "SR 54",
+        "TO": "McIntosh Trail",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Increasing traffic volumes; projected high growth area. ",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
