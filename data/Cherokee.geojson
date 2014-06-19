@@ -14889,7 +14889,13 @@
         "Shape_Leng": 2492.48284906,
         "ARC_Length": 0.472061145655,
         "RCLINK_1": "0572077900",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Sixes Rd",
+        "FC_NEW": 5,
+        "DESC": "The majority of Sixes Road is already a Major Collector.  For some reason this last segment was not included.",
+        "JUST": "The change is needed for continuity along Sixes Road.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
