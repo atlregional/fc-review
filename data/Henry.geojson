@@ -50581,7 +50581,13 @@
         "2011AvAADT": 2370,
         "2010AvAADT": 2430,
         "OBJECTID_1": 3639,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Stagecoach Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Low traffic volume.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
