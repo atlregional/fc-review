@@ -18373,7 +18373,15 @@
         "Shape_Leng": 3329.3648479,
         "ARC_Length": 0.630561524223,
         "RCLINK_1": "0573040803",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Keeter Rd",
+        "FROM": "Prominence Pt Pkwy",
+        "TO": "Southwest to next Keeter Rd Segment",
+        "FC_NEW": 6,
+        "DESC": "Part of a connection with Prominence Pt Pkwy between a Minor Arterial and a Major Collector",
+        "JUST": "Continuity with the proposed changes for Prominence Pt Pkwy and the southwest portion of Keeter Rd.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
