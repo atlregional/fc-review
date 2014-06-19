@@ -14449,7 +14449,15 @@
         "Shape_Leng": 4743.67652061,
         "ARC_Length": 0.898423583449,
         "RCLINK_1": "0633085607",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "North Pkwy",
+        "FROM": "Harper Dr",
+        "TO": "Forest Pkwy",
+        "FC_NEW": 5,
+        "DESC": 4,
+        "JUST": "In conjunction with N. Lee St and S. Lee St, this road provides an alternate to SR 54 (Jonesboro Rd) for north-south travel between Southlake Pkwy/Mt. Zion Rd and Forest Pkwy.  Also provides access to Clayton State University.  Adjacent N. Lake Dr. (Major Collector) is proposed to be revised down to Minor Collector.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
