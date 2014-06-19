@@ -18967,7 +18967,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4103,
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": 6,
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "increase in traffic volumes due to new subdivisions and commuter traffic.",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
