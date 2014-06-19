@@ -49198,7 +49198,15 @@
         "2011AvAADT": 4230,
         "2010AvAADT": 6130,
         "OBJECTID_1": 3990,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Stanton Rd",
+        "FROM": "Ebenezer Rd",
+        "TO": "Honey Creek Rd",
+        "FC_NEW": 5,
+        "DESC": "This is a two lane rural roadway with 4,750 ADT",
+        "JUST": "This is a two lane roadway with 4,750 ADT",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
