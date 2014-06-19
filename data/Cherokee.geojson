@@ -19,7 +19,13 @@
         "Shape_Leng": 7430.8308676,
         "ARC_Length": 1.40735433098,
         "RCLINK_1": "0572005500",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "FC_NEW": 6,
+        "NAME": "Upper Bethany Rd",
+        "DESC": "This is a North/South route that begins at a Major Collector and extends north to the County Line in conjunction with Lower Bethany Rd.",
+        "JUST": "This road starts at a Major Collector and combined with Lower Bethany Road, it created a north/south route to the County Line.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
