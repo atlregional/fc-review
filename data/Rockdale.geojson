@@ -34520,7 +34520,15 @@
         "2011AvAADT": 3950,
         "2010AvAADT": 4010,
         "OBJECTID_1": 3957,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Old Covington Hwy",
+        "FROM": "Sigman Rd",
+        "TO": "GA 20 / Hwy 138",
+        "FC_NEW": 4,
+        "DESC": "Two lane roadway with 8,130 ADT",
+        "JUST": "Roadway will have increased traffic demand with new project that will add an underpass at Hwy 20/Hwy 138 in Fall 2014.",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
