@@ -63447,7 +63447,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3684,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "McDonough St",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Acts as collector of local streets between SR20 and downtown Hampton.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
