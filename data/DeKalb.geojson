@@ -19,7 +19,13 @@
         "Shape_Leng": 4022.54539841,
         "ARC_Length": 0.761845719397,
         "RCLINK_1": "0892162500",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Plaster Road",
+        "FC_NEW": 6,
+        "DESC": "Network Connectivity",
+        "JUST": "Mostly residential landuse.  Need to coordinate with the City of Chamblee.  Consistent with DeKalb CTP. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -2465,7 +2471,15 @@
         "2011AvAADT": 17892.5,
         "2010AvAADT": 18296.25,
         "OBJECTID_1": 1513,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Covington Hwy",
+        "FROM": "Memorial Drive",
+        "TO": "Turner Hill Road",
+        "FC_NEW": 3,
+        "DESC": "AADT range up to 35K.  Major east/west route in DeKalb.  Often used as an alternative to I-20.  Commuters use Covington Hwy to get to lower classified roads to avoid the east wall of I-285",
+        "JUST": "Network Connectivity.  Connects Cities of Decatur/Avondale to I-285 to South Hairston (principal) to City of Lithonia to Turner Hill/Rock Chapel (principal) to I-20.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -6643,7 +6657,15 @@
         "2011AvAADT": 23086.6666667,
         "2010AvAADT": 22603.3333333,
         "OBJECTID_1": 1517,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Lawrenceville Hwy (SR 8)",
+        "FROM": "Stone Mountain Freeway",
+        "TO": "Lavista Road",
+        "FC_NEW": 3,
+        "DESC": "AADT 25K- Connects Stone Mountain Freeway with I-285. Gwinnett commuters- often used as an alternate to I-85 north.  RTOP corridor.",
+        "JUST": "Network Connectivity.  Might make sense to extend limits to the intersection of Jimmy Carter (Principal Arterial) intersection.  Important commuter link between City of Decatur, Emory, CDC, VA and Gwinnett County.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -11790,7 +11812,12 @@
         "2011AvAADT": 2530,
         "2010AvAADT": 3150,
         "OBJECTID_1": 1523,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Brannen Rd",
+        "FC_NEW": 6,
+        "DESC": "low AADT",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -12675,7 +12702,12 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1528,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Welland Ave",
+        "FC_NEW": 6,
+        "DESC": "Low AADT",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -33165,7 +33197,13 @@
         "2011AvAADT": 6610,
         "2010AvAADT": 7155,
         "OBJECTID_1": 1548,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Thurman Rd (Conn 54)",
+        "FC_NEW": 5,
+        "DESC": "AADT 7K.  Collector is consistent with DeKalb CTP",
+        "JUST": "Need coordination with GDOT and Clayton County. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -33424,7 +33462,15 @@
         "2011AvAADT": 24985,
         "2010AvAADT": 25812.5,
         "OBJECTID_1": 1550,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "North Druid Hills Road",
+        "FROM": "Buford Hwy",
+        "TO": "Briarcliff Road",
+        "FC_NEW": 3,
+        "DESC": "AADT 50K.  Requested from Buford Hwy (SR 13) to I-85 to Lawrenceville Hwy (SR 8) to Stone Mountain Freeway.  Connects to major state routes:  Clairmont (SR 155), Lavista      (SR 236), Briarcliff (SR 42).",
+        "JUST": "Network connectivity- Major east/west road in DeKalb.  Gateway to Emory/CDC/VA from two limited access facilities.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -37712,7 +37758,13 @@
         "2011AvAADT": 1040,
         "2010AvAADT": 1060,
         "OBJECTID_1": 1559,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Allgood Rd",
+        "FC_NEW": 7,
+        "DESC": "Consistent with DeKalb CTP.  ",
+        "JUST": "Land use/Context.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -39350,7 +39402,13 @@
         "2011AvAADT": 600,
         "2010AvAADT": 600,
         "OBJECTID_1": 1563,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "McDaniel Mill Road",
+        "FC_NEW": 6,
+        "DESC": "Low AADT.  Would like to keep this as a collector because historic counts are inconsistent.  ",
+        "JUST": "Need to coordinate with Rockdale County- turns into Hurst Road.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -39497,7 +39555,13 @@
         "2011AvAADT": 550,
         "2010AvAADT": 2170,
         "OBJECTID_1": 1564,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "FC_NEW": 6,
+        "NAME": "Rockland Road",
+        "DESC": "Lower than expected AADT.  Would like to keep as a collector because historic counts data looks inconsistent.  Can revisit whether this should be local next time.  ",
+        "JUST": "Need to coordinate with Rockdale County.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -39771,7 +39835,13 @@
         "2011AvAADT": 2370,
         "2010AvAADT": 2410,
         "OBJECTID_1": 1566,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Hayden Quarry Road",
+        "FC_NEW": 6,
+        "DESC": "Low AADT- 2K",
+        "JUST": "Network Connectivity, Parallel Routes. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -44172,7 +44242,13 @@
         "2011AvAADT": 6300,
         "2010AvAADT": 5925,
         "OBJECTID_1": 1579,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Salem Road",
+        "FC_NEW": 5,
+        "DESC": "AADT 4K-6K",
+        "JUST": "Network Connectivity.  Context/Landuse.  Consistent with DeKalb CTP.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -53445,7 +53521,13 @@
         "2011AvAADT": 19530,
         "2010AvAADT": 19820,
         "OBJECTID_1": 1603,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Clifton Road",
+        "FC_NEW": 4,
+        "DESC": "AADT 20K.  Major Traffic Generators Emory Hospital, Emory Univ, CDC",
+        "JUST": "Network Connectivity.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -57422,7 +57504,13 @@
         "2011AvAADT": 10780,
         "2010AvAADT": 10940,
         "OBJECTID_1": 1614,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Lithonia Industrial Blvd",
+        "FC_NEW": 4,
+        "DESC": "Two phases of LIB completed in recent years to provide a truck/freight route connecting Rock Chapel Road (principal) to I-20.  Provides connectivity to S St Mtn Lithonia Road (minor) and Covington Hwy (proposed principal, existing minor) to take trucks out of the City of Lithonia.  ",
+        "JUST": "Network Connectivity, Truck/Freight Route.  Industrial Area.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -58404,7 +58492,15 @@
         "2011AvAADT": 12175,
         "2010AvAADT": 12360,
         "OBJECTID_1": 1615,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Snapfinger Woods Drive",
+        "FROM": "DeKalb Medical Parkway",
+        "TO": "Wesley Chapel Road",
+        "FC_NEW": 5,
+        "DESC": "Extend to include new alignment to DeKalb Medical Parkway",
+        "JUST": "New alignment since last FC review.",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -60871,7 +60967,13 @@
         "2011AvAADT": 17260,
         "2010AvAADT": 16135,
         "OBJECTID_1": 1621,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Dekalb Industrial Way/North Arcadia Ave",
+        "FC_NEW": 4,
+        "DESC": "AADT 17K.  Connects to SR 8 (principal)  to City of Decatur and Avondale.  ",
+        "JUST": "Network Connectivity.  DeKalb Farmers Market Generator.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -69649,7 +69751,13 @@
         "2011AvAADT": 17020,
         "2010AvAADT": 16860,
         "OBJECTID_1": 1635,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Wesley Chapel Road",
+        "FC_NEW": 4,
+        "DESC": "While AADT is 15K, it seems for network connectivity- this should be a minor arterial connecting between South Hairston (principal) and Covington Hwy (proposed principal, existing minor).  ",
+        "JUST": "Network Connectivity.  The context of the road is not that of a collector.  Five lane section that connects Covington Hwy to I-20.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -79696,7 +79804,15 @@
         "2011AvAADT": 28190,
         "2010AvAADT": 27068.3333333,
         "OBJECTID_1": 1656,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "North Druid Hill Road",
+        "FROM": "Buford Hwy",
+        "TO": "Stone Mountain Freeway",
+        "FC_NEW": 3,
+        "DESC": "AADT between 32K and 50K.  Connects Buford Hwy to I-85 to Lawrenceville Hwy to Stone Mountain Freeway.  Also connects to major state routes:  Briarcliff, Lavista, Clairmont",
+        "JUST": "System connectivity.  Major east/west road in DeKalb.  Gateway to Emory/CDC/VA from two major limited access facilities.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -88070,7 +88186,13 @@
         "2011AvAADT": 17378.3333333,
         "2010AvAADT": 17238.3333333,
         "OBJECTID_1": 1668,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Panola Road",
+        "FC_NEW": 3,
+        "DESC": "AADT 25K.  City of Stone Mountain/Stone Mountain Industrial area to SR10 to I-20 to SR 212 to SR 155.  ",
+        "JUST": "Network Connectivity.  Commuter alternate I-285 east wall.  Commuters weave through the arterials in east DeKalb to avoid congestion on i-285.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -91223,7 +91345,15 @@
         "2011AvAADT": 4450,
         "2010AvAADT": 4720,
         "OBJECTID_1": 1672,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "FROM": "Evans Mill Road/Mall Parkway",
+        "TO": "Klondike Road",
+        "FC_NEW": 5,
+        "DESC": "AADT-4K,  ",
+        "NAME": "Woodrow Drive",
+        "JUST": "Network Connectivity/Context.  Low traffic counts.  Consistent with DeKalb CTP.",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -92085,12 +92215,14 @@
         "2010AvAADT": 14340,
         "OBJECTID_1": 1675,
         "County": "DeKalb",
-        "NAME": "Mall Pkwy",
+        "NAME": "Mall Parkway",
         "FC_NEW": 4,
-        "DESC": 4,
-        "JUST": "System continuity and conformance with policy networks.",
+        "DESC": "Network Connectivity.  Mall Parkway turns into Iris in Rockdale County.  Matches Rockdale request for Iris Drive.  ",
+        "JUST": "Stonecrest Mall access from I-20 (at Evans Mill) and from Rockdale and Henry Counties.  ",
         "stroke": "#00ff00",
-        "user": "landonreed"
+        "user": "PKeeter-DeKalbCo",
+        "FROM": "Evans Mill Road",
+        "TO": "Iris Road (Rockdale Co)"
       },
       "geometry": {
         "type": "LineString",
@@ -93931,7 +94063,13 @@
         "2011AvAADT": 15040,
         "2010AvAADT": 15265,
         "OBJECTID_1": 1683,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Cooledge Rd",
+        "FC_NEW": 4,
+        "DESC": "Connects Lawrenceville Hwy (SR 8, proposed major, existing minor) with Stone Mountain Freeway to E. Ponce de Leon Ave (minor)",
+        "JUST": "Network Connectivity.  Commuters use this road to avoid the east wall of I-285 by taking St Mtn Freeway to Cooledge (which turns into Northlake Parkway) to I-285.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -94920,7 +95058,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1685,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Briarcliff Way",
+        "FC_NEW": 6,
+        "DESC": "Due to length and landuse.  ",
+        "JUST": "Cut through traffic.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -95394,7 +95538,12 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1687,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Briarlake Road",
+        "FC_NEW": 5,
+        "DESC": "This looks like a mapping error.  Small portion labeled minor arterial.  Should match remainder of road.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -102108,7 +102257,15 @@
         "2011AvAADT": 11120,
         "2010AvAADT": 11110,
         "OBJECTID_1": 1714,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "S Johnson Ferry Road",
+        "FROM": "City Limits/Sandy Springs",
+        "TO": "Ashford Dunwoody Rpad",
+        "FC_NEW": 4,
+        "DESC": 2,
+        "JUST": "This segment of S Johnson Ferry serves as a North/South connection between Sandy Springs and \"Pill Hill\" area of Northside/St Josephs Hospital and Peachtree Road/SR 141.  Traffic volumes are over 11,000 vpd, much higher that the guidance criteria of 6300 vpd for major collectors.  The road is shown as a Minor Arterial in the current DeKalb County Comprehensive Transportation Plan.",
+        "stroke": "#00ff00",
+        "user": "RMeehan-BrookhavenGa"
       },
       "geometry": {
         "type": "LineString",
@@ -103199,7 +103356,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1717,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Dresden Drive",
+        "FC_NEW": 4,
+        "DESC": "AADT 2012: 10040 vpd (from GDOT)",
+        "JUST": "Serves as a e-w connection from SR 141 to I-85/Chamblee Tucker area, crossing Clairmont Road and Buford Hwy/SR 23.  Connection between Brookhaven, Chamblee, and Doraville.  Designated in DeKalb CTP as a minor arterial.",
+        "stroke": "#00ff00",
+        "user": "RMeehan-BrookhavenGa"
       },
       "geometry": {
         "type": "LineString",
@@ -103771,7 +103934,15 @@
         "2011AvAADT": 12190,
         "2010AvAADT": 12370,
         "OBJECTID_1": 1718,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "N Driud Hills Rd",
+        "FROM": "Peachtree Rd/Sr 141",
+        "TO": "E Roxboro Rd",
+        "FC_NEW": 4,
+        "DESC": "AADT (2012) 15,040 (gdot).  Connection from Brookhaven MARTA/Peachtree Rd Business District to I-85/Buford Hwy",
+        "JUST": "N-S connection between Peachtree Rd/SR 141 and Buford Hwy/I-85 and N Druid Hills Rd south of I-85 to Decatur.  AADT > 15000 vpd.  Provides N-S connectivity from Brookhaven MARTA and the Peachtree Rd Business District to Decatur and to I-85.",
+        "stroke": "#00ff00",
+        "user": "RMeehan-BrookhavenGa"
       },
       "geometry": {
         "type": "LineString",
