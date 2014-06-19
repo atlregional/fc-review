@@ -44779,7 +44779,13 @@
         "2011AvAADT": 850,
         "2010AvAADT": 880,
         "OBJECTID_1": 3621,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Honey Creek Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Lower traffic volume than Henry FC-5 roadways.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
