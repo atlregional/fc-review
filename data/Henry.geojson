@@ -60246,7 +60246,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3664,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Speedway Blvd",
+        "FROM": "Lower Woosley Road",
+        "TO": "Hwy 19/41",
+        "FC_NEW": 6,
+        "DESC": "multi-lane paved roadway.  ",
+        "JUST": "Please extend limits to Hwy 19/41.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
