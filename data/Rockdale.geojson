@@ -5129,7 +5129,15 @@
         "Shape_Leng": 7043.70893694,
         "ARC_Length": 1.33403578351,
         "RCLINK_1": "2472005900",
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "FC_NEW": 5,
+        "NAME": "Klondike Rd",
+        "FROM": "McDaniel Mill Rd",
+        "TO": "Dekalb County Line",
+        "DESC": "Two lane roadway with 1,526 ADT",
+        "JUST": "This road connects Dekalb and Rockdale Counties.  It should be upgraded to a Major Collector to conform to the surrounding network. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
