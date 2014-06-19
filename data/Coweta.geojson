@@ -7089,7 +7089,15 @@
         "Shape_Leng": 5141.67024897,
         "ARC_Length": 0.973801183518,
         "RCLINK_1": "0772002100",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Happy Valley Circle",
+        "FROM": "Lamar Smith Drive (southern end)",
+        "TO": "Cedar Creek Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Requested FC change is included in County FC Plan; used by commuters to access US 29/SR 154/I-85.",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
