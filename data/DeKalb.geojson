@@ -11806,7 +11806,12 @@
         "2011AvAADT": 2530,
         "2010AvAADT": 3150,
         "OBJECTID_1": 1523,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Brannen Rd",
+        "FC_NEW": 6,
+        "DESC": "low AADT",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
