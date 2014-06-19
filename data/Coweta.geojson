@@ -17971,7 +17971,15 @@
         "Shape_Leng": 10278.9877469,
         "ARC_Length": 1.94677798237,
         "RCLINK_1": "0773068413",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Stallings Road",
+        "FROM": "Emmett Freeman Rd",
+        "TO": "Couch St",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Continuation of Stallings Road requested FC change to logical terminus.",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
