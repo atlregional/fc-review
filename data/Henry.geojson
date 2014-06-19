@@ -23296,7 +23296,13 @@
         "2011AvAADT": 13520,
         "2010AvAADT": 11725,
         "OBJECTID_1": 3570,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Keys Ferry Street (aka SR20/81)",
+        "FC_NEW": 3,
+        "DESC": "EB 2 lane section of SR20/81 from SR42 to SR155. Existing seciton of the GDOT E-W One Way Pairs.  AADT 15,000",
+        "JUST": "Heavy traffic volume moving eastbound.  Part of the SR20/81 route through McDonough.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
