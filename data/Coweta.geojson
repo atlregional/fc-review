@@ -15294,7 +15294,13 @@
         "Shape_Leng": 28308.7181128,
         "ARC_Length": 5.36149964258,
         "RCLINK_1": "0772025200",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Smokey Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Increasing traffic volumes",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
