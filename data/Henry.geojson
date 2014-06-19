@@ -59808,7 +59808,13 @@
         "2011AvAADT": 4120,
         "2010AvAADT": 4220,
         "OBJECTID_1": 3663,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Main Street, aka Old Dixie, aka Old Hwy 3",
+        "FC_NEW": 5,
+        "DESC": "AADT ~ 4000, 2 lane paved roadway",
+        "JUST": "Local alternate to Hwy 19/41, but has a lower traffic volume than most Henry Co arterial roadways.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
