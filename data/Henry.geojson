@@ -59530,7 +59530,13 @@
         "2011AvAADT": 5290,
         "2010AvAADT": 5420,
         "OBJECTID_1": 3662,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "East Main Street, aka Old Hwy 3",
+        "FC_NEW": 5,
+        "DESC": "AADT 5000+ north of Hampton, 2 lane section",
+        "JUST": "Lower volume that other arterial roads within the county.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
