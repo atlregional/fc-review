@@ -50433,7 +50433,13 @@
         "2011AvAADT": 3040,
         "2010AvAADT": 3110,
         "OBJECTID_1": 3638,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Rex Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Lower traffic volume than most Henry Co. arterial roadways.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
