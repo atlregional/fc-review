@@ -54650,7 +54650,13 @@
         "2011AvAADT": 920,
         "2010AvAADT": 880,
         "OBJECTID_1": 3651,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Jackson Lake Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Reduce to FC-6 due to low traffic volume on roadway.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
