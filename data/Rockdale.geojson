@@ -10864,7 +10864,15 @@
         "2011AvAADT": 3110,
         "2010AvAADT": 3190,
         "OBJECTID_1": 3932,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "E Fairview Rd",
+        "FROM": "GA 155",
+        "TO": "Hwy 138",
+        "FC_NEW": 5,
+        "DESC": "Two lane rural roadway with 3,450 ADT",
+        "JUST": "Two lane rural roadway with 3,450 ADT",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
