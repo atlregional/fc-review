@@ -2838,7 +2838,13 @@
         "Shape_Leng": 8526.01936302,
         "ARC_Length": 1.61477639451,
         "RCLINK_1": "0572011100",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Hornage Rd",
+        "FC_NEW": 6,
+        "DESC": "A continuation of Hornage Road to connect to Lower Bethany Road",
+        "JUST": "Provide continuity for Hornage Road to connect to another proposed Local Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
