@@ -21,7 +21,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3527,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "SR20, aka McDonough Hampton Road, aka Bruton Smith Pkwy",
+        "FC_NEW": 3,
+        "DESC": 4,
+        "JUST": "Roadway widened approximately 8 years ago for additional lanes, median, and realignment.  High traffic volume.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
