@@ -10131,7 +10131,13 @@
         "Shape_Leng": 6208.2726917,
         "ARC_Length": 1.17580922191,
         "RCLINK_1": "0632085700",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Dixon Industrial Blvd",
+        "FC_NEW": 6,
+        "JUST": "Connecting route between Noah's Ark Rd and Freeman Rd.  Some commuters from farther south elect to use this corridor in conjunction with Thornton Blvd & Freeman Rd as a bypass for S. Main St (downtown Jonesboro) for access to Tara Blvd and Lovejoy.  ",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
