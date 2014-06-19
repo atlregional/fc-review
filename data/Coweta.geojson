@@ -74106,7 +74106,13 @@
         "2011AvAADT": 3660,
         "2010AvAADT": 3830,
         "OBJECTID_1": 1394,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Welcome Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Minor Arterial FC is not appropriate for this roadway. ",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
