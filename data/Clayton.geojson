@@ -1459,7 +1459,15 @@
         "Shape_Leng": 11688.7864893,
         "ARC_Length": 2.21378531995,
         "RCLINK_1": "0632003100",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Old Rex Morrow Rd",
+        "FROM": "N. Lee St",
+        "TO": "SR 42 (Macon Hwy)",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Serves as an east-west link between Lee St/SR 54 and SR 42 and provides access to adjacent residential areas.  Carries less traffic than adjacent Rex Rd (Major Collector).",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
