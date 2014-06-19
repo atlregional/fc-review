@@ -37758,7 +37758,13 @@
         "2011AvAADT": 1040,
         "2010AvAADT": 1060,
         "OBJECTID_1": 1559,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Allgood Rd",
+        "FC_NEW": 7,
+        "DESC": "Consistent with DeKalb CTP.  ",
+        "JUST": "Land use/Context.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
