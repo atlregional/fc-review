@@ -67665,7 +67665,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4020,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "FC_NEW": 6,
+        "DESC": "Two lane urban roadway with low ADT. Provides access to Iris Drive which is an I-20 frontage road. ",
+        "JUST": "Should be reduced to Minor Collector due to lower traffic volume.",
+        "NAME": "Salem Gate Way",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
