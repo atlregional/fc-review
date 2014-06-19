@@ -244,7 +244,13 @@
         "Shape_Leng": 16480.7371199,
         "ARC_Length": 3.12135172725,
         "RCLINK_1": "0572005500",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Lower Bethany Rd and Upper Bethany Rd",
+        "FC_NEW": 6,
+        "JUST": "These roads start at a Major Collector and they create a north/south route to the County Line.  The actual break point between Upper Bethany Road and Lower Bethany Road is at Land Road.",
+        "DESC": "This segment a combination of Lower Bethany Road and Upper Bethany Road.  It is a North/South route that begins at a Major Collector and extends north to the County Line.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
