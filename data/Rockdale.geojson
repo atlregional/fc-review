@@ -50175,7 +50175,15 @@
         "2011AvAADT": 8760,
         "2010AvAADT": 8970,
         "OBJECTID_1": 3991,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Honey Creek Rd",
+        "FROM": "GA 20 ",
+        "TO": "SR 162",
+        "FC_NEW": 5,
+        "DESC": "This is a rural two lane roadway with 8,610 ADT",
+        "JUST": "This is a rural two lane roadway with 8,610 ADT.",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
