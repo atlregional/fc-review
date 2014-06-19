@@ -8388,7 +8388,15 @@
         "2011AvAADT": 18876.6666667,
         "2010AvAADT": 17316.6666667,
         "OBJECTID_1": 3931,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Hwy 138",
+        "FROM": "Sigman Rd",
+        "TO": "Newton County Line",
+        "FC_NEW": 3,
+        "DESC": "Four lane section with 24,030 ADT. ",
+        "JUST": "Roadway crosses multiple jurisdictions.  This is a four lane section with 24,030 ADT. This is a state route. Needs to conform to surrounding network. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
