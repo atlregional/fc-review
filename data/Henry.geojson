@@ -51499,7 +51499,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3642,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "West Hemphill Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Traffic Volume lower than most other Henry County arterial roadways.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
