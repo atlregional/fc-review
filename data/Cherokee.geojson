@@ -3199,7 +3199,13 @@
         "Shape_Leng": 12141.2487438,
         "ARC_Length": 2.29947892875,
         "RCLINK_1": "0572010700",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Long Rd",
+        "FC_NEW": 7,
+        "DESC": "This road is a continuation of Howell Bridge Road and connects it to Lower Bethany Road.",
+        "JUST": "Continuity with an existing Local Collector to connect to another Local Connector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
