@@ -23081,7 +23081,13 @@
         "2011AvAADT": 5025,
         "2010AvAADT": 5147.5,
         "OBJECTID_1": 4119,
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "E. McIntosh Road",
+        "FC_NEW": 4,
+        "DESC": 2,
+        "JUST": "High traffic east-west thoroughfare. GDOT Estimated AADT 5640",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
