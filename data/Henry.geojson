@@ -12066,7 +12066,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 2450,
         "OBJECTID_1": 3554,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Pinehurst Drive",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Lower traffic volume and short length roadway.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
