@@ -3930,7 +3930,15 @@
         "Shape_Leng": 6666.56858013,
         "ARC_Length": 1.26260768563,
         "RCLINK_1": "0632028800",
-        "County": "Clayton"
+        "County": "Clayton",
+        "JUST": "Provides for subdivision and school access and connectivity to and between SR 85/Church St, Taylor Rd, and SR 138.",
+        "NAME": "Rountree Rd",
+        "FROM": "Taylor Rd",
+        "TO": "SR 138",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
