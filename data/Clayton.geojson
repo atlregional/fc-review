@@ -4604,7 +4604,13 @@
         "Shape_Leng": 8649.50748963,
         "ARC_Length": 1.63816429728,
         "RCLINK_1": "0632056100",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Carnes Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Connecting route between Lake Jodeco Rd and Noah's Ark Rd providing access to multiple adjacent subdivisions.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
