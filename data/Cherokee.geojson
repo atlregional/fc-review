@@ -6168,7 +6168,15 @@
         "Shape_Leng": 10335.5053238,
         "ARC_Length": 1.9574820689,
         "RCLINK_1": "0572023800",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "FROM": "Old Orange Mill Rd",
+        "TO": "Curtis Rd",
+        "FC_NEW": 6,
+        "JUST": "This is a roadway that connects a Major Collector as well as a Minor Collector.  It also serves a middle school and a high school.",
+        "DESC": "A high school and middle school are major traffic generators.",
+        "NAME": "Owens Store Rd",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
