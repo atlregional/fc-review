@@ -319,7 +319,13 @@
         "2011AvAADT": 2350,
         "2010AvAADT": 2390,
         "OBJECTID_1": 3750,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "Harold Dobbs Rd.",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Traffic does not warrant Major Collector classification.",
+        "stroke": "#00ff00",
+        "user": "TGarrett-NewtonCo"
       },
       "geometry": {
         "type": "LineString",
