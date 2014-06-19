@@ -3764,7 +3764,15 @@
         "Shape_Leng": 12581.8931036,
         "ARC_Length": 2.38293429993,
         "RCLINK_1": "2472008200",
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Lake Rockaway Rd",
+        "FROM": "Old Covington Hwy",
+        "TO": "S. Lakeshore Dr",
+        "FC_NEW": 6,
+        "DESC": "Two lane rural roadway with 1,470 ADT.",
+        "JUST": "Roadway should be upgraded due to ADT and conformance to surrounding network. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
