@@ -20287,7 +20287,13 @@
         "2011AvAADT": 2000,
         "2010AvAADT": 2070,
         "OBJECTID_1": 4108,
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Vineyard Road",
+        "FC_NEW": 4,
+        "DESC": 2,
+        "JUST": "Roadway supports large residential developments and school traffic on adjacent roadway.",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
