@@ -10557,7 +10557,15 @@
         "2011AvAADT": 15600,
         "2010AvAADT": 15103.3333333,
         "OBJECTID_1": 3773,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "S.R. 142",
+        "FROM": "Flat Rock Rd.",
+        "TO": "Ryan Ln.",
+        "FC_NEW": 4,
+        "JUST": "Continuity with GDOT proposed change to S.R. 142 north of I-20",
+        "DESC": "Connects I-20 to S.R. 81",
+        "stroke": "#00ff00",
+        "user": "TGarrett-NewtonCo"
       },
       "geometry": {
         "type": "LineString",
