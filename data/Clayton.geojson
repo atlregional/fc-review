@@ -84,7 +84,13 @@
         "Shape_Leng": 1577.60672315,
         "ARC_Length": 0.298785686695,
         "RCLINK_1": "0632057000",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Corinth Rd",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Corinth Rd in Fayette County is already a Major Collector.  This section needs to conform to surrounding network.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
