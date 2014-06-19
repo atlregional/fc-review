@@ -41903,7 +41903,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3610,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Selfridge Road",
+        "FC_NEW": 7,
+        "DESC": "Majority of roadway is gravel roadway with AADT < 200",
+        "JUST": "Low traffic volume.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
