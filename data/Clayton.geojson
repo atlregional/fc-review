@@ -7319,7 +7319,13 @@
         "Shape_Leng": 6766.39279339,
         "ARC_Length": 1.28151378663,
         "RCLINK_1": "0632050600",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Brown Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Connecting route between SR 54 (Fayetteville Rd) and Mundy's Mill Rd.  ",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
