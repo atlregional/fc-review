@@ -52383,7 +52383,15 @@
         "2011AvAADT": 2030,
         "2010AvAADT": 2060,
         "OBJECTID_1": 4000,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Old Covington Hwy",
+        "FROM": "Dogwood Drive",
+        "TO": "Dogwood Drive",
+        "FC_NEW": 4,
+        "DESC": "Two lane roadway, moderate traffic volumes.",
+        "JUST": "The roadway will have increased traffic demand with the Let project that will add underpass at Hwy 20/Hwy 138.  ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
