@@ -1319,7 +1319,13 @@
         "Shape_Leng": 17239.50526,
         "ARC_Length": 3.26505781458,
         "RCLINK_1": "0572005500",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Lower Bethany Rd",
+        "FC_NEW": 6,
+        "DESC": "This is a North/South route that begins at a Ball Ground Hwy and extends north to the County Line in conjunction with Upper Bethany Rd.",
+        "JUST": "This road starts at a Major Collector and combined with Upper Bethany Road, it created a north/south route to the County Line.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
