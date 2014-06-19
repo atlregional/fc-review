@@ -67983,7 +67983,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3730,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Old Conyers Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Lower traffic volume than other Henry Co. arterial roadways.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
