@@ -56403,7 +56403,15 @@
         "2011AvAADT": 4350,
         "2010AvAADT": 4500,
         "OBJECTID_1": 3655,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Keys Ferry Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "FROM": "SR81",
+        "TO": "Butts County Line",
+        "JUST": "Please extend classification limit beyond the Jackson Lake Road Intersection further eastward to the Butts County Line.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
