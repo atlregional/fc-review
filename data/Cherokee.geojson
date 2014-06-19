@@ -18778,7 +18778,13 @@
         "Shape_Leng": 5667.51188476,
         "ARC_Length": 1.07339240242,
         "RCLINK_1": "0573070013",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Woodstock Pkwy",
+        "FC_NEW": 6,
+        "DESC": "This roadway serves as a frontage style roadway along 575 between Towne Lake Parkway and Ridgewalk Parkway.",
+        "JUST": "A new interchange has been added at Ridgewalk Parkway and this roadway connects that with an existing interchange at Towne Lake Parkway.  There is a major retail center along this roadway.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
