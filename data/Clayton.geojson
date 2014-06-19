@@ -209,7 +209,15 @@
         "Shape_Leng": 5776.51380877,
         "ARC_Length": 1.09403670621,
         "RCLINK_1": "0633049115",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Lamar Hutcheson Pkwy",
+        "FC_NEW": 4,
+        "DESC": 4,
+        "JUST": "This route provides north-south connection for travel to/from SR 85 (Principal Arterial) & Bethsaida Rd (Minor Arterial) and adjacent shopping/schools, etc. as well as Southern Regional Hospital and other medical offices on Upper Riverdale Rd (proposed upgrade to Minor Arterial).",
+        "FROM": "Upper Riverdale Rd",
+        "TO": "SR 85",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
