@@ -42699,7 +42699,15 @@
         "2011AvAADT": 2340,
         "2010AvAADT": 1890,
         "OBJECTID_1": 3612,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "East Lake Road",
+        "FROM": "SR 20",
+        "TO": "East Lake Rd/Harper Rd Intersection",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Traffic volume reduces after crossing SR20.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
