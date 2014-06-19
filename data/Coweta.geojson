@@ -5794,7 +5794,13 @@
         "Shape_Leng": 15090.9034082,
         "ARC_Length": 2.85812564549,
         "RCLINK_1": "0772004300",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Herring Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Requested FC change is included in County FC Plan; access to Shenandoah Industrial Park (near SR 34); proposed enhanced connectivity to US 29 (CW-076/PI#0013195), fire station, and future Madras Connector.",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
