@@ -26207,7 +26207,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3801,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "Lackey Rd.",
+        "FC_NEW": 6,
+        "JUST": "Continuity with Moores Rd.",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "TGarrett-NewtonCo"
       },
       "geometry": {
         "type": "LineString",
