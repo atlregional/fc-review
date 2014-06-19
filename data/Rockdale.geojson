@@ -49082,7 +49082,13 @@
         "2011AvAADT": 900,
         "2010AvAADT": 910,
         "OBJECTID_1": 3965,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Turner Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway with 900 ADT.",
+        "JUST": "Two lane roadway with 900 ADT.",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
