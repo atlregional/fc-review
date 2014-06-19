@@ -1210,7 +1210,13 @@
         "Shape_Leng": 12896.7503875,
         "ARC_Length": 2.44256636128,
         "RCLINK_1": "0772234300",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Martin Mill Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Provides connectivity between two state routes; increasing traffic volumes.",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
