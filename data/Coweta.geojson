@@ -15910,7 +15910,13 @@
         "Shape_Leng": 4611.90449145,
         "ARC_Length": 0.873466759744,
         "RCLINK_1": "0772025200",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Smokey Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Increased traffic volumes; SW gateway into City of Newnan",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
