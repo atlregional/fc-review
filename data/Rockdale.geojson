@@ -30215,7 +30215,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3950,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "W Hightower Trail",
+        "FC_NEW": 6,
+        "DESC": "Two lane rural roadway with 1,870 ADT",
+        "JUST": "Two lane rural roadway with 1,870 ADT",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
