@@ -16245,7 +16245,13 @@
         "Shape_Leng": 4745.0412135,
         "ARC_Length": 0.89868204801,
         "RCLINK_1": "0572076800",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Woodstock Rd",
+        "FC_NEW": 6,
+        "DESC": "Several new residential subdivisions are building in this area with the potential to add several hundred housing units.  Current ADT on this portion is 1,575 vpd.",
+        "JUST": "This road will be handling more traffic in the immediate future and also connects two Minor Arterials.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
