@@ -20415,7 +20415,13 @@
         "Shape_Leng": 4213.01840378,
         "ARC_Length": 0.797920152231,
         "RCLINK_1": "0573078503",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Riverstone Blvd",
+        "FC_NEW": 4,
+        "DESC": "This roadway connects Reinhard College Parkway and Riverstone Parkway.",
+        "JUST": "It connects two Minor Arterials and serves multiple large retail outlets.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
