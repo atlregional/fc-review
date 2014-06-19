@@ -4632,7 +4632,13 @@
         "Shape_Leng": 28792.964959,
         "ARC_Length": 5.45321306042,
         "RCLINK_1": "0772007400",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "McIntosh Trail and Stallings Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Will provide direct access to proposed McIntosh Village development and eventually to Peachtree City/Fayette Co via future Vernon Hunter Pkwy/TDK Blvd Extension; roadway connects to City of Senoia",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
