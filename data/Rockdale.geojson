@@ -5664,7 +5664,13 @@
         "2011AvAADT": 2770,
         "2010AvAADT": 3020,
         "OBJECTID_1": 3929,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Oglesby Bridge Rd",
+        "FC_NEW": 5,
+        "DESC": "Two lane rural roadway with 3,660 ADT",
+        "JUST": "Two lane rural roadway with 3,660 ADT",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
