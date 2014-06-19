@@ -60905,7 +60905,13 @@
         "2011AvAADT": 2520,
         "2010AvAADT": 2610,
         "OBJECTID_1": 3667,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Richard Petty Blvd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "With the realignment and improvement of SR20, traffic on Richard Petty should be less than previous levels.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
