@@ -10849,7 +10849,13 @@
         "Shape_Leng": 2841.82861235,
         "ARC_Length": 0.538225115975,
         "RCLINK_1": "0632117200",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Spivey Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Connecting route between SR 138 and Walt Stephens Rd.  Provides access to adjacent subdivisions and access to Stockbridge/I-75 via SR 138.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
