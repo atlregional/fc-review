@@ -29293,7 +29293,13 @@
         "2011AvAADT": 4640,
         "2010AvAADT": 4750,
         "OBJECTID_1": 3573,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Griffin Street (aka SR42)",
+        "FC_NEW": 3,
+        "DESC": 2,
+        "JUST": "Related to request to upgrade SR42 from SR155 to SR42/138.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
