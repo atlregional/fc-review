@@ -45231,7 +45231,15 @@
         "2011AvAADT": 950,
         "2010AvAADT": 960,
         "OBJECTID_1": 842,
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "N. Lake Dr",
+        "FROM": "SR 54 (Jonesboro Rd)",
+        "TO": "Forest Pkwy",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Adjacent Lee St and North Pkwy provide for greater north-south travel than N. Lake Dr.",
+        "stroke": "#00ff00",
+        "user": "BAndrews-CDOT"
       },
       "geometry": {
         "type": "LineString",
