@@ -14562,7 +14562,13 @@
         "Shape_Leng": 17639.2867136,
         "ARC_Length": 3.34077399878,
         "RCLINK_1": "0772026100",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Old Corinth Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Increased traffic volumes",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
