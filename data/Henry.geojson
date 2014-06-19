@@ -14997,7 +14997,13 @@
         "2011AvAADT": 13965,
         "2010AvAADT": 14195,
         "OBJECTID_1": 3560,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "SR155",
+        "FC_NEW": 3,
+        "DESC": 2,
+        "JUST": "High traffic volume and congestion.  Warehouse distribution centers prevalent.  Study of SR155 will be part of county's feasibility study for new interchange.  Part of roadway system b/t Spalding County, into and through Henry Co.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
