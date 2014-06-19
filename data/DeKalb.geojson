@@ -88138,7 +88138,13 @@
         "2011AvAADT": 17378.3333333,
         "2010AvAADT": 17238.3333333,
         "OBJECTID_1": 1668,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Panola Road",
+        "FC_NEW": 3,
+        "DESC": "AADT 25K.  City of Stone Mountain/Stone Mountain Industrial area to SR10 to I-20 to SR 212 to SR 155.  ",
+        "JUST": "Network Connectivity.  Commuter alternate I-285 east wall.  Commuters weave through the arterials in east DeKalb to avoid congestion on i-285.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
