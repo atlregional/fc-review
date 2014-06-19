@@ -10983,7 +10983,15 @@
         "2011AvAADT": 13130,
         "2010AvAADT": 13450,
         "OBJECTID_1": 3774,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "S.R. 138",
+        "FROM": "Rockdale County Line",
+        "TO": "Walton County Line",
+        "FC_NEW": 3,
+        "JUST": "Roadway crosses multiple jurisdictions. This is a four lane section with 24,030 ADT. This is a state route. Needs to conform to surrounding network.",
+        "DESC": 24,
+        "stroke": "#00ff00",
+        "user": "TGarrett-NewtonCo"
       },
       "geometry": {
         "type": "LineString",
