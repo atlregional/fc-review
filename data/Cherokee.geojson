@@ -9439,7 +9439,13 @@
         "Shape_Leng": 8209.48152367,
         "ARC_Length": 1.55482604615,
         "RCLINK_1": "0572028900",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Bart Manous Rd",
+        "FC_NEW": 6,
+        "DESC": "Roadway provides a connection between Hickory Flat Hwy and East Cherokee Dr.",
+        "JUST": "Roadway is a east west connection between a Minor Arterial and a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -14889,7 +14895,13 @@
         "Shape_Leng": 2492.48284906,
         "ARC_Length": 0.472061145655,
         "RCLINK_1": "0572077900",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Sixes Rd",
+        "FC_NEW": 5,
+        "DESC": "The majority of Sixes Road is already a Major Collector.  For some reason this last segment was not included.",
+        "JUST": "The change is needed for continuity along Sixes Road.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -15039,7 +15051,13 @@
         "Shape_Leng": 15420.253993,
         "ARC_Length": 2.9205026502,
         "RCLINK_1": "0572077600",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Avery Rd",
+        "FC_NEW": 6,
+        "DESC": "This roadway is an east west connector between Hickory Flat Hwy and E Cherokee Dr.",
+        "JUST": "The road connects a Minor Arterial with a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -16069,7 +16087,13 @@
         "Shape_Leng": 2605.18969644,
         "ARC_Length": 0.493407139477,
         "RCLINK_1": "0572077100",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "New Hope Rd",
+        "FC_NEW": 6,
+        "DESC": "New Hope Road is a two-lane roadway that connects the Southwest portion of Cherokee County over to Red Top Mountain State Park and portion of Lake Alatoona.",
+        "JUST": "This roadway is frequently used by recreational vehicles and vehicles with boat trailers accessing the many campgrounds and lake access points in the area.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -16239,7 +16263,13 @@
         "Shape_Leng": 4745.0412135,
         "ARC_Length": 0.89868204801,
         "RCLINK_1": "0572076800",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Woodstock Rd",
+        "FC_NEW": 6,
+        "DESC": "Several new residential subdivisions are building in this area with the potential to add several hundred housing units.  Current ADT on this portion is 1,575 vpd.",
+        "JUST": "This road will be handling more traffic in the immediate future and also connects two Minor Arterials.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -17034,7 +17064,12 @@
         "Shape_Leng": 2283.95673681,
         "ARC_Length": 0.432567563789,
         "RCLINK_1": "0572395100",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "FC_NEW": 6,
+        "DESC": "This roadway serves as a frontage style roadway along 575 between Towne Lake Parkway and Ridgewalk Parkway.",
+        "JUST": "A new interchange has been added at Ridgewalk Parkway and this roadway connects that with an existing interchange at Towne Lake Parkway.  There is a major retail center along this roadway.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -17724,7 +17759,13 @@
         "Shape_Leng": 3247.10491441,
         "ARC_Length": 0.614981991366,
         "RCLINK_1": "0572401700",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Keeter Rd",
+        "FC_NEW": 6,
+        "DESC": "Part of a connection with Prominence Pt Pkwy between a Major Collector and a Minor Arterial.",
+        "JUST": "Continuity in the roadway network with the proposed changes with Prominence Pt Pkwy",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -18349,7 +18390,15 @@
         "Shape_Leng": 3329.3648479,
         "ARC_Length": 0.630561524223,
         "RCLINK_1": "0573040803",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Keeter Rd",
+        "FROM": "Prominence Pt Pkwy",
+        "TO": "Southwest to next Keeter Rd Segment",
+        "FC_NEW": 6,
+        "DESC": "Part of a connection with Prominence Pt Pkwy between a Minor Arterial and a Major Collector",
+        "JUST": "Continuity with the proposed changes for Prominence Pt Pkwy and the southwest portion of Keeter Rd.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -18734,7 +18783,13 @@
         "Shape_Leng": 5667.51188476,
         "ARC_Length": 1.07339240242,
         "RCLINK_1": "0573070013",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Woodstock Pkwy",
+        "FC_NEW": 6,
+        "DESC": "This roadway serves as a frontage style roadway along 575 between Towne Lake Parkway and Ridgewalk Parkway.",
+        "JUST": "A new interchange has been added at Ridgewalk Parkway and this roadway connects that with an existing interchange at Towne Lake Parkway.  There is a major retail center along this roadway.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -21929,7 +21984,13 @@
         "Shape_Leng": 5199.24961681,
         "ARC_Length": 0.984706366821,
         "RCLINK_1": "0573077003",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Prominence Pt Pkwy",
+        "FC_NEW": 6,
+        "DESC": "Many subdivisions and retail establishments along the roadway.",
+        "JUST": "Part of a connection between a Minor Arterial and a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -64839,13 +64900,7 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 633,
-        "County": "Cherokee",
-        "NAME": "Arthur Dr",
-        "FC_NEW": 7,
-        "DESC": "Arthur Drive has some sections with bad horizontal geometry and the use of the roadway is light.",
-        "JUST": "There are more appropriate roadways that have more volume that connect Univeter Road and Hickory Rd.",
-        "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "County": "Cherokee"
       },
       "geometry": {
         "type": "LineString",
