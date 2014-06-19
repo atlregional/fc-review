@@ -79009,7 +79009,15 @@
         "2011AvAADT": 3135,
         "2010AvAADT": 3245,
         "OBJECTID_1": 1411,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Rockaway Road, Main Street, and Broad Street",
+        "FROM": "Blue Heron Blvd",
+        "TO": "SR 16",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Increasing traffic volumes; access to vibrant downtown Senoia; connectivity between Coweta and Fayette/PTC; Will match FC in Fayette/PTC.",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
