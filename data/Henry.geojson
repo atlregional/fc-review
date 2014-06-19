@@ -65561,7 +65561,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3701,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Richard Petty Blvd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Low traffic volume other than a few events per year.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
