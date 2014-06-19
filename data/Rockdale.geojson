@@ -8968,7 +8968,15 @@
         "Shape_Leng": 1444.69972247,
         "ARC_Length": 0.273617371679,
         "RCLINK_1": "2472205200",
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Milstead Road",
+        "FC_NEW": 6,
+        "FROM": "Milstead Avenue",
+        "TO": "Sigman Road (SR 20)",
+        "DESC": "A local connection by the Hospital that allows traffic to bypass signal at Sigman Road (SR20) @ Milstead Avenue",
+        "JUST": "Trafic is estimated to be 2,000 vpd and is a significant route by the Rockdale Hospital",
+        "stroke": "#00ff00",
+        "user": "BSutton-ConyersGa"
       },
       "geometry": {
         "type": "LineString",
