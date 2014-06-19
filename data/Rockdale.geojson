@@ -5872,7 +5872,15 @@
         "Shape_Leng": 6685.08049964,
         "ARC_Length": 1.26611373099,
         "RCLINK_1": "2472005500",
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Flat Shoals Rd",
+        "FROM": "Salem Rd",
+        "TO": "Iris Drive",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway with 5.396 ADT.",
+        "JUST": "This should be reclassified to conform to surrounding network.  It provides access to Iris Drive which is an I-20 frontage road. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
