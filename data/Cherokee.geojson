@@ -21947,7 +21947,13 @@
         "Shape_Leng": 5199.24961681,
         "ARC_Length": 0.984706366821,
         "RCLINK_1": "0573077003",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Prominence Pt Pkwy",
+        "FC_NEW": 6,
+        "DESC": "Many subdivisions and retail establishments along the roadway.",
+        "JUST": "Part of a connection between a Minor Arterial and a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
