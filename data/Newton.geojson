@@ -30638,7 +30638,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3834,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "Alcovy Rd.",
+        "FROM": "Industrial Park Blvd.",
+        "TO": "Branch of Alcovy River",
+        "FC_NEW": 6,
+        "JUST": "Traffic northeast of S.R. 142 does not support Major Collector classification.",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "TGarrett-NewtonCo"
       },
       "geometry": {
         "type": "LineString",
