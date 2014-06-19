@@ -68122,7 +68122,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4022,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "College Avenue",
+        "FC_NEW": 6,
+        "DESC": "Primarily a local connection with an estimated 1,500 vpd",
+        "JUST": "Recommend lowering use to a Minor Collector",
+        "stroke": "#00ff00",
+        "user": "BSutton-ConyersGa"
       },
       "geometry": {
         "type": "LineString",
