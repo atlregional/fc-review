@@ -11445,7 +11445,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3552,
-        "County": "Henry"
+        "County": "Henry",
+        "FC_NEW": 5,
+        "NAME": "Austin Road",
+        "FROM": "Scarborough Road",
+        "TO": "Fairview Road",
+        "DESC": 2,
+        "JUST": "Austin Road southern terminus should be extended to Fairview Rd.  Rock Road should be shown as a local road.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
