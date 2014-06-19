@@ -42479,7 +42479,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3955,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "White Road",
+        "FC_NEW": 6,
+        "DESC": "Two lane rural roadway with 1,097 ADT",
+        "JUST": "Should be reclassified to conform to surrounding network.  ADT is 1,097.",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
