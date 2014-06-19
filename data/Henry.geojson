@@ -35257,7 +35257,13 @@
         "2011AvAADT": 170,
         "2010AvAADT": 180,
         "OBJECTID_1": 3588,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Ellistown Road",
+        "FC_NEW": 7,
+        "DESC": "Majority of roadway is gravel road.  AADT less than 500.",
+        "JUST": "Low traffic volume.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
