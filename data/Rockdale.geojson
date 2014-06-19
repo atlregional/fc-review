@@ -2399,7 +2399,13 @@
         "Shape_Leng": 6306.93040597,
         "ARC_Length": 1.19449439507,
         "RCLINK_1": "2472002900",
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Christian Circle North",
+        "FC_NEW": 6,
+        "DESC": "Two lane rural roadway with 2,240 ADT.",
+        "JUST": "Roadway should be upgraded to minor collector because it provides connectivity between Rockdale and Newton Counties. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
