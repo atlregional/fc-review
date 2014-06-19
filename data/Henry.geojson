@@ -7910,7 +7910,13 @@
         "2011AvAADT": 3920,
         "2010AvAADT": 4020,
         "OBJECTID_1": 3537,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Kellytown Road",
+        "FC_NEW": 4,
+        "DESC": 2,
+        "JUST": "Please ensure that the modification made to remove Asa Moseley link from being associated with Kellytown does not adversely affect Kellytown's classification.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
