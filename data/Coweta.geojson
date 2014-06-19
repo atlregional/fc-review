@@ -2092,12 +2092,12 @@
         "County": "Coweta",
         "NAME": "Posey Road",
         "FROM": "SR 34",
-        "TO": "Hammock Road",
+        "TO": "Hammock Rd",
         "FC_NEW": 5,
         "JUST": "Growing commercial uses at SR 34; used to access SR 154 and I-85.",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "landonreed"
       },
       "geometry": {
         "type": "LineString",
