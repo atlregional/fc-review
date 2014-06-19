@@ -30551,7 +30551,15 @@
         "2011AvAADT": 11275.7142857,
         "2010AvAADT": 11311.4285714,
         "OBJECTID_1": 3578,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "SR42",
+        "FROM": "SR155 intersection, south of McDonough",
+        "TO": "SR42/138 Intersection, north of McDonough",
+        "FC_NEW": 3,
+        "DESC": 2,
+        "JUST": "Traffic volume increases on North end of McDonough up to and including the Eagle's Landing area.",
+        "stroke": "#00ff00",
+        "user": "CMatthews-HenryCo"
       },
       "geometry": {
         "type": "LineString",
