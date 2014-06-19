@@ -64702,7 +64702,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4014,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Eastview Rd",
+        "FROM": "Milstead Ave",
+        "TO": "Hwy 138",
+        "FC_NEW": 6,
+        "DESC": "Two lane urban roadway with 1,270 ADT.",
+        "JUST": "Should be reduced due to traffic volumes. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
