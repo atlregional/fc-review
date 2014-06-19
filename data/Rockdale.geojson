@@ -31592,7 +31592,13 @@
         "2011AvAADT": 7005,
         "2010AvAADT": 7105,
         "OBJECTID_1": 3943,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "GA 155",
+        "FC_NEW": 4,
+        "DESC": "Two lane rural roadway with 8,420 ADT. This is a state route. ",
+        "JUST": "Roadway should be reduced to a minor arterial due to volumes and to conform to surrounding network. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
