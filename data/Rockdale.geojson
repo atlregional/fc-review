@@ -27600,7 +27600,13 @@
         "2011AvAADT": 2110,
         "2010AvAADT": 2140,
         "OBJECTID_1": 3937,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Grande Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway with 1,740 ADT",
+        "JUST": "Two lane roadway with 1,740 ADT",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo"
       },
       "geometry": {
         "type": "LineString",
