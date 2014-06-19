@@ -58938,7 +58938,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1365,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "SR 70",
+        "FC_NEW": 4,
+        "DESC": 2,
+        "JUST": "Increasing traffic volumes from commuters accessing employment centers along Fulton Industrial Blvd, etc.; matches proposed FC change in City of Chattahoochee Hills; already classified as a Minor Arterial south of Little Wahoo Creek.",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo"
       },
       "geometry": {
         "type": "LineString",
