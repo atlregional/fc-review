@@ -56163,7 +56163,13 @@
         "2011AvAADT": 6070,
         "2010AvAADT": 6080,
         "OBJECTID_1": 1611,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Ward lake Road",
+        "FC_NEW": 5,
+        "DESC": "the Linecrest Road extension to Bouldercrest Road new alignment is completed- so this is the preferred route.  ",
+        "JUST": "New network. Network Connectivity. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
