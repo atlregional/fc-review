@@ -25771,7 +25771,13 @@
         "2011AvAADT": 2480,
         "2010AvAADT": 2570,
         "OBJECTID_1": 581,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Lower Burris Rd",
+        "FC_NEW": 6,
+        "DESC": "Connects SR 140 and SR 108.",
+        "JUST": "Mainly large lot residences through the area.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
