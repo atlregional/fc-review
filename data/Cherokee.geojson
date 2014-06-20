@@ -18277,7 +18277,13 @@
         "Shape_Leng": 1142.00885309,
         "ARC_Length": 0.216289555509,
         "RCLINK_1": "0572399900",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "JUST": "This road connects a Major Collector and a Minor Arterial. It serves many residential subdivisions.",
+        "DESC": "This is a two lane roadway that connects Hickory Rd and Holly Springs Pkwy.",
+        "NAME": "Toonigh Rd",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
