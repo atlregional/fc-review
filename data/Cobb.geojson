@@ -2840,7 +2840,15 @@
         "Shape_Leng": 2791.11998034,
         "ARC_Length": 0.528621208397,
         "RCLINK_1": "0672102700",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Scufflegritt Rd",
+        "FROM": "Holcomb Lake Rd",
+        "TO": "Sandy Plains Rd",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Conflicting designation. This segment was included in the thoroughfares network, but this segment is classified as local.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
