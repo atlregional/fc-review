@@ -58994,7 +58994,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 616,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Eagle Dr",
+        "FC_NEW": 4,
+        "JUST": "This is a four-lane roadway that connects two Minor Arterials. There are schools along the road and more in the area along with many retail centers.",
+        "DESC": "This road connects Bells Ferry Road and Towne Lake Parkway.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
