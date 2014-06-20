@@ -45769,7 +45769,13 @@
         "2011AvAADT": 2350,
         "2010AvAADT": 2390,
         "OBJECTID_1": 1582,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Linecrest Road",
+        "FC_NEW": 4,
+        "DESC": "new alignment completed since last review to connect with Bouldercrest.  This is the preferred route instead of Ward Lake Road.  ",
+        "JUST": "Network Connectivity.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
