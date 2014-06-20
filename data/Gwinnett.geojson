@@ -59897,7 +59897,15 @@
         "2011AvAADT": 24947.1428571,
         "2010AvAADT": 24887.1428571,
         "OBJECTID_1": 3020,
-        "County": "Gwinnett"
+        "County": "Gwinnett",
+        "NAME": "Peachtree Industrial",
+        "FROM": "Buford Dr",
+        "TO": "Hall County Line",
+        "FC_NEW": 4,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "user": "MFowler-GDOT"
       },
       "geometry": {
         "type": "LineString",
