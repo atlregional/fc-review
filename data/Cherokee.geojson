@@ -13957,7 +13957,13 @@
         "Shape_Leng": 11770.4093348,
         "ARC_Length": 2.22924419219,
         "RCLINK_1": "0572037200",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "FC_NEW": 6,
+        "NAME": "Waters Rd",
+        "DESC": "Two lane roadway that connects East Cherokee Drive and North Arnold Mill Road.",
+        "JUST": "This roadway connects a Minor Arterial and a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
