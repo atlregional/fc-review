@@ -62420,7 +62420,13 @@
         "2011AvAADT": 3545,
         "2010AvAADT": 3560,
         "OBJECTID_1": 627,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Wiley Bridge Rd/W Wylie Bridge Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway that ends and begins on SR 92.",
+        "JUST": "Serves only residential subdivisions located on the roadway.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
