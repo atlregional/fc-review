@@ -12480,7 +12480,13 @@
         "Shape_Leng": 1268.56053,
         "ARC_Length": 0.240257675758,
         "RCLINK_1": "0673455113",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Bentley Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Coordinated with Marietta. In conjunction with request to change Delk Rd (I-75 to Terrell Mill Rd) and Terrell Mill Rd to (US 41 to Lower Roswell Rd) to Minor Arterial. This request would link two Minor Arterials.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
