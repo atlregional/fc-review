@@ -25179,7 +25179,13 @@
         "2011AvAADT": 1695,
         "2010AvAADT": 1775,
         "OBJECTID_1": 580,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Lower Burris Rd/Upper Burris Rd",
+        "FC_NEW": 6,
+        "DESC": "This road connects SR 140 to SR 108.",
+        "JUST": "This large mainly serves large lot residences.  The break point between Upper and Lower Burris is at Land Road.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
