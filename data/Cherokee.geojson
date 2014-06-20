@@ -18388,7 +18388,13 @@
         "Shape_Leng": 3136.14026434,
         "ARC_Length": 0.593965959155,
         "RCLINK_1": "0573042313",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Dupree Rd",
+        "FC_NEW": 6,
+        "DESC": "Two Lane roadway that connects Main Street and Bascomb Carmel Road.",
+        "JUST": "This roadway connects a Minor Arterial with a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
