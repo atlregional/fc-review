@@ -12059,7 +12059,13 @@
         "Shape_Leng": 5780.33442372,
         "ARC_Length": 1.09476030752,
         "RCLINK_1": "0572045900",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Old Alabama Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway that connects Kellogg Creek Rd and Alabama Rd (SR 92).",
+        "JUST": "This roadway connects a Minor Arterial and a Principal Arterial.  An industrial park is set to start work along this roadway soon.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
