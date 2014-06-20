@@ -12223,7 +12223,12 @@
         "Shape_Leng": 1185.35099065,
         "ARC_Length": 0.224498293684,
         "RCLINK_1": "0673391413",
-        "County": "Cobb"
+        "County": "Cobb",
+        "FC_NEW": 4,
+        "DESC": 4,
+        "JUST": "Create continuous corridor that ends (connects to) at another Minor Arterial (SR 5/Canton Road Conn).",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
