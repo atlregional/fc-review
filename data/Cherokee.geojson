@@ -14741,7 +14741,13 @@
         "Shape_Leng": 6648.50600616,
         "ARC_Length": 1.25918674359,
         "RCLINK_1": "0572036200",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "FC_NEW": 6,
+        "NAME": "Mill Creek Rd",
+        "DESC": "This roadway connect East Cherokee Drive and Arnold Mill Road.",
+        "JUST": "This roadway connects two Minor Arterials and has schools located at each end of the roadway.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
