@@ -42696,7 +42696,14 @@
         "2011AvAADT": 2440,
         "2010AvAADT": 2480,
         "OBJECTID_1": 1576,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Rock Springs Road",
+        "FROM": "Evans Mill Road",
+        "TO": "Thompson Mill Road",
+        "FC_NEW": 5,
+        "DESC": "Extend existing segments limits to Thompson Mill Road",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
