@@ -8490,7 +8490,13 @@
         "Shape_Leng": 8489.07245224,
         "ARC_Length": 1.60777887353,
         "RCLINK_1": "0572030100",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Lower Birmingham Rd",
+        "FC_NEW": 5,
+        "DESC": "Two lane roadway connecting Batesville Rd to the County Line.",
+        "JUST": "This roadway connects a Major Collector with a Major Collector in the adjacent county and provides continuity for classification type.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
