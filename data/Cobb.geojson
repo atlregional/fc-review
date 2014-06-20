@@ -12346,7 +12346,13 @@
         "Shape_Leng": 1127.02744973,
         "ARC_Length": 0.21345216851,
         "RCLINK_1": "0673285313",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Sandtown Rd",
+        "FC_NEW": 5,
+        "JUST": "Coordinated with Marietta. City wishes FC to match local MTP class with this request. Connects two state routes/minor arterials",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
