@@ -89694,7 +89694,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1173,
-        "County": "Cobb"
+        "County": "Cobb",
+        "FC_NEW": 6,
+        "NAME": "Allgood Rd",
+        "DESC": 2,
+        "JUST": "An additional request changes Scufflegrit Rd (from Allgood Rd to Sandy Plains) from \"local\" to \"major collector\", shifting the major collector corridor from this segment of Allgood Rd. Traffic counts for this segment are more consistent with minor collector.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
