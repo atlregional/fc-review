@@ -81000,7 +81000,13 @@
         "2011AvAADT": 3260,
         "2010AvAADT": 3370,
         "OBJECTID_1": 654,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "DESC": "This road connects SR 20 to the County Line.",
+        "JUST": "This road connects a Principal Arterial to the adjacent County where the road is classified as a Major Collector.",
+        "NAME": "Union Hill Rd",
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
