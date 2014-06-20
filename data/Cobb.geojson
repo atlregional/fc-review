@@ -8769,7 +8769,13 @@
         "Shape_Leng": 7514.7766414,
         "ARC_Length": 1.42325315178,
         "RCLINK_1": "0672391000",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Sandy Plains Rd",
+        "FC_NEW": 4,
+        "DESC": 4,
+        "JUST": "Conflicting designation. Allgood Road/Scufflegrit Rad/Sandy Plains Road corridor was included in the thoroughfares network, but this segment is classified as local.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
