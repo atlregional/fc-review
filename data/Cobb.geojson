@@ -12932,7 +12932,13 @@
         "Shape_Leng": 930.620767704,
         "ARC_Length": 0.176253933277,
         "RCLINK_1": "0673443913",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Wallace Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Coordinated with Marietta. City wishes FC to match local MTP class with this request. Connects a major collector to an OPA.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
