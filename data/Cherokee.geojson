@@ -19522,7 +19522,15 @@
         "Shape_Leng": 11718.1080197,
         "ARC_Length": 2.21933864009,
         "RCLINK_1": "0573069813",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Ridgewalk Pkwy",
+        "FROM": "Ashland Pkwy",
+        "TO": "Main St",
+        "FC_NEW": 5,
+        "DESC": "Partial 4-lane roadway that connects Main Street with an interchange on 575.",
+        "JUST": "This roadway connects a Minor Arterial with an Interstate.  Access to the interstate and a large retail center currently along this roadway.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
