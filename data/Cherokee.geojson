@@ -14402,7 +14402,13 @@
         "Shape_Leng": 7725.28719876,
         "ARC_Length": 1.46312257552,
         "RCLINK_1": "0572037000",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Tripp Rd",
+        "FC_NEW": 6,
+        "DESC": "This road connects East Cherokee Drive and North Arnold Mill Road.",
+        "JUST": "It connects a Minor Arterial and a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
