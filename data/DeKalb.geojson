@@ -45982,7 +45982,12 @@
         "2011AvAADT": 8200,
         "2010AvAADT": 7370,
         "OBJECTID_1": 1583,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Oakvale Road",
+        "FC_NEW": 7,
+        "DESC": "Consistent with Dekalb CTP.  School location. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
