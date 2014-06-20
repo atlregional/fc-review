@@ -6412,7 +6412,13 @@
         "Shape_Leng": 7215.90680376,
         "ARC_Length": 1.36663515184,
         "RCLINK_1": "2553102105",
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "N. Pine Hill Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Entire segment spans from SR 16 to W Ellis Road. High traffic volume generated large subdivisions. parallel facility to a segment of US 19/41.",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
