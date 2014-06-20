@@ -28289,7 +28289,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 585,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Weatherby Rd",
+        "FC_NEW": 7,
+        "DESC": "Two lane roadway connecting Hornage Rd and Upper Bethany Rd.",
+        "JUST": "The vertical and horizontal geometry are not good for this roadway and it has narrow widths.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
