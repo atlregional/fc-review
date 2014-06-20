@@ -19,7 +19,13 @@
         "Shape_Leng": 7430.8308676,
         "ARC_Length": 1.40735433098,
         "RCLINK_1": "0572005500",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "FC_NEW": 6,
+        "NAME": "Upper Bethany Rd",
+        "DESC": "This is a North/South route that begins at a Major Collector and extends north to the County Line in conjunction with Lower Bethany Rd.",
+        "JUST": "This road starts at a Major Collector and combined with Lower Bethany Road, it created a north/south route to the County Line.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -244,7 +250,13 @@
         "Shape_Leng": 16480.7371199,
         "ARC_Length": 3.12135172725,
         "RCLINK_1": "0572005500",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Lower Bethany Rd and Upper Bethany Rd",
+        "FC_NEW": 6,
+        "JUST": "These roads start at a Major Collector and they create a north/south route to the County Line.  The actual break point between Upper Bethany Road and Lower Bethany Road is at Land Road.",
+        "DESC": "This segment a combination of Lower Bethany Road and Upper Bethany Road.  It is a North/South route that begins at a Major Collector and extends north to the County Line.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -1319,7 +1331,13 @@
         "Shape_Leng": 17239.50526,
         "ARC_Length": 3.26505781458,
         "RCLINK_1": "0572005500",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Lower Bethany Rd",
+        "FC_NEW": 6,
+        "DESC": "This is a North/South route that begins at a Ball Ground Hwy and extends north to the County Line in conjunction with Upper Bethany Rd.",
+        "JUST": "This road starts at a Major Collector and combined with Upper Bethany Road, it created a north/south route to the County Line.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -1744,7 +1762,13 @@
         "Shape_Leng": 23205.79923,
         "ARC_Length": 4.39503773371,
         "RCLINK_1": "0572005200",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Land Rd",
+        "FC_NEW": 6,
+        "DESC": "East west connection from Reinhardt College Pkwy to Upper Bethany Road.",
+        "JUST": "Connection will be between a Major Collector and a proposed Minor Collector and has a section that crosses another Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -2814,7 +2838,13 @@
         "Shape_Leng": 8526.01936302,
         "ARC_Length": 1.61477639451,
         "RCLINK_1": "0572011100",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Hornage Rd",
+        "FC_NEW": 6,
+        "DESC": "A continuation of Hornage Road to connect to Lower Bethany Road",
+        "JUST": "Provide continuity for Hornage Road to connect to another proposed Local Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -3169,7 +3199,13 @@
         "Shape_Leng": 12141.2487438,
         "ARC_Length": 2.29947892875,
         "RCLINK_1": "0572010700",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Long Rd",
+        "FC_NEW": 7,
+        "DESC": "This road is a continuation of Howell Bridge Road and connects it to Lower Bethany Road.",
+        "JUST": "Continuity with an existing Local Collector to connect to another Local Connector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -3644,7 +3680,15 @@
         "Shape_Leng": 12379.0303057,
         "ARC_Length": 2.34451331548,
         "RCLINK_1": "0572008600",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Heard Rd",
+        "FC_NEW": 6,
+        "FROM": "Fate Conn Rd",
+        "TO": "Lower Bethany Rd",
+        "DESC": "This roadway connects Fate Conn Rd and Lower Bethany.",
+        "JUST": "Once of the roads it connects is currently a Minor Collector and the other is proposed to be a Minor Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -4119,7 +4163,15 @@
         "Shape_Leng": 20635.3257538,
         "ARC_Length": 3.90820563518,
         "RCLINK_1": "0572035200",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Toonigh Rd",
+        "FROM": "Lebanon Pl",
+        "TO": "New Light Rd",
+        "FC_NEW": 6,
+        "DESC": "This is a two lane roadway that connects Hickory Rd and Holly Springs Pkwy.",
+        "JUST": "This road connects a Major Collector and a Minor Arterial.  It serves many residential subdivisions.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -4919,7 +4971,13 @@
         "Shape_Leng": 6237.44424105,
         "ARC_Length": 1.18133413656,
         "RCLINK_1": "0572025400",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Birmingham Rd",
+        "FC_NEW": 5,
+        "DESC": "Two land roadway that connects to Freehome Hwy and Holbrook Campground Rd.",
+        "JUST": "Continuation of Birmingham Rd that connects two Major Collectors.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -5194,7 +5252,15 @@
         "Shape_Leng": 17391.1361003,
         "ARC_Length": 3.29377577657,
         "RCLINK_1": "0572025000",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Trinity Church Rd",
+        "FC_NEW": 6,
+        "FROM": "Arbor Hill Rd",
+        "TO": "Freehome Hwy",
+        "DESC": "Continuation of an east west route with Owens Store Road.",
+        "JUST": "Continuity with Owens Store Road connects two Major Collectors.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -6124,7 +6190,15 @@
         "Shape_Leng": 10335.5053238,
         "ARC_Length": 1.9574820689,
         "RCLINK_1": "0572023800",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "FROM": "Old Orange Mill Rd",
+        "TO": "Curtis Rd",
+        "FC_NEW": 6,
+        "JUST": "This is a roadway that connects a Major Collector as well as a Minor Collector.  It also serves a middle school and a high school.",
+        "DESC": "A high school and middle school are major traffic generators.",
+        "NAME": "Owens Store Rd",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -6649,7 +6723,13 @@
         "Shape_Leng": 2029.19798079,
         "ARC_Length": 0.384317799392,
         "RCLINK_1": "0572023800",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Owens Store Rd",
+        "DESC": "A high school and middle school are major traffic generators.",
+        "JUST": "This is a roadway that connects a Major Collector as well as a Minor Collector.  It also serves a middle school and a high school.",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -6739,7 +6819,15 @@
         "Shape_Leng": 9065.66804974,
         "ARC_Length": 1.71698258518,
         "RCLINK_1": "0572031300",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Mountain Rd",
+        "FROM": "Arnold Mill Rd",
+        "TO": "Reese Rd",
+        "FC_NEW": 6,
+        "DESC": "Connects two Minor Arterial Roadways.",
+        "JUST": "A school is located along this roadway and it handles the school traffic as well as cut through movements.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -7679,7 +7767,13 @@
         "Shape_Leng": 4832.58184875,
         "ARC_Length": 0.915261713779,
         "RCLINK_1": "0572031100",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Mountain Rd",
+        "FC_NEW": 6,
+        "DESC": "This roadway connects two Minor Arterials.",
+        "JUST": "There is a school along this roadway and it handles the school traffic as well as cut through movements.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -7844,7 +7938,13 @@
         "Shape_Leng": 5942.82630095,
         "ARC_Length": 1.12553528427,
         "RCLINK_1": "0572042300",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Dupree Rd",
+        "FC_NEW": 6,
+        "DESC": "Two Lane roadway that connects Main Street and Bascomb Carmel Road.",
+        "JUST": "This roadway connects a Minor Arterial with a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -8059,7 +8159,13 @@
         "Shape_Leng": 8134.33131077,
         "ARC_Length": 1.54059305128,
         "RCLINK_1": "0572030100",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "DESC": "Two lane roadway connecting Batesville Rd to the County Line.",
+        "JUST": "This roadway connects a Major Collector with a Major Collector in the adjacent county and provides continuity for classification type.",
+        "FC_NEW": 5,
+        "NAME": "Lower Birmingham Rd",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -8404,7 +8510,13 @@
         "Shape_Leng": 8489.07245224,
         "ARC_Length": 1.60777887353,
         "RCLINK_1": "0572030100",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Lower Birmingham Rd",
+        "FC_NEW": 5,
+        "DESC": "Two lane roadway connecting Batesville Rd to the County Line.",
+        "JUST": "This roadway connects a Major Collector with a Major Collector in the adjacent county and provides continuity for classification type.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -8919,7 +9031,13 @@
         "Shape_Leng": 14950.8546529,
         "ARC_Length": 2.83160126001,
         "RCLINK_1": "0572029500",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Lower Union Hill Rd",
+        "FC_NEW": 6,
+        "DESC": "Two Lane roadway that connects East Cherokee Drive and Union Hill Road.",
+        "JUST": "A portion of this road is already a Minor Collector so the change is proposed for continuity.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -9439,7 +9557,13 @@
         "Shape_Leng": 8209.48152367,
         "ARC_Length": 1.55482604615,
         "RCLINK_1": "0572028900",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Bart Manous Rd",
+        "FC_NEW": 6,
+        "DESC": "Roadway provides a connection between Hickory Flat Hwy and East Cherokee Dr.",
+        "JUST": "Roadway is a east west connection between a Minor Arterial and a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -9764,7 +9888,13 @@
         "Shape_Leng": 9067.0748154,
         "ARC_Length": 1.71724901807,
         "RCLINK_1": "0572028800",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Scott Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway connecting Hickory Flat Highway and Cumming Hwy.",
+        "JUST": "This road connects a Minor Arterial and a Principal Arterial.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -10154,7 +10284,13 @@
         "Shape_Leng": 4576.27195616,
         "ARC_Length": 0.866718173515,
         "RCLINK_1": "0572039600",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Cox Rd",
+        "FC_NEW": 6,
+        "DESC": "This roadway runs from Wiley Bridge Rd to the County Line.",
+        "JUST": "It connects a Major Collector to the County Line and this is an east west route to access SR 140.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -10559,7 +10695,15 @@
         "Shape_Leng": 17539.4052103,
         "ARC_Length": 3.3218570474,
         "RCLINK_1": "0572028100",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Scott Rd",
+        "FROM": "Cumming Hwy",
+        "TO": "Epperson Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway connecting Hickory Flat Highway and Cumming Hwy.\n",
+        "JUST": "This road connects a Minor Arterial and a Principal Arterial.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -11614,7 +11758,13 @@
         "Shape_Leng": 4375.45998449,
         "ARC_Length": 0.828685603123,
         "RCLINK_1": "0572027000",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Owens Store Rd",
+        "FC_NEW": 6,
+        "DESC": "A high school and middle school are major traffic generators.",
+        "JUST": "This is a roadway that connects a Major Collector as well as a Minor Collector.  It also serves a middle school and a high school.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -11754,7 +11904,13 @@
         "Shape_Leng": 838.315736759,
         "ARC_Length": 0.158771919841,
         "RCLINK_1": "0572027000",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Owens Store Rd",
+        "JUST": "This is a roadway that connects a Major Collector as well as a Minor Collector.  It also serves a middle school and a high school.",
+        "DESC": "A high school and middle school are major traffic generators.",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -11909,7 +12065,13 @@
         "Shape_Leng": 5780.33442372,
         "ARC_Length": 1.09476030752,
         "RCLINK_1": "0572045900",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Old Alabama Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway that connects Kellogg Creek Rd and Alabama Rd (SR 92).",
+        "JUST": "This roadway connects a Minor Arterial and a Principal Arterial.  An industrial park is set to start work along this roadway soon.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -12659,7 +12821,13 @@
         "Shape_Leng": 2477.03322273,
         "ARC_Length": 0.469135080062,
         "RCLINK_1": "0572037800",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Neese Rd",
+        "FC_NEW": 6,
+        "DESC": "Two Lane roadway that connects Arnold Mill Road and Alabama Rd (SR 92).",
+        "JUST": "This roadway connects a Minor Arterial with a Principal Arterial.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -12904,7 +13072,13 @@
         "Shape_Leng": 16081.4063812,
         "ARC_Length": 3.04572090553,
         "RCLINK_1": "0572037500",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Vaughn Rd",
+        "FC_NEW": 6,
+        "DESC": "This roadway connects Hickory Rd and Waters Road.",
+        "JUST": "It connects a Major Collector and a proposed Minor Collector.  It has a large County Park located along the roadway.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -13789,7 +13963,13 @@
         "Shape_Leng": 11770.4093348,
         "ARC_Length": 2.22924419219,
         "RCLINK_1": "0572037200",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "FC_NEW": 6,
+        "NAME": "Waters Rd",
+        "DESC": "Two lane roadway that connects East Cherokee Drive and North Arnold Mill Road.",
+        "JUST": "This roadway connects a Minor Arterial and a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -14234,7 +14414,13 @@
         "Shape_Leng": 7725.28719876,
         "ARC_Length": 1.46312257552,
         "RCLINK_1": "0572037000",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Tripp Rd",
+        "FC_NEW": 6,
+        "DESC": "This road connects East Cherokee Drive and North Arnold Mill Road.",
+        "JUST": "It connects a Minor Arterial and a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -14579,7 +14765,13 @@
         "Shape_Leng": 6648.50600616,
         "ARC_Length": 1.25918674359,
         "RCLINK_1": "0572036200",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "FC_NEW": 6,
+        "NAME": "Mill Creek Rd",
+        "DESC": "This roadway connect East Cherokee Drive and Arnold Mill Road.",
+        "JUST": "This roadway connects two Minor Arterials and has schools located at each end of the roadway.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -14889,7 +15081,13 @@
         "Shape_Leng": 2492.48284906,
         "ARC_Length": 0.472061145655,
         "RCLINK_1": "0572077900",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Sixes Rd",
+        "FC_NEW": 5,
+        "DESC": "The majority of Sixes Road is already a Major Collector.  For some reason this last segment was not included.",
+        "JUST": "The change is needed for continuity along Sixes Road.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -15039,7 +15237,13 @@
         "Shape_Leng": 15420.253993,
         "ARC_Length": 2.9205026502,
         "RCLINK_1": "0572077600",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Avery Rd",
+        "FC_NEW": 6,
+        "DESC": "This roadway is an east west connector between Hickory Flat Hwy and E Cherokee Dr.",
+        "JUST": "The road connects a Minor Arterial with a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -16069,7 +16273,13 @@
         "Shape_Leng": 2605.18969644,
         "ARC_Length": 0.493407139477,
         "RCLINK_1": "0572077100",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "New Hope Rd",
+        "FC_NEW": 6,
+        "DESC": "New Hope Road is a two-lane roadway that connects the Southwest portion of Cherokee County over to Red Top Mountain State Park and portion of Lake Alatoona.",
+        "JUST": "This roadway is frequently used by recreational vehicles and vehicles with boat trailers accessing the many campgrounds and lake access points in the area.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -16239,7 +16449,13 @@
         "Shape_Leng": 4745.0412135,
         "ARC_Length": 0.89868204801,
         "RCLINK_1": "0572076800",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Woodstock Rd",
+        "FC_NEW": 6,
+        "DESC": "Several new residential subdivisions are building in this area with the potential to add several hundred housing units.  Current ADT on this portion is 1,575 vpd.",
+        "JUST": "This road will be handling more traffic in the immediate future and also connects two Minor Arterials.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -16409,7 +16625,15 @@
         "Shape_Leng": 9346.13373719,
         "ARC_Length": 1.77010108659,
         "RCLINK_1": "0572050000",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Airport Dr",
+        "FROM": "W Hanger Dr",
+        "TO": "Ball Ground Hwy",
+        "FC_NEW": 5,
+        "DESC": "This road is a 2 lane road that serves many industrial businesses as well as the airport.",
+        "JUST": "The land use in the area is largely industrial and serves multiple businesses as well as the Cherokee County Airport and has an exit on 575.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -16684,7 +16908,13 @@
         "Shape_Leng": 2449.20515312,
         "ARC_Length": 0.463864612334,
         "RCLINK_1": "0572130400",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "New Light Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway that connects Univeter Rd. and Hickory Rd.",
+        "JUST": "This road connects to a Major Collector on both ends and serves a secondary entrance to a school.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -16819,7 +17049,15 @@
         "Shape_Leng": 1441.22994956,
         "ARC_Length": 0.272960217719,
         "RCLINK_1": "0572340100",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "New Light Rd",
+        "FROM": "Hickory Rd",
+        "TO": "Toonigh Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway that connects Univeter Rd. and Hickory Rd.",
+        "JUST": "This road connects to a Major Collector on both ends and serves a secondary entrance to a school.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -17034,7 +17272,12 @@
         "Shape_Leng": 2283.95673681,
         "ARC_Length": 0.432567563789,
         "RCLINK_1": "0572395100",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "FC_NEW": 6,
+        "DESC": "This roadway serves as a frontage style roadway along 575 between Towne Lake Parkway and Ridgewalk Parkway.",
+        "JUST": "A new interchange has been added at Ridgewalk Parkway and this roadway connects that with an existing interchange at Towne Lake Parkway.  There is a major retail center along this roadway.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -17204,7 +17447,13 @@
         "Shape_Leng": 317.690900562,
         "ARC_Length": 0.060168731167,
         "RCLINK_1": "0572394800",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Neese Rd",
+        "FC_NEW": 6,
+        "JUST": "Two Lane roadway that connects Arnold Mill Road and Alabama Rd (SR 92).",
+        "DESC": "This roadway connects a Minor Arterial with a Principal Arterial.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -17259,7 +17508,13 @@
         "Shape_Leng": 4255.63823111,
         "ARC_Length": 0.805992089225,
         "RCLINK_1": "0572394500",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "New Light Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway that connects Univeter Rd. and Hickory Rd.",
+        "JUST": "This road connects to a Major Collector on both ends and serves a secondary entrance to a school.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -17389,7 +17644,13 @@
         "Shape_Leng": 1388.78402364,
         "ARC_Length": 0.263027277204,
         "RCLINK_1": "0573038313",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Ragsdale Rd",
+        "FC_NEW": 6,
+        "DESC": "This road connects Trickum Road and Alabama Rd (SR 92).",
+        "JUST": "This connects a Major Collector and a Principal Arterial.  It serves many residential units as well as being a cut through to access SR 92. ",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -17489,7 +17750,13 @@
         "Shape_Leng": 2583.03289437,
         "ARC_Length": 0.48921077545,
         "RCLINK_1": "0573037813",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Neese Rd",
+        "FC_NEW": 6,
+        "DESC": "Two Lane roadway that connects Arnold Mill Road and Alabama Rd (SR 92).",
+        "JUST": "This roadway connects a Minor Arterial with a Principal Arterial.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -17659,7 +17926,13 @@
         "Shape_Leng": 591.895060447,
         "ARC_Length": 0.112101337206,
         "RCLINK_1": "0573035205",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Toonigh Rd",
+        "FC_NEW": 6,
+        "JUST": "This road connects a Major Collector and a Minor Arterial. It serves many residential subdivisions.",
+        "DESC": "This is a two lane roadway that connects Hickory Rd and Holly Springs Pkwy.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -17724,7 +17997,13 @@
         "Shape_Leng": 3247.10491441,
         "ARC_Length": 0.614981991366,
         "RCLINK_1": "0572401700",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Keeter Rd",
+        "FC_NEW": 6,
+        "DESC": "Part of a connection with Prominence Pt Pkwy between a Major Collector and a Minor Arterial.",
+        "JUST": "Continuity in the roadway network with the proposed changes with Prominence Pt Pkwy",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -18064,7 +18343,13 @@
         "Shape_Leng": 1142.00885309,
         "ARC_Length": 0.216289555509,
         "RCLINK_1": "0572399900",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "JUST": "This road connects a Major Collector and a Minor Arterial. It serves many residential subdivisions.",
+        "DESC": "This is a two lane roadway that connects Hickory Rd and Holly Springs Pkwy.",
+        "NAME": "Toonigh Rd",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -18169,7 +18454,13 @@
         "Shape_Leng": 3136.14026434,
         "ARC_Length": 0.593965959155,
         "RCLINK_1": "0573042313",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Dupree Rd",
+        "FC_NEW": 6,
+        "DESC": "Two Lane roadway that connects Main Street and Bascomb Carmel Road.",
+        "JUST": "This roadway connects a Minor Arterial with a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -18349,7 +18640,15 @@
         "Shape_Leng": 3329.3648479,
         "ARC_Length": 0.630561524223,
         "RCLINK_1": "0573040803",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Keeter Rd",
+        "FROM": "Prominence Pt Pkwy",
+        "TO": "Southwest to next Keeter Rd Segment",
+        "FC_NEW": 6,
+        "DESC": "Part of a connection with Prominence Pt Pkwy between a Minor Arterial and a Major Collector",
+        "JUST": "Continuity with the proposed changes for Prominence Pt Pkwy and the southwest portion of Keeter Rd.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -18734,7 +19033,13 @@
         "Shape_Leng": 5667.51188476,
         "ARC_Length": 1.07339240242,
         "RCLINK_1": "0573070013",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Woodstock Pkwy",
+        "FC_NEW": 6,
+        "DESC": "This roadway serves as a frontage style roadway along 575 between Towne Lake Parkway and Ridgewalk Parkway.",
+        "JUST": "A new interchange has been added at Ridgewalk Parkway and this roadway connects that with an existing interchange at Towne Lake Parkway.  There is a major retail center along this roadway.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -19289,7 +19594,15 @@
         "Shape_Leng": 11718.1080197,
         "ARC_Length": 2.21933864009,
         "RCLINK_1": "0573069813",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Ridgewalk Pkwy",
+        "FROM": "Ashland Pkwy",
+        "TO": "Main St",
+        "FC_NEW": 5,
+        "DESC": "Partial 4-lane roadway that connects Main Street with an interchange on 575.",
+        "JUST": "This roadway connects a Minor Arterial with an Interstate.  Access to the interstate and a large retail center currently along this roadway.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -20004,7 +20317,13 @@
         "Shape_Leng": 2197.25365504,
         "ARC_Length": 0.416146525575,
         "RCLINK_1": "0573080803",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "FC_NEW": 5,
+        "JUST": "This is a four-lane roadway with industrial land surrounding the majority of the area.  It serves several large businesses as well as a Technical College.",
+        "DESC": "This roadway connects a Local Connector to a Minor Arterial.",
+        "NAME": "Bluffs Pkwy",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -20304,7 +20623,13 @@
         "Shape_Leng": 4213.01840378,
         "ARC_Length": 0.797920152231,
         "RCLINK_1": "0573078503",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Riverstone Blvd",
+        "FC_NEW": 4,
+        "DESC": "This roadway connects Reinhard College Parkway and Riverstone Parkway.",
+        "JUST": "It connects two Minor Arterials and serves multiple large retail outlets.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -20584,7 +20909,13 @@
         "Shape_Leng": 651.149147609,
         "ARC_Length": 0.123323702199,
         "RCLINK_1": "0573080703",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "DESC": "This roadway connects a Local Connector to a Minor Arterial.",
+        "JUST": "This is a four-lane roadway with industrial land surrounding the majority of the area.  It serves several large businesses as well as a Technical College.",
+        "FC_NEW": 5,
+        "NAME": "Bluffs Pkwy",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -20909,7 +21240,13 @@
         "Shape_Leng": 6870.07274029,
         "ARC_Length": 1.30115014021,
         "RCLINK_1": "0573080403",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Bluffs Pkwy",
+        "FC_NEW": 5,
+        "DESC": "This roadway connects a Local Connector to a Minor Arterial.",
+        "JUST": "This is a four-lane roadway with industrial land surrounding the majority of the area.  It serves several large businesses as well as a Technical College.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -21824,7 +22161,13 @@
         "Shape_Leng": 2164.10134258,
         "ARC_Length": 0.40986767852,
         "RCLINK_1": "0573081403",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Bluffs Pkwy",
+        "FC_NEW": 5,
+        "JUST": "This is a four-lane roadway with industrial land surrounding the majority of the area.  It serves several large businesses as well as a Technical College.",
+        "DESC": "This roadway connects a Local Connector to a Minor Arterial.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -21929,7 +22272,13 @@
         "Shape_Leng": 5199.24961681,
         "ARC_Length": 0.984706366821,
         "RCLINK_1": "0573077003",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Prominence Pt Pkwy",
+        "FC_NEW": 6,
+        "DESC": "Many subdivisions and retail establishments along the roadway.",
+        "JUST": "Part of a connection between a Minor Arterial and a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -22994,7 +23343,13 @@
         "Shape_Leng": 1151.46548551,
         "ARC_Length": 0.218080584377,
         "RCLINK_1": "0573081203",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Bluffs Pkwy",
+        "FC_NEW": 5,
+        "DESC": "This roadway connects a Local Connector to a Minor Arterial.",
+        "JUST": "This is a four-lane roadway with industrial land surrounding the majority of the area.  It serves several large businesses as well as a Technical College.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -23504,7 +23859,13 @@
         "Shape_Leng": 1663.3343163,
         "ARC_Length": 0.315025438693,
         "RCLINK_1": "0573081003",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Bluffs Pkwy",
+        "FC_NEW": 5,
+        "JUST": "This is a four-lane roadway with industrial land surrounding the majority of the area.  It serves several large businesses as well as a Technical College.",
+        "DESC": "This roadway connects a Local Connector to a Minor Arterial.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -23849,7 +24210,13 @@
         "Shape_Leng": 654.34724136,
         "ARC_Length": 0.123929401773,
         "RCLINK_1": "0573080903",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Bluffs Pkwy",
+        "FC_NEW": 5,
+        "DESC": "This roadway connects a Local Connector to a Minor Arterial.",
+        "JUST": "This is a four-lane roadway with industrial land surrounding the majority of the area.  It serves several large businesses as well as a Technical College.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -24164,7 +24531,13 @@
         "Shape_Leng": 2533.76194514,
         "ARC_Length": 0.479879156276,
         "RCLINK_1": "0573099013",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Neese Rd",
+        "FC_NEW": 6,
+        "JUST": "This roadway connects a Minor Arterial with a Principal Arterial.",
+        "DESC": "Two Lane roadway that connects Arnold Mill Road and Alabama Rd (SR 92).",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -24509,7 +24882,13 @@
         "Shape_Leng": 634.084402355,
         "ARC_Length": 0.12009174287,
         "RCLINK_1": "0573130405",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "New Light Rd",
+        "FC_NEW": 6,
+        "JUST": "This road connects to a Major Collector on both ends and serves a secondary entrance to a school.",
+        "DESC": "Two lane roadway that connects Univeter Rd. and Hickory Rd.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -24549,7 +24928,13 @@
         "Shape_Leng": 282.93290219,
         "ARC_Length": 0.0535857769299,
         "RCLINK_1": "0573678805",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "New Light Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway that connects Univeter Rd. and Hickory Rd.",
+        "JUST": "This road connects to a Major Collector on both ends and serves a secondary entrance to a school.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -24599,7 +24984,13 @@
         "Shape_Leng": 1297.84947497,
         "ARC_Length": 0.245804824805,
         "RCLINK_1": "0573100713",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Woodstock Pkwy",
+        "FC_NEW": 6,
+        "JUST": "A new interchange has been added at Ridgewalk Parkway and this roadway connects that with an existing interchange at Towne Lake Parkway.  There is a major retail center along this roadway.",
+        "DESC": "This roadway serves as a frontage style roadway along 575 between Towne Lake Parkway and Ridgewalk Parkway.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -27898,7 +28289,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 585,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Weatherby Rd",
+        "FC_NEW": 7,
+        "DESC": "Two lane roadway connecting Hornage Rd and Upper Bethany Rd.",
+        "JUST": "The vertical and horizontal geometry are not good for this roadway and it has narrow widths.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -58827,7 +59224,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 617,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Batesville Rd",
+        "FC_NEW": 5,
+        "DESC": "This is a two lane roadway that connects Hickory Rd and the County Line.",
+        "JUST": "This road is a continuation of an existing Major Collector and once it reached the adjacent County also has it as a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -64839,13 +65242,7 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 633,
-        "County": "Cherokee",
-        "NAME": "Arthur Dr",
-        "FC_NEW": 7,
-        "DESC": "Arthur Drive has some sections with bad horizontal geometry and the use of the roadway is light.",
-        "JUST": "There are more appropriate roadways that have more volume that connect Univeter Road and Hickory Rd.",
-        "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "County": "Cherokee"
       },
       "geometry": {
         "type": "LineString",
@@ -81654,7 +82051,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 655,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "New Light Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane roadway that connects Univeter Rd. and Hickory Rd.",
+        "JUST": "This road connects to a Major Collector on both ends and serves a secondary entrance to a school.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
@@ -84200,7 +84603,13 @@
         "2011AvAADT": 940,
         "2010AvAADT": 950,
         "OBJECTID_1": 663,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Fate Conn Rd",
+        "FC_NEW": 6,
+        "DESC": "This roadway is segmented between classifications.",
+        "JUST": "To provide continuity with the segments of this roadway to the north and south, the change to Minor Collector is proposed.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
