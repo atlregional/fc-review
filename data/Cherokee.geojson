@@ -796,7 +796,13 @@
         "Shape_Leng": 3111.58852763,
         "ARC_Length": 0.589316009021,
         "RCLINK_1": "0572390700",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Ridge Rd",
+        "FC_NEW": 5,
+        "DESC": "This road connects Bells Ferry Road and Marietta Highway.",
+        "JUST": "This road has a Minor Arterial on both ends and a portion is already a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
