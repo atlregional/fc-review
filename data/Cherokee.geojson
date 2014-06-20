@@ -61197,7 +61197,13 @@
         "2011AvAADT": 3420,
         "2010AvAADT": 3470,
         "OBJECTID_1": 622,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Sugar Pike Rd",
+        "FC_NEW": 6,
+        "DESC": "This portion of road is from Hickory Flat Hwy (SR 140) to Batesville Rd.",
+        "JUST": "Continuity with the rest of Sugar Pike Road.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
