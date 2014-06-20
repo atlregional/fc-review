@@ -59218,7 +59218,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 617,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Batesville Rd",
+        "FC_NEW": 5,
+        "DESC": "This is a two lane roadway that connects Hickory Rd and the County Line.",
+        "JUST": "This road is a continuation of an existing Major Collector and once it reached the adjacent County also has it as a Major Collector.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
