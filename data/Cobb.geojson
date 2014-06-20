@@ -13580,7 +13580,13 @@
         "Shape_Leng": 624.306616023,
         "ARC_Length": 0.118239889398,
         "RCLINK_1": "0673992713",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Garrison Rd",
+        "DESC": 2,
+        "JUST": "Coordinated with Marietta. City wishes FC to match local MTP class with this request. ",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
