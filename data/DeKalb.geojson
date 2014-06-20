@@ -56097,7 +56097,14 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1610,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Midway Road",
+        "FC_NEW": 5,
+        "DESC": "Network Connectivity.  ",
+        "FROM": "Covington Hwy ",
+        "TO": "Candler Road",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
