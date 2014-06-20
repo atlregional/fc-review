@@ -17620,7 +17620,13 @@
         "Shape_Leng": 1388.78402364,
         "ARC_Length": 0.263027277204,
         "RCLINK_1": "0573038313",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Ragsdale Rd",
+        "FC_NEW": 6,
+        "DESC": "This road connects Trickum Road and Alabama Rd (SR 92).",
+        "JUST": "This connects a Major Collector and a Principal Arterial.  It serves many residential units as well as being a cut through to access SR 92. ",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
