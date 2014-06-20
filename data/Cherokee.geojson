@@ -17702,7 +17702,13 @@
         "Shape_Leng": 2583.03289437,
         "ARC_Length": 0.48921077545,
         "RCLINK_1": "0573037813",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Neese Rd",
+        "FC_NEW": 6,
+        "DESC": "Two Lane roadway that connects Arnold Mill Road and Alabama Rd (SR 92).",
+        "JUST": "This roadway connects a Minor Arterial with a Principal Arterial.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo"
       },
       "geometry": {
         "type": "LineString",
