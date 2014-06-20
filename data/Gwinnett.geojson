@@ -890,7 +890,15 @@
         "Shape_Leng": 1074.43311486,
         "ARC_Length": 0.203491120239,
         "RCLINK_1": "1353152423",
-        "County": "Gwinnett"
+        "County": "Gwinnett",
+        "NAME": "West Broad Street",
+        "FROM": "Nelson Brogdon Blvd",
+        "TO": "Whitehead Road",
+        "FC_NEW": 6,
+        "JUST": "According to Gwinnett County's Department of Transportation Traffic count, on February 4, 2010, the estimated Average Daily Trips (ADT) was 8,455 from Whitehead Drive to Alton Tucker Boulevard, and no available ADT data was found for the section of West Broad Street from Alton Tucker Boulevard to Peachtree Industrial Boulevard, but it is estimated to exceed the 8,455 ADTs.  This current estimated population of Sugar Hill is over 18,000 citizens and projected to be over 20,000 by 2016.",
+        "DESC": "West Broad Street (in it's entirety) is a collector street from Nelson Brogdon Boulevard (SR 20 – Principal Arterial) to Peachtree Industrial Boulevard (thru Alton Tucker) (Other Principal Arterial), running directly through the Sugar Hill downtown center.   This is an emerging downtown center with the construction of the New City Hall, amenity pond, the Lawn Green, the new business incubator center called the ‘Suite Spot’.  Additionally, the Gwinnett County School – the Buice Center - fronts West Broad Street.  There are also several large and undeveloped parcels fronting West Broad Street and Alton Tucker Boulevard.  Lastly, with the Georgia State Route 20 Widening Project under construction, the area is anticipated to increase in traffic substantially.  ",
+        "stroke": "#00ff00",
+        "user": "TSchick-SugarHillGa"
       },
       "geometry": {
         "type": "LineString",
