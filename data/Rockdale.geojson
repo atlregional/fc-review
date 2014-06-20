@@ -10837,7 +10837,13 @@
         "Shape_Leng": 3079.7289735,
         "ARC_Length": 0.583282002556,
         "RCLINK_1": "2472203400",
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Johnson Road",
+        "FC_NEW": 6,
+        "DESC": "The road includes the Revel Cove subdivision between Flat Shoals Road and Klondike Road. The traffic is estimated at 3,000 vpd. The road is the next major north-south connector west of Parker Road.",
+        "JUST": "The road is a connection for both county and city traffic traveling from the southern portion of the area to Interstate 20 and the downtown area of Conyers. ",
+        "stroke": "#00ff00",
+        "user": "BSutton-ConyersGa"
       },
       "geometry": {
         "type": "LineString",
