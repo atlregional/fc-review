@@ -12550,7 +12550,13 @@
         "Shape_Leng": 1208.5385316,
         "ARC_Length": 0.228889873409,
         "RCLINK_1": "0673444113",
-        "County": "Cobb"
+        "County": "Cobb",
+        "DESC": 2,
+        "NAME": "Scufflegrit Rd",
+        "FC_NEW": 5,
+        "JUST": "Conflicting designation. This segment was included in the thoroughfares network, but this segment is classified as local.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
