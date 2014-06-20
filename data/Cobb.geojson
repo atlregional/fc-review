@@ -86277,7 +86277,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1154,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Terrell Mill Rd",
+        "FC_NEW": 4,
+        "DESC": 4,
+        "JUST": "Coordinated with Marietta. In conjunction with request to change Delk Rd to Minor Arterial from I-75 to Terrell Rd. Creates a continuous Minor Arterial link from US-41 to Lower Roswell Rd.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
