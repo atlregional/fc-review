@@ -12016,7 +12016,13 @@
         "Shape_Leng": 1254.53656257,
         "ARC_Length": 0.237601621699,
         "RCLINK_1": "0673391213",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Sandy Plains Rd",
+        "FC_NEW": 4,
+        "DESC": 4,
+        "JUST": "Create continuous corridor that ends (connects to) at another Minor Arterial (SR 5/Canton Road Conn).",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
