@@ -994,7 +994,13 @@
         "Shape_Leng": 18676.4340953,
         "ARC_Length": 3.53720342715,
         "RCLINK_1": "0672052300",
-        "County": "Cobb"
+        "County": "Cobb",
+        "DESC": 2,
+        "JUST": "Important entrance into Cobb from Cherokee County. Links Major Collector (Jamerson Rd) to two Minor Arterial roads (Sandy Plains Rd and Shallowford Rd)",
+        "NAME": "Trickum Rd",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
