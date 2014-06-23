@@ -2750,7 +2750,13 @@
         "Shape_Leng": 13303.9513363,
         "ARC_Length": 2.5196877531,
         "RCLINK_1": "2552023500",
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Maloy Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "supports residential subdivisions; SR16/SR362 north-south connector.",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
