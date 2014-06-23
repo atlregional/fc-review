@@ -486,7 +486,15 @@
         "Shape_Leng": 1336.33282085,
         "ARC_Length": 0.253093337282,
         "RCLINK_1": "0672108400",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Booth Road ",
+        "FROM": "Powder Springs Street/ SR 360",
+        "TO": "West Booth Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional fc to match up with city thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
