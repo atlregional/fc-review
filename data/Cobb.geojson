@@ -1551,7 +1551,15 @@
         "Shape_Leng": 4100.39242818,
         "ARC_Length": 0.776589475035,
         "RCLINK_1": "0673102213",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Aviation Road",
+        "FROM": "S. Marietta Pkwy/ SR 120",
+        "TO": "Roswell Street",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional fc to match city thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
