@@ -12481,7 +12481,13 @@
         "Shape_Leng": 1108.38679192,
         "ARC_Length": 0.209921740894,
         "RCLINK_1": "0672208700",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Warren Farm Rd",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Major collector in Paulding County. This request extends the existing \"major collector\" designation along this roadway from Paulding County to a \"minor arterial\" ",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
