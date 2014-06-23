@@ -688,25 +688,36 @@ function populateIssues(){
 			}
 			if (!drop){
 				var newBody = issue.body.split('\n')
+				var comments = issue.created_at !== issue.updated_at ? 'YES' : 'NO'
 				var change = newBody[0].split(' to ')
 				var from = change[0].split(' ')[7]
 				var to = change[1].charAt(0)
+				var link = issue.head.ref.split('-')
+				var extents = newBody[newBody.length - 3].match(/Entire segment/g) ? 'Entire segment' : newBody[newBody.length - 5] + ' to ' + newBody[newBody.length - 3]
+				console.log(extents)
 				issuesData[i] = {}
 				issuesData[i].number = issue.number;
 				issuesData[i].title = issue.title;
 				issuesData[i].milestone = issue.milestone;
 				issuesData[i].updated = updated;
 				issuesData[i].change = newBody[0];
-				issuesData[i].from = from;
-				issuesData[i].to = to;
+				issuesData[i].fc_from = from;
+				issuesData[i].fc_to = to;
 				issuesData[i].user = issue.user.login;
 				issuesData[i].created = created;
 				issuesData[i].status = stat;
-				issuesData[i].rc_link = issue.head.ref;
+				issuesData[i].rc_link = link[1];
+				issuesData[i].from_mi = link[2];
+				issuesData[i].to_mi = link[3];
+				issuesData[i].comments = comments;
+				issuesData[i].description = newBody[2];
+				issuesData[i].justification = newBody[4];
+				issuesData[i].extents = extents;
+				issuesData[i].url = issue.html_url;
 
 
 				issue.body = issue.body.replace(/'/g, "\"")
-				console.log(issue)
+				// console.log(issue)
 				issuesArray.push([
 					issue.number.toString(), 
 					'<small><a href="'+issue.user.html_url+'">'+issue.user.login+'</a></small>', 
