@@ -13772,7 +13772,15 @@
         "Shape_Leng": 15533.7637825,
         "ARC_Length": 2.94200071638,
         "RCLINK_1": "0672234900",
-        "County": "Cobb"
+        "County": "Cobb",
+        "FROM": "near Flint Hill Rd",
+        "TO": "Church St SW",
+        "FC_NEW": 5,
+        "NAME": "Clay Rd",
+        "DESC": 2,
+        "JUST": "Creates continuous corridor, east-west route that connects South Cobb High School to Powder Springs and Mableton",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
