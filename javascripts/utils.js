@@ -66,7 +66,24 @@ function getTable(elementId){
 	// console.log(tableObjects)
 	return tableObjects[1]
 }
+function exportCSV(data){
+	// alert('Exporting results as ' + type + '.')
+	var a = document.createElement("a");
+    document.body.appendChild(a);
+    a.style = "display: none";
+	var name = 'results.csv'
+	csv = JSON2CSV(data)
+	formBlob = new Blob([csv], {
+		type: 'text/csv',
+		filename: 'MyVerySpecial.csv'
+	});
 
+	url = window.URL.createObjectURL(formBlob);
+	a.href = url;
+	a.download = name;
+	a.click();
+	window.URL.revokeObjectURL(url);
+}
 function exportResults(elementId, type) {
 	var name = 'results.' + type
 	var table = getTable(elementId)

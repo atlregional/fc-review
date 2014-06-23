@@ -48,71 +48,22 @@ $('#reject').click(function(){
 	// create comment
 
 	// assign label?
+	changeIssueStatus(this, 'On Hold', 6);
 })
 $('#approve').click(function(){
 	// write to county file
-	var github = new Github({
-		token: $.cookie('token'),
-		auth: "oauth"
-	});
-	$(this).attr('disabled', 'disabled');
-	var repo = github.getRepo('{{ site.githubuser }}', 'fc-review');
-	var token = $.cookie('token') ? '&access_token=' + $.cookie('token') : "";
-	var path = 'data/'+currentIssue.county+'.geojson';
-	var currentLink;
-	var comments = "#" + currentIssue.number + " marked as **Advancing** " + " by @" + $.cookie('user').login + " at " + moment().format('HH:mm a on M/DD/YY') // need issue information here
-	$.ajax({
-		url: 'https://api.github.com/repos/atlregional/fc-review/issues/'+currentIssue.number+'?access_token=' + $.cookie('token'),
-		type: 'PATCH',
-		data: '{"milestone": 1}',
-		success: function(data){
-			console.log(data)
-		},
-		error: function(err){
-			console.log(err)
-		}
-	})
-	$.ajax({
-		url: 'https://api.github.com/repos/atlregional/fc-review/issues/'+currentIssue.number+'/comments?access_token=' + $.cookie('token'),
-		type: 'POST',
-		data: '{"body": "'+comments+'""}',
-		success: function(data){
-			console.log(data)
-		},
-		error: function(err){
-			console.log(err)
-		}
-	})
-	repo.read('gh-pages', 'data/' + currentIssue.county + '.geojson', function(err, data) {
-		var json = jQuery.parseJSON(data)
-		raw[currentIssue.county] = json;
-		$.each(pullBranchData.features, function(i, feature){
-			if (feature.properties.RCLINK == currentIssue.linkdata[1] && feature.properties.BEG_MEASUR == currentIssue.linkdata[2] && feature.properties.END_MEASUR == currentIssue.linkdata[3] ){
-				console.log(feature.properties)
-				currentLink = feature.properties;
-				currentLink.status = "Advancing";
-				currentLink.issue_num = currentIssue.number;
-			}
-		})
-		$.each(raw[currentIssue.county].features, function(i, feature){
-			if (feature.properties.RCLINK == currentIssue.linkdata[1] && feature.properties.BEG_MEASUR == currentIssue.linkdata[2] && feature.properties.END_MEASUR == currentIssue.linkdata[3] ){
-				console.log(feature.properties);
-				feature.properties = currentLink;
-			}
-		})
-		var newContent = JSON.stringify(raw[currentIssue.county], null, 2)
-		repo.write('gh-pages', path, newContent, comments, function(err) {
-			console.log(err)
-			console.log(path)
-			if(err){
-				 $('#loadingtext').html('Hmmm...something went wrong with approving the proposed change.  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
-			}
-		});
-	})
+	
+	changeIssueStatus(this, 'Advancing', 1);
+
+
 	// create comment
 
 	// assign label?
 })
+$('#export').click(function(){
+	exportCSV(issuesData)
+});
+
 $('#submit-issue').click(function(){
 	var github = new Github({
 				token: $.cookie('token'),
@@ -130,8 +81,9 @@ $('#submit-issue').click(function(){
 		var json = jQuery.parseJSON(data)
 		raw[newFeature.County] = json;
 		var dupe = checkDuplicate(newFeature)
+		console.log(dupe)
 		if (dupe[0]){
-			alert('An change has been proposed for this segment since you first loaded this website.  The application will now reload and allow you to comment on the proposed change for ' + newFeature.NAME + '.')
+			alert('A change has been proposed for this segment since you first loaded this website.  The application will now reload and allow you to comment on the proposed change for ' + newFeature.NAME + '.')
 			window.location='{{ site.baseurl }}/'
 		}
 		else{
@@ -182,6 +134,67 @@ $('#submit-issue').click(function(){
 
 })
 
+function changeIssueStatus(button, status, milestoneNumber){
+	$(button).attr('disabled', 'disabled');
+	var github = new Github({
+		token: $.cookie('token'),
+		auth: "oauth"
+	});
+	var repo = github.getRepo('{{ site.githubuser }}', 'fc-review');
+	var token = $.cookie('token') ? '&access_token=' + $.cookie('token') : "";
+	var path = 'data/'+currentIssue.county+'.geojson';
+	var currentLink;
+	var comments = "#" + currentIssue.number + " marked as **" + status + "** " + " by @" + $.cookie('user').login + " at " + moment().format('HH:mm a on M/DD/YY') // need issue information here
+	$.ajax({
+		url: 'https://api.github.com/repos/atlregional/fc-review/issues/'+currentIssue.number+'?access_token=' + $.cookie('token'),
+		type: 'PATCH',
+		data: '{"milestone": ' + milestoneNumber + '}',
+		success: function(data){
+			console.log(data)
+		},
+		error: function(err){
+			console.log(err)
+		}
+	})
+	$.ajax({
+		url: 'https://api.github.com/repos/atlregional/fc-review/issues/'+currentIssue.number+'/comments?access_token=' + $.cookie('token'),
+		type: 'POST',
+		data: '{"body": "'+comments+'""}',
+		success: function(data){
+			console.log(data)
+		},
+		error: function(err){
+			console.log(err)
+		}
+	})
+	repo.read('gh-pages', 'data/' + currentIssue.county + '.geojson', function(err, data) {
+		var json = jQuery.parseJSON(data)
+		raw[currentIssue.county] = json;
+		$.each(pullBranchData.features, function(i, feature){
+			if (feature.properties.RCLINK == currentIssue.linkdata[1] && feature.properties.BEG_MEASUR == currentIssue.linkdata[2] && feature.properties.END_MEASUR == currentIssue.linkdata[3] ){
+				console.log(feature.properties)
+				currentLink = feature.properties;
+				currentLink.status = status;
+				currentLink.issue_num = currentIssue.number;
+			}
+		})
+		$.each(raw[currentIssue.county].features, function(i, feature){
+			if (feature.properties.RCLINK == currentIssue.linkdata[1] && feature.properties.BEG_MEASUR == currentIssue.linkdata[2] && feature.properties.END_MEASUR == currentIssue.linkdata[3] ){
+				console.log(feature.properties);
+				feature.properties = currentLink;
+			}
+		})
+		var newContent = JSON.stringify(raw[currentIssue.county], null, 2)
+		repo.write('gh-pages', path, newContent, comments, function(err) {
+			console.log(err)
+			console.log(path)
+			if(err){
+				 $('#loadingtext').html('Hmmm...something went wrong with approving the proposed change.  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
+			}
+		});
+	})
+}
+
 function checkDuplicate(data){
 	var duplicateCheck = false;
 	var issue;
@@ -194,7 +207,6 @@ function checkDuplicate(data){
 				duplicateCheck = true;
 				issue = iss
 			}
-			console.log(duplicateCheck);
 		}
 		
 	})
@@ -626,7 +638,7 @@ function parse_link_header(header) {
  
   return links;
 }
-
+var issuesData = [];
 function populateIssues(){
 	
 	var issuesArray = []
@@ -635,20 +647,31 @@ function populateIssues(){
 	$("#issue-table").empty()
 
 	$.each(issues, function(i, issue){
-	
+		
+
 			var status = "";
+			var stat = ""
 			var updated = moment(issue.updated_at).format("M/D/YY");
+			var created = moment(issue.created_at).format("M/D/YY");
 			var drop = false;
 			if (issue.milestone != null && issue.milestone.title == "Advancing"){
-				status = '<span class="label label-success">Accepted</span>'
+				stat = "Accepted"
+				status = '<span class="label label-success">'+stat+'</span>'
 			}
 			else if (issue.milestone != null && issue.milestone.title == "In Review"){
+				stat = "In Review"
 				status = '<span class="label label-warning">In Review</span>'
 			}
 			else if (issue.milestone != null && issue.milestone.title == "Withdrawn"){
+				stat = "Withdrawn"
 				status = '<span class="label label-danger">Withdrawn</span>'
 			}
+			else if (issue.milestone != null && issue.milestone.title == "On Hold"){
+				stat = "On Hold"
+				status = '<span class="label label-danger">On Hold</span>'
+			}
 			else if (issue.milestone == null){
+				stat = "Proposed"
 				status = '<span class="label label-primary">Proposed</span>'
 			}
 			// else if (issue.label)
@@ -664,6 +687,24 @@ function populateIssues(){
 				issues.splice(i, 1, "")
 			}
 			if (!drop){
+				var newBody = issue.body.split('\n')
+				var change = newBody[0].split(' to ')
+				var from = change[0].split(' ')[7]
+				var to = change[1].charAt(0)
+				issuesData[i] = {}
+				issuesData[i].number = issue.number;
+				issuesData[i].title = issue.title;
+				issuesData[i].milestone = issue.milestone;
+				issuesData[i].updated = updated;
+				issuesData[i].change = newBody[0];
+				issuesData[i].from = from;
+				issuesData[i].to = to;
+				issuesData[i].user = issue.user.login;
+				issuesData[i].created = created;
+				issuesData[i].status = stat;
+				issuesData[i].rc_link = issue.head.ref;
+
+
 				issue.body = issue.body.replace(/'/g, "\"")
 				console.log(issue)
 				issuesArray.push([
