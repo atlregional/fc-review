@@ -13460,7 +13460,13 @@
         "Shape_Leng": 1105.01137826,
         "ARC_Length": 0.209282458003,
         "RCLINK_1": "0672202500",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Akers Mill Rd",
+        "FC_NEW": 4,
+        "DESC": 4,
+        "JUST": "In conjunction with request to change Cumberland Blvd to \"minor arterial\", this segment extends designation of Akers Mill Rd as \"minor arterial\" and recognizes the importance of the east-west corridor's HOV exit at I-75.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
