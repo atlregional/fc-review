@@ -3333,7 +3333,15 @@
         "Shape_Leng": 662.068340565,
         "ARC_Length": 0.125391731168,
         "RCLINK_1": "0673119513",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Margaret Avenue",
+        "FROM": "Church Street",
+        "TO": "Cherokee Street",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional functional classification to match the City Thoroughfare map dated 02082006. ",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
