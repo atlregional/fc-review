@@ -1154,7 +1154,15 @@
         "Shape_Leng": 2745.96095052,
         "ARC_Length": 0.52006836184,
         "RCLINK_1": "0673104413",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Franklin Road",
+        "FROM": "Banberry Road",
+        "TO": "South Marietta Pkwy/ SR 120 ",
+        "FC_NEW": 6,
+        "DESC": "four lane roadway that narrows to 3 lanes and a middle turn lane.",
+        "JUST": "To update regional functional classification to match the adopted City's Thoroughfare Map dated 02082006. ",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
