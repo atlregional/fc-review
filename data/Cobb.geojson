@@ -60762,7 +60762,13 @@
         "2011AvAADT": 10985,
         "2010AvAADT": 10975,
         "OBJECTID_1": 1039,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Bells Ferry Rd",
+        "FC_NEW": 4,
+        "DESC": "Coordination with Marietta; 2 lanes 2/ CTL from Old Hwy 41 (OH41) to US 41; 4 lanes w/o CTL from US 41 to Field Pkwy; 2 lanes w/o CTL from Field Pkwy to Chastain Rd; AADT: N of Dickson: 15,900 (2007); S of Bristol: 14,200 (2005); N of Rock Bridge: 12,500 (2005); N of Big Shanty: 10,700 (2010); Cobb MTP FC: Arterial; (segment part of request for BFR from OH41 to Chastain Rd)",
+        "JUST": "Continues designation, fills gap, from Church St to Chastain Rd",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
