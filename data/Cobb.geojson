@@ -100,7 +100,15 @@
         "Shape_Leng": 1862.46968693,
         "ARC_Length": 0.352740471009,
         "RCLINK_1": "0672085900",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Burnt Hickory",
+        "FROM": "Due West Rd",
+        "TO": "Anderson Rd",
+        "FC_NEW": 5,
+        "DESC": "Coordination with Marietta. 2 lanes w/o CTL. AADT: W of Anderson: 11,600 (2006); Cobb MTP FC: Major Collector (east of Barrett Pkwy) and Arterial (west of Barrett Pkwy). KMNBP (segment part of request for Burnt Hickory from Due West Rd to Whitlock Ave/SR 120)",
+        "JUST": "Important east-west corridor linking West Cobb to KMNBP and Marietta.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
