@@ -12005,7 +12005,13 @@
         "Shape_Leng": 11410.0514812,
         "ARC_Length": 2.16099459871,
         "RCLINK_1": "0672188500",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Clay Rd",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Creates continuous corridor, east-west route that connects South Cobb High School to Powder Springs and Mableton",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
