@@ -5372,7 +5372,13 @@
         "Shape_Leng": 6996.66775508,
         "ARC_Length": 1.32510921666,
         "RCLINK_1": "2552094400",
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Wilson Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "supports dense commercial, industrial and institutional land uses",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
