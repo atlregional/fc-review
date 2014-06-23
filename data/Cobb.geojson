@@ -37199,7 +37199,15 @@
         "2011AvAADT": 10163.3333333,
         "2010AvAADT": 10316.6666667,
         "OBJECTID_1": 977,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Atlanta St",
+        "FC_NEW": 4,
+        "FROM": "E Dixie Ave",
+        "TO": "SR 120/South Marietta Pkwy",
+        "DESC": 4,
+        "JUST": "Coordinated with Marietta and Smyrna. Follow up discussions w/ Smyrna are encouraged to fully involve them. Major corridor linking downtown Marietta, downtown Smyrna to I-285 and Atlanta. Continues minor arterial north from Cumberland Pkwy to Marietta .",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
