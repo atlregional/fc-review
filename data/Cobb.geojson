@@ -17689,7 +17689,13 @@
         "Shape_Leng": 3770.61395322,
         "ARC_Length": 0.714131430535,
         "RCLINK_1": "0672452500",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Six Flags Dr",
+        "FC_NEW": 6,
+        "JUST": "In conjunction with request for South Service Rd (SSR)(from Minor Arterial to Minor Collector). Traffic volumes greater than SSR.",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
