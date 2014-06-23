@@ -2661,7 +2661,15 @@
         "Shape_Leng": 8977.53998413,
         "ARC_Length": 1.70029166366,
         "RCLINK_1": "0673096313",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Bellemeade Drive/ Saine Drive ",
+        "FROM": "Powder Springs Street/ SR 360",
+        "TO": "Sandtown Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional fc to match up with the city thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
