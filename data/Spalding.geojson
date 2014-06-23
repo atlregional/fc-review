@@ -2091,7 +2091,13 @@
         "Shape_Leng": 9076.93888305,
         "ARC_Length": 1.7191172127,
         "RCLINK_1": "2552016700",
-        "County": "Spalding"
+        "County": "Spalding",
+        "FC_NEW": 6,
+        "NAME": "Patterson Road",
+        "DESC": 2,
+        "JUST": "US 19/41 parallel facility, collects traffic from Vineyard Road, Birdie Road and School Road",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
