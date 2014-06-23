@@ -5677,7 +5677,15 @@
         "Shape_Leng": 11900.3676352,
         "ARC_Length": 2.25385750668,
         "RCLINK_1": "0673162813",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Franklin Road",
+        "FROM": "South Marietta Pkwy/ SR 120",
+        "TO": "Cobb Parkway/ US 41",
+        "FC_NEW": 5,
+        "DESC": "From SR 120 to Delk Road/ SR 280, Franklin Road is a 4 lane roadway with landscaped median. From Delk Road/ SR 280 to US 41, Franklin Road is a 4 lanes roadway with middle turn median.",
+        "JUST": "To update regional functional classification to match up with the adopted City's Thoroughfare Map dated 02082006. ",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
