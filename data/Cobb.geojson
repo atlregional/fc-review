@@ -408,7 +408,15 @@
         "Shape_Leng": 1555.13112115,
         "ARC_Length": 0.294532409309,
         "RCLINK_1": "0672100300",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Sawyer Road ",
+        "FROM": "Allgood Road",
+        "TO": "Canton Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "To update regional functional classification to match City Thoroughfare Map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
