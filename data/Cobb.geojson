@@ -13371,7 +13371,13 @@
         "Shape_Leng": 1542.14475966,
         "ARC_Length": 0.292072871147,
         "RCLINK_1": "0672203800",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Interstate North Pkwy West",
+        "FC_NEW": 6,
+        "DESC": 4,
+        "JUST": "Major access point to Cumberland from I-75 via Windy Hill Rd (east of I-75/north of I-285 quadrant).",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
