@@ -100282,7 +100282,13 @@
         "2011AvAADT": 17696.6666667,
         "2010AvAADT": 17960,
         "OBJECTID_1": 1193,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Atlanta Rd",
+        "FC_NEW": 4,
+        "DESC": 4,
+        "JUST": "Coordinated with Marietta and Smyrna. Follow up discussions w/ Smyrna are encouraged to fully involve them. Major corridor linking downtown Marietta, downtown Smyrna to I-285 and Atlanta. Continues minor arterial north from Cumberland Pkwy to Marietta .",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
