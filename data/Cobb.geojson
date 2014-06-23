@@ -6527,7 +6527,15 @@
         "Shape_Leng": 8425.62597781,
         "ARC_Length": 1.5957624958,
         "RCLINK_1": "0673442113",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Polk Street",
+        "FROM": "N. Marietta Pkwy/ SR 120",
+        "TO": "Whitlock Avenue",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "to update regional fc to match city thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
