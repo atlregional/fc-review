@@ -18301,7 +18301,13 @@
         "Shape_Leng": 8266.77905129,
         "ARC_Length": 1.56567785062,
         "RCLINK_1": "0672811500",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Shiloh Rd",
+        "FC_NEW": 5,
+        "DESC": 4,
+        "JUST": "Provides important north-south link on west/south side of I-75 from Cherokee/Wade Green to Hickory Grove.  ",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
