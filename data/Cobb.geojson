@@ -14578,7 +14578,15 @@
         "Shape_Leng": 6176.49277871,
         "ARC_Length": 1.169790299,
         "RCLINK_1": "0672306800",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Interstate North Pkwy",
+        "FROM": "Windy Ridge Rd",
+        "TO": "Windy Hill Rd",
+        "FC_NEW": 6,
+        "DESC": 4,
+        "JUST": "Major entrance to Cumberland area via I-75 (east of I-75/north of I-285 quadrant).",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
