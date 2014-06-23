@@ -709,7 +709,7 @@ function populateIssues(){
 				issuesData[i].rc_link = link[1];
 				issuesData[i].from_mi = link[2];
 				issuesData[i].to_mi = link[3];
-				issuesData[i].comments = comments;
+				// issuesData[i].comments = comments;
 				issuesData[i].description = newBody[2];
 				issuesData[i].justification = newBody[4];
 				issuesData[i].extents = extents;
