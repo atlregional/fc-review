@@ -6186,7 +6186,15 @@
         "Shape_Leng": 1536.30115431,
         "ARC_Length": 0.29096612771,
         "RCLINK_1": "0673342713",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Wallace Road/ Merritt Road",
+        "FROM": "North Marietta Pkwy/ SR 120",
+        "TO": "Allgood Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "To update regional functional classification to match City Thoroughfare Map dated 02082006\n",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
