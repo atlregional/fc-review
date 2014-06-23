@@ -561,7 +561,15 @@
         "Shape_Leng": 1419.55048393,
         "ARC_Length": 0.26885425832,
         "RCLINK_1": "0672108300",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "West Booth Road",
+        "FROM": "Booth Rd",
+        "TO": "Sandtown Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional fc to match up with city thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
