@@ -4953,7 +4953,13 @@
         "Shape_Leng": 3416.83522982,
         "ARC_Length": 0.647127884435,
         "RCLINK_1": "2552008800",
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Kennedy Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "dramatic increase in traffic volume due to new Kennedy Road elementary school",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
