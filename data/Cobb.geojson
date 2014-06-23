@@ -28634,7 +28634,15 @@
         "2011AvAADT": 25430,
         "2010AvAADT": 26040,
         "OBJECTID_1": 964,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Scufflegrit Road ",
+        "FROM": "Sandy Plains Road",
+        "TO": "Allgood Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "to update regional fc to match up with city thoroughfare map dated 02082006.\n",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
