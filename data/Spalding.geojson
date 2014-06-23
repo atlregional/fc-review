@@ -3565,7 +3565,13 @@
         "Shape_Leng": 42830.8707628,
         "ARC_Length": 8.11190734143,
         "RCLINK_1": "2552010500",
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "N Walkers Mill Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "north-south connector, supports existing neighborhoods and conforms to surrounding network",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
