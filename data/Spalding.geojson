@@ -5936,7 +5936,13 @@
         "Shape_Leng": 4189.5101764,
         "ARC_Length": 0.793467836439,
         "RCLINK_1": "2553103605",
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "N 2nd Street",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "supports existing low to high density residential development and neighborhood commercial; parallel north-south facility to N. Hill Street",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
