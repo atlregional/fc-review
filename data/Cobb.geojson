@@ -3038,7 +3038,15 @@
         "Shape_Leng": 3919.7453216,
         "ARC_Length": 0.742376007879,
         "RCLINK_1": "0673089513",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Tower Road ",
+        "FROM": "Kennesaw Avenue",
+        "TO": "Church Street",
+        "FC_NEW": 5,
+        "DESC": 4,
+        "JUST": "to update regional functional classification to match City Thoroughfare map dated 02082006",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
