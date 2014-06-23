@@ -4561,7 +4561,13 @@
         "Shape_Leng": 16713.8780217,
         "ARC_Length": 3.16550720108,
         "RCLINK_1": "2552018700",
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Cheatham Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "supports surrounding network, north-south travel and residential developments",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
