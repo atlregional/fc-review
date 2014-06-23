@@ -13220,7 +13220,13 @@
         "Shape_Leng": 2363.56190244,
         "ARC_Length": 0.447644299704,
         "RCLINK_1": "0672204400",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Herodian Wy",
+        "FC_NEW": 6,
+        "DESC": 4,
+        "JUST": "Traffic patterns changing due to construction of Atlanta Braves stadium that is currently underway. ",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
