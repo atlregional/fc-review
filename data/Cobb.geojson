@@ -11950,7 +11950,12 @@
         "Shape_Leng": 542.709591768,
         "ARC_Length": 0.102785907532,
         "RCLINK_1": "0672179800",
-        "County": "Cobb"
+        "County": "Cobb",
+        "DESC": "In coordination with Smyrna. 2 lanes w/o CTL; AADT:W of Greenleaf Dr: 5,700 (2010); E of Marsha Dr: 5,900 (2007);  E of Nickajack Rd: 8,000 (2005); Cobb MTP FC: Arterial; Mable House Amp (Floyd Rd)",
+        "FC_NEW": 6,
+        "JUST": "Provides important connection to Floyd Rd, Mableton town center.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -12000,7 +12005,13 @@
         "Shape_Leng": 11410.0514812,
         "ARC_Length": 2.16099459871,
         "RCLINK_1": "0672188500",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Clay Rd",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Creates continuous corridor, east-west route that connects South Cobb High School to Powder Springs and Mableton",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -12540,7 +12551,15 @@
         "Shape_Leng": 18322.7507474,
         "ARC_Length": 3.47021794458,
         "RCLINK_1": "0672218000",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Fontaine Rd",
+        "FROM": "Floyd Rd",
+        "TO": "Oak Brook Ct",
+        "FC_NEW": 4,
+        "DESC": 2,
+        "JUST": "Provides important connection to Floyd Rd, Mableton town center.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -13759,7 +13778,15 @@
         "Shape_Leng": 15533.7637825,
         "ARC_Length": 2.94200071638,
         "RCLINK_1": "0672234900",
-        "County": "Cobb"
+        "County": "Cobb",
+        "FROM": "near Flint Hill Rd",
+        "TO": "Church St SW",
+        "FC_NEW": 5,
+        "NAME": "Clay Rd",
+        "DESC": 2,
+        "JUST": "Creates continuous corridor, east-west route that connects South Cobb High School to Powder Springs and Mableton",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -14189,7 +14216,13 @@
         "Shape_Leng": 1858.59773186,
         "ARC_Length": 0.352007146186,
         "RCLINK_1": "0672241900",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Clay Rd",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Creates continuous corridor, east-west route that connects South Cobb High School to Powder Springs and Mableton",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -19102,7 +19135,13 @@
         "Shape_Leng": 1469.73344223,
         "ARC_Length": 0.278358606484,
         "RCLINK_1": "0672997900",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Cooper Lake Dr",
+        "FC_NEW": 6,
+        "DESC": "Coordination with Smyrna; 2 lane w/o CTL: AADT:E of Coopers Hill: 4,100 (2010); Cobb MTP FC: Minor Collector; (segment is part of request for Cooper Lake Dr from Cooper Lake Rd to Atlanta Rd)",
+        "JUST": "Replace Cooper Lake Rd as collector between S Cobb Dr and Atlanta Rd.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -20706,7 +20745,13 @@
         "Shape_Leng": 9340.18986934,
         "ARC_Length": 1.76897535404,
         "RCLINK_1": "0673544119",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Highlands Pkwy",
+        "FC_NEW": 5,
+        "DESC": "Highlands Ridge Road (HRR): 2 lanes w/ CTL; Highlands Pkwy (HP): 4 lanes divided with median; AADT: None available; Cobb MTP FC: Arterial (segment is part of request for HRR/HP from East-West Conn to Oakdale Rd)",
+        "JUST": "Major corridor for large employers that links East-West Conn to S Cobb Dr ",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -21036,7 +21081,13 @@
         "Shape_Leng": 1528.34165089,
         "ARC_Length": 0.289458646001,
         "RCLINK_1": "0673559719",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Highlands Ridge Rd",
+        "FC_NEW": 5,
+        "DESC": "Highlands Ridge Road (HRR): 2 lanes w/ CTL; Highlands Pkwy (HP): 4 lanes divided with median; AADT: None available; Cobb MTP FC: Arterial (segment is part of request for HRR/HP from East-West Conn to Oakdale Rd)",
+        "JUST": "Major corridor for large employers that links East-West Conn to S Cobb Dr ",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -53300,7 +53351,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1014,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Daniel St",
+        "FC_NEW": 7,
+        "DESC": "Coordination w/ Smyrna; 2 lanes w/ 2 CTLs. This segment is part of the request for Cooper Lake Rd from Cooper Lake Dr to Daniel St. No AADT available for this segment.",
+        "JUST": "Major collector operation occurs along Cooper Lake Dr, not Cooper Lake Rd.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -55428,7 +55485,13 @@
         "2011AvAADT": 25196.6666667,
         "2010AvAADT": 24400,
         "OBJECTID_1": 1025,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Floyd Rd",
+        "FC_NEW": 4,
+        "DESC": "Please add Floyd Rd from Clay Rd to Austell Rd to this request. 4 lanes w/ CTL VMH to Clay Rd; 4 lanes divided with median from Clay Rd to Hicks Rd; 2 lanes w/ CTL Hicks Rd to Austell Rd; AADT: N of Barnes: 36,100 (2003); S of Concord: 19,700 (2005); N of Albury: 14,600 (2005); Cobb MTP FC: Arterial. Connects Mableton activity center to Austell Rd activity center near Cobb Hospital",
+        "JUST": "Connects LCI/activity centers at Mableton and Austell Rd Corridor. Road improvements in progress VMH to Hicks Rd (Clay to Hicks open to traffic). Extends \"minor arterial\" from Mableton Pkwy/SR 139",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -86274,7 +86337,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1117,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Cooper Lake Rd",
+        "FROM": "Cooper Lake Dr",
+        "TO": "Daniel St",
+        "FC_NEW": 7,
+        "DESC": "Coordination with Smyrna; 2 lane w/o CTL: AADT:E of Maner St: 3,500 (2006); Cobb MTP FC: Minor Collector",
+        "JUST": "Cooper Lake Dr operates as the collector for this area rather than Cooper Lake Rd. ",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -86526,7 +86597,13 @@
         "2011AvAADT": 5080,
         "2010AvAADT": 5160,
         "OBJECTID_1": 1118,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Cooper Lake Rd",
+        "FC_NEW": 5,
+        "DESC": "Coordination with Smyrna; 2 lane w/o CTL: AADT: W of King Springs Rd: 9,300 (2012); Cobb MTP FC: Major Collector; (segment is part of request for Cooper Lake Rd from East-West Conn to S Cobb Dr)",
+        "JUST": "Does not operate as an arterial. ",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -87330,7 +87407,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1120,
-        "County": "Cobb"
+        "County": "Cobb",
+        "DESC": "Coordination with Smyrna; 2 lane w/o CTL: AADT: W of King Springs Rd: 9,300 (2012); Cobb MTP FC: Major Collector; (segment is part of request for Cooper Lake Rd from East-West Conn to S Cobb Dr)",
+        "JUST": "Does not operate as an arterial. ",
+        "NAME": "Cooper Lake Rd",
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -101996,7 +102079,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1206,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Cooper Lake Rd",
+        "FC_NEW": 5,
+        "JUST": "Does not operate as an arterial. ",
+        "DESC": "Coordination with Smyrna; 2 lane w/o CTL: AADT: W of King Springs Rd: 9,300 (2012); Cobb MTP FC: Major Collector; (segment is part of request for Cooper Lake Rd from East-West Conn to S Cobb Dr)",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
@@ -102155,7 +102244,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1208,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Cooper Lake Rd",
+        "FC_NEW": 5,
+        "DESC": "Coordination with Smyrna; 2 lane w/o CTL: AADT: W of King Springs Rd: 9,300 (2012); Cobb MTP FC: Major Collector; (segment is part of request for Cooper Lake Rd from East-West Conn to S Cobb Dr)",
+        "JUST": "Does not operate as an arterial. ",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
