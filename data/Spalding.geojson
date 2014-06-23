@@ -1799,7 +1799,13 @@
         "Shape_Leng": 6608.53202753,
         "ARC_Length": 1.2516159143,
         "RCLINK_1": "2552005600",
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Futral Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "supports dense residential, institutional and commercial developments",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
