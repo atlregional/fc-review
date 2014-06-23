@@ -2037,7 +2037,15 @@
         "Shape_Leng": 9753.31930688,
         "ARC_Length": 1.8472195657,
         "RCLINK_1": "0673097413",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Chestnut Hill Road ",
+        "FROM": "Powder Springs Stree/ SR 360",
+        "TO": "Laurel Springs Ln",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional fc to match city thoroughfare map dated 02082006.\n",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
