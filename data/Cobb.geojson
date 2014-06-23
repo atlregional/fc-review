@@ -9617,7 +9617,15 @@
         "Shape_Leng": 18232.2881925,
         "ARC_Length": 3.45308488494,
         "RCLINK_1": "0672090400",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "John Ward Rd",
+        "FROM": "Cheatham Hill Rd",
+        "TO": "SR 120/Dallas Hwy",
+        "FC_NEW": 5,
+        "JUST": "Connect SR 5 and SR 360; Important north/south link to east Marietta/KMNBP",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
