@@ -3211,7 +3211,15 @@
         "Shape_Leng": 6488.89653133,
         "ARC_Length": 1.22895767639,
         "RCLINK_1": "0673108313",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Washington Ave ",
+        "FROM": "Haynes Street",
+        "TO": "Gresham Avenue ",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional fc to match City thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
