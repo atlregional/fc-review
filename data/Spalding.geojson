@@ -3089,7 +3089,12 @@
         "Shape_Leng": 15390.4330931,
         "ARC_Length": 2.91485475248,
         "RCLINK_1": "2552011900",
-        "County": "Spalding"
+        "County": "Spalding",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "supports regional landfill and conforms to surrounding network",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
