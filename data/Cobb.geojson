@@ -10607,7 +10607,13 @@
         "Shape_Leng": 9116.73025381,
         "ARC_Length": 1.72665345716,
         "RCLINK_1": "0672096400",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "County Services Pkwy",
+        "FC_NEW": 5,
+        "DESC": 4,
+        "JUST": "Home to several Cobb County and state government offices. Connects two state routes (SR 5 and SR 360)",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
