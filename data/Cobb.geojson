@@ -17965,7 +17965,13 @@
         "Shape_Leng": 5373.84035053,
         "ARC_Length": 1.01777279366,
         "RCLINK_1": "0672679900",
-        "County": "Cobb"
+        "County": "Cobb",
+        "JUST": "Important alternative access in Town Center area of major shopping and employment. In conjunction w/ request for Roberts Blvd/Greers Chapel Rd and Cobb Place Blvd to add minor collectors to network in Town Center that relieve Barrett Pkwy",
+        "DESC": 4,
+        "NAME": "Barrett Lakes Blvd",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
