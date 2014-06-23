@@ -98569,7 +98569,15 @@
         "2011AvAADT": 9210,
         "2010AvAADT": 9350,
         "OBJECTID_1": 1181,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Canton Road",
+        "FROM": "Cherokee Stret",
+        "TO": "Canton Road Connector",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional fc to match up with city thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
