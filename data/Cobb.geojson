@@ -1799,7 +1799,15 @@
         "Shape_Leng": 6266.71915408,
         "ARC_Length": 1.18687862767,
         "RCLINK_1": "0673097513",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Manning Road ",
+        "FROM": "Whitlock Avenue",
+        "TO": "Whitlock Avenue",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional fc to match city thoroughfare map 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
