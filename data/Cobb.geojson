@@ -3466,7 +3466,15 @@
         "Shape_Leng": 3239.42531563,
         "ARC_Length": 0.613527521899,
         "RCLINK_1": "0673116013",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Chicopee Drive ",
+        "FROM": "Cherokee Street",
+        "TO": "N. Fairground Street",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional functional classification to match the adopted city Thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
