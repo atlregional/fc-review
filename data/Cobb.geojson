@@ -13538,7 +13538,13 @@
         "Shape_Leng": 3541.46758125,
         "ARC_Length": 0.670732496449,
         "RCLINK_1": "0672201900",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Paces Mill Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Important connection between Vinings business district (Paces Ferry Rd/Paces Mill Rd area) to Cumberland and US 41.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
