@@ -7578,7 +7578,15 @@
         "Shape_Leng": 9261.23955712,
         "ARC_Length": 1.75402264339,
         "RCLINK_1": "0672017500",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Cobb Place Blvd",
+        "FROM": "Barrett Pkwy (west)",
+        "TO": "Barrett Pkwy (east)",
+        "FC_NEW": 6,
+        "DESC": 4,
+        "JUST": "Important alternative access in Town Center area of major shopping and employment. In conjunction w/ request for Barrett Lakes Blvd and Cobb Place Blvd to add minor collectors to network in Town Center that relieve Barrett Pkwy",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
