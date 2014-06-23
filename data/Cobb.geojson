@@ -17116,7 +17116,15 @@
         "Shape_Leng": 22150.6531785,
         "ARC_Length": 4.19519946562,
         "RCLINK_1": "0672439400",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Callaway Rd (SR 5 to SR 360) and Cheatham Hill Rd (SR 360 to John Ward)",
+        "FC_NEW": 5,
+        "FROM": "Austell Rd/SR 5",
+        "TO": "John Ward Rd",
+        "DESC": "Callaway Rd (CR) 2 lanes SR 5 to Al Bishop Rd; 2 lanes w/CTL from ABR to SR 360; Cheatham Hill Rd (CHR) 2 lanes w/o CTL. AADT CR: S of Al Bishop: 6,110 (2013); AADT CHR: N of Powder Springs: 6,600 (2011); E of John Ward: 6,600 (2012); Cobb MTP FC: Major Collector. Kennesaw Mountain National Battlefield Park (segment part of CR/CHR/John Ward corridor request from SR 5 to SR 360)",
+        "JUST": "Connect SR 5 and SR 360; Important north/south link to east Marietta/KMNBP",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
