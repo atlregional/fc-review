@@ -4603,7 +4603,15 @@
         "Shape_Leng": 7116.28206669,
         "ARC_Length": 1.34778069445,
         "RCLINK_1": "0673149013",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Williams Drive",
+        "FROM": "Canton Rd Connector",
+        "TO": "Bells Ferry Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional functional classification to match city Thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
