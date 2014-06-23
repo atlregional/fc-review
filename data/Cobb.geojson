@@ -14432,7 +14432,13 @@
         "Shape_Leng": 6604.49525791,
         "ARC_Length": 1.2508513746,
         "RCLINK_1": "0672262300",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Six Flags Dr",
+        "JUST": "Continues designation of Major Collector to connect to SR 6.",
+        "DESC": 2,
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
