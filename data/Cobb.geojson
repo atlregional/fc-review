@@ -100845,7 +100845,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1195,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Allgood Road",
+        "FROM": "N. Fairground Street",
+        "TO": "Scufflegrit Road",
+        "FC_NEW": 5,
+        "DESC": 4,
+        "JUST": "To update regional functional classification to match City Thoroughfare Map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
