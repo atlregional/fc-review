@@ -86565,7 +86565,13 @@
         "2011AvAADT": 5080,
         "2010AvAADT": 5160,
         "OBJECTID_1": 1118,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Cooper Lake Rd",
+        "FC_NEW": 5,
+        "DESC": "Coordination with Smyrna; 2 lane w/o CTL: AADT: W of King Springs Rd: 9,300 (2012); Cobb MTP FC: Major Collector; (segment is part of request for Cooper Lake Rd from East-West Conn to S Cobb Dr)",
+        "JUST": "Does not operate as an arterial. ",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
