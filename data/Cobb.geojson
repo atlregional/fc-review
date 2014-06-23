@@ -15543,7 +15543,13 @@
         "Shape_Leng": 8711.90605141,
         "ARC_Length": 1.64998220671,
         "RCLINK_1": "0672354000",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Chastain Meadows Pkwy",
+        "FC_NEW": 5,
+        "DESC": 4,
+        "JUST": "Major north-south corridor in Town Center CID/activity center. Bells Ferry Rd (BFR) (AADT N of Rock Bridge: 12,500; N of Big Shanty: 10,700); comparable to Chastain Meadows Pkwy. In conjunction with request to change BFR to Minor Arterial from Old 41 to Chastain Rd.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
