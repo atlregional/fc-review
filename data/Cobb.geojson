@@ -3859,7 +3859,15 @@
         "Shape_Leng": 6806.20094677,
         "ARC_Length": 1.28905320962,
         "RCLINK_1": "0673128313",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Hickory Drive",
+        "FROM": "South Woodland Drive",
+        "TO": "Chestnut Hill Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional fc to match city thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
