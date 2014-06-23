@@ -1352,7 +1352,15 @@
         "Shape_Leng": 3426.6756973,
         "ARC_Length": 0.648991609337,
         "RCLINK_1": "0673104113",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Frey Ginn Road/ White Avenue",
+        "FROM": "South Marietta Pkwy/ SR 120",
+        "TO": "Roswell Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "To update regional classification to match adopted City Thoroughfare Map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
