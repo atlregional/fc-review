@@ -447,7 +447,13 @@
         "Shape_Leng": 16920.6148299,
         "ARC_Length": 3.20463872595,
         "RCLINK_1": "2552006700",
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Green Valley Road",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "supports large scale industrial developments and employment center",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
