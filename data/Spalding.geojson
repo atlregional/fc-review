@@ -2522,7 +2522,13 @@
         "Shape_Leng": 15825.106937,
         "ARC_Length": 2.99717934413,
         "RCLINK_1": "2552018300",
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "County Line Church Road/Sidney Drive",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "supports surrounding network, north-south travel and residential development",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
