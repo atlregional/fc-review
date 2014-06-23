@@ -6625,7 +6625,15 @@
         "Shape_Leng": 3939.2202221,
         "ARC_Length": 0.746064436004,
         "RCLINK_1": "0673455213",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Wiley Road",
+        "FROM": "Cobb Pkwy/ US 41",
+        "TO": "South Marietta Pkwy/ SR 120",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "To update regional functional classification to match adopted City Thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
