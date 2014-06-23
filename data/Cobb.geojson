@@ -4581,7 +4581,15 @@
         "Shape_Leng": 1436.56684219,
         "ARC_Length": 0.272077053445,
         "RCLINK_1": "0673139513",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Trade Center Parkway",
+        "FROM": "Dobb Street",
+        "TO": "Cobb Pkw/ US 41",
+        "FC_NEW": 6,
+        "DESC": 4,
+        "JUST": "to update regional fc to match city thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
