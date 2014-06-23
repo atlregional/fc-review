@@ -5045,7 +5045,15 @@
         "Shape_Leng": 3602.41929913,
         "ARC_Length": 0.682276382411,
         "RCLINK_1": "0673163213",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Gresham Road",
+        "FROM": "Cobb Pkwy/ US 41",
+        "TO": "North Marietta Pkwy/ SR 120",
+        "FC_NEW": 5,
+        "DESC": 3,
+        "JUST": "To update regional functional classification to match City Thoroughfare Map dated 02082006",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
