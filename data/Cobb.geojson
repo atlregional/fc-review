@@ -1022,7 +1022,15 @@
         "Shape_Leng": 3906.50106438,
         "ARC_Length": 0.73986762583,
         "RCLINK_1": "0673100813",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Lake Drive/ Dodd Street",
+        "FROM": "S Marietta pkwy/ SR 120",
+        "TO": "Roswell Street",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional fc to match up with the city thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
