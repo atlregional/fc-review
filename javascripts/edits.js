@@ -687,8 +687,8 @@ function populateIssues(){
 				issues.splice(i, 1, "")
 			}
 			if (!drop){
-				issue.body = issue.body.replace(/[\n\r]/g, '~~~');
-				var newBody = issue.body.split('~~~')
+				var newBody = issue.body.replace(/[\n\r]/g, '~~~');
+				newBody = newBody.split('~~~')
 				var comments = issue.created_at !== issue.updated_at ? 'YES' : 'NO'
 				var change = newBody[0].split(' to ')
 				var from = change[0].split(' ')[7]
