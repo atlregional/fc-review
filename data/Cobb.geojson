@@ -4978,7 +4978,15 @@
         "Shape_Leng": 1238.21209154,
         "ARC_Length": 0.234509865822,
         "RCLINK_1": "0673122913",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Waverly Way",
+        "FROM": "South Marietta Pkwy/ SR 120",
+        "TO": "Powder Springs Street (Old)",
+        "FC_NEW": 6,
+        "DESC": "Short segment, 4 lane roadway ",
+        "JUST": "to update regional fc to match city thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
