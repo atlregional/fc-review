@@ -69604,7 +69604,15 @@
         "2011AvAADT": 6275,
         "2010AvAADT": 6585,
         "OBJECTID_1": 1067,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Six Flags Pkwy",
+        "FROM": "South Services Rd",
+        "TO": "Lee Industrial Blvd",
+        "FC_NEW": 5,
+        "JUST": "In conjunction with requests for South Services Rd and Six Flags Dr (Riverside to Six Flags Pkwy)",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
