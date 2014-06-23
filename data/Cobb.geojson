@@ -92925,7 +92925,15 @@
         "2011AvAADT": 6670,
         "2010AvAADT": 6770,
         "OBJECTID_1": 1144,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Kennesaw Avenue",
+        "FROM": "Church Street ",
+        "TO": "Cherokee Street",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "to update regional fc to match city thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
