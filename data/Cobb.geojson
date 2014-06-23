@@ -56431,7 +56431,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1027,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "South Service Rd",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "Does not operate as an arterial",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
