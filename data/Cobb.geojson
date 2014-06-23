@@ -11247,7 +11247,15 @@
         "Shape_Leng": 22495.6469487,
         "ARC_Length": 4.26053919483,
         "RCLINK_1": "0672151400",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Lower Roswell Rd",
+        "FROM": "Johnson Ferry Rd",
+        "TO": "Willeo Rd/Timber Ridge Rd",
+        "FC_NEW": 5,
+        "DESC": "Request includes Cobb County portion of Willeo Rd;\n2 lanes w/o CTL; \nAADT: W of Davidson: 21,600 (2007); E of Saints : 14,300 (2006); \nCobb MTP FC: Arterial",
+        "JUST": "Roswell is seeking \"major collector\" for Fulton County portion of the corridor (Wileo Rd). Together, these segments will link JFR to Roswell Rd.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
