@@ -11950,7 +11950,12 @@
         "Shape_Leng": 542.709591768,
         "ARC_Length": 0.102785907532,
         "RCLINK_1": "0672179800",
-        "County": "Cobb"
+        "County": "Cobb",
+        "DESC": "In coordination with Smyrna. 2 lanes w/o CTL; AADT:W of Greenleaf Dr: 5,700 (2010); E of Marsha Dr: 5,900 (2007);  E of Nickajack Rd: 8,000 (2005); Cobb MTP FC: Arterial; Mable House Amp (Floyd Rd)",
+        "FC_NEW": 6,
+        "JUST": "Provides important connection to Floyd Rd, Mableton town center.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
