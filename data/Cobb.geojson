@@ -5288,7 +5288,15 @@
         "Shape_Leng": 4997.90999459,
         "ARC_Length": 0.946573862611,
         "RCLINK_1": "0673163013",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Barclay Circle ",
+        "FROM": "S. Cobb Drive/ SR 280",
+        "TO": "Cobb Pkwy/ US 41 ",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional fc to match city thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
