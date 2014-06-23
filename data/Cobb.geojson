@@ -4239,7 +4239,15 @@
         "Shape_Leng": 5545.97703721,
         "ARC_Length": 1.05037443887,
         "RCLINK_1": "0673128213",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Kirkpatrick Drive/ Wood Valley Road",
+        "FROM": "Whitlock Avenue ",
+        "TO": "Hickory Drive",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "to update regional fc to match city thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa"
       },
       "geometry": {
         "type": "LineString",
