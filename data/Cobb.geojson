@@ -16691,7 +16691,15 @@
         "Shape_Leng": 6203.89673932,
         "ARC_Length": 1.17498044305,
         "RCLINK_1": "0672431500",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Big Shanty Rd",
+        "FROM": "Chastain Rd",
+        "TO": "Town Point Dr",
+        "FC_NEW": 5,
+        "DESC": 4,
+        "JUST": "New Town Center/KSU area E/W reliever road opened in 2012",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
