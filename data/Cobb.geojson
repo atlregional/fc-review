@@ -12540,7 +12540,15 @@
         "Shape_Leng": 18322.7507474,
         "ARC_Length": 3.47021794458,
         "RCLINK_1": "0672218000",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Fontaine Rd",
+        "FROM": "Floyd Rd",
+        "TO": "Oak Brook Ct",
+        "FC_NEW": 4,
+        "DESC": 2,
+        "JUST": "Provides important connection to Floyd Rd, Mableton town center.",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
