@@ -8249,7 +8249,13 @@
         "Shape_Leng": 8563.76927396,
         "ARC_Length": 1.62192599886,
         "RCLINK_1": "0672016400",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Roberts Blvd (US 41 to Barrett Pkwy)/Greers Chapel Rd (Barrett Pkwy to US 41)",
+        "FC_NEW": 6,
+        "DESC": 4,
+        "JUST": "Important alternative access in Town Center area of major shopping and employment. In conjunction w/ request for Barrett Lakes Blvd and Cobb Place Blvd to add minor collectors to network in Town Center that relieve Barrett Pkwy",
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo"
       },
       "geometry": {
         "type": "LineString",
