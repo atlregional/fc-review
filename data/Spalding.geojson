@@ -19,7 +19,13 @@
         "Shape_Leng": 8893.67307669,
         "ARC_Length": 1.68440777968,
         "RCLINK_1": "2552005200",
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Ethridge Mill Road",
+        "FC_NEW": 6,
+        "DESC": 2,
+        "JUST": "supports new subdivisions and established neighborhoods, parallel north-south facility",
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
