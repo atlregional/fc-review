@@ -6040,7 +6040,13 @@
         "Shape_Leng": 7995.41130966,
         "ARC_Length": 1.51423680657,
         "RCLINK_1": "2553102305",
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Maddox Road",
+        "FC_NEW": 5,
+        "JUST": "supports large scale subdivisions, established communities, mega churches and private schools",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "ADukes-SpaldingCo"
       },
       "geometry": {
         "type": "LineString",
