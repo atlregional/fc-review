@@ -199,10 +199,10 @@ function changeIssueStatus(button, status, milestoneNumber){
 			console.log(err)
 			console.log(path)
 			if(err){
-				$('#loadingtext').html('Hmmm...something went wrong with approving the proposed change.  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
+				$('#loadingtext').show().html('Hmmm...something went wrong with approving the proposed change.  Please reload the page and try again or email <a href="mailto:lreed@atlantaregional.com">Landon Reed</a> if you continue experiencing issues.')
 			}
 			else{
-				$('#loadingtext').html('<strong>Success!</strong>  You successfully changed the status of the proposed change to ' + status + '.')
+				$('#loadingtext').show().html('<strong>Success!</strong>  You successfully changed the status of the proposed change to ' + status + '.')
 
 			}
 		});
@@ -663,7 +663,6 @@ function populateIssues(){
 	var count = issues.length
 	$("#issue-list").empty()
 	$("#issue-table").empty()
-	$("#issue-table").html('<div class="spinner"></div>')
 	$.each(issues, function(i, issue){
 		
 
