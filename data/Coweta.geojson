@@ -38395,7 +38395,14 @@
         "2011AvAADT": 29744.2857143,
         "2010AvAADT": 28361.4285714,
         "OBJECTID_1": 1331,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Bullsboro Dr",
+        "FC_NEW": 3,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 128
       },
       "geometry": {
         "type": "LineString",
