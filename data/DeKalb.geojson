@@ -116040,7 +116040,16 @@
         "2011AvAADT": 1670,
         "2010AvAADT": 1690,
         "OBJECTID_1": 1774,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Ormewood Ave SE",
+        "FROM": "Moreland Ave",
+        "TO": "Flat Shoals Ave",
+        "FC_NEW": 7,
+        "DESC": "Two lane cross section in residential neighborhood",
+        "JUST": "This segment of Ormewood Ave has traffic calming measures.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 74
       },
       "geometry": {
         "type": "LineString",
