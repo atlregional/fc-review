@@ -28684,7 +28684,14 @@
         "2011AvAADT": 3070,
         "2010AvAADT": 3383.33333333,
         "OBJECTID_1": 3809,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "W Street NW",
+        "FC_NEW": 4,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 139
       },
       "geometry": {
         "type": "LineString",
