@@ -23653,7 +23653,14 @@
         "2011AvAADT": 10040,
         "2010AvAADT": 10307.5,
         "OBJECTID_1": 3571,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Keys Road",
+        "FC_NEW": 4,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 135
       },
       "geometry": {
         "type": "LineString",
