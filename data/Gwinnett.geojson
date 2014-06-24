@@ -59973,7 +59973,9 @@
         "DESC": "This change was proposed by GDOT.",
         "JUST": "This change was proposed by GDOT.",
         "stroke": "#00ff00",
-        "user": "MFowler-GDOT"
+        "user": "MFowler-GDOT",
+        "status": "In Review",
+        "issue_num": 700
       },
       "geometry": {
         "type": "LineString",
