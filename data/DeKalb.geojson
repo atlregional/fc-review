@@ -105784,7 +105784,14 @@
         "2011AvAADT": 19090,
         "2010AvAADT": 18910,
         "OBJECTID_1": 1720,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Ashford Dunwoody Rd",
+        "FC_NEW": 4,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 159
       },
       "geometry": {
         "type": "LineString",
