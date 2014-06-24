@@ -45078,7 +45078,14 @@
         "2011AvAADT": 17660,
         "2010AvAADT": 17490,
         "OBJECTID_1": 206,
-        "County": "Bartow"
+        "County": "Bartow",
+        "FC_NEW": 4,
+        "NAME": "Glade Road",
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 119
       },
       "geometry": {
         "type": "LineString",
