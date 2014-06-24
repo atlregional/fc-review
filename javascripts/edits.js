@@ -590,6 +590,7 @@ function createPull(repo, pull, path){
 }
 
 function getPulls(page){
+
 	var url = "https://api.github.com/repos/{{ site.githubuser }}/fc-review/pulls?page="+page+"&per_page=100&state=all"+token
 	$.get(url, function (issuesData, status, xhr) {
 		$.each(issuesData, function(i, issue){
@@ -601,11 +602,14 @@ function getPulls(page){
 		console.log(linkheader)
 		
 		if (typeof linkheader.last !== "undefined"){
+			$('.spinner').show()
 			page++
 			getPulls(page)
 		}
 		else{
+			$('.spinner').hide()
 			populateIssues()
+
 		}
 		// console.log(issues)
 		
@@ -659,7 +663,7 @@ function populateIssues(){
 	var count = issues.length
 	$("#issue-list").empty()
 	$("#issue-table").empty()
-
+	$("#issue-table").html('<div class="spinner"></div>')
 	$.each(issues, function(i, issue){
 		
 
