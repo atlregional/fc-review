@@ -12498,7 +12498,14 @@
         "2011AvAADT": 23887.5,
         "2010AvAADT": 25287.5,
         "OBJECTID_1": 407,
-        "County": "Carroll"
+        "County": "Carroll",
+        "NAME": "Carrollton Villa Rica Hwy",
+        "FC_NEW": 3,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 125
       },
       "geometry": {
         "type": "LineString",
