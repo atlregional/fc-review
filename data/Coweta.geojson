@@ -34907,7 +34907,16 @@
         "2011AvAADT": 10012.8571429,
         "2010AvAADT": 10177.1428571,
         "OBJECTID_1": 1327,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Bullsboro Rd",
+        "FROM": "SR 54",
+        "TO": "Line Creek bridge",
+        "FC_NEW": 3,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 129
       },
       "geometry": {
         "type": "LineString",
