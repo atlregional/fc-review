@@ -47377,7 +47377,14 @@
         "2011AvAADT": 14440,
         "2010AvAADT": 13830,
         "OBJECTID_1": 1342,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "US 29",
+        "FC_NEW": 3,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 127
       },
       "geometry": {
         "type": "LineString",
