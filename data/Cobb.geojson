@@ -88895,7 +88895,14 @@
         "2011AvAADT": 12070,
         "2010AvAADT": 13005,
         "OBJECTID_1": 1123,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Mars Hill Rd",
+        "FC_NEW": 4,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 122
       },
       "geometry": {
         "type": "LineString",
