@@ -71,7 +71,7 @@ function exportCSV(data){
 	var a = document.createElement("a");
     document.body.appendChild(a);
     a.style = "display: none";
-	var name = 'results.csv'
+	var name = 'fc_changes.csv'
 	csv = JSON2CSV(data)
 	formBlob = new Blob([csv], {
 		type: 'text/csv',

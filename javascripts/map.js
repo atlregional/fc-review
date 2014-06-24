@@ -17,6 +17,7 @@ var issueMap  = L.map('issue-map', {
 		center: [33.77686437792359, -84.3145751953125],
 		zoom: 9
 	});
+
 var issueBase = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.i86o780c/{z}/{x}/{y}.png', {
 		attribution: '© Mapbox © OpenStreetMap',
 		key: '7486205c8fd540b0903a0298b3d7c447'
@@ -73,6 +74,15 @@ var fringe2 = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.o8rm5cdi/{
 		attribution: '',
 		// key: '7486205c8fd540b0903a0298b3d7c447'
 	})
+var streets3 = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.i17fd2t9/{z}/{x}/{y}.png', {
+		attribution: '© Atlanta Regional Commission',
+		// key: '7486205c8fd540b0903a0298b3d7c447'
+	})
+
+var fringe3 = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.o8rm5cdi/{z}/{x}/{y}.png', {
+		attribution: '',
+		// key: '7486205c8fd540b0903a0298b3d7c447'
+	})
 var proposed = L.tileLayer('http://api.tiles.mapbox.com/v3/landonreed.ge23ayvi/{z}/{x}/{y}.png', {
 		attribution: '© GDOT',
 		// key: '7486205c8fd540b0903a0298b3d7c447'
@@ -92,9 +102,7 @@ var minimal   = L.tileLayer(cloudmadeUrl, {styleId: 22677, attribution: cloudmad
 	midnight  = L.tileLayer(cloudmadeUrl, {styleId: 999,   attribution: cloudmadeAttribution}),
 	motorways = L.tileLayer(cloudmadeUrl, {styleId: 46561, attribution: cloudmadeAttribution});
 
-var overlayMaps = {
-	// "Edits": geojson,
-	
+var overlayMaps = {	
 	"GDOT Proposed Changes": proposed,
 	"Atlanta Region Roads": streets,
 	"External County Roads": fringe,
@@ -104,7 +112,10 @@ var overlayMaps = {
 var changeOverlays = {
 	"Atlanta Region Roads": streets2,
 	"External County Roads": fringe2,
-
+}
+var issueOverlays = {
+	"Atlanta Region Roads": streets3,
+	"External County Roads": fringe3,
 }
 var baseMaps = {
 	"Base map": base,
@@ -112,8 +123,12 @@ var baseMaps = {
 var baseMaps2 = {
 	"Base map": changesBase,
 };
+var baseMaps3 = {
+	"Base map": issueBase,
+};
 L.control.layers(baseMaps, overlayMaps, {position: 'topleft'}).addTo(map);
 L.control.layers(baseMaps2, changeOverlays, {position: 'topleft'}).addTo(changesMap);
+L.control.layers(baseMaps3, issueOverlays, {position: 'topright'}).addTo(issueMap);
 map.on('overlayadd',function(e){
 	if (e.name == "GDOT Proposed Changes"){
 		$('.gdot').show()
@@ -702,6 +717,8 @@ function drawGeoJSON(county, changes, drawMap){
 			success: function(data){
 				console.log(data)
 				raw[county] = data;
+				console.log(raw[county])
+				console.log(county)
 				if (!changes){
 					geojson = L.geoJson(data, {
 						filter: function(feature, layer){
@@ -776,9 +793,21 @@ function issuePopup(feature, layer) {
     }
 }
 function drawIssueData(data, issueMap, linkdata){
-	
+	var issueBounds = null;
 	issueData = L.geoJson(data, {
 		style: function (feature) {
+			if (feature.properties.RCLINK == linkdata[1] && feature.properties.BEG_MEASUR == linkdata[2] && feature.properties.END_MEASUR == linkdata[3]){
+				var polyline = [];
+				$.each(feature.geometry.coordinates, function(i, coord){
+					var latlng = L.latLng(coord[1], coord[0]);
+					polyline.push(latlng);
+				});
+				var poly = L.polyline(polyline);
+				var featureGroup = L.featureGroup([poly])
+				console.log(feature)
+				issueBounds = featureGroup.getBounds();
+				console.log(issueBounds);
+			}
 			var color = (feature.properties.RCLINK == linkdata[1] && feature.properties.BEG_MEASUR == linkdata[2] && feature.properties.END_MEASUR == linkdata[3]) ? '#00FF00' : '#CCC'
 				return {
 					color: color,
@@ -796,7 +825,7 @@ function drawIssueData(data, issueMap, linkdata){
 	     }
 
 	}).addTo(issueMap);
-	issueMap.fitBounds(issueData.getBounds())
+	issueMap.fitBounds(issueBounds)
 }
 
 function drawChanges(){
