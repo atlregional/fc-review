@@ -40160,7 +40160,14 @@
         "2011AvAADT": 33314.6666667,
         "2010AvAADT": 33501.3333333,
         "OBJECTID_1": 984,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Cobb Pkwy",
+        "FC_NEW": 3,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 117
       },
       "geometry": {
         "type": "LineString",
