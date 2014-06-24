@@ -6725,7 +6725,14 @@
         "2011AvAADT": 11980,
         "2010AvAADT": 14850,
         "OBJECTID_1": 126,
-        "County": "Bartow"
+        "County": "Bartow",
+        "NAME": "Cobb Parkway",
+        "FC_NEW": 3,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 115
       },
       "geometry": {
         "type": "LineString",
