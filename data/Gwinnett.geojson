@@ -14633,7 +14633,14 @@
         "2011AvAADT": 44685,
         "2010AvAADT": 43300,
         "OBJECTID_1": 2938,
-        "County": "Gwinnett"
+        "County": "Gwinnett",
+        "NAME": "Peachtree Pkwy",
+        "FC_NEW": 3,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 153
       },
       "geometry": {
         "type": "LineString",
