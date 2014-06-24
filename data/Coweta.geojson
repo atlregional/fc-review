@@ -47439,7 +47439,16 @@
         "2011AvAADT": 10935.8823529,
         "2010AvAADT": 11485.8823529,
         "OBJECTID_1": 1343,
-        "County": "Coweta"
+        "County": "Coweta",
+        "FC_NEW": 4,
+        "NAME": "Jackson Street",
+        "FROM": "Tommy Lee Cook Rd",
+        "TO": "Millard Farmer Industrial",
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 126
       },
       "geometry": {
         "type": "LineString",
