@@ -50,6 +50,16 @@ $('#reject').click(function(){
 	// assign label?
 	changeIssueStatus(this, 'On Hold', 6);
 })
+$('#in-review').click(function(){
+	// write to county file
+	
+	changeIssueStatus(this, 'In Review', 2);
+
+
+	// create comment
+
+	// assign label?
+})
 $('#approve').click(function(){
 	// write to county file
 	
