@@ -12883,7 +12883,14 @@
         "2011AvAADT": 10345,
         "2010AvAADT": 10395,
         "OBJECTID_1": 3925,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Stockbridge Hwy",
+        "FC_NEW": 4,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 142
       },
       "geometry": {
         "type": "LineString",
