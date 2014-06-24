@@ -11935,7 +11935,14 @@
         "2011AvAADT": 9930,
         "2010AvAADT": 9775,
         "OBJECTID_1": 4052,
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Zebulon Rd",
+        "FC_NEW": 4,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 131
       },
       "geometry": {
         "type": "LineString",
