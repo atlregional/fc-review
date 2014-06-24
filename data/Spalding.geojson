@@ -13242,7 +13242,14 @@
         "2011AvAADT": 9415,
         "2010AvAADT": 9650,
         "OBJECTID_1": 4056,
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Arthur K Bolton Pkwy",
+        "FC_NEW": 3,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 134
       },
       "geometry": {
         "type": "LineString",
