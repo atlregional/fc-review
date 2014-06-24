@@ -2689,7 +2689,16 @@
         "2011AvAADT": 26140,
         "2010AvAADT": 26908.5714286,
         "OBJECTID_1": 1512,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Buford Hwy",
+        "FROM": "I-285",
+        "TO": "Johnson Dr",
+        "FC_NEW": 4,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 155
       },
       "geometry": {
         "type": "LineString",
