@@ -16292,7 +16292,14 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4063,
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "W McIntosh Rd",
+        "FC_NEW": 4,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 130
       },
       "geometry": {
         "type": "LineString",
