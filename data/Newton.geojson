@@ -17078,7 +17078,16 @@
         "2011AvAADT": 21707,
         "2010AvAADT": 21161,
         "OBJECTID_1": 3783,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "I 20",
+        "FC_NEW": 4,
+        "FROM": "Covington Bypass",
+        "TO": "Elks Club Rd",
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 144
       },
       "geometry": {
         "type": "LineString",
