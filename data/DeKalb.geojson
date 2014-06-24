@@ -99496,7 +99496,14 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1699,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Johnson Ferry Rd",
+        "FC_NEW": 4,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 158
       },
       "geometry": {
         "type": "LineString",
