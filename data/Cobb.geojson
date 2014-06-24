@@ -32571,7 +32571,14 @@
         "2011AvAADT": 17081.6666667,
         "2010AvAADT": 17731.6666667,
         "OBJECTID_1": 971,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Lake Acworth Dr",
+        "FC_NEW": 4,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 118
       },
       "geometry": {
         "type": "LineString",
