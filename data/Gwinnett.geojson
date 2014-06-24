@@ -81141,7 +81141,14 @@
         "2011AvAADT": 27830,
         "2010AvAADT": 27860,
         "OBJECTID_1": 3060,
-        "County": "Gwinnett"
+        "County": "Gwinnett",
+        "NAME": "Sugarloaf Pkwy",
+        "FC_NEW": 3,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 149
       },
       "geometry": {
         "type": "LineString",
