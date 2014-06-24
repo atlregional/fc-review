@@ -27657,7 +27657,14 @@
         "2011AvAADT": 13980,
         "2010AvAADT": 14180,
         "OBJECTID_1": 3803,
-        "County": "Newton"
+        "County": "Newton",
+        "FC_NEW": 4,
+        "NAME": "Covington Bypass",
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 136
       },
       "geometry": {
         "type": "LineString",
