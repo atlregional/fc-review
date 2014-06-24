@@ -11878,7 +11878,14 @@
         "2011AvAADT": 13800,
         "2010AvAADT": 12920,
         "OBJECTID_1": 4051,
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "SR 7",
+        "FC_NEW": 4,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 132
       },
       "geometry": {
         "type": "LineString",
