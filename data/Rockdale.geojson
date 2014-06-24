@@ -34972,7 +34972,16 @@
         "2011AvAADT": 26100,
         "2010AvAADT": 25880,
         "OBJECTID_1": 3946,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "McDonough Hwy",
+        "FROM": "Honey Creek Rd",
+        "TO": "Stockbridge Hwy",
+        "FC_NEW": 3,
+        "DESC": "This change was proposed by GDOT.",
+        "JUST": "This change was proposed by GDOT.",
+        "stroke": "#00ff00",
+        "status": "In Review",
+        "issue_num": 140
       },
       "geometry": {
         "type": "LineString",
