@@ -919,7 +919,13 @@
         "Shape_Leng": 3130.99898241,
         "ARC_Length": 0.592992231518,
         "RCLINK_1": "0893002633",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "N Cliff Valley Way",
+        "FC_NEW": 6,
+        "DESC": "Serves as a connection from Buford Hwy to N Druid Hills Road and withLenox Park Blvd to Roxboro Rd.  Serves as collector for a High School (Cross Keys), and several apartment complexes.",
+        "JUST": "Serves as a connection from Buford Hwy to N Druid Hills Road and withLenox Park Blvd to Roxboro Rd.  Serves as collector for a High School (Cross Keys), and several apartment complexes.",
+        "stroke": "#00ff00",
+        "user": "RMeehan-BrookhavenGa"
       },
       "geometry": {
         "type": "LineString",
