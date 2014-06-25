@@ -1104,7 +1104,15 @@
         "Shape_Leng": 10048.3563438,
         "ARC_Length": 1.90309779239,
         "RCLINK_1": "0893014633",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Osborne Road",
+        "FROM": "Windsor Parkway",
+        "TO": "SR 141/Peachtree Rd",
+        "FC_NEW": 6,
+        "DESC": "Provides connection between Widsor Parkway (Maj Coll) and Peachtree Road (Prin Art).  Serves as access to about 20 small subdivisions located along this section of roadway. Collector on DeKalb CTP",
+        "JUST": "Provides connection between Widsor Parkway (Maj Coll) and Peachtree Road (Prin Art).  Serves as access to about 20 small subdivisions located along this section of roadway. Collector on DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "RMeehan-BrookhavenGa"
       },
       "geometry": {
         "type": "LineString",
