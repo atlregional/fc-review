@@ -2335,7 +2335,15 @@
         "Shape_Leng": 4953.23516622,
         "ARC_Length": 0.938112720875,
         "RCLINK_1": "0893700131",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Perimeter Center Parkway",
+        "FROM": "Perimeter Center West",
+        "TO": "Lake Hearn Drive",
+        "FC_NEW": 5,
+        "DESC": 4,
+        "JUST": "This 4-lane divided roadway connects between Lake Hearn Drive and Perimeter Center West, crossing Hammond Drive, and serves as an alternate connection to cross over I-285 between Peachtree Dunwoody Road and Ashford Dunwoody Road.  It functions as a collector for several office buildings/mixed use developments, the Marriott Hotel, Dunwoody MARTA Station,  and the back side of Perimter Mall.",
+        "stroke": "#00ff00",
+        "user": "RMeehan-BrookhavenGa"
       },
       "geometry": {
         "type": "LineString",
