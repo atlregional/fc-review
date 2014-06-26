@@ -22847,7 +22847,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 2063,
-        "County": "Douglas"
+        "County": "Douglas",
+        "NAME": "Post Road",
+        "FC_NEW": 4,
+        "DESC": "Randy Hulsey request 6/25/2014.  Will follow-up in July.",
+        "JUST": "Randy Hulsey request 6/25/2014.  Will follow-up in July.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
