@@ -4794,7 +4794,13 @@
         "2011AvAADT": 10000,
         "2010AvAADT": 12430,
         "OBJECTID_1": 2024,
-        "County": "Douglas"
+        "County": "Douglas",
+        "NAME": "GA Hwy 92",
+        "FC_NEW": 3,
+        "DESC": "Randy Hulsey request 6/25/2014.  Will follow-up in July.",
+        "JUST": "Randy Hulsey request 6/25/2014.  Will follow-up in July.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
