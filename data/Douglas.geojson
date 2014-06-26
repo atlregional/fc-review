@@ -930,7 +930,15 @@
         "Shape_Leng": 7913.60388278,
         "ARC_Length": 1.49878861416,
         "RCLINK_1": "0972016000",
-        "County": "Douglas"
+        "County": "Douglas",
+        "FROM": "Chapel Hill Road",
+        "TO": "Brookmont Road",
+        "NAME": "Bomar Road",
+        "FC_NEW": 5,
+        "DESC": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "JUST": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
