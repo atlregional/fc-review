@@ -3295,7 +3295,13 @@
         "Shape_Leng": 3485.10114028,
         "ARC_Length": 0.660057034143,
         "RCLINK_1": "0972027700",
-        "County": "Douglas"
+        "County": "Douglas",
+        "NAME": "South Flat Rock Road",
+        "FC_NEW": 5,
+        "DESC": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "JUST": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
