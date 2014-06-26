@@ -19,7 +19,13 @@
         "Shape_Leng": 33478.7826704,
         "ARC_Length": 6.34067853605,
         "RCLINK_1": "0972017400",
-        "County": "Douglas"
+        "County": "Douglas",
+        "NAME": "Dorsett Shoals Road",
+        "FC_NEW": 6,
+        "DESC": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "JUST": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
