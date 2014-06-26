@@ -5062,7 +5062,15 @@
         "Shape_Leng": 4369.30947018,
         "ARC_Length": 0.827520732989,
         "RCLINK_1": "0973059303",
-        "County": "Douglas"
+        "County": "Douglas",
+        "NAME": "Dorris Road",
+        "FROM": "Durelee Lane",
+        "TO": "Hospital Drive",
+        "FC_NEW": 5,
+        "DESC": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "JUST": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
