@@ -1680,7 +1680,15 @@
         "Shape_Leng": 12566.0339454,
         "ARC_Length": 2.37993067147,
         "RCLINK_1": "0972020700",
-        "County": "Douglas"
+        "County": "Douglas",
+        "NAME": "Cowan Mill Road",
+        "FROM": "Mason Creek Road",
+        "TO": "Bright Star Road",
+        "FC_NEW": 6,
+        "DESC": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "JUST": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
