@@ -6614,7 +6614,15 @@
         "2011AvAADT": 8896.66666667,
         "2010AvAADT": 9596.66666667,
         "OBJECTID_1": 2026,
-        "County": "Douglas"
+        "County": "Douglas",
+        "NAME": "GA Hwy 92",
+        "FROM": "Fairburn/Campbellton",
+        "TO": "Fulton/City of Campbellton",
+        "FC_NEW": 3,
+        "DESC": "Randy Hulsey request 6/25/2014.  Will follow-up in July.",
+        "JUST": "Randy Hulsey request 6/25/2014.  Will follow-up in July.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
