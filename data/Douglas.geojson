@@ -1228,7 +1228,13 @@
         "Shape_Leng": 12525.2280344,
         "ARC_Length": 2.37220227924,
         "RCLINK_1": "0972014100",
-        "County": "Douglas"
+        "County": "Douglas",
+        "NAME": "Bomar Road",
+        "FC_NEW": 5,
+        "DESC": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "JUST": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
