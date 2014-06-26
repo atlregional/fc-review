@@ -5266,7 +5266,13 @@
         "Shape_Leng": 4498.09226147,
         "ARC_Length": 0.851911413158,
         "RCLINK_1": "0973094805",
-        "County": "Douglas"
+        "County": "Douglas",
+        "NAME": "Stockmar Road",
+        "FC_NEW": 6,
+        "DESC": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "JUST": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
