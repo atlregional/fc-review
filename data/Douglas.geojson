@@ -3100,7 +3100,13 @@
         "Shape_Leng": 4297.08985478,
         "ARC_Length": 0.813842775526,
         "RCLINK_1": "0972019300",
-        "County": "Douglas"
+        "County": "Douglas",
+        "NAME": "Mason Creek Road",
+        "FC_NEW": 6,
+        "DESC": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "JUST": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
