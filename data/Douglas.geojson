@@ -2694,7 +2694,15 @@
         "Shape_Leng": 15445.5140914,
         "ARC_Length": 2.92528675974,
         "RCLINK_1": "0972009900",
-        "County": "Douglas"
+        "County": "Douglas",
+        "NAME": "Skyview Drive",
+        "FROM": "Thornton Road",
+        "TO": "S Sweetwater Road",
+        "FC_NEW": 4,
+        "DESC": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "JUST": "Randy Hulsey request 6/25/2014. Will follow-up in July.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
