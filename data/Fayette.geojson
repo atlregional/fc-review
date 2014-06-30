@@ -4249,7 +4249,15 @@
         "Shape_Leng": 1318.20807611,
         "ARC_Length": 0.249660620475,
         "RCLINK_1": "1132127600",
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Kirkley Road",
+        "FROM": "Bohannon Road",
+        "TO": "SR 74 ",
+        "FC_NEW": 6,
+        "DESC": "Two lane road.  Note change is for entire segment between noted intersections.",
+        "JUST": "Road serves private school and back entrance to non-residential areas in South Fulton County.",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
