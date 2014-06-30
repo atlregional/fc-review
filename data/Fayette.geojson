@@ -2931,7 +2931,13 @@
         "Shape_Leng": 3059.38070696,
         "ARC_Length": 0.579428164196,
         "RCLINK_1": "1132002000",
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Peters Road",
+        "FC_NEW": 6,
+        "DESC": "Two lane road.",
+        "JUST": "North-south connectivity between SR 92 and SR 138 and indirect access to Interstate for Fayette County.  ",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
