@@ -3140,7 +3140,13 @@
         "Shape_Leng": 4830.0737419,
         "ARC_Length": 0.914786693541,
         "RCLINK_1": "1132021400",
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "McElroy Road",
+        "FC_NEW": 5,
+        "DESC": "Two lane road with signalized intersections at north and south termini.",
+        "JUST": "McElroy serves as a cut-through between a Principal Arterial and a Minor Arterial.  ",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
