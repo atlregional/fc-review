@@ -430,7 +430,15 @@
         "Shape_Leng": 9861.91629098,
         "ARC_Length": 1.86778717632,
         "RCLINK_1": "1132010800",
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "South Sandy Creek",
+        "FROM": "Veterans Parkway",
+        "TO": "SR 54",
+        "FC_NEW": 4,
+        "DESC": "Two lane road.  NOTE - segment should not include Old Norton Road south of SR 54.",
+        "JUST": "Connectivity between a Minor and Principal Arterial.  Increased in traffic from Pinewood Studios.  Serves Hospital and other non-residential developments.",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
