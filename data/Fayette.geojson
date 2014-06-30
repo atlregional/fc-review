@@ -19,7 +19,13 @@
         "Shape_Leng": 19878.9469699,
         "ARC_Length": 3.76495207763,
         "RCLINK_1": "1132016100",
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Rising Star Road",
+        "FC_NEW": 6,
+        "DESC": "Two lane road; surrounding land use is residential.  ",
+        "JUST": "Road connects a Minor Arterial and a Major Collector.  Also an indirect cut-through between SR 85 and SR 92.  ",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
