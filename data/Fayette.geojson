@@ -840,7 +840,13 @@
         "Shape_Leng": 16148.72004,
         "ARC_Length": 3.0584697053,
         "RCLINK_1": "1132008300",
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Flat Creek Trail",
+        "FC_NEW": 6,
+        "DESC": "Two lane road.",
+        "JUST": "North-south connectivity between a Principal Arterial and two minor arterials.  ",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
