@@ -3325,7 +3325,13 @@
         "Shape_Leng": 10852.5669167,
         "ARC_Length": 2.0554104009,
         "RCLINK_1": "1132020400",
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Hilo Raod",
+        "FC_NEW": 6,
+        "DESC": "Two lane road",
+        "JUST": "This road connects two Minor Arterials and serves as a collector for several large subdivisions.",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
