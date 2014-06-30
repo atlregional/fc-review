@@ -3421,7 +3421,13 @@
         "Shape_Leng": 2938.90694925,
         "ARC_Length": 0.55661116463,
         "RCLINK_1": "0893787331",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Ashford Center Parkway",
+        "FC_NEW": 5,
+        "DESC": 4,
+        "JUST": "Direct connection from existing collector (Womack Road) to arterial (Ashford Dunwoody Road).",
+        "stroke": "#00ff00",
+        "user": "MSmith-DunwoodyGa"
       },
       "geometry": {
         "type": "LineString",
