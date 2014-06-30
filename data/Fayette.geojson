@@ -1911,7 +1911,15 @@
         "Shape_Leng": 18515.4382625,
         "ARC_Length": 3.50671179214,
         "RCLINK_1": "1132005900",
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Milam Road",
+        "FC_NEW": 6,
+        "DESC": "Two lane road.  Note - GIS segment includes both Milam Road and Rivers Road.  Both should be Minor Collectors (FC-6) but be independent road.",
+        "FROM": "Fulton County line",
+        "TO": "Lees Lake Road",
+        "JUST": "East-west connectivity between SR 74 and SR 92.  Collects traffic from multiple subdivisions and feeder streets.  ",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
