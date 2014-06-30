@@ -4379,7 +4379,13 @@
         "Shape_Leng": 10105.2332331,
         "ARC_Length": 1.91386993051,
         "RCLINK_1": "1133056409",
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Castlewood Road",
+        "FC_NEW": 5,
+        "DESC": "Two lane road.",
+        "JUST": "Serves residential areas, Town of Tyrone, and indirect access to I-85 via Coweta County.  Proposed change should be consistent with similar changes on Coweta side of road.  Increasing traffic as congestion worsens on SR 74.  ",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
