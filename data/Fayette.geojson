@@ -5329,7 +5329,15 @@
         "Shape_Leng": 4087.85428344,
         "ARC_Length": 0.77421482641,
         "RCLINK_1": "1133076409",
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Jenkins Road",
+        "FROM": "SR 74",
+        "TO": "Eastern end",
+        "FC_NEW": 5,
+        "JUST": "Serves school complex and cut-through between a Minor Arterial and SR 74.  Increase in traffic from Pinewood Studio development.  ",
+        "DESC": "Two lane road.  NOTE - combine the two Jenkins Road segments into one.  Section west of SR 74 can stay local.",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
