@@ -2475,7 +2475,13 @@
         "Shape_Leng": 15429.4502125,
         "ARC_Length": 2.92224435843,
         "RCLINK_1": "1132004500",
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Eastin/Graves Road",
+        "FC_NEW": 6,
+        "DESC": "Two lane road.",
+        "JUST": "Provides connection between two Minor Arterials and intersects with recently constructed Veterans Parkway, also a Minor Arterial.  ",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
