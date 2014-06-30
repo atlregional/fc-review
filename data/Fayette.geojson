@@ -2830,7 +2830,13 @@
         "Shape_Leng": 1308.38099609,
         "ARC_Length": 0.247799431078,
         "RCLINK_1": "1132002100",
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Newton Road",
+        "FC_NEW": 5,
+        "DESC": "Two lane road.",
+        "JUST": "Provides north-south connectivity between SR 92 and SR 138.  Provides indirect interstate access for Fayette County.  Traffic signal at SR 138 is reason for FC-5 instead of FC-6. ",
+        "stroke": "#00ff00",
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
