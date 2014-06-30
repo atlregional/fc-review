@@ -2973,7 +2973,15 @@
         "Shape_Leng": 3680.79364368,
         "ARC_Length": 0.697120008273,
         "RCLINK_1": "0893176531",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Meadow Lane Road",
+        "FROM": "Ashford Dunwoody Road",
+        "TO": "Perimeter Center West",
+        "FC_NEW": 6,
+        "DESC": 4,
+        "JUST": "Connects two large office tower developments and a large retail site with arterials at either end.  ",
+        "stroke": "#00ff00",
+        "user": "MSmith-DunwoodyGa"
       },
       "geometry": {
         "type": "LineString",
