@@ -2616,7 +2616,15 @@
         "Shape_Leng": 6495.42452744,
         "ARC_Length": 1.23019403929,
         "RCLINK_1": "0892085100",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Northern Ave",
+        "FC_NEW": 6,
+        "FROM": "North Decatur Road ",
+        "TO": "Memorial Drive",
+        "DESC": "Connects North Decatur Road to Memorial Drive (both minors)",
+        "JUST": "Network Connectivity.  Consistent with DeKalb CTP. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
