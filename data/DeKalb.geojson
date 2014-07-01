@@ -5454,7 +5454,13 @@
         "Shape_Leng": 15918.2375721,
         "ARC_Length": 3.01481772199,
         "RCLINK_1": "0892068800",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Roger Lake Rd",
+        "FC_NEW": 6,
+        "DESC": "Network Connectivity.  Industrial Area.  ",
+        "JUST": "Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
