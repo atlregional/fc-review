@@ -3096,7 +3096,12 @@
         "Shape_Leng": 5364.60557673,
         "ARC_Length": 1.01602378347,
         "RCLINK_1": "0892074600",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "FC_NEW": 6,
+        "DESC": "AADT=3500, Connects Rockbridge Rd (minor art) to neighborhoods to City of Stone Mountain. ",
+        "JUST": "Network Connectivity.  Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
