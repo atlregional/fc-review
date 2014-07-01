@@ -6464,7 +6464,13 @@
         "Shape_Leng": 4655.9496735,
         "ARC_Length": 0.881808650285,
         "RCLINK_1": "0892102300",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Roadhaven Dr/Greer Cir",
+        "FC_NEW": 6,
+        "DESC": "Connects to industrial area to E Ponce de Leon Ave",
+        "JUST": "Network Connectivity.  Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
