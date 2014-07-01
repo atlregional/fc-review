@@ -12252,7 +12252,15 @@
         "Shape_Leng": 5365.7636632,
         "ARC_Length": 1.01624311803,
         "RCLINK_1": "0893221807",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Church St (Clarkston)",
+        "FC_NEW": 5,
+        "DESC": "This is the parallel road to E Ponce de Leon Ave in the Clarkston area.  Does not function like a residential road.  Commercial land uses, churches, City Hall of Clarkston, etc.",
+        "JUST": "Network Connectivity. Consistent with DeKalb CTP. ",
+        "FROM": "North Clarendon Ave",
+        "TO": "E Ponce de Leon Ave",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
