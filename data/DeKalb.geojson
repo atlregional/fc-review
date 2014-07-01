@@ -11375,7 +11375,12 @@
         "Shape_Leng": 717.034722405,
         "ARC_Length": 0.135802030758,
         "RCLINK_1": "0892954500",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Mountian View Rd",
+        "FC_NEW": 6,
+        "DESC": "Please see other segments- this is broken into a lot of little parts in GIS- same explanations.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
