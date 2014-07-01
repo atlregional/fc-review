@@ -1603,7 +1603,13 @@
         "Shape_Leng": 3716.64377334,
         "ARC_Length": 0.703909805557,
         "RCLINK_1": "0892051900",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Redwing Cir",
+        "FC_NEW": 6,
+        "DESC": "Part of the connection between Snapfinger Road to Auston Drive to Redwing Cir to Covington Hwy to I-285",
+        "JUST": "Network Connectivity. Consistent with DeKalb CTP.   ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
