@@ -6293,7 +6293,13 @@
         "Shape_Leng": 4411.65580103,
         "ARC_Length": 0.835540871408,
         "RCLINK_1": "0892056300",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Coclebur Rd",
+        "FC_NEW": 6,
+        "DESC": "Network Connectivity.  Connects Rainbow Dr to Boring Rd to Wesley Chapel.  Lots of neighborhoods.",
+        "JUST": "Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
