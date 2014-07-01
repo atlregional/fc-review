@@ -12702,7 +12702,13 @@
         "Shape_Leng": 5941.48046567,
         "ARC_Length": 1.12528039123,
         "RCLINK_1": "0893225821",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Ridge Rd",
+        "FC_NEW": 6,
+        "DESC": "Connects Rockbridge Rd (minor art) to neighborhoods to Sheppards to City of Stone Mountain. ",
+        "JUST": "Network Connectivity.  Consistent with DeKalb CTP. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
