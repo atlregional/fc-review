@@ -10719,7 +10719,13 @@
         "Shape_Leng": 1610.3908235,
         "ARC_Length": 0.304998262026,
         "RCLINK_1": "0892693700",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Panola Industrial Way",
+        "FC_NEW": 6,
+        "DESC": "Network Connectivity.  Industrial Area.  Part of road system that connects Covington Hwy to Panola Rd near I-20",
+        "JUST": "Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
