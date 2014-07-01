@@ -7434,7 +7434,13 @@
         "Shape_Leng": 6937.19164067,
         "ARC_Length": 1.31386205316,
         "RCLINK_1": "0892104300",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Silver Hill Rd",
+        "FC_NEW": 6,
+        "DESC": "Network Connectivity",
+        "JUST": "Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
