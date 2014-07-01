@@ -1968,7 +1968,13 @@
         "Shape_Leng": 4567.86415962,
         "ARC_Length": 0.865125787806,
         "RCLINK_1": "0892075400",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Elam Rd",
+        "FC_NEW": 6,
+        "DESC": "AADT= 4200 Connects Rowland rd to neighborhoods to South Hairston Rd (principal)",
+        "JUST": "Network Connectivity. Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
