@@ -11449,7 +11449,13 @@
         "Shape_Leng": 3942.65233316,
         "ARC_Length": 0.746714457038,
         "RCLINK_1": "0892950700",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Clifton Rd",
+        "FC_NEW": 6,
+        "DESC": "Network Connectivity, Emory U., Connects Ponce de Leon Ave to North Decatur Road to Briarcliff Road",
+        "JUST": "Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
