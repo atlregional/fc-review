@@ -3516,7 +3516,13 @@
         "Shape_Leng": 8370.43112746,
         "ARC_Length": 1.58530892566,
         "RCLINK_1": "0892083900",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "DESC": "This is the parallel road to E Ponce de Leon Ave in the Clarkston area.  Does not function like a residential road.  Commercial land uses, churches, City Hall of Clarkston, etc.  Connects Cities of Avondale to Clarkston. ",
+        "JUST": "Network Connectivity.  Consistent with DeKalb CTP",
+        "FC_NEW": 5,
+        "NAME": "Church St",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
