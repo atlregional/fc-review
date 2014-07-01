@@ -3991,7 +3991,15 @@
         "Shape_Leng": 14043.1679001,
         "ARC_Length": 2.65969089018,
         "RCLINK_1": "0892082500",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Central Drive",
+        "FROM": "Rays Rd",
+        "TO": "Goldsmith Rd",
+        "FC_NEW": 5,
+        "DESC": "AADT= 6000.  Connects neighborhoods and commuters between Rays Rd (collector) to Hambrick Rd (collector) to South Hairston (principal) to Goldsmtih (Right at Memorial Drive (minor art))",
+        "JUST": "Network Connectivity.  Consistent with the DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
