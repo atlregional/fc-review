@@ -10884,7 +10884,13 @@
         "Shape_Leng": 6654.34921948,
         "ARC_Length": 1.26029341278,
         "RCLINK_1": "0892693600",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Miller Rd/Lithonia Industrial Way",
+        "FC_NEW": 6,
+        "DESC": "Network Connectivity.  Industrial Area.  Connects Covington Hwy (SR 12) to Panola Road near I-20 interchange.  ",
+        "JUST": "Consistent with DeKalb CTP.",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
