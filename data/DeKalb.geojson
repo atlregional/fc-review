@@ -12836,7 +12836,12 @@
         "Shape_Leng": 482.617012934,
         "ARC_Length": 0.0914047372981,
         "RCLINK_1": "0893238721",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Mountain View Rd",
+        "FC_NEW": 6,
+        "DESC": "Please see other segments. This is broken into a lot of little segments in GIS- same explanation.  ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
