@@ -10546,7 +10546,15 @@
         "Shape_Leng": 9148.77691164,
         "ARC_Length": 1.73272289993,
         "RCLINK_1": "0892519700",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Auston Drive",
+        "FROM": "Snapfinger Rd",
+        "TO": "Redwing Circle",
+        "FC_NEW": 6,
+        "DESC": "Connects Snapfinger Rd to neighborhoods to Redwing Cir to Covington Hwy to I-285. ",
+        "JUST": "Network Connectivity.  Consistent with DeKalb CTP. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
