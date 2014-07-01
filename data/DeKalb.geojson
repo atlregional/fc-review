@@ -12015,7 +12015,13 @@
         "Shape_Leng": 3244.28572509,
         "ARC_Length": 0.614448053994,
         "RCLINK_1": "0893237921",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Sheppard Rd",
+        "FC_NEW": 6,
+        "DESC": "AADT= 3500 Connects Rockbridge Rd (minor art) to neighborhoods to City of Stone Mountain",
+        "JUST": "Network Connectivity.  Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
