@@ -428,7 +428,13 @@
         "Shape_Leng": 10038.9213512,
         "ARC_Length": 1.90131086196,
         "RCLINK_1": "0892018700",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Tilson Rd",
+        "FC_NEW": 6,
+        "DESC": "Connects Second Ave (collector) with neighborhoods with Candler Road (minor art) ",
+        "JUST": "Network Connectivity.  Consistent with DeKalb CTP. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
