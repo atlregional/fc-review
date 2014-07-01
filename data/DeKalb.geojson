@@ -1014,7 +1014,13 @@
         "Shape_Leng": 10105.8044407,
         "ARC_Length": 1.91397811378,
         "RCLINK_1": "0892017000",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Dawn Dr/White Mill Rd",
+        "FC_NEW": 6,
+        "DESC": "Connects Tilson Road with Neighborhoods to Candler Road (minor art)",
+        "JUST": "Network Conentivity. Consistent with the DeKalb CTP. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
