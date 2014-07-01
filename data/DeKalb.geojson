@@ -19,7 +19,13 @@
         "Shape_Leng": 9021.58372975,
         "ARC_Length": 1.70863328215,
         "RCLINK_1": "0892014200",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Henrico Rd",
+        "FC_NEW": 6,
+        "DESC": "Connects Moreland Ave (SR 42- proposed principal art) thru industrial area",
+        "JUST": "Network Connectivity, Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
