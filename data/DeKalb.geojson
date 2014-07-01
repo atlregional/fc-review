@@ -10290,7 +10290,13 @@
         "Shape_Leng": 3214.39131303,
         "ARC_Length": 0.608786233528,
         "RCLINK_1": "0892295600",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Memorial College Ave",
+        "FC_NEW": 6,
+        "DESC": "Connects Memorial Dr (minor art) to N Indian Creek.  Generators: GA Piedmont College, GA Perimeter College, DeKalb County School bus transfer location",
+        "JUST": "Network Connectivity.  Consistent with DeKalb CTP. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
