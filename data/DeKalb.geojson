@@ -9238,7 +9238,13 @@
         "Shape_Leng": 7439.67693258,
         "ARC_Length": 1.40902972208,
         "RCLINK_1": "0892156300",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Flowers Rd",
+        "FC_NEW": 5,
+        "DESC": "AADT= 6300, Connects office parks, Mercer University",
+        "JUST": "Network Connectivity, Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
