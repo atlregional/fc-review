@@ -2859,7 +2859,13 @@
         "Shape_Leng": 3452.57971377,
         "ARC_Length": 0.653897673062,
         "RCLINK_1": "0892074700",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Mountain View Rd",
+        "FC_NEW": 6,
+        "DESC": "Network Connectivity.  One side in City of St Mtn, one in DeKalb.  Will need fed $ to do any projects. Connects Memorial Drive to Sheppard Rd to Rockbridge Rd",
+        "JUST": "Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
