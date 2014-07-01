@@ -4814,7 +4814,13 @@
         "Shape_Leng": 8375.76723761,
         "ARC_Length": 1.58631955258,
         "RCLINK_1": "0892060500",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Miller Road",
+        "FC_NEW": 6,
+        "DESC": "Network Connectivity.  Industrial Area.  Connection between Snapfinger Woods Drive and Rock Springs Road.  ",
+        "JUST": "Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
