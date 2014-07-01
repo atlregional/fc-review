@@ -5967,7 +5967,13 @@
         "Shape_Leng": 10313.2160751,
         "ARC_Length": 1.95326062028,
         "RCLINK_1": "0892056400",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Boring Rd",
+        "FC_NEW": 6,
+        "DESC": "AADT= 3900.  Connects Wesley Chapel to Flat Shoals Parkway (SR 155).  Lots of neighborhoods.  ",
+        "JUST": "Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
