@@ -3896,7 +3896,15 @@
         "Shape_Leng": 4090.7141056,
         "ARC_Length": 0.774756459394,
         "RCLINK_1": "0892083100",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Norman Rd",
+        "FROM": "Church St",
+        "TO": "Rays Rd",
+        "FC_NEW": 6,
+        "DESC": "Connects Rays Rd with neighborhoods to Church St (which parallels E. Ponce de leon Ave on other side of RR tracks.  Extend segment limits to Church St.",
+        "JUST": "Network Connectivity.  Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
