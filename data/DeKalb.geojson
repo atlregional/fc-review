@@ -2455,7 +2455,13 @@
         "Shape_Leng": 6117.21800726,
         "ARC_Length": 1.15856401653,
         "RCLINK_1": "0892085300",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Northern Ave",
+        "FC_NEW": 6,
+        "DESC": "Connects Church St/E Ponce De Leon Ave to neighborhoods to N Decatur Rd",
+        "JUST": "Network Connectivity.  Consistent with DeKalb CTP. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
