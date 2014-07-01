@@ -5156,7 +5156,13 @@
         "Shape_Leng": 7282.51257995,
         "ARC_Length": 1.3792637462,
         "RCLINK_1": "0892059500",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Crossvale Rd",
+        "FC_NEW": 6,
+        "DESC": "Connects Salem Rd (minor art) to Evans Mill (minor art)",
+        "JUST": "Network connectivity, Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
