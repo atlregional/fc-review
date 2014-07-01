@@ -8536,7 +8536,15 @@
         "Shape_Leng": 8637.54827528,
         "ARC_Length": 1.63589929456,
         "RCLINK_1": "0892145400",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Fair Oaks Rd",
+        "FROM": "Lavista Rd",
+        "TO": "Oak Grove Rd",
+        "FC_NEW": 6,
+        "DESC": "Network Connectivity",
+        "JUST": "Consistent with DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
