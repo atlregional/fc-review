@@ -6604,7 +6604,13 @@
         "Shape_Leng": 9591.9608151,
         "ARC_Length": 1.81665924528,
         "RCLINK_1": "0892102200",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Lewis Road/Rock Mountain Blvd",
+        "FC_NEW": 6,
+        "DESC": "Industrial area connections to E. Ponce de Leon Ave (minor art) and N Hairston Rd (principal)",
+        "JUST": "Network Connectivity.  Consistent with DeKalb CTP. ",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
