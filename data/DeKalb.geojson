@@ -10704,7 +10704,13 @@
         "Shape_Leng": 2242.75345315,
         "ARC_Length": 0.424763911581,
         "RCLINK_1": "0892521800",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Key Rd",
+        "FC_NEW": 6,
+        "DESC": "Extension of existing Key Road Segment to Moreland Ave (SR 42).  ",
+        "JUST": "Connects neighborhoods and the industrial area. Consistent with the DeKalb CTP",
+        "stroke": "#00ff00",
+        "user": "PKeeter-DeKalbCo"
       },
       "geometry": {
         "type": "LineString",
