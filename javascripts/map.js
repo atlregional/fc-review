@@ -438,7 +438,7 @@ code = window.location.href.match(/\?code=(.*)/)[1];
 $('.btn').button()
 $('#gh-login').button('loading')
 
-var authUrl = dev ? 'http://localhost:9999' : 'http://gatekeeper-fc-review.herokuapp.com/'
+var authUrl = dev ? 'http://localhost:9999' : 'http://gatekeeper-fc-review.herokuapp.com'
 $.getJSON(authUrl + '/authenticate/'+code, function(data) {
 	
  console.log(data.token);
