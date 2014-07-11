@@ -31894,7 +31894,13 @@
         "2011AvAADT": 1640,
         "2010AvAADT": 1640,
         "OBJECTID_1": 4273,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Logan Drive",
+        "FC_NEW": 6,
+        "DESC": "Two lane urban street",
+        "JUST": "East-West connector in downtown Loganville area",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
