@@ -25062,7 +25062,15 @@
         "2011AvAADT": 3800,
         "2010AvAADT": 3890,
         "OBJECTID_1": 4246,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Centerville Rosebud Road",
+        "FROM": "Ga 20",
+        "TO": "Rosebud Road",
+        "FC_NEW": 5,
+        "DESC": "Two Lane Roadway",
+        "JUST": "Connector from GA 20 to Rosebud Road",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
