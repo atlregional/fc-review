@@ -28954,7 +28954,12 @@
         "2011AvAADT": 770,
         "2010AvAADT": 900,
         "OBJECTID_1": 4261,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Jersey-Walnut Grove Road",
+        "FC_NEW": 6,
+        "JUST": "Minor Collector",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
