@@ -35216,7 +35216,12 @@
         "2011AvAADT": 730,
         "2010AvAADT": 740,
         "OBJECTID_1": 4300,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Towler Street",
+        "FC_NEW": 7,
+        "JUST": "Dead End Street.....Local Road",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
