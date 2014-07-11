@@ -35040,7 +35040,11 @@
         "2011AvAADT": 4226.66666667,
         "2010AvAADT": 4340,
         "OBJECTID_1": 4299,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "South Madison Avenue",
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
