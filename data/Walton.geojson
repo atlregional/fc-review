@@ -21087,7 +21087,12 @@
         "2011AvAADT": 870,
         "2010AvAADT": 900,
         "OBJECTID_1": 4229,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Knox Chapel Road",
+        "FC_NEW": 6,
+        "JUST": "Low traffic volumes due to rural area",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
