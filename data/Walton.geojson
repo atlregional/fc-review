@@ -27448,7 +27448,13 @@
         "2011AvAADT": 2460,
         "2010AvAADT": 2500,
         "OBJECTID_1": 4257,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Pannell Road",
+        "FROM": "South Madison Av",
+        "TO": "Old Monroe Madison Hwy",
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
