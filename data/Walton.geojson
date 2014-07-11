@@ -17583,7 +17583,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4216,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Double Springs Road",
+        "FROM": "New Hope Church Road",
+        "TO": "Bold Springs Road",
+        "FC_NEW": 7,
+        "DESC": "Local Road",
+        "JUST": "Low Traffic Volumes, Road Geometry",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
