@@ -33314,7 +33314,11 @@
         "2011AvAADT": 2055,
         "2010AvAADT": 2090,
         "OBJECTID_1": 4284,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "West Highland Avenue",
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
