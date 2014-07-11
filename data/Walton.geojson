@@ -33653,7 +33653,15 @@
         "2011AvAADT": 800,
         "2010AvAADT": 840,
         "OBJECTID_1": 4287,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Mayfield Drive/Carwood Drive",
+        "FROM": "Broad Street",
+        "TO": "West Spring Street",
+        "FC_NEW": 6,
+        "DESC": "Small local connector",
+        "JUST": "FC should be Minor Collector based on traffic volumes",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
