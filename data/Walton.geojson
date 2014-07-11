@@ -20677,7 +20677,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4227,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Mount Vernon Road",
+        "FROM": "Gratis Road",
+        "TO": "US 78",
+        "FC_NEW": 6,
+        "DESC": "Minor Collector connecting Gratis Road and US 78",
+        "JUST": "Road Name incorrectly shown as \"Michael Road\" at Gratis Road Intersection.  Correct road name and change FC to minor collector from Gratis Road to US 78.",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
