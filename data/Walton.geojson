@@ -33016,7 +33016,14 @@
         "2011AvAADT": 3940,
         "2010AvAADT": 4010,
         "OBJECTID_1": 4281,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Pinecrest Drive",
+        "FROM": "West Spring St",
+        "TO": "McDaniel Street",
+        "FC_NEW": 5,
+        "JUST": "Connector from Broad St (GA 11) to Spring Street (US 78 B)",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
