@@ -37281,7 +37281,11 @@
         "2011AvAADT": 4210,
         "2010AvAADT": 4190,
         "OBJECTID_1": 4315,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Alcovy Street",
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
