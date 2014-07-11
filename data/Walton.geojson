@@ -4762,7 +4762,12 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4183,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Piney Grove Road",
+        "FC_NEW": 7,
+        "JUST": "Change to Local Road",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
