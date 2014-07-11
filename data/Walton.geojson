@@ -7425,7 +7425,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4187,
-        "County": "Walton"
+        "County": "Walton",
+        "FC_NEW": 5,
+        "NAME": "Bay Creek Church Road",
+        "DESC": "Two Lane urban connector",
+        "JUST": "Primary Connector between SR 81 and US 78, provides bypass of Loganville, Location of Loganville Middle and Primary Schools",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
