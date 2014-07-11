@@ -25591,7 +25591,15 @@
         "2011AvAADT": 3690,
         "2010AvAADT": 3780,
         "OBJECTID_1": 4249,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Youth-Jersey Road",
+        "FROM": "Ga 81",
+        "TO": "GA 138",
+        "FC_NEW": 5,
+        "DESC": "Two Lane Roadway",
+        "JUST": "Connector between SR 81 and SR 138 ",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
