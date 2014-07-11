@@ -36941,7 +36941,13 @@
         "2011AvAADT": 1180,
         "2010AvAADT": 1200,
         "OBJECTID_1": 4313,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Walton Road",
+        "FC_NEW": 6,
+        "DESC": "Minor Collector",
+        "JUST": "Connector from SR 11 to Gratis Road/Marable Street",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
