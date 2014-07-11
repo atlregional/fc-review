@@ -6098,7 +6098,14 @@
         "2011AvAADT": 10363.3333333,
         "2010AvAADT": 10341.6666667,
         "OBJECTID_1": 4186,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Spring Street (US 78 Business)",
+        "FROM": "US 78",
+        "TO": "US 78",
+        "FC_NEW": 4,
+        "JUST": "US 78 FC should be Principal Arterial, Spring Street FC should be Minor Arterial",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
