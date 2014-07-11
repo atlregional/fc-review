@@ -34236,7 +34236,11 @@
         "2011AvAADT": 250,
         "2010AvAADT": 310,
         "OBJECTID_1": 4292,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Edwards Street",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
