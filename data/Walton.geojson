@@ -31951,7 +31951,13 @@
         "2011AvAADT": 4800,
         "2010AvAADT": 4920,
         "OBJECTID_1": 4274,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "CS Floyd Road",
+        "FC_NEW": 5,
+        "DESC": "Two lane urban street",
+        "JUST": "Downtown Loganville area, connector between SR 81, SR 20 and US 78",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
