@@ -30343,7 +30343,15 @@
         "2011AvAADT": 4483.33333333,
         "2010AvAADT": 4653.33333333,
         "OBJECTID_1": 4265,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Center Hill Church Road/Youth-Monroe Road",
+        "FROM": "Ga 20",
+        "TO": "US 78",
+        "FC_NEW": 5,
+        "DESC": "Two lane roadway",
+        "JUST": "Primary connector from US 78 to SR 81 to SR 20",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
