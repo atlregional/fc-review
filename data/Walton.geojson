@@ -34122,7 +34122,10 @@
         "2011AvAADT": 480,
         "2010AvAADT": 490,
         "OBJECTID_1": 4290,
-        "County": "Walton"
+        "County": "Walton",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
@@ -34197,7 +34200,8 @@
         "County": "Walton",
         "FC_NEW": 7,
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "NAME": "Glen Iris Drive"
       },
       "geometry": {
         "type": "LineString",
