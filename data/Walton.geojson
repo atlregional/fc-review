@@ -36102,7 +36102,13 @@
         "2011AvAADT": 1810,
         "2010AvAADT": 1840,
         "OBJECTID_1": 4305,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Sorrells Street/Maple Lane",
+        "FC_NEW": 7,
+        "DESC": "Local Street",
+        "JUST": "Local Street",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
