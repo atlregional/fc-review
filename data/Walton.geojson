@@ -13432,7 +13432,12 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4204,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Troy Smith Road",
+        "FC_NEW": 7,
+        "JUST": "Correct name to \"Troy Smith Road\", change FC to Local Road",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
