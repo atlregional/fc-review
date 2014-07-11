@@ -10181,7 +10181,15 @@
         "2011AvAADT": 3990,
         "2010AvAADT": 4050,
         "OBJECTID_1": 4195,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Ozora Church Road",
+        "FROM": "SR 81",
+        "TO": "Walton County Line",
+        "FC_NEW": 6,
+        "DESC": "Minor Collecter",
+        "JUST": "Traffic Volumes, Connector between SR 20 and SR 81",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
