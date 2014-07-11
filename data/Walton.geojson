@@ -14033,7 +14033,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4207,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Lee Peters Road",
+        "FC_NEW": 7,
+        "JUST": "Change FC to Local Road",
+        "DESC": "Local Road",
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
