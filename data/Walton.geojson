@@ -34364,7 +34364,11 @@
         "2011AvAADT": 4915,
         "2010AvAADT": 4995,
         "OBJECTID_1": 4293,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Breedlove Drive",
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "JParker-WaltonCo"
       },
       "geometry": {
         "type": "LineString",
