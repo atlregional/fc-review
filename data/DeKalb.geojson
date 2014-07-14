@@ -270,7 +270,13 @@
         "Shape_Leng": 1736.71216987,
         "ARC_Length": 0.328922759446,
         "RCLINK_1": "0892060200",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Rock Springs Rd",
+        "FC_NEW": 5,
+        "DESC": "Request that Rock Springs Road's current classification be extended to include entire limits.",
+        "JUST": "Request that Rock Springs Road's current classification be extended to include entire limits.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
