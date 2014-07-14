@@ -536,7 +536,13 @@
         "Shape_Leng": 6654.30860215,
         "ARC_Length": 1.2602857201,
         "RCLINK_1": "0892901100",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Snapfinger Woods Dr",
+        "FC_NEW": 5,
+        "DESC": "Request that Snapfinger Woods Drive's current classification be extended to include entire limits.",
+        "JUST": "Request that Snapfinger Woods Drive's current classification be extended to include entire limits.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
