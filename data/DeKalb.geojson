@@ -360,7 +360,13 @@
         "Shape_Leng": 5145.30874598,
         "ARC_Length": 0.974490292798,
         "RCLINK_1": "0892224300",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Midway Rd",
+        "FC_NEW": 5,
+        "DESC": "Request that Midway Road's current classification be extended to include entire limits.",
+        "JUST": "Request that Midway Road's current classification be extended to include entire limits.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
