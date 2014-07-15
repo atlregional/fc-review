@@ -2415,7 +2415,11 @@
         "Shape_Leng": 10203.5284926,
         "ARC_Length": 1.93248645693,
         "RCLINK_1": "1172003700",
-        "County": "Forsyth"
+        "County": "Forsyth",
+        "FC_NEW": 5,
+        "NAME": "Mullinax Road",
+        "stroke": "#00ff00",
+        "user": "MKrayARC"
       },
       "geometry": {
         "type": "LineString",
