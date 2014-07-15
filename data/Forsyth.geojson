@@ -3395,7 +3395,11 @@
         "Shape_Leng": 21030.1619395,
         "ARC_Length": 3.98298521581,
         "RCLINK_1": "1172027600",
-        "County": "Forsyth"
+        "County": "Forsyth",
+        "NAME": "Spot Rd",
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "MKrayARC"
       },
       "geometry": {
         "type": "LineString",
