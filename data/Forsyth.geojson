@@ -19,7 +19,13 @@
         "Shape_Leng": 13908.2228625,
         "ARC_Length": 2.6341331179,
         "RCLINK_1": "1172001900",
-        "County": "Forsyth"
+        "County": "Forsyth",
+        "NAME": "Majors Road",
+        "FROM": "SR 141 (Peachtree Pkwy)",
+        "TO": "Shiloh Rd",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "MKrayARC"
       },
       "geometry": {
         "type": "LineString",
