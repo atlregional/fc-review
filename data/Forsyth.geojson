@@ -7040,7 +7040,11 @@
         "Shape_Leng": 20250.1146976,
         "ARC_Length": 3.83524899576,
         "RCLINK_1": "1172277900",
-        "County": "Forsyth"
+        "County": "Forsyth",
+        "NAME": "Windermere Parkway",
+        "FC_NEW": 4,
+        "stroke": "#00ff00",
+        "user": "MKrayARC"
       },
       "geometry": {
         "type": "LineString",
