@@ -2779,7 +2779,13 @@
         "Shape_Leng": 9182.29289602,
         "ARC_Length": 1.73907062425,
         "RCLINK_1": "1172003500",
-        "County": "Forsyth"
+        "County": "Forsyth",
+        "FC_NEW": 5,
+        "NAME": "Fowler Road (Mullinax Road)",
+        "FROM": "Union Hill Road",
+        "TO": "Mullinax Road",
+        "stroke": "#00ff00",
+        "user": "MKrayARC"
       },
       "geometry": {
         "type": "LineString",
