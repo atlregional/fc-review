@@ -7969,7 +7969,11 @@
         "Shape_Leng": 5252.98853987,
         "ARC_Length": 0.994884193157,
         "RCLINK_1": "1172328300",
-        "County": "Forsyth"
+        "County": "Forsyth",
+        "FC_NEW": 4,
+        "NAME": "Mathis Airport Pkwy",
+        "stroke": "#00ff00",
+        "user": "MKrayARC"
       },
       "geometry": {
         "type": "LineString",
