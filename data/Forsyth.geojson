@@ -4165,7 +4165,13 @@
         "Shape_Leng": 19161.685224,
         "ARC_Length": 3.62910704999,
         "RCLINK_1": "1172045600",
-        "County": "Forsyth"
+        "County": "Forsyth",
+        "NAME": "Union Hill Road",
+        "FROM": "Mullinax Road",
+        "TO": "Ronald Reagan Blvd",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "MKrayARC"
       },
       "geometry": {
         "type": "LineString",
