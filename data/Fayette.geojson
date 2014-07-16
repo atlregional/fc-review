@@ -29251,7 +29251,9 @@
         "DESC": "Curb & gutter road with varying number of lanes.",
         "JUST": "Request from Peachtree City.  Connects Minor Arterial with Principal Arterial.  One of few north-south corridors in PTC.  ",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "Advancing",
+        "issue_num": 399
       },
       "geometry": {
         "type": "LineString",
