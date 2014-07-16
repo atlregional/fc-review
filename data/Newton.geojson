@@ -11003,7 +11003,9 @@
         "JUST": "Roadway crosses multiple jurisdictions. This is a four lane section with 24,030 ADT. This is a state route. Needs to conform to surrounding network.",
         "DESC": 24,
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "Advancing",
+        "issue_num": 523
       },
       "geometry": {
         "type": "LineString",
