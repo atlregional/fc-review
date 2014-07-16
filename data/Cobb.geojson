@@ -98875,7 +98875,9 @@
         "DESC": 4,
         "JUST": "Coordinated with Marietta. In conjunction with request to change Terrell Mill Rd to Minor Arterial from US 41 to Lower Roswell Rd. Creates a continuous Minor Arterial link from I-75 to Lower Roswell Rd.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "Advancing",
+        "issue_num": 724
       },
       "geometry": {
         "type": "LineString",
