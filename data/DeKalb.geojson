@@ -79078,7 +79078,9 @@
         "DESC": "AADT 17K.  Connects to SR 8 (principal)  to City of Decatur and Avondale.  ",
         "JUST": "Network Connectivity.  DeKalb Farmers Market Generator.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "Advancing",
+        "issue_num": 536
       },
       "geometry": {
         "type": "LineString",
