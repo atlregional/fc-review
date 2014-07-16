@@ -50237,7 +50237,9 @@
         "JUST": "Coordinated with Marietta. In conjunction with request to change Delk Rd to Minor Arterial from I-75 to Terrell Rd. Creates a continuous Minor Arterial link from US-41 to Lower Roswell Rd.",
         "DESC": 4,
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "Advancing",
+        "issue_num": 748
       },
       "geometry": {
         "type": "LineString",
