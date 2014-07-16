@@ -74472,7 +74472,9 @@
         "DESC": 2,
         "JUST": "Requested FC is included in County FC Plan; I-85 interchange access; matches FC east of I-85",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "Advancing",
+        "issue_num": 271
       },
       "geometry": {
         "type": "LineString",
