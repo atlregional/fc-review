@@ -59048,7 +59048,9 @@
         "DESC": 2,
         "JUST": "Increasing traffic volumes from commuters accessing employment centers along Fulton Industrial Blvd, etc.; matches proposed FC change in City of Chattahoochee Hills; already classified as a Minor Arterial south of Little Wahoo Creek.",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "Advancing",
+        "issue_num": 477
       },
       "geometry": {
         "type": "LineString",
