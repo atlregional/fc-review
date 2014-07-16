@@ -9295,7 +9295,9 @@
         "DESC": 4,
         "JUST": "increase in traffic due to new large scale commercial development",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "Advancing",
+        "issue_num": 632
       },
       "geometry": {
         "type": "LineString",
