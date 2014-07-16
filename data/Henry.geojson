@@ -37163,7 +37163,9 @@
         "DESC": "EB 2 lane section of SR20/81 from SR42 to SR155. Existing seciton of the GDOT E-W One Way Pairs.  AADT 15,000",
         "JUST": "Heavy traffic volume moving eastbound.  Part of the SR20/81 route through McDonough.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "Advancing",
+        "issue_num": 566
       },
       "geometry": {
         "type": "LineString",
