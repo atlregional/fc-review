@@ -27419,7 +27419,9 @@
         "DESC": 2,
         "JUST": "Roadway supports large residential developments and school traffic on adjacent roadway.",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "Advancing",
+        "issue_num": 627
       },
       "geometry": {
         "type": "LineString",
