@@ -686,7 +686,7 @@ function populateIssues(){
 				status = '<span class="label label-success">'+stat+'</span>'
 			}
 			if (issue.milestone != null && issue.milestone.title == "GDOT Approved"){
-				stat = "Advancing"
+				stat = "GDOT Approved"
 				status = '<span class="label label-success">'+stat+'</span>'
 			}
 			else if (issue.milestone != null && issue.milestone.title == "In Review"){
