@@ -15090,7 +15090,9 @@
         "DESC": 4,
         "JUST": "Continuation of recommended change on SR20 east of this section.  SR20 connects to Hwy 19/41 & I-75.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "Advancing",
+        "issue_num": 549
       },
       "geometry": {
         "type": "LineString",
