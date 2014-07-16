@@ -59993,7 +59993,9 @@
         "DESC": "Two lane roadway with 5,617 ADT",
         "JUST": "Roadway should be upgraded to minor arterial to conform to surrounding network. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "Advancing",
+        "issue_num": 511
       },
       "geometry": {
         "type": "LineString",
