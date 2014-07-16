@@ -97929,7 +97929,9 @@
         "DESC": "AADT between 32K and 50K.  Connects Buford Hwy to I-85 to Lawrenceville Hwy to Stone Mountain Freeway.  Also connects to major state routes:  Briarcliff, Lavista, Clairmont",
         "JUST": "System connectivity.  Major east/west road in DeKalb.  Gateway to Emory/CDC/VA from two major limited access facilities.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "Advancing",
+        "issue_num": 352
       },
       "geometry": {
         "type": "LineString",
