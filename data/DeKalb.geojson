@@ -121481,7 +121481,9 @@
         "DESC": "AADT 2012: 10040 vpd (from GDOT)",
         "JUST": "Serves as a e-w connection from SR 141 to I-85/Chamblee Tucker area, crossing Clairmont Road and Buford Hwy/SR 23.  Connection between Brookhaven, Chamblee, and Doraville.  Designated in DeKalb CTP as a minor arterial.",
         "stroke": "#00ff00",
-        "user": "RMeehan-BrookhavenGa"
+        "user": "RMeehan-BrookhavenGa",
+        "status": "Advancing",
+        "issue_num": 401
       },
       "geometry": {
         "type": "LineString",
