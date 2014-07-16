@@ -78985,7 +78985,9 @@
         "DESC": "Major roadway, high volumes of traffic",
         "JUST": "High volumes of traffic ",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "Advancing",
+        "issue_num": 464
       },
       "geometry": {
         "type": "LineString",
