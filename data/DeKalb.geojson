@@ -51546,7 +51546,9 @@
         "DESC": "AADT 50K.  Requested from Buford Hwy (SR 13) to I-85 to Lawrenceville Hwy (SR 8) to Stone Mountain Freeway.  Connects to major state routes:  Clairmont (SR 155), Lavista      (SR 236), Briarcliff (SR 42).",
         "JUST": "Network connectivity- Major east/west road in DeKalb.  Gateway to Emory/CDC/VA from two limited access facilities.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "Advancing",
+        "issue_num": 355
       },
       "geometry": {
         "type": "LineString",
