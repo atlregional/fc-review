@@ -87866,7 +87866,9 @@
         "DESC": "While AADT is 15K, it seems for network connectivity- this should be a minor arterial connecting between South Hairston (principal) and Covington Hwy (proposed principal, existing minor).  ",
         "JUST": "Network Connectivity.  The context of the road is not that of a collector.  Five lane section that connects Covington Hwy to I-20.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "Advancing",
+        "issue_num": 365
       },
       "geometry": {
         "type": "LineString",
