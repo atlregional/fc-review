@@ -112176,7 +112176,9 @@
         "DESC": "Connects Lawrenceville Hwy (SR 8, proposed major, existing minor) with Stone Mountain Freeway to E. Ponce de Leon Ave (minor)",
         "JUST": "Network Connectivity.  Commuters use this road to avoid the east wall of I-285 by taking St Mtn Freeway to Cooledge (which turns into Northlake Parkway) to I-285.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "Advancing",
+        "issue_num": 377
       },
       "geometry": {
         "type": "LineString",
