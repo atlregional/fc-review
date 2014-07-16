@@ -24732,7 +24732,9 @@
         "DESC": "AADT 25K- Connects Stone Mountain Freeway with I-285. Gwinnett commuters- often used as an alternate to I-85 north.  RTOP corridor.",
         "JUST": "Network Connectivity.  Might make sense to extend limits to the intersection of Jimmy Carter (Principal Arterial) intersection.  Important commuter link between City of Decatur, Emory, CDC, VA and Gwinnett County.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "Advancing",
+        "issue_num": 356
       },
       "geometry": {
         "type": "LineString",
