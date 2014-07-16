@@ -682,7 +682,11 @@ function populateIssues(){
 			var created = moment(issue.created_at).format("M/D/YY");
 			var drop = false;
 			if (issue.milestone != null && issue.milestone.title == "Advancing"){
-				stat = "Accepted"
+				stat = "Advancing"
+				status = '<span class="label label-success">'+stat+'</span>'
+			}
+			if (issue.milestone != null && issue.milestone.title == "GDOT Approved"){
+				stat = "Advancing"
 				status = '<span class="label label-success">'+stat+'</span>'
 			}
 			else if (issue.milestone != null && issue.milestone.title == "In Review"){
