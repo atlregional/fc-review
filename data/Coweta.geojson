@@ -54131,7 +54131,17 @@
         "2011AvAADT": 12084,
         "2010AvAADT": 12034,
         "OBJECTID_1": 1355,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "SR 154 (McCollum Sharpsburg Road)",
+        "FROM": "US 29",
+        "TO": "SR 34",
+        "FC_NEW": 3,
+        "DESC": 2,
+        "JUST": "SR 154 is located within the most densely populated area in unincorporated northeastern Coweta County; it is a high volume corridor used by the traveling public to access I-85 via the Exit 51 interchange; this section is planned for future widening (CW-063/PI#0008619)",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo",
+        "status": "Advancing",
+        "issue_num": 564
       },
       "geometry": {
         "type": "LineString",
