@@ -94137,10 +94137,13 @@
         "OBJECTID_1": 1152,
         "County": "Cobb",
         "FC_NEW": 4,
-        "DESC": "In coordination with Cumberland CID and City of Smyrna.\n4 lanes divided with median from US 41 (south of I-285) to Cumberland Pkwy; \n4 lanes w/ CTL from Cumberland Pkwy to US 41 Pkwy (north of I-285); AADT: E of Cumberland Pkwy: 21,300 (2005); N of Riverwood: 10,700 (2007); \nCobb MTP FC: Arterial",
+        "DESC": "In coordination with Cumberland CID and City of Smyrna.\n4 lanes divided with median from US 41 (south of I-285) to Cumberland Pkwy; \n4 lanes w/ CTL from Cumberland Pkwy to US 41 (north of I-285);\n AADT: E of Cumberland Pkwy: 21,300 (2005); N of Riverwood: 10,700 (2007); \nCobb MTP FC: Arterial; (segment is part of request for Cumberland Blvd from US 41 south of I-285 to US 41 north of I-285.",
         "JUST": "Create \"minor arterial\" loop for Cumberland area in conjunction with Cumberland Blvd and Windy Ridge Rd (currently designated as \"minor arterial\"",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "NAME": "Cumberland Blvd",
+        "status": "Advancing",
+        "issue_num": 767
       },
       "geometry": {
         "type": "LineString",
