@@ -55850,7 +55850,9 @@
         "DESC": "Please add Floyd Rd from Clay Rd to Austell Rd to this request. 4 lanes w/ CTL VMH to Clay Rd; 4 lanes divided with median from Clay Rd to Hicks Rd; 2 lanes w/ CTL Hicks Rd to Austell Rd; AADT: N of Barnes: 36,100 (2003); S of Concord: 19,700 (2005); N of Albury: 14,600 (2005); Cobb MTP FC: Arterial. Connects Mableton activity center to Austell Rd activity center near Cobb Hospital",
         "JUST": "Connects LCI/activity centers at Mableton and Austell Rd Corridor. Road improvements in progress VMH to Hicks Rd (Clay to Hicks open to traffic). Extends \"minor arterial\" from Mableton Pkwy/SR 139",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "Advancing",
+        "issue_num": 777
       },
       "geometry": {
         "type": "LineString",
