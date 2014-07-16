@@ -48,22 +48,32 @@ $('#reject').click(function(){
 	// create comment
 
 	// assign label?
-	changeIssueStatus(this, 'On Hold', 6);
+	changeIssueStatus(this, 'Rejected', 7);
 })
-$('#in-review').click(function(){
+$('#on-hold').click(function(){
 	// write to county file
 	
-	changeIssueStatus(this, 'In Review', 2);
+	changeIssueStatus(this, 'On Hold', 6);
 
 
 	// create comment
 
 	// assign label?
 })
-$('#approve').click(function(){
+$('#arc-advancing').click(function(){
 	// write to county file
 	
 	changeIssueStatus(this, 'Advancing', 1);
+
+
+	// create comment
+
+	// assign label?
+})
+$('#gdot-approved').click(function(){
+	// write to county file
+	
+	changeIssueStatus(this, 'GDOT Approved', 4);
 
 
 	// create comment
