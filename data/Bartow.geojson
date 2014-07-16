@@ -26996,7 +26996,9 @@
         "DESC": "AADT 5300",
         "JUST": "Traffic falls below range for Principal Arterials.\nRecommended by CBMPO Policy Committee 6/2/2014",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "Advancing",
+        "issue_num": 245
       },
       "geometry": {
         "type": "LineString",
