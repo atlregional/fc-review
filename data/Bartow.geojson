@@ -53797,7 +53797,9 @@
         "DESC": "AADT: 3000+",
         "JUST": "This section of Grassdale Road accepts traffic from substantial residential areas to the south and west of US 41. The segment provides residential access to US 41, and eventually I-75. Recommended by CBMPO Policy Committee 6/2/2014.",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "Advancing",
+        "issue_num": 254
       },
       "geometry": {
         "type": "LineString",
