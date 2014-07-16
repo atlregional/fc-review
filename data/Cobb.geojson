@@ -49999,7 +49999,9 @@
         "FC_NEW": 4,
         "DESC": 4,
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "Advancing",
+        "issue_num": 725
       },
       "geometry": {
         "type": "LineString",
