@@ -5897,7 +5897,9 @@
         "DESC": "Traffic generator: Cartersville-Bartow Airport",
         "JUST": "Traffic volumes not sufficient to justify Principal Arterial status.Also addresses connectivity to minor arterial running north out of Paulding County. Recommended by CBMPO Policy Committee 6/2/2014.",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "Advancing",
+        "issue_num": 261
       },
       "geometry": {
         "type": "LineString",
