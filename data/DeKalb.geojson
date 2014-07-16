@@ -63854,7 +63854,9 @@
         "DESC": "new alignment completed since last review to connect with Bouldercrest.  This is the preferred route instead of Ward Lake Road.  ",
         "JUST": "Network Connectivity.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "Advancing",
+        "issue_num": 715
       },
       "geometry": {
         "type": "LineString",
