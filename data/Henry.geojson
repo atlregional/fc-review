@@ -70712,7 +70712,9 @@
         "DESC": "This is a 2-lane roadway ",
         "JUST": "This roadway has high volumes of traffic and serves as a connection between state routes and interstate 75",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "Advancing",
+        "issue_num": 467
       },
       "geometry": {
         "type": "LineString",
