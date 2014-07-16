@@ -51735,7 +51735,9 @@
         "DESC": "Two lane roadway with high traffic volumes",
         "JUST": "Roadway should be increased to minor arterial due to increased traffic and conformance to surrounding network. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "Advancing",
+        "issue_num": 509
       },
       "geometry": {
         "type": "LineString",
