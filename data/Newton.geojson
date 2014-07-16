@@ -10583,7 +10583,9 @@
         "JUST": "Continuity with GDOT proposed change to S.R. 142 north of I-20",
         "DESC": "Connects I-20 to S.R. 81",
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "Advancing",
+        "issue_num": 516
       },
       "geometry": {
         "type": "LineString",
