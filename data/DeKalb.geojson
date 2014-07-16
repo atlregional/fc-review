@@ -122061,7 +122061,9 @@
         "DESC": "AADT (2012) 15,040 (gdot).  Connection from Brookhaven MARTA/Peachtree Rd Business District to I-85/Buford Hwy",
         "JUST": "N-S connection between Peachtree Rd/SR 141 and Buford Hwy/I-85 and N Druid Hills Rd south of I-85 to Decatur.  AADT > 15000 vpd.  Provides N-S connectivity from Brookhaven MARTA and the Peachtree Rd Business District to Decatur and to I-85.",
         "stroke": "#00ff00",
-        "user": "RMeehan-BrookhavenGa"
+        "user": "RMeehan-BrookhavenGa",
+        "status": "Advancing",
+        "issue_num": 402
       },
       "geometry": {
         "type": "LineString",
