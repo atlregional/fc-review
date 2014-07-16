@@ -707,7 +707,7 @@ function populateIssues(){
 			}
 			// else if (issue.label)
 
-			else{
+			else if (issue.milestone == "Test"){
 				drop = true;
 				issues.splice(i, 1, "")
 			}
