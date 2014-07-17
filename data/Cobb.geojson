@@ -33188,7 +33188,13 @@
         "2011AvAADT": 9205,
         "2010AvAADT": 11430,
         "OBJECTID_1": 969,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Hiram Acworth Hwy (SR 92)",
+        "FC_NEW": 3,
+        "DESC": "Part of 92 corridor that is advancing for GDOT approval.",
+        "JUST": "Part of 92 corridor that is advancing for GDOT approval.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
