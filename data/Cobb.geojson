@@ -32976,7 +32976,13 @@
         "2011AvAADT": 17600,
         "2010AvAADT": 17960,
         "OBJECTID_1": 968,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Dallas Acworth Hwy",
+        "FC_NEW": 3,
+        "DESC": "Connects SR 92 into Cobb Pkwy, both of which are proposed to become Principal Arterials.",
+        "JUST": "Connects SR 92 into Cobb Pkwy, both of which are proposed to become Principal Arterials.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
