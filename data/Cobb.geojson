@@ -32982,7 +32982,9 @@
         "DESC": "Connects SR 92 into Cobb Pkwy, both of which are proposed to become Principal Arterials.",
         "JUST": "Connects SR 92 into Cobb Pkwy, both of which are proposed to become Principal Arterials.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1012
       },
       "geometry": {
         "type": "LineString",
