@@ -25126,7 +25126,13 @@
         "2011AvAADT": 1390,
         "2010AvAADT": 4510,
         "OBJECTID_1": 3550,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Linecrest Road",
+        "FC_NEW": 4,
+        "DESC": "See DeKalb submission #715.  New Alignment was completed and this segment ties into existing Minor Arterial.",
+        "JUST": "See DeKalb submission #715.  New Alignment was completed and this segment ties into existing Minor Arterial.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
