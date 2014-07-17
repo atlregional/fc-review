@@ -34544,7 +34544,9 @@
         "DESC": "If DeKalb portion of L'Ville Hwy is upgraded, needs to connect into Jimmy Carter.  Talk to Gwinnett to see if there is a desire to change entire segment since it serves as a connection between Gwinnett and DeKalb/Emory area.",
         "JUST": "If DeKalb portion of L'Ville Hwy is upgraded, needs to connect into Jimmy Carter.  Talk to Gwinnett to see if there is a desire to change entire segment since it serves as a connection between Gwinnett and DeKalb/Emory area.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1007
       },
       "geometry": {
         "type": "LineString",
