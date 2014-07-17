@@ -93482,7 +93482,13 @@
         "2011AvAADT": 8060,
         "2010AvAADT": 8980,
         "OBJECTID_1": 1649,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Dresden Drive",
+        "FC_NEW": 4,
+        "DESC": "Connects proposed Minor Arterial to another Minor Arterial.  Should not be upgraded if Issue #401 isn't approved.",
+        "JUST": "Connects proposed Minor Arterial to another Minor Arterial.  Should not be upgraded if Issue #401 isn't approved.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
