@@ -33194,7 +33194,9 @@
         "DESC": "Part of 92 corridor that is advancing for GDOT approval.",
         "JUST": "Part of 92 corridor that is advancing for GDOT approval.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1008
       },
       "geometry": {
         "type": "LineString",
