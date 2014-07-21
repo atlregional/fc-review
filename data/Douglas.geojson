@@ -13679,7 +13679,9 @@
         "DESC": "Continuation of existing Minor Arterial.  Becomes Minor Arterial in Villa Rica.  Support of system continuity.",
         "JUST": "Continuation of existing Minor Arterial.  Becomes Minor Arterial in Villa Rica.  Support of system continuity.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1016
       },
       "geometry": {
         "type": "LineString",
