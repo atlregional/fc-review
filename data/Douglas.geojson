@@ -13673,7 +13673,13 @@
         "2011AvAADT": 6143.33333333,
         "2010AvAADT": 6110,
         "OBJECTID_1": 2029,
-        "County": "Douglas"
+        "County": "Douglas",
+        "NAME": "Bankhead Hwy",
+        "FC_NEW": 4,
+        "DESC": "Continuation of existing Minor Arterial.  Becomes Minor Arterial in Villa Rica.  Support of system continuity.",
+        "JUST": "Continuation of existing Minor Arterial.  Becomes Minor Arterial in Villa Rica.  Support of system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
