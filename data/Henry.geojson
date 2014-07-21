@@ -52844,7 +52844,9 @@
         "DESC": "S end of road begins as 4 lane with raised median and transitions to 2 lane.  AADT 20,000 with heavy truck volume.",
         "JUST": "Heavy volume.  Also bridge has been placed over r/r to improve mobility.  Rock Quarry together with Patrick Henry Pkwy to the south provides good link between Jodeco Rd and SR42/138 (N Henry Blvd).",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "Advancing",
+        "issue_num": 638
       },
       "geometry": {
         "type": "LineString",
