@@ -33909,7 +33909,13 @@
         "2011AvAADT": 5940,
         "2010AvAADT": 6030,
         "OBJECTID_1": 792,
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Battlecreek Rd",
+        "FC_NEW": 4,
+        "DESC": "Network continuity - connects two Minor Arterials.  Also on the Regional Thoroughfares Network, so should be classified as a Minor Arterial or higher.",
+        "JUST": "Network continuity - connects two Minor Arterials.  Also on the Regional Thoroughfares Network, so should be classified as a Minor Arterial or higher.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
