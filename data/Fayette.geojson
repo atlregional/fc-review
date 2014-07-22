@@ -38375,7 +38375,9 @@
         "DESC": "Varying number of lanes; curb & gutter; two traffic signals; non-residential land use.",
         "JUST": "Connects two State Routes and classification change matches recommendation to eastern segment of Banks.  Heavy use for commercial shopping, residential areas, and commuter traffic.  ",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "Advancing",
+        "issue_num": 398
       },
       "geometry": {
         "type": "LineString",
