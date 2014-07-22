@@ -18764,7 +18764,9 @@
         "DESC": "Two-lane road, shoulder and ditch",
         "JUST": "Increasing traffic, connects two Principal Arterials.  Used as option around downtown Fayetteville.",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "Advancing",
+        "issue_num": 397
       },
       "geometry": {
         "type": "LineString",
