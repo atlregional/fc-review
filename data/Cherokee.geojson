@@ -80709,7 +80709,9 @@
         "DESC": "ARC Proposal: Should not change functional class at Holbrook; extend Minor Arterial designation up to Cumming Hwy to promote system continuity.",
         "JUST": "ARC Proposal: Should not change functional class at Holbrook; extend Minor Arterial designation up to Cumming Hwy to promote system continuity.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1066
       },
       "geometry": {
         "type": "LineString",
