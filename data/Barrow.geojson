@@ -21360,7 +21360,9 @@
         "DESC": "ARC Proposal: Upgrade Major Collector portion north of University Pkwy as Minor Arterial to promote system continuity/provide logical terminus.",
         "JUST": "ARC Proposal: Upgrade Major Collector portion north of University Pkwy as Minor Arterial to promote system continuity/provide logical terminus.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1037
       },
       "geometry": {
         "type": "LineString",
