@@ -26733,7 +26733,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4248,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Youth Jersey Road",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Should change classification at SR 138 (logical terminus of the MA) rather than at a local road.",
+        "JUST": "ARC Proposal: Should change classification at SR 138 (logical terminus of the MA) rather than at a local road.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
