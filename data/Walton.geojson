@@ -31313,7 +31313,13 @@
         "2011AvAADT": 2830,
         "2010AvAADT": 2930,
         "OBJECTID_1": 4264,
-        "County": "Walton"
+        "County": "Walton",
+        "DESC": "ARC Proposal: Should change classification at US 78 (logical terminus of the MA) rather than at a local road.",
+        "JUST": "ARC Proposal: Should change classification at US 78 (logical terminus of the MA) rather than at a local road.",
+        "NAME": "Youth Monroe Road",
+        "FC_NEW": 4,
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
