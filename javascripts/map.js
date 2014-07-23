@@ -29,6 +29,7 @@ var changesBase = L.tileLayer('http://api.tiles.mapbox.com/v3/atlregional.i86o78
 var issueData;
 // map.on('click', onMapClick);
 var geojson;
+var geojsonChanges;
 
 map.on("zoomend", function (e) { 
 	console.log("ZOOMEND", e); 
@@ -743,9 +744,9 @@ function drawGeoJSON(county, changes, drawMap){
 					}).addTo(map);
 				}
 				else if (changes){
-					var geojsonChanges = L.geoJson(data, {
+					geojsonChanges = L.geoJson(data, {
 						filter: function(feature, layer){
-							if (typeof feature.properties.FC_NEW !== 'undefined' && feature.properties.status === "Advancing"){  // && feature.properties.F_SYSTEM < 7){
+							if (typeof feature.properties.FC_NEW !== 'undefined' && feature.properties.status === $('#changes-map-select option:selected').text()){  // && feature.properties.F_SYSTEM < 7){
 									console.log(feature.properties);
 									return true
 							}
@@ -827,7 +828,18 @@ function drawIssueData(data, issueMap, linkdata){
 	}).addTo(issueMap);
 	issueMap.fitBounds(issueBounds)
 }
-
+function clearMap(m) {
+    for(i in m._layers) {
+        if(m._layers[i]._path != undefined) {
+            try {
+                m.removeLayer(m._layers[i]);
+            }
+            catch(e) {
+                console.log("problem with " + e + m._layers[i]);
+            }
+        }
+    }
+}
 function drawChanges(){
 	var counties = [
 		"Barrow",

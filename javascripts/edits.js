@@ -26,7 +26,7 @@ $('#map-tab').click(function(){
 	  }, 200);
 	drawChanges()
 })
-$('.form-control').change(function(){
+$('.change-form').change(function(){
 	formChange = true;
 	var newValue = $(this).val()
 	console.log(newValue)
@@ -38,6 +38,12 @@ $('.form-control').change(function(){
 
 
 })
+
+$('#changes-map-select').change(function(){
+	clearMap(changesMap);
+	drawChanges();
+})
+
 $('#submit-changes').click(function(){
 	$('#submit-issue').removeAttr('disabled')
 })
