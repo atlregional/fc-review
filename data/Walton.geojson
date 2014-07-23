@@ -26755,7 +26755,9 @@
         "DESC": "ARC Proposal: Should change classification at SR 138 (logical terminus of the MA) rather than at a local road.",
         "JUST": "ARC Proposal: Should change classification at SR 138 (logical terminus of the MA) rather than at a local road.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1031
       },
       "geometry": {
         "type": "LineString",
