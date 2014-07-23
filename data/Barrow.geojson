@@ -22871,7 +22871,9 @@
         "DESC": "ARC Proposal: Classified as Major Collector to the north and this would extend that designation down to the Minor Arterial; promotes system continuity.",
         "JUST": "ARC Proposal: Classified as Major Collector to the north and this would extend that designation down to the Minor Arterial; promotes system continuity.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1057
       },
       "geometry": {
         "type": "LineString",
