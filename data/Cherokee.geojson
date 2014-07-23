@@ -35242,7 +35242,15 @@
         "2011AvAADT": 5705,
         "2010AvAADT": 5460,
         "OBJECTID_1": 591,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Birmingham Rd / Freehome Hwy",
+        "FROM": "Fulton County line",
+        "TO": "Cumming Hwy",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Should not change functional class at county line; extend Minor Arterial designation up to Cumming Hwy to promote system continuity.",
+        "JUST": "ARC Proposal: Should not change functional class at county line; extend Minor Arterial designation up to Cumming Hwy to promote system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
