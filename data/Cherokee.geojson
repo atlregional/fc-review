@@ -56466,7 +56466,13 @@
         "2011AvAADT": 6530,
         "2010AvAADT": 6760,
         "OBJECTID_1": 606,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Ball Ground Hwy",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "JUST": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
