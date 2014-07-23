@@ -20765,7 +20765,15 @@
         "2011AvAADT": 4690,
         "2010AvAADT": 4706.66666667,
         "OBJECTID_1": 65,
-        "County": "Barrow"
+        "County": "Barrow",
+        "NAME": "Carl Bethlehem Road",
+        "FROM": "Northern extent",
+        "TO": "University Parkway",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Upgrade Major Collector portion north of University Pkwy as Minor Arterial to promote system continuity/provide logical terminus.",
+        "JUST": "ARC Proposal: Upgrade Major Collector portion north of University Pkwy as Minor Arterial to promote system continuity/provide logical terminus.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
