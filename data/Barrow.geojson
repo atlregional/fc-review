@@ -1329,7 +1329,13 @@
         "2011AvAADT": 5020,
         "2010AvAADT": 5200,
         "OBJECTID_1": 5,
-        "County": "Barrow"
+        "County": "Barrow",
+        "NAME": "Hog Mountain Road",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Should change Minor Arterial designation at another arterial; promotes system continuity.",
+        "JUST": "ARC Proposal: Should change Minor Arterial designation at another arterial; promotes system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
