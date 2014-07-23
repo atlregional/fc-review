@@ -44915,7 +44915,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 2279,
-        "County": "Forsyth"
+        "County": "Forsyth",
+        "NAME": "Dr Bramlett Rd",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Should not change functional class at the river; extend Minor Arterial designation up to Matt Hwy to promote system continuity.",
+        "JUST": "ARC Proposal: Should not change functional class at the river; extend Minor Arterial designation up to Matt Hwy to promote system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
