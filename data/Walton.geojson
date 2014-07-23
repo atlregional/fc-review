@@ -1603,7 +1603,13 @@
         "2011AvAADT": 12713.3333333,
         "2010AvAADT": 12493.3333333,
         "OBJECTID_1": 4171,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "SR 138",
+        "FC_NEW": 3,
+        "DESC": "ARC Proposal: Section of SR 138 in Newton and Rockdale is proposed as Principal Arterial.  To enhance network continuity, ARC proposed to extend the PA designation NE to W Spring St in Monroe, which is currently classified as a PA. ",
+        "JUST": "ARC Proposal: Section of SR 138 in Newton and Rockdale is proposed as Principal Arterial.  To enhance network continuity, ARC proposed to extend the PA designation NE to W Spring St in Monroe, which is currently classified as a PA. ",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
