@@ -26998,7 +26998,13 @@
         "2011AvAADT": 3680,
         "2010AvAADT": 3810,
         "OBJECTID_1": 4250,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Bold Springs Road",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
+        "JUST": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
