@@ -875,7 +875,13 @@
         "2011AvAADT": 16885,
         "2010AvAADT": 17685,
         "OBJECTID_1": 3,
-        "County": "Barrow"
+        "County": "Barrow",
+        "NAME": "E May Street / Atlanta Hwy",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Should not be a Principal Arterial for downtown Winder portion; although road serves a high level of mobility, the downtown portion has a high level of access.  This change also enhances system continuity because the segment is classified as a Minor Arterial at both ends.",
+        "JUST": "ARC Proposal: Should not be a Principal Arterial for downtown Winder portion; although road serves a high level of mobility, the downtown portion has a high level of access.  This change also enhances system continuity because the segment is classified as a Minor Arterial at both ends.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
