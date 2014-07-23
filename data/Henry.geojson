@@ -28853,7 +28853,7 @@
         "County": "Henry",
         "NAME": "SR155",
         "FC_NEW": 3,
-        "DESC": "Test",
+        "DESC": 2,
         "JUST": "High traffic volume and congestion.  Warehouse distribution centers prevalent.  Study of SR155 will be part of county's feasibility study for new interchange.  Part of roadway system b/t Spalding County, into and through Henry Co.",
         "stroke": "#00ff00",
         "user": "CMatthews-HenryCo"
@@ -75570,7 +75570,13 @@
         "2011AvAADT": 2160,
         "2010AvAADT": 2240,
         "OBJECTID_1": 3673,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Locust Grove - Griffin Road",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Connects two arterials and currently changes FC at Spalding County line.",
+        "JUST": "ARC Proposal: Connects two arterials and currently changes FC at Spalding County line.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
