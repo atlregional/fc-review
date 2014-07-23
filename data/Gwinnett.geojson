@@ -61775,7 +61775,9 @@
         "DESC": "ARC Proposal: extends Minor Arterial designation to end at a proposed Principal Arterial (Sugarloaf Pkwy).",
         "JUST": "ARC Proposal: extends Minor Arterial designation to end at a proposed Principal Arterial (Sugarloaf Pkwy).",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1054
       },
       "geometry": {
         "type": "LineString",
