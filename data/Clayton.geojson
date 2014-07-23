@@ -18057,7 +18057,15 @@
         "2011AvAADT": 10645,
         "2010AvAADT": 10480,
         "OBJECTID_1": 746,
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "McDonough Road",
+        "FROM": "Henry County",
+        "TO": "Tara Blvd",
+        "FC_NEW": 3,
+        "DESC": "ARC Proposal: Jonesboro Road proposed as PA in Henry; this connects the PA to Tara Blvd (another PA).",
+        "JUST": "ARC Proposal: Jonesboro Road proposed as PA in Henry; this connects the PA to Tara Blvd (another PA).",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
