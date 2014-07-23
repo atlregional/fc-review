@@ -68434,7 +68434,9 @@
         "DESC": "ARC Proposal: Upgrade to Minor Arterial because it serves as a reliever to the interstate; high AADT and portions are divided.  This road is on the Regional Thoroughfares Network.",
         "JUST": "ARC Proposal: Upgrade to Minor Arterial because it serves as a reliever to the interstate; high AADT and portions are divided.  This road is on the Regional Thoroughfares Network.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1061
       },
       "geometry": {
         "type": "LineString",
