@@ -38194,7 +38194,13 @@
         "2011AvAADT": 7020,
         "2010AvAADT": 7183.33333333,
         "OBJECTID_1": 592,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Hightower Road",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "JUST": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
