@@ -28837,7 +28837,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 174,
-        "County": "Barrow"
+        "County": "Barrow",
+        "NAME": "Mt Moriah Rd",
+        "FC_NEW": 5,
+        "DESC": "ARC Proposal: Classified as Major Collector to the north and this would extend that designation down to the Minor Arterial; promotes system continuity.",
+        "JUST": "ARC Proposal: Classified as Major Collector to the north and this would extend that designation down to the Minor Arterial; promotes system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
