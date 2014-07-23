@@ -18065,7 +18065,9 @@
         "DESC": "ARC Proposal: Jonesboro Road proposed as PA in Henry; this connects the PA to Tara Blvd (another PA).",
         "JUST": "ARC Proposal: Jonesboro Road proposed as PA in Henry; this connects the PA to Tara Blvd (another PA).",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1023
       },
       "geometry": {
         "type": "LineString",
