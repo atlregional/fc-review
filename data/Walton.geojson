@@ -1609,7 +1609,9 @@
         "DESC": "ARC Proposal: Section of SR 138 in Newton and Rockdale is proposed as Principal Arterial.  To enhance network continuity, ARC proposed to extend the PA designation NE to W Spring St in Monroe, which is currently classified as a PA. ",
         "JUST": "ARC Proposal: Section of SR 138 in Newton and Rockdale is proposed as Principal Arterial.  To enhance network continuity, ARC proposed to extend the PA designation NE to W Spring St in Monroe, which is currently classified as a PA. ",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1029
       },
       "geometry": {
         "type": "LineString",
