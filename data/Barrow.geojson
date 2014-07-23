@@ -16729,7 +16729,9 @@
         "DESC": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
         "JUST": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1035
       },
       "geometry": {
         "type": "LineString",
