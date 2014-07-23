@@ -80685,7 +80685,13 @@
         "2011AvAADT": 4190,
         "2010AvAADT": 4340,
         "OBJECTID_1": 650,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Holbrook Campground Road",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Should not change functional class at Holbrook; extend Minor Arterial designation up to Cumming Hwy to promote system continuity.",
+        "JUST": "ARC Proposal: Should not change functional class at Holbrook; extend Minor Arterial designation up to Cumming Hwy to promote system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
