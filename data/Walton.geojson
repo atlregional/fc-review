@@ -4109,7 +4109,13 @@
         "2011AvAADT": 8650,
         "2010AvAADT": 7660,
         "OBJECTID_1": 4176,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "SR 81",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
+        "JUST": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
