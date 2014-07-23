@@ -96773,7 +96773,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1653,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "S Norcross Tucker Rd",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Gap in Minor Arterial designation; changes from MA to Major Collector at county line.  Upgrade to Minor Arterial to promote system continuity.",
+        "JUST": "ARC Proposal: Gap in Minor Arterial designation; changes from MA to Major Collector at county line.  Upgrade to Minor Arterial to promote system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
