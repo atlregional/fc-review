@@ -72658,7 +72658,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3659,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Locust Grove - Griffin Road",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Connects two arterials and currently changes FC at Spalding County line.",
+        "JUST": "ARC Proposal: Connects two arterials and currently changes FC at Spalding County line.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
