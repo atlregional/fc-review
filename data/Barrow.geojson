@@ -1012,7 +1012,13 @@
         "2011AvAADT": 17042.5,
         "2010AvAADT": 16582.5,
         "OBJECTID_1": 4,
-        "County": "Barrow"
+        "County": "Barrow",
+        "NAME": "N Broad Street",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Should not be a Principal Arterial for downtown Winder portion; although road serves a high level of mobility, the downtown portion has a high level of access.  This change also enhances system continuity because Principal Arterial designation doesn't end at another Principal Arterial.",
+        "JUST": "ARC Proposal: Should not be a Principal Arterial for downtown Winder portion; although road serves a high level of mobility, the downtown portion has a high level of access.  This change also enhances system continuity because Principal Arterial designation doesn't end at another Principal Arterial.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
