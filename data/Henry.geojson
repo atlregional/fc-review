@@ -40258,7 +40258,9 @@
         "DESC": 2,
         "JUST": "Lower volume of traffic roadway",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "Advancing",
+        "issue_num": 459
       },
       "geometry": {
         "type": "LineString",
