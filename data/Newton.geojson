@@ -11174,17 +11174,7 @@
         "2011AvAADT": 10170,
         "2010AvAADT": 9995.71428571,
         "OBJECTID_1": 3775,
-        "County": "Newton",
-        "NAME": "SR 81",
-        "FROM": "Henry County Line",
-        "TO": "Covington Bypass",
-        "FC_NEW": 3,
-        "DESC": "ARC Proposed: If Keys Road is kept as a Principal Arterial, this should be upgraded to the Covington Bypass, which is a PA and would connect with I-20.",
-        "JUST": "ARC Proposed: If Keys Road is kept as a Principal Arterial, this should be upgraded to the Covington Bypass, which is a PA and would connect with I-20.",
-        "stroke": "#00ff00",
-        "user": "MWillisARC",
-        "status": "Advancing",
-        "issue_num": 1028
+        "County": "Newton"
       },
       "geometry": {
         "type": "LineString",

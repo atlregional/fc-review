@@ -61769,15 +61769,7 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3022,
-        "County": "Gwinnett",
-        "NAME": "Lawrenceville Suwanee Road",
-        "FC_NEW": 4,
-        "DESC": "ARC Proposal: extends Minor Arterial designation to end at a proposed Principal Arterial (Sugarloaf Pkwy).",
-        "JUST": "ARC Proposal: extends Minor Arterial designation to end at a proposed Principal Arterial (Sugarloaf Pkwy).",
-        "stroke": "#00ff00",
-        "user": "MWillisARC",
-        "status": "Advancing",
-        "issue_num": 1054
+        "County": "Gwinnett"
       },
       "geometry": {
         "type": "LineString",
@@ -68430,15 +68422,7 @@
         "2011AvAADT": 33840,
         "2010AvAADT": 24763.3333333,
         "OBJECTID_1": 3036,
-        "County": "Gwinnett",
-        "NAME": "Satellite Blvd",
-        "FC_NEW": 4,
-        "DESC": "ARC Proposal: Upgrade to Minor Arterial because it serves as a reliever to the interstate; high AADT and portions are divided.  This road is on the Regional Thoroughfares Network.",
-        "JUST": "ARC Proposal: Upgrade to Minor Arterial because it serves as a reliever to the interstate; high AADT and portions are divided.  This road is on the Regional Thoroughfares Network.",
-        "stroke": "#00ff00",
-        "user": "MWillisARC",
-        "status": "Advancing",
-        "issue_num": 1061
+        "County": "Gwinnett"
       },
       "geometry": {
         "type": "LineString",

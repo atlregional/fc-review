@@ -18764,9 +18764,7 @@
         "DESC": "Two-lane road, shoulder and ditch",
         "JUST": "Increasing traffic, connects two Principal Arterials.  Used as option around downtown Fayetteville.",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo",
-        "status": "Advancing",
-        "issue_num": 397
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",
@@ -38375,9 +38373,7 @@
         "DESC": "Varying number of lanes; curb & gutter; two traffic signals; non-residential land use.",
         "JUST": "Connects two State Routes and classification change matches recommendation to eastern segment of Banks.  Heavy use for commercial shopping, residential areas, and commuter traffic.  ",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo",
-        "status": "Advancing",
-        "issue_num": 398
+        "user": "PMallon-FayetteCo"
       },
       "geometry": {
         "type": "LineString",

@@ -1603,15 +1603,7 @@
         "2011AvAADT": 12713.3333333,
         "2010AvAADT": 12493.3333333,
         "OBJECTID_1": 4171,
-        "County": "Walton",
-        "NAME": "SR 138",
-        "FC_NEW": 3,
-        "DESC": "ARC Proposal: Section of SR 138 in Newton and Rockdale is proposed as Principal Arterial.  To enhance network continuity, ARC proposed to extend the PA designation NE to W Spring St in Monroe, which is currently classified as a PA. ",
-        "JUST": "ARC Proposal: Section of SR 138 in Newton and Rockdale is proposed as Principal Arterial.  To enhance network continuity, ARC proposed to extend the PA designation NE to W Spring St in Monroe, which is currently classified as a PA. ",
-        "stroke": "#00ff00",
-        "user": "MWillisARC",
-        "status": "Advancing",
-        "issue_num": 1029
+        "County": "Walton"
       },
       "geometry": {
         "type": "LineString",
@@ -4111,15 +4103,7 @@
         "2011AvAADT": 8650,
         "2010AvAADT": 7660,
         "OBJECTID_1": 4176,
-        "County": "Walton",
-        "NAME": "SR 81",
-        "FC_NEW": 4,
-        "DESC": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
-        "JUST": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
-        "stroke": "#00ff00",
-        "user": "MWillisARC",
-        "status": "Advancing",
-        "issue_num": 1034
+        "County": "Walton"
       },
       "geometry": {
         "type": "LineString",
@@ -4642,15 +4626,7 @@
         "2011AvAADT": 15420,
         "2010AvAADT": 14560,
         "OBJECTID_1": 4180,
-        "County": "Walton",
-        "NAME": "SR 138",
-        "FC_NEW": 3,
-        "DESC": "ARC Proposal: Section of SR 138 in Newton and Rockdale is proposed as Principal Arterial.  To enhance network continuity, ARC proposed to extend the PA designation NE to W Spring St in Monroe, which is currently classified as a PA. ",
-        "JUST": "ARC Proposal: Section of SR 138 in Newton and Rockdale is proposed as Principal Arterial.  To enhance network continuity, ARC proposed to extend the PA designation NE to W Spring St in Monroe, which is currently classified as a PA. ",
-        "stroke": "#00ff00",
-        "user": "MWillisARC",
-        "status": "Advancing",
-        "issue_num": 1030
+        "County": "Walton"
       },
       "geometry": {
         "type": "LineString",
@@ -13820,15 +13796,7 @@
         "2011AvAADT": 8750,
         "2010AvAADT": 9060,
         "OBJECTID_1": 4201,
-        "County": "Walton",
-        "NAME": "SR 81",
-        "FC_NEW": 4,
-        "DESC": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
-        "JUST": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
-        "stroke": "#00ff00",
-        "user": "MWillisARC",
-        "status": "Advancing",
-        "issue_num": 1033
+        "County": "Walton"
       },
       "geometry": {
         "type": "LineString",
@@ -26753,15 +26721,7 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4248,
-        "County": "Walton",
-        "NAME": "Youth Jersey Road",
-        "FC_NEW": 4,
-        "DESC": "ARC Proposal: Should change classification at SR 138 (logical terminus of the MA) rather than at a local road.",
-        "JUST": "ARC Proposal: Should change classification at SR 138 (logical terminus of the MA) rather than at a local road.",
-        "stroke": "#00ff00",
-        "user": "MWillisARC",
-        "status": "Advancing",
-        "issue_num": 1031
+        "County": "Walton"
       },
       "geometry": {
         "type": "LineString",
@@ -27008,15 +26968,7 @@
         "2011AvAADT": 3680,
         "2010AvAADT": 3810,
         "OBJECTID_1": 4250,
-        "County": "Walton",
-        "NAME": "Bold Springs Road",
-        "FC_NEW": 4,
-        "DESC": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
-        "JUST": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
-        "stroke": "#00ff00",
-        "user": "MWillisARC",
-        "status": "Advancing",
-        "issue_num": 1040
+        "County": "Walton"
       },
       "geometry": {
         "type": "LineString",
@@ -27528,15 +27480,7 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4251,
-        "County": "Walton",
-        "NAME": "Bold Springs Road",
-        "FC_NEW": 4,
-        "DESC": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
-        "JUST": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
-        "stroke": "#00ff00",
-        "user": "MWillisARC",
-        "status": "Advancing",
-        "issue_num": 1041
+        "County": "Walton"
       },
       "geometry": {
         "type": "LineString",
@@ -27578,15 +27522,7 @@
         "2011AvAADT": 3680,
         "2010AvAADT": 3810,
         "OBJECTID_1": 4252,
-        "County": "Walton",
-        "NAME": "Bold Springs Road",
-        "FC_NEW": 4,
-        "DESC": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
-        "JUST": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
-        "stroke": "#00ff00",
-        "user": "MWillisARC",
-        "status": "Advancing",
-        "issue_num": 1039
+        "County": "Walton"
       },
       "geometry": {
         "type": "LineString",
@@ -27900,15 +27836,7 @@
         "2011AvAADT": 4500,
         "2010AvAADT": 4660,
         "OBJECTID_1": 4254,
-        "County": "Walton",
-        "NAME": "Bold Springs Road",
-        "FC_NEW": 4,
-        "DESC": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
-        "JUST": "ARC Proposal: There is a gap in Minor Arterial designation; propose to classify the Major Collector portion as Minor Arterial and promote system continuity.",
-        "stroke": "#00ff00",
-        "user": "MWillisARC",
-        "status": "Advancing",
-        "issue_num": 1038
+        "County": "Walton"
       },
       "geometry": {
         "type": "LineString",
@@ -31367,15 +31295,7 @@
         "2011AvAADT": 2830,
         "2010AvAADT": 2930,
         "OBJECTID_1": 4264,
-        "County": "Walton",
-        "DESC": "ARC Proposal: Should change classification at US 78 (logical terminus of the MA) rather than at a local road.",
-        "JUST": "ARC Proposal: Should change classification at US 78 (logical terminus of the MA) rather than at a local road.",
-        "NAME": "Youth Monroe Road",
-        "FC_NEW": 4,
-        "stroke": "#00ff00",
-        "user": "MWillisARC",
-        "status": "Advancing",
-        "issue_num": 1032
+        "County": "Walton"
       },
       "geometry": {
         "type": "LineString",
