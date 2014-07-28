@@ -17742,7 +17742,15 @@
         "2011AvAADT": 22250,
         "2010AvAADT": 22580,
         "OBJECTID_1": 745,
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Mt. Zion Blvd",
+        "FC_NEW": 4,
+        "DESC": "Network continuity - connects two Minor Arterials.  Also on the Regional Thoroughfares Network, so should be classified as a Minor Arterial or higher.",
+        "JUST": "Network continuity - connects two Minor Arterials.  Also on the Regional Thoroughfares Network, so should be classified as a Minor Arterial or higher.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1017
       },
       "geometry": {
         "type": "LineString",
@@ -18049,7 +18057,17 @@
         "2011AvAADT": 10645,
         "2010AvAADT": 10480,
         "OBJECTID_1": 746,
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "McDonough Road",
+        "FROM": "Henry County",
+        "TO": "Tara Blvd",
+        "FC_NEW": 3,
+        "DESC": "ARC Proposal: Jonesboro Road proposed as PA in Henry; this connects the PA to Tara Blvd (another PA).",
+        "JUST": "ARC Proposal: Jonesboro Road proposed as PA in Henry; this connects the PA to Tara Blvd (another PA).",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1023
       },
       "geometry": {
         "type": "LineString",
@@ -33903,7 +33921,15 @@
         "2011AvAADT": 5940,
         "2010AvAADT": 6030,
         "OBJECTID_1": 792,
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Battlecreek Rd",
+        "FC_NEW": 4,
+        "DESC": "Network continuity - connects two Minor Arterials.  Also on the Regional Thoroughfares Network, so should be classified as a Minor Arterial or higher.",
+        "JUST": "Network continuity - connects two Minor Arterials.  Also on the Regional Thoroughfares Network, so should be classified as a Minor Arterial or higher.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1019
       },
       "geometry": {
         "type": "LineString",
@@ -37102,7 +37128,15 @@
         "2011AvAADT": 14535,
         "2010AvAADT": 14755,
         "OBJECTID_1": 801,
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Battlecreek Rd",
+        "FC_NEW": 4,
+        "DESC": "Network continuity - connects two Minor Arterials.  Also on the Regional Thoroughfares Network, so should be classified as a Minor Arterial or higher.",
+        "JUST": "Network continuity - connects two Minor Arterials.  Also on the Regional Thoroughfares Network, so should be classified as a Minor Arterial or higher.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1018
       },
       "geometry": {
         "type": "LineString",

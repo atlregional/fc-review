@@ -35242,7 +35242,17 @@
         "2011AvAADT": 5705,
         "2010AvAADT": 5460,
         "OBJECTID_1": 591,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Birmingham Rd / Freehome Hwy",
+        "FROM": "Fulton County line",
+        "TO": "Cumming Hwy",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Should not change functional class at county line; extend Minor Arterial designation up to Cumming Hwy to promote system continuity.",
+        "JUST": "ARC Proposal: Should not change functional class at county line; extend Minor Arterial designation up to Cumming Hwy to promote system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1067
       },
       "geometry": {
         "type": "LineString",
@@ -38194,7 +38204,15 @@
         "2011AvAADT": 7020,
         "2010AvAADT": 7183.33333333,
         "OBJECTID_1": 592,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Hightower Road",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "JUST": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1063
       },
       "geometry": {
         "type": "LineString",
@@ -56452,7 +56470,15 @@
         "2011AvAADT": 6530,
         "2010AvAADT": 6760,
         "OBJECTID_1": 606,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Ball Ground Hwy",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "JUST": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1070
       },
       "geometry": {
         "type": "LineString",
@@ -80679,7 +80705,15 @@
         "2011AvAADT": 4190,
         "2010AvAADT": 4340,
         "OBJECTID_1": 650,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Holbrook Campground Road",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Should not change functional class at Holbrook; extend Minor Arterial designation up to Cumming Hwy to promote system continuity.",
+        "JUST": "ARC Proposal: Should not change functional class at Holbrook; extend Minor Arterial designation up to Cumming Hwy to promote system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1066
       },
       "geometry": {
         "type": "LineString",
@@ -83144,7 +83178,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 656,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Ball Ground Hwy",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "JUST": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1071
       },
       "geometry": {
         "type": "LineString",
@@ -83176,7 +83218,15 @@
         "2011AvAADT": 3960,
         "2010AvAADT": 4100,
         "OBJECTID_1": 657,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Ball Ground Hwy",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "JUST": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1068
       },
       "geometry": {
         "type": "LineString",
@@ -90654,7 +90704,15 @@
         "2011AvAADT": 3400,
         "2010AvAADT": 3520,
         "OBJECTID_1": 685,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Ball Ground Hwy",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "JUST": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1072
       },
       "geometry": {
         "type": "LineString",
@@ -90831,7 +90889,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 686,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Ball Ground Hwy",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "JUST": "ARC Proposal: This segment is on the Regional Thoroughfares Network, which should be comprised exclusively of arterials.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1069
       },
       "geometry": {
         "type": "LineString",

@@ -25134,7 +25134,9 @@
         "DESC": "See DeKalb submission #715.  New Alignment was completed and this segment ties into existing Minor Arterial.",
         "JUST": "See DeKalb submission #715.  New Alignment was completed and this segment ties into existing Minor Arterial.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1004
       },
       "geometry": {
         "type": "LineString",
@@ -28855,8 +28857,10 @@
         "County": "Henry",
         "NAME": "SR155",
         "FC_NEW": 3,
-        "DESC": 2,
-        "JUST": "High traffic volume and congestion.  Warehouse distribution centers prevalent.  Study of SR155 will be part of county's feasibility study for new interchange.  Part of roadway system b/t Spalding County, into and through Henry Co.",
+        "FROM": "I-75",
+        "TO": "Bill Gardner Pkwy",
+        "DESC": "ARC Proposal: upgrade segment from Bill Gardner to I-75 into a Principal Arterial; keep portion south of Bill Gardner as Minor Arterial.  Modification supports system continuity.",
+        "JUST": "High traffic volume and congestion.  Warehouse distribution centers prevalent.  Study of SR155 will be part of countys feasibility study for new interchange.  Part of roadway system b/t Spalding County, into and through Henry Co.",
         "stroke": "#00ff00",
         "user": "CMatthews-HenryCo"
       },
@@ -72662,7 +72666,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3659,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Locust Grove - Griffin Road",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Connects two arterials and currently changes FC at Spalding County line.",
+        "JUST": "ARC Proposal: Connects two arterials and currently changes FC at Spalding County line.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1024
       },
       "geometry": {
         "type": "LineString",
@@ -75568,7 +75580,15 @@
         "2011AvAADT": 2160,
         "2010AvAADT": 2240,
         "OBJECTID_1": 3673,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Locust Grove - Griffin Road",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Connects two arterials and currently changes FC at Spalding County line.",
+        "JUST": "ARC Proposal: Connects two arterials and currently changes FC at Spalding County line.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1026
       },
       "geometry": {
         "type": "LineString",
@@ -77662,7 +77682,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3686,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Locust Grove - Griffin Road",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Connects two arterials and currently changes FC at Spalding County line.",
+        "JUST": "ARC Proposal: Connects two arterials and currently changes FC at Spalding County line.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1025
       },
       "geometry": {
         "type": "LineString",
@@ -79181,7 +79209,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3696,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Locust Grove - Griffin Road",
+        "FC_NEW": 4,
+        "DESC": "ARC Proposal: Connects two arterials and currently changes FC at Spalding County line.",
+        "JUST": "ARC Proposal: Connects two arterials and currently changes FC at Spalding County line.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1027
       },
       "geometry": {
         "type": "LineString",
