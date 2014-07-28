@@ -13792,7 +13792,9 @@
         "DESC": 4,
         "JUST": "Roadway widened approximately 8 years ago for additional lanes, median, and realignment.  High traffic volume.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "Advancing",
+        "issue_num": 531
       },
       "geometry": {
         "type": "LineString",
