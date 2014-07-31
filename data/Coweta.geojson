@@ -37598,7 +37598,9 @@
         "DESC": "System continuity in providing an east-west connection across entire region.",
         "JUST": "System continuity in providing an east-west connection across entire region.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1074
       },
       "geometry": {
         "type": "LineString",
