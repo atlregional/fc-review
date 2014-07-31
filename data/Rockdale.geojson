@@ -31596,7 +31596,9 @@
         "DESC": "Begins with a four lane section at I-20 and bottlenecks to a two lane section south of Flat Shoals Rd. 26,730 ADT",
         "JUST": "Traffic volumes warrant the road to be classified as a Principal Arterial.  There is a widening project planned that will widen all sections to  four lanes. 26,730 ADT. This includes section into Newton County. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "On Hold",
+        "issue_num": 419
       },
       "geometry": {
         "type": "LineString",
