@@ -10657,7 +10657,9 @@
         "DESC": "Upgrade to Other Freeways & Expressways (FC-2) due to grade separation/interchanges project that is wrapping up.",
         "JUST": "Upgrade to Other Freeways & Expressways (FC-2) due to grade separation/interchanges project that is wrapping up.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1076
       },
       "geometry": {
         "type": "LineString",
