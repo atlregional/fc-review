@@ -37592,7 +37592,13 @@
         "2011AvAADT": 3380,
         "2010AvAADT": 3450,
         "OBJECTID_1": 1330,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Franklin Road",
+        "FC_NEW": 3,
+        "DESC": "System continuity in providing an east-west connection across entire region.",
+        "JUST": "System continuity in providing an east-west connection across entire region.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
