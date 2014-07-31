@@ -43193,7 +43193,9 @@
         "DESC": 2,
         "JUST": "Related to request to upgrade SR42 from SR155 to SR42/138.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "On Hold",
+        "issue_num": 559
       },
       "geometry": {
         "type": "LineString",
