@@ -7699,7 +7699,9 @@
         "JUST": "Traffic volumes warrant the road to be classified as a Principal Arterial. There is a widening project planned that will widen all sections to four lanes. 26,730 ADT. ",
         "DESC": "Salem Rd. links traffic generated along Brown Bridge Rd. in Newton to I-20 through Rockdale County. ",
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "On Hold",
+        "issue_num": 513
       },
       "geometry": {
         "type": "LineString",
