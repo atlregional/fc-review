@@ -44483,7 +44483,9 @@
         "DESC": 2,
         "JUST": "Traffic volume increases on North end of McDonough up to and including the Eagle's Landing area.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "On Hold",
+        "issue_num": 538
       },
       "geometry": {
         "type": "LineString",
