@@ -3814,7 +3814,13 @@
         "2011AvAADT": 13590,
         "2010AvAADT": 13870,
         "OBJECTID_1": 4175,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "US 78",
+        "FC_NEW": 3,
+        "DESC": "Upgrade to PA from Monroe to Athens Loop for increased system continuity.",
+        "JUST": "Upgrade to PA from Monroe to Athens Loop for increased system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
