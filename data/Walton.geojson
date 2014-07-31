@@ -12801,7 +12801,9 @@
         "DESC": "Upgrade to PA from Monroe to Athens Loop for increased system continuity.",
         "JUST": "Upgrade to PA from Monroe to Athens Loop for increased system continuity.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1077
       },
       "geometry": {
         "type": "LineString",
