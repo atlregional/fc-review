@@ -33137,7 +33137,9 @@
         "DESC": "Two lane rural roadway with 8,420 ADT. This is a state route. ",
         "JUST": "Roadway should be reduced to a minor arterial due to volumes and to conform to surrounding network. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "On Hold",
+        "issue_num": 560
       },
       "geometry": {
         "type": "LineString",
