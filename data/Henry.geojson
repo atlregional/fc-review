@@ -44173,7 +44173,9 @@
         "DESC": 2,
         "JUST": "Related to request to upgrade SR42 to FC-3 between SR155 and SR42/138.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "On Hold",
+        "issue_num": 563
       },
       "geometry": {
         "type": "LineString",
