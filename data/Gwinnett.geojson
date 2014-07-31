@@ -10649,7 +10649,15 @@
         "2011AvAADT": 45277.1428571,
         "2010AvAADT": 49761.4285714,
         "OBJECTID_1": 2929,
-        "County": "Gwinnett"
+        "County": "Gwinnett",
+        "NAME": "GA 316",
+        "FROM": "Western boundary",
+        "TO": "Buford Dr",
+        "FC_NEW": 3,
+        "DESC": "Upgrade to Other Freeways & Expressways (FC-2) due to grade separation/interchanges project that is wrapping up.",
+        "JUST": "Upgrade to Other Freeways & Expressways (FC-2) due to grade separation/interchanges project that is wrapping up.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
