@@ -106327,7 +106327,9 @@
         "DESC": "AADT 25K.  City of Stone Mountain/Stone Mountain Industrial area to SR10 to I-20 to SR 212 to SR 155.  ",
         "JUST": "Network Connectivity.  Commuter alternate I-285 east wall.  Commuters weave through the arterials in east DeKalb to avoid congestion on i-285.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "On Hold",
+        "issue_num": 526
       },
       "geometry": {
         "type": "LineString",
