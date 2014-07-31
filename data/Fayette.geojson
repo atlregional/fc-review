@@ -8723,7 +8723,9 @@
         "DESC": "Supports change # 556 in providing system continuity.",
         "JUST": "Supports change # 556 in providing system continuity.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1073
       },
       "geometry": {
         "type": "LineString",
