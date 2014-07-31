@@ -40481,7 +40481,15 @@
         "2011AvAADT": 7096.66666667,
         "2010AvAADT": 6663.33333333,
         "OBJECTID_1": 1333,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Franklin Road",
+        "FROM": "West boundary",
+        "TO": "Newnan Bypass",
+        "DESC": "System continuity in providing an east-west PA connection across entire region.",
+        "JUST": "System continuity in providing an east-west PA connection across entire region.",
+        "FC_NEW": 3,
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
