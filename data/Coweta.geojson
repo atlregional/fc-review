@@ -40489,7 +40489,9 @@
         "JUST": "System continuity in providing an east-west PA connection across entire region.",
         "FC_NEW": 3,
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "Advancing",
+        "issue_num": 1075
       },
       "geometry": {
         "type": "LineString",
