@@ -8717,7 +8717,13 @@
         "2011AvAADT": 11610,
         "2010AvAADT": 11670,
         "OBJECTID_1": 2149,
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "McDonough Road",
+        "FC_NEW": 3,
+        "DESC": "Supports change # 556 in providing system continuity.",
+        "JUST": "Supports change # 556 in providing system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
