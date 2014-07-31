@@ -28855,14 +28855,16 @@
         "2010AvAADT": 14195,
         "OBJECTID_1": 3560,
         "County": "Henry",
-        "NAME": "SR155",
+        "NAME": "SR 155: McDonough Road",
         "FC_NEW": 3,
+        "DESC": "ARC Proposal: connect upgraded Bill Gardner (MA) to I-75 by upgrading to a Principal Arterial.  High truck volumes and high traffic.  Leave portion south of Bill Gardner as a Minor Arterial.",
+        "JUST": "ARC Proposal: connect upgraded Bill Gardner (MA) to I-75 by upgrading to a Principal Arterial.  High truck volumes and high traffic.  Leave portion south of Bill Gardner as a Minor Arterial.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC",
         "FROM": "I-75",
         "TO": "Bill Gardner Pkwy",
-        "DESC": "ARC Proposal: upgrade segment from Bill Gardner to I-75 into a Principal Arterial; keep portion south of Bill Gardner as Minor Arterial.  Modification supports system continuity.",
-        "JUST": "High traffic volume and congestion.  Warehouse distribution centers prevalent.  Study of SR155 will be part of countys feasibility study for new interchange.  Part of roadway system b/t Spalding County, into and through Henry Co.",
-        "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "status": "On Hold",
+        "issue_num": 570
       },
       "geometry": {
         "type": "LineString",
