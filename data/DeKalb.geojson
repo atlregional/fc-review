@@ -134997,7 +134997,12 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1782,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Lullwater Rd",
+        "FC_NEW": 6,
+        "DESC": "Lower volume, single family street.  Parallels Oakdale Rd, the Major Collector",
+        "stroke": "#00ff00",
+        "user": "JLewis-Atlanta"
       },
       "geometry": {
         "type": "LineString",
