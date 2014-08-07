@@ -2,6 +2,7 @@
 
 ---
 var ePrev = null;
+$(".alert").alert()
 var previous = null;
 var eHov = null;
 var click = false;
@@ -395,6 +396,9 @@ function checkTeams(){
 	 else {
 	 	if ($.cookie('owner') == 1){
 	 		$('.owner').show()
+	 	}
+	 	else{
+	 		$('.add-street').attr('disabled', 'disabled')
 	 	}
 			
 	 	$.each($.cookie('team'), function (i, team){
