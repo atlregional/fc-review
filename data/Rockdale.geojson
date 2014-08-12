@@ -64165,7 +64165,9 @@
         "DESC": "Two lane roadway with 3,780 ADT",
         "JUST": "Two lane roadway with 3,780 ADT",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 447
       },
       "geometry": {
         "type": "LineString",
