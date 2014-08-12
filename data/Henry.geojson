@@ -79611,7 +79611,9 @@
         "DESC": 2,
         "JUST": "Low traffic volume other than a few events per year.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 624
       },
       "geometry": {
         "type": "LineString",
