@@ -52374,7 +52374,9 @@
         "DESC": "AADT 7K.  Collector is consistent with DeKalb CTP",
         "JUST": "Need coordination with GDOT and Clayton County. ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 530
       },
       "geometry": {
         "type": "LineString",
