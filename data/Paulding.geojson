@@ -32575,7 +32575,9 @@
         "DESC": "Traffic ADT is 5300 and is gradually increasing year to year.",
         "JUST": "Conform to network.",
         "stroke": "#00ff00",
-        "user": "EParish-PauldingCo"
+        "user": "EParish-PauldingCo",
+        "status": "In Review",
+        "issue_num": 333
       },
       "geometry": {
         "type": "LineString",
