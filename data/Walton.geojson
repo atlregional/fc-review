@@ -33341,7 +33341,9 @@
         "DESC": "Two lane urban street",
         "JUST": "Downtown Loganville area, connector between SR 81, SR 20 and US 78",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 967
       },
       "geometry": {
         "type": "LineString",
