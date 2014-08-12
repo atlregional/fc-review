@@ -114298,7 +114298,9 @@
         "DESC": "Due to length and landuse.  ",
         "JUST": "Cut through traffic.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 554
       },
       "geometry": {
         "type": "LineString",
