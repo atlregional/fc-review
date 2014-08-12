@@ -86687,7 +86687,9 @@
         "JUST": "Minor Arterial FC is not appropriate for this roadway; Requested FC change is included in County FC Plan.",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 452
       },
       "geometry": {
         "type": "LineString",
