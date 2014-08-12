@@ -18539,7 +18539,9 @@
         "DESC": "Two lane rural roadway with 3,660 ADT",
         "JUST": "Two lane rural roadway with 3,660 ADT",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 433
       },
       "geometry": {
         "type": "LineString",
