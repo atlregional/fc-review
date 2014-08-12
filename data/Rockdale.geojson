@@ -46029,7 +46029,9 @@
         "DESC": "Two lane rural roadway with 1,097 ADT",
         "JUST": "Should be reclassified to conform to surrounding network.  ADT is 1,097.",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 496
       },
       "geometry": {
         "type": "LineString",
