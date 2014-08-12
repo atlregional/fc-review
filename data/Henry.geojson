@@ -75134,7 +75134,9 @@
         "DESC": 2,
         "JUST": "Roadway functions more as a major collector than arterial due to length and volume.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 622
       },
       "geometry": {
         "type": "LineString",
