@@ -21424,7 +21424,9 @@
         "DESC": 2,
         "JUST": "Continuity with the rest of Henderson Mill Rd.",
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "In Review",
+        "issue_num": 527
       },
       "geometry": {
         "type": "LineString",
