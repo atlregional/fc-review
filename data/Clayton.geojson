@@ -34473,7 +34473,9 @@
         "DESC": 2,
         "JUST": "Volumes on this road do not support classification as Minor Arterial.  It may be necessary to upgrade Anvil Block Rd to a Minor Arterial between Stagecoach and Fairview Rd (Henry Co) due to this request.  ADT for Anvil Block in this area is 7,858, which is in line with other Minor Arterials in the area.  There is a previous request to upgrade this section of Anvil Block to a Major Collector, but justification as Minor Arterial can also be supported.  Alternatively, the County could also support converting short section of Anvil Block Rd between Bouldercrest Rd and Stagecoach Rd to Major Collector from current Minor Arterial.  ",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 313
       },
       "geometry": {
         "type": "LineString",
