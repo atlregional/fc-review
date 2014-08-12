@@ -71501,7 +71501,9 @@
         "DESC": "Two lane roadway, with 12,930 ADT. I-20 frontage road. \nTermini needs to be updated. ",
         "JUST": "Two lane roadway, with 12,930 ADT. I-20 frontage road. \nTermini needs to be updated. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 493
       },
       "geometry": {
         "type": "LineString",
