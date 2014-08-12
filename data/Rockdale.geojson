@@ -69683,7 +69683,9 @@
         "DESC": "Primarily a local connection with an estimated 1,500 vpd",
         "JUST": "Recommend lowering use to a Minor Collector",
         "stroke": "#00ff00",
-        "user": "BSutton-ConyersGa"
+        "user": "BSutton-ConyersGa",
+        "status": "In Review",
+        "issue_num": 588
       },
       "geometry": {
         "type": "LineString",
