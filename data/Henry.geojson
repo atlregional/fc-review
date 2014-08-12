@@ -25915,7 +25915,9 @@
         "DESC": 2,
         "JUST": "Lower traffic volume and short length roadway.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 594
       },
       "geometry": {
         "type": "LineString",
