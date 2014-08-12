@@ -33276,7 +33276,9 @@
         "DESC": "Two lane urban street",
         "JUST": "East-West connector in downtown Loganville area",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 968
       },
       "geometry": {
         "type": "LineString",
