@@ -22403,7 +22403,9 @@
         "DESC": 2,
         "JUST": "traffic volumes and residential densities support FC-5",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "In Review",
+        "issue_num": 626
       },
       "geometry": {
         "type": "LineString",
