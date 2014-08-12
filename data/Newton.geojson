@@ -21594,7 +21594,9 @@
         "TO": "S.R. 81",
         "JUST": "The bypass is proposed by GDOT to be a Minor Arterial.  Need to provide continuity in classification along the entire Covington bypass.",
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "In Review",
+        "issue_num": 542
       },
       "geometry": {
         "type": "LineString",
