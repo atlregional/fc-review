@@ -58583,7 +58583,9 @@
         "DESC": "Low AADT.  Would like to keep this as a collector because historic counts are inconsistent.  ",
         "JUST": "Need to coordinate with Rockdale County- turns into Hurst Road.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 391
       },
       "geometry": {
         "type": "LineString",
