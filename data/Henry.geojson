@@ -65988,7 +65988,9 @@
         "DESC": 2,
         "JUST": "this segment appears to be linked to Kellytown Road, and shouldn't be.  Kellytown should be minor arterial, but not Asa Moseley Rd.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 608
       },
       "geometry": {
         "type": "LineString",
