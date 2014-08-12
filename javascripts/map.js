@@ -392,21 +392,11 @@ function checkTeams(){
 			
 			}
 		})
-		if ($.cookie('owner') == 1){
-	 		$('.owner').show()
-	 	}
-	 	else{
-	 		$('.add-street').attr('disabled', true)
-	 	}
 	 }
 	 else {
 	 	if ($.cookie('owner') == 1){
 	 		$('.owner').show()
-	 	}
-	 	else{
-	 		$('.add-street').attr('disabled', true)
-	 	}
-			
+	 	}	
 	 	$.each($.cookie('team'), function (i, team){
 	 		if ($('.county').is(':empty')){
 				$('.county').append(team.name)
@@ -585,7 +575,9 @@ info.update = function (props) {
 			volume = '<br />' + '&lsquo;12: ' + vol12 + ' | &lsquo;11: ' + vol11 + ' | &lsquo;10: ' + vol10
 		}
 	}
-	if (props && segments.length > 0){
+	// checks if user is member of owners of app and if not, turns off add street button
+	// also checks if segment already has an issue open... or something
+	if (props && segments.length > 0 || $.cookie('owner') !== 1){
 		disabled = 'disabled="disabled"'
 	}
 	this._div.innerHTML = '<h4>Functional Class Review</h4>' +  (props ?
