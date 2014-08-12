@@ -77182,7 +77182,9 @@
         "DESC": "AADT 4000, 2 lane road.  Major collector street that runs through Hampton as a local alternate to Hwy 19/41",
         "JUST": "Lower traffic volume.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 540
       },
       "geometry": {
         "type": "LineString",
