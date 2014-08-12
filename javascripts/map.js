@@ -392,6 +392,12 @@ function checkTeams(){
 			
 			}
 		})
+		if ($.cookie('owner') == 1){
+	 		$('.owner').show()
+	 	}
+	 	else{
+	 		$('.add-street').attr('disabled', 'disabled')
+	 	}
 	 }
 	 else {
 	 	if ($.cookie('owner') == 1){
