@@ -38210,7 +38210,9 @@
         "FC_NEW": 5,
         "JUST": "Connector from Broad Street (GA 11) to Spring Street (US 78 B)",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 981
       },
       "geometry": {
         "type": "LineString",
