@@ -47489,7 +47489,9 @@
         "DESC": "Two lane roadway with 8,130 ADT",
         "JUST": "Roadway will have increased traffic demand with new project that will add an underpass at Hwy 20/Hwy 138 in Fall 2014.",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 454
       },
       "geometry": {
         "type": "LineString",
