@@ -57800,7 +57800,9 @@
         "DESC": 2,
         "JUST": "Does not operate as an arterial",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 791
       },
       "geometry": {
         "type": "LineString",
