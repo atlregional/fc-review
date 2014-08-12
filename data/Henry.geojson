@@ -21693,7 +21693,9 @@
         "DESC": 2,
         "JUST": "Please ensure that the modification made to remove Asa Moseley link from being associated with Kellytown does not adversely affect Kellytown's classification.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 611
       },
       "geometry": {
         "type": "LineString",
