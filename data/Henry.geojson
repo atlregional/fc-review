@@ -21490,7 +21490,9 @@
         "DESC": 2,
         "JUST": "Lower traffic volume compared to other Henry Co arterial roadways.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 605
       },
       "geometry": {
         "type": "LineString",
