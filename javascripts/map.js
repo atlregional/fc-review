@@ -396,7 +396,7 @@ function checkTeams(){
 	 		$('.owner').show()
 	 	}
 	 	else{
-	 		$('.add-street').attr('disabled', 'disabled')
+	 		$('.add-street').attr('disabled', true)
 	 	}
 	 }
 	 else {
@@ -404,7 +404,7 @@ function checkTeams(){
 	 		$('.owner').show()
 	 	}
 	 	else{
-	 		$('.add-street').attr('disabled', 'disabled')
+	 		$('.add-street').attr('disabled', true)
 	 	}
 			
 	 	$.each($.cookie('team'), function (i, team){
