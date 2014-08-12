@@ -73918,7 +73918,9 @@
         "DESC": "AADT ~ 4000, 2 lane paved roadway",
         "JUST": "Local alternate to Hwy 19/41, but has a lower traffic volume than most Henry Co arterial roadways.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 544
       },
       "geometry": {
         "type": "LineString",
