@@ -65406,7 +65406,9 @@
         "DESC": "Two lane roadway, moderate traffic volumes.",
         "JUST": "The roadway will have increased traffic demand with the Let project that will add underpass at Hwy 20/Hwy 138.  ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 456
       },
       "geometry": {
         "type": "LineString",
