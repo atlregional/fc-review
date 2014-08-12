@@ -26347,7 +26347,9 @@
         "DESC": "Two Lane Roadway",
         "JUST": "Connector from GA 20 to Rosebud Road",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 970
       },
       "geometry": {
         "type": "LineString",
