@@ -34639,7 +34639,9 @@
         "NAME": "West Highland Avenue",
         "FC_NEW": 5,
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 983
       },
       "geometry": {
         "type": "LineString",
