@@ -48760,7 +48760,9 @@
         "DESC": 2,
         "JUST": "Roadway has multiple local streets contributing, but roadway functions more as a major collector than minor arterial.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 619
       },
       "geometry": {
         "type": "LineString",
