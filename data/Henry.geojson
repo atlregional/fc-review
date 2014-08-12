@@ -57041,7 +57041,9 @@
         "DESC": "AADT ~ 1000, 2 lane paved road, 10-11' lanes; rural area",
         "JUST": "Low traffic volume.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 525
       },
       "geometry": {
         "type": "LineString",
