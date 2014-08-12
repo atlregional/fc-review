@@ -74262,7 +74262,9 @@
         "DESC": 2,
         "JUST": "Minor Arterial FC is not appropriate for this roadway. ",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 472
       },
       "geometry": {
         "type": "LineString",
