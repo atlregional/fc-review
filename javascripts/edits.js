@@ -66,6 +66,16 @@ $('#on-hold').click(function(){
 
 	// assign label?
 })
+$('#in-review').click(function(){
+	// write to county file
+	
+	changeIssueStatus(this, 'In Review', 2);
+
+
+	// create comment
+
+	// assign label?
+})
 $('#arc-advancing').click(function(){
 	// write to county file
 	
