@@ -110595,7 +110595,9 @@
         "NAME": "Woodrow Drive",
         "JUST": "Network Connectivity/Context.  Low traffic counts.  Consistent with DeKalb CTP.",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 387
       },
       "geometry": {
         "type": "LineString",
