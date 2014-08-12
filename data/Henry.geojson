@@ -77740,7 +77740,9 @@
         "DESC": 2,
         "JUST": "Short length roadway that collects various local streets and distributes to arterial roadway and other major collectors.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 625
       },
       "geometry": {
         "type": "LineString",
