@@ -36365,7 +36365,9 @@
         "NAME": "South Madison Avenue",
         "FC_NEW": 5,
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 986
       },
       "geometry": {
         "type": "LineString",
