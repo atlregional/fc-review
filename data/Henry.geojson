@@ -74887,7 +74887,9 @@
         "DESC": 2,
         "JUST": "Formerly part of SR20 network, now acts as a collector between Hampton and relocated SR20.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 628
       },
       "geometry": {
         "type": "LineString",
