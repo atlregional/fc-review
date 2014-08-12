@@ -56741,7 +56741,9 @@
         "DESC": 2,
         "JUST": "Traffic volume reduces after crossing SR20.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 524
       },
       "geometry": {
         "type": "LineString",
