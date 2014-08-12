@@ -94584,7 +94584,7 @@
         "JUST": "Connects proposed Minor Arterial to another Minor Arterial.  Should not be upgraded if Issue #401 isn't approved.",
         "stroke": "#00ff00",
         "user": "MWillisARC",
-        "status": "Advancing",
+        "status": "In Review",
         "issue_num": 1006
       },
       "geometry": {
