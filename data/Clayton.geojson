@@ -32506,7 +32506,9 @@
         "DESC": 2,
         "JUST": "This section of road should be classified the same as the section of N. Bridge Rd from Flint River to Panhandle Rd.  There is no logical reason for the jump in classification at the Flint River heading west to Fayette Co.  The only road that exists at that location is an access road for the Clayton County Water Authority's treatment plant.  N. Bridge Rd should be a Major Collector from Panhandle Rd to the intersection of County Line Rd / Inman Rd (Fayette County).",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 319
       },
       "geometry": {
         "type": "LineString",
