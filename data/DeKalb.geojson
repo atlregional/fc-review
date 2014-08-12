@@ -75369,7 +75369,9 @@
         "DESC": "the Linecrest Road extension to Bouldercrest Road new alignment is completed- so this is the preferred route.  ",
         "JUST": "New network. Network Connectivity. ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 711
       },
       "geometry": {
         "type": "LineString",
