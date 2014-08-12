@@ -9440,7 +9440,9 @@
         "DESC": 2,
         "JUST": "State Route supports high traffic & truck volumes, regional rock quarry. GDOT Estimated AADT 8660.",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "In Review",
+        "issue_num": 621
       },
       "geometry": {
         "type": "LineString",
