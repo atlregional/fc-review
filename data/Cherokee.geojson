@@ -86235,7 +86235,9 @@
         "DESC": "This road connects Towne Lake Parkway and Bells Ferry Road.",
         "JUST": "This is a four-lane roadway that connects two Minor Arterials.  There are schools along the road and more in the area along with many retail centers.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 732
       },
       "geometry": {
         "type": "LineString",
