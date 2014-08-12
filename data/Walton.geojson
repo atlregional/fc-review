@@ -26892,7 +26892,9 @@
         "DESC": "Two Lane Roadway",
         "JUST": "Connector between SR 81 and SR 138 ",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 971
       },
       "geometry": {
         "type": "LineString",
