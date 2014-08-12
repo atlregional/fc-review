@@ -63430,7 +63430,9 @@
         "DESC": "AADT 4K-6K",
         "JUST": "Network Connectivity.  Context/Landuse.  Consistent with DeKalb CTP.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 392
       },
       "geometry": {
         "type": "LineString",
