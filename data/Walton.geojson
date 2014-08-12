@@ -31717,7 +31717,9 @@
         "DESC": "Two lane roadway",
         "JUST": "Primary connector from US 78 to SR 81 to SR 20",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 969
       },
       "geometry": {
         "type": "LineString",
