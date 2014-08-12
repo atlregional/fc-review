@@ -77425,7 +77425,9 @@
         "DESC": 2,
         "JUST": "Acts as collector of local streets between SR20 and downtown Hampton.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 630
       },
       "geometry": {
         "type": "LineString",
