@@ -73640,7 +73640,9 @@
         "DESC": "AADT 5000+ north of Hampton, 2 lane section",
         "JUST": "Lower volume that other arterial roads within the county.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 539
       },
       "geometry": {
         "type": "LineString",
