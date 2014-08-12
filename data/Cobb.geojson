@@ -70993,7 +70993,9 @@
         "JUST": "In conjunction with requests for South Services Rd and Six Flags Dr (Riverside to Six Flags Pkwy)",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 792
       },
       "geometry": {
         "type": "LineString",
