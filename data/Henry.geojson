@@ -43965,7 +43965,9 @@
         "DESC": 2,
         "JUST": "Roadway is candidate for lowering to Major Collector based on expected traffic volumes.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 586
       },
       "geometry": {
         "type": "LineString",
