@@ -114779,7 +114779,9 @@
         "FC_NEW": 5,
         "DESC": "This looks like a mapping error.  Small portion labeled minor arterial.  Should match remainder of road.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 537
       },
       "geometry": {
         "type": "LineString",
