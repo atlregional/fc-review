@@ -34997,7 +34997,9 @@
         "DESC": "Small local connector",
         "JUST": "FC should be Minor Collector based on traffic volumes",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 976
       },
       "geometry": {
         "type": "LineString",
