@@ -65463,7 +65463,9 @@
         "DESC": 2,
         "JUST": "Traffic Volume lower than most other Henry County arterial roadways.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 601
       },
       "geometry": {
         "type": "LineString",
