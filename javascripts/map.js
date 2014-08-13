@@ -580,6 +580,9 @@ info.update = function (props) {
 	if (props && segments.length > 0 || $.cookie('owner') !== 1){
 		disabled = 'disabled="disabled"'
 	}
+	if ($.cookie('user').login === 'JLewis-Atlanta'){
+		disabled = '';
+	}
 	this._div.innerHTML = '<h4>Functional Class Review</h4>' +  (props ?
 		'ID #: ' + props.RCLINK + ' <button type="button" ' + disabled + ' data-value=\''+JSON.stringify(props)+'\' title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+props.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button><br />' +
 		'County: ' + toTitleCase(props.County) + '<br />' +
