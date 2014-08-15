@@ -676,7 +676,12 @@
         "Shape_Leng": 4849.06114849,
         "ARC_Length": 0.918382793275,
         "RCLINK_1": "0893269301",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Oakview Rd",
+        "FC_NEW": 6,
+        "DESC": "Continuation of HL Williams Dr as east-west collector street.",
+        "stroke": "#00ff00",
+        "user": "JLewis-Atlanta"
       },
       "geometry": {
         "type": "LineString",
