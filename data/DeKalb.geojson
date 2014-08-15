@@ -973,7 +973,14 @@
         "Shape_Leng": 1743.39105106,
         "ARC_Length": 0.330187699064,
         "RCLINK_1": "0893268501",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Arizona Ave",
+        "FROM": "DeKalb Ave",
+        "TO": "Rogers St",
+        "FC_NEW": 6,
+        "DESC": "Important connecting street underneath the railroad/MARTA corridor.",
+        "stroke": "#00ff00",
+        "user": "JLewis-Atlanta"
       },
       "geometry": {
         "type": "LineString",
