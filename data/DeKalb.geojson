@@ -1103,7 +1103,12 @@
         "Shape_Leng": 533.201843211,
         "ARC_Length": 0.100985197578,
         "RCLINK_1": "0893290401",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Ridgecrest Rd",
+        "FC_NEW": 6,
+        "DESC": "Important connecting street between DeKalb Ave, E Lake Rd, and Ponce de Leon Ave.",
+        "stroke": "#00ff00",
+        "user": "JLewis-Atlanta"
       },
       "geometry": {
         "type": "LineString",
