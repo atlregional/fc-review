@@ -449,7 +449,14 @@
         "Shape_Leng": 1437.25216929,
         "ARC_Length": 0.272206850245,
         "RCLINK_1": "0893264701",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Marion Pl",
+        "FC_NEW": 6,
+        "FROM": "Caroline St",
+        "TO": "LaFrance St",
+        "DESC": "Part of important east-west street including Caroline, Marion, LaFrance, and Rogers Streets.  Serves MARTA bus routes.",
+        "stroke": "#00ff00",
+        "user": "JLewis-Atlanta"
       },
       "geometry": {
         "type": "LineString",
