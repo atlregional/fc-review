@@ -876,7 +876,14 @@
         "Shape_Leng": 4162.40251358,
         "ARC_Length": 0.788333809391,
         "RCLINK_1": "0893268801",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Rogers St",
+        "FROM": "Arizona Ave",
+        "TO": "HL Williams Dr",
+        "FC_NEW": 6,
+        "DESC": "Part of important east-west street including Caroline, Marion, LaFrance, and Rogers Streets.  Serves MARTA bus routes.",
+        "stroke": "#00ff00",
+        "user": "JLewis-Atlanta"
       },
       "geometry": {
         "type": "LineString",
