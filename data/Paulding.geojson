@@ -27,7 +27,9 @@
         "DESC": "ADT on Ivey Gulledge From Old Cartersville to Seven Hills is 3950, the segment from Seven HIlls to Frey Road is 2440",
         "JUST": "This roadway has a lower ADT and is better suited as minor collector classification. Projected growth along the corridor has decreased over the last few years.",
         "stroke": "#00ff00",
-        "user": "EParish-PauldingCo"
+        "user": "EParish-PauldingCo",
+        "status": "In Review",
+        "issue_num": 324
       },
       "geometry": {
         "type": "LineString",
