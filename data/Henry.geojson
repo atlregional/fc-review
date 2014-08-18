@@ -49331,7 +49331,9 @@
         "DESC": 2,
         "JUST": "Please extend limits of FC-6 classification further south to the Spalding County Line.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 658
       },
       "geometry": {
         "type": "LineString",
