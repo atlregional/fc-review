@@ -11456,7 +11456,9 @@
         "DESC": "Minor Collecter",
         "JUST": "Traffic Volumes, Connector between SR 20 and SR 81",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 961
       },
       "geometry": {
         "type": "LineString",
