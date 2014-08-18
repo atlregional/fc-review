@@ -22514,7 +22514,9 @@
         "DESC": 2,
         "JUST": "Lower traffic volume than other Henry Co. FC-5's.  Please add Turner Church Road between SR20 and McGarity as an FC-6 also (currently shown as local).",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 642
       },
       "geometry": {
         "type": "LineString",
