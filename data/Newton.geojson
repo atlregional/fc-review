@@ -4045,7 +4045,9 @@
         "JUST": "Traffic northeast of S.R. 142 does not support Major Collector classification.",
         "FC_NEW": 6,
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "In Review",
+        "issue_num": 518
       },
       "geometry": {
         "type": "LineString",
