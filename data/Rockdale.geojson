@@ -43870,7 +43870,9 @@
         "DESC": "Two lane rural roadway with 2,180 ADT.",
         "JUST": "Roadway should be reduced to minor collector to conform to surrounding network. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 545
       },
       "geometry": {
         "type": "LineString",
