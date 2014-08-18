@@ -24836,7 +24836,9 @@
         "DESC": "Minor Collector serving southeast Walton County",
         "JUST": "Current and projected traffic volumes in rural area",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 957
       },
       "geometry": {
         "type": "LineString",
