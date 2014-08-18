@@ -58783,7 +58783,9 @@
         "DESC": "Lower than expected AADT.  Would like to keep as a collector because historic counts data looks inconsistent.  Can revisit whether this should be local next time.  ",
         "JUST": "Need to coordinate with Rockdale County.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 390
       },
       "geometry": {
         "type": "LineString",
