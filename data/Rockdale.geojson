@@ -31070,7 +31070,9 @@
         "DESC": "Two lane roadway with 1,740 ADT",
         "JUST": "Two lane roadway with 1,740 ADT",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 510
       },
       "geometry": {
         "type": "LineString",
