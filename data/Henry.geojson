@@ -50679,7 +50679,9 @@
         "TO": "Keys Ferry Road",
         "JUST": "Recently constructed reservoir has increased traffic, but likely not to the point of being an FC-5 classification.  Also, please change the northern terminus of Keys Ferry Road for the FC-6 classification of Peeksville Rd.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 654
       },
       "geometry": {
         "type": "LineString",
