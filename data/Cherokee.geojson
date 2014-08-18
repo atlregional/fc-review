@@ -26163,7 +26163,9 @@
         "DESC": "This road connects SR 140 to SR 108.",
         "JUST": "This large mainly serves large lot residences.  The break point between Upper and Lower Burris is at Land Road.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 727
       },
       "geometry": {
         "type": "LineString",
