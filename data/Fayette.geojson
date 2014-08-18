@@ -6286,7 +6286,9 @@
         "DESC": "Two-lane, shoulder & ditch road",
         "JUST": "Recent traffic signal at Bernhard and SR 85 has increased traffic on Bernhard.  This segment is part of larger alignment that provides east-west connectivity between Peachtree City, SR 85 and SR 92.",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 396
       },
       "geometry": {
         "type": "LineString",
