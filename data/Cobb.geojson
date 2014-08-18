@@ -64733,7 +64733,9 @@
         "DESC": 2,
         "JUST": "An additional request changes Scufflegrit Rd (from Allgood Rd to Sandy Plains) from \"local\" to \"major collector\", shifting the major collector corridor from this segment of Allgood Rd. Traffic counts for this segment are more consistent with minor collector.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 717
       },
       "geometry": {
         "type": "LineString",
