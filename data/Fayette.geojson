@@ -7175,7 +7175,9 @@
         "DESC": "Two-lane road, shoulder and ditch, feeds traffic to and from State Routes and City of Fayetteville.",
         "JUST": "Antioch is classified as Major Collector north and south of this segment.  ",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 393
       },
       "geometry": {
         "type": "LineString",
