@@ -325,7 +325,9 @@
         "DESC": 2,
         "JUST": "Traffic does not warrant Major Collector classification.",
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "In Review",
+        "issue_num": 569
       },
       "geometry": {
         "type": "LineString",
