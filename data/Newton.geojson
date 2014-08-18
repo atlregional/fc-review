@@ -27,7 +27,9 @@
         "DESC": 4,
         "JUST": "Traffic does not justify Major Collector classification.",
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "In Review",
+        "issue_num": 546
       },
       "geometry": {
         "type": "LineString",
