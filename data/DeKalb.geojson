@@ -31022,7 +31022,9 @@
         "FC_NEW": 6,
         "DESC": "low AADT",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 533
       },
       "geometry": {
         "type": "LineString",
