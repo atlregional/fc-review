@@ -16217,7 +16217,9 @@
         "DESC": 2,
         "JUST": "Minor collector type roadway with lower traffic volume.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 641
       },
       "geometry": {
         "type": "LineString",
