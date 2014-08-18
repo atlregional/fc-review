@@ -77763,7 +77763,9 @@
         "DESC": "Extend to include new alignment to DeKalb Medical Parkway",
         "JUST": "New alignment since last FC review.",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 598
       },
       "geometry": {
         "type": "LineString",
