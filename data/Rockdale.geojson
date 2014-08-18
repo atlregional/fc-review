@@ -51300,7 +51300,9 @@
         "DESC": "Two lane roadway with moderate traffic volumes.",
         "JUST": "Roadway should be reduced to minor collector to conform to surrounding network. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 508
       },
       "geometry": {
         "type": "LineString",
