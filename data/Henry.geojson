@@ -58855,7 +58855,9 @@
         "DESC": 2,
         "JUST": "Lower traffic volume than other Henry Co. FC-5 roadways.  Also, please add Snapping Shoals Road as an FC-6 between Honey Creek Road and North Ola Road.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 644
       },
       "geometry": {
         "type": "LineString",
