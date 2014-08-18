@@ -23935,7 +23935,9 @@
         "DESC": 2,
         "JUST": "Functions as a minor roadway; Linecrest is Henry/Dekalb County Line",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 469
       },
       "geometry": {
         "type": "LineString",
