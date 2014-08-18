@@ -21997,7 +21997,9 @@
         "DESC": "Minor Collector connecting Gratis Road and US 78",
         "JUST": "Road Name incorrectly shown as \"Michael Road\" at Gratis Road Intersection.  Correct road name and change FC to minor collector from Gratis Road to US 78.",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 959
       },
       "geometry": {
         "type": "LineString",
