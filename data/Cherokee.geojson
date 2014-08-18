@@ -85691,7 +85691,9 @@
         "DESC": "This roadway is segmented between classifications.",
         "JUST": "To provide continuity with the segments of this roadway to the north and south, the change to Minor Collector is proposed.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 595
       },
       "geometry": {
         "type": "LineString",
