@@ -8830,7 +8830,9 @@
         "DESC": "The ADT on this segment of Dabbs Bridge Road is 4900",
         "JUST": "The roadway has a lower traffic count, and the traffic has been decreasing over the years.  The majority of Dabbs Bridge Road is already classified as a Minor Collector.",
         "stroke": "#00ff00",
-        "user": "EParish-PauldingCo"
+        "user": "EParish-PauldingCo",
+        "status": "In Review",
+        "issue_num": 322
       },
       "geometry": {
         "type": "LineString",
