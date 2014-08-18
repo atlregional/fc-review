@@ -136154,7 +136154,9 @@
         "FC_NEW": 6,
         "DESC": "Lower volume, single family street.  Parallels Oakdale Rd, the Major Collector",
         "stroke": "#00ff00",
-        "user": "JLewis-Atlanta"
+        "user": "JLewis-Atlanta",
+        "status": "In Review",
+        "issue_num": 1080
       },
       "geometry": {
         "type": "LineString",
