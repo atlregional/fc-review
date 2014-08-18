@@ -69332,7 +69332,9 @@
         "JUST": "Should be reduced to Minor Collector due to lower traffic volume.",
         "NAME": "Salem Gate Way",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 543
       },
       "geometry": {
         "type": "LineString",
