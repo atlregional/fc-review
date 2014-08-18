@@ -46993,7 +46993,9 @@
         "JUST": "Should be reduced to minor collector to conform to surrounding network. ",
         "NAME": "Underwood Rd",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 506
       },
       "geometry": {
         "type": "LineString",
