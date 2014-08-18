@@ -28536,7 +28536,9 @@
         "DESC": "Rosedale Drive has 3 ADT's.  From Cobb Line to Cleburne Pkwy is 1880, Cleburne Pkwy to Seaboard Ave is 4860, Seaboard Ave to SR 92 is 3470",
         "JUST": "Traffic counts are lower on this roadway and characteristics meet more of a minor collector.",
         "stroke": "#00ff00",
-        "user": "EParish-PauldingCo"
+        "user": "EParish-PauldingCo",
+        "status": "In Review",
+        "issue_num": 326
       },
       "geometry": {
         "type": "LineString",
