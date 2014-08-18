@@ -82062,7 +82062,9 @@
         "NAME": "Union Hill Rd",
         "FC_NEW": 5,
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 714
       },
       "geometry": {
         "type": "LineString",
