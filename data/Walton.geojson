@@ -38457,7 +38457,9 @@
         "DESC": "Minor Collector",
         "JUST": "Connector from SR 11 to Gratis Road/Marable Street",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 960
       },
       "geometry": {
         "type": "LineString",
