@@ -81532,7 +81532,9 @@
         "DESC": "This road connects SR 20 to the County Line.",
         "JUST": "This road connects a Principal Arterial to the adjacent County where the road is classified as a Major Collector.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 710
       },
       "geometry": {
         "type": "LineString",
