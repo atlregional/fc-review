@@ -8687,7 +8687,9 @@
         "DESC": "Two Lane urban connector",
         "JUST": "Primary Connector between SR 81 and US 78, provides bypass of Loganville, Location of Loganville Middle and Primary Schools",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 966
       },
       "geometry": {
         "type": "LineString",
