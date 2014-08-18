@@ -26763,7 +26763,9 @@
         "DESC": "Connects SR 140 and SR 108.",
         "JUST": "Mainly large lot residences through the area.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 721
       },
       "geometry": {
         "type": "LineString",
