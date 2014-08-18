@@ -12676,7 +12676,9 @@
         "DESC": "A two-lane, shoulder & ditch road.",
         "JUST": "Provides east-west connectivity between SR 85 and SR 92.  Proposed change is consistent with adjacent Bernhard Road and a better fit with East Fayetteville Bypass to the east.",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 394
       },
       "geometry": {
         "type": "LineString",
