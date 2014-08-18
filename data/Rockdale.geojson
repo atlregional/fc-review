@@ -63871,7 +63871,9 @@
         "DESC": "Road is urban with low traffic volumes.",
         "JUST": "Road is urban with low traffic volumes.",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 489
       },
       "geometry": {
         "type": "LineString",
