@@ -68548,7 +68548,9 @@
         "DESC": 2,
         "JUST": "Reduce to FC-6 due to low traffic volume on roadway.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 650
       },
       "geometry": {
         "type": "LineString",
