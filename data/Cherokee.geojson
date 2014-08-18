@@ -63462,7 +63462,9 @@
         "DESC": "Two lane roadway that ends and begins on SR 92.",
         "JUST": "Serves only residential subdivisions located on the roadway.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 718
       },
       "geometry": {
         "type": "LineString",
