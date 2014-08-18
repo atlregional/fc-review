@@ -45396,7 +45396,9 @@
         "DESC": 2,
         "JUST": "Adjacent Lee St and North Pkwy provide for greater north-south travel than N. Lake Dr.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 462
       },
       "geometry": {
         "type": "LineString",
