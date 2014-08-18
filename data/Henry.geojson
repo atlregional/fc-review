@@ -78764,7 +78764,9 @@
         "DESC": 2,
         "JUST": "Please increase limits to show Oak Street extending out to Hwy 19/41 rather than stopping at Steele Drive as an FC-5 (current classification shown as local).",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 645
       },
       "geometry": {
         "type": "LineString",
