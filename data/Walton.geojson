@@ -35473,7 +35473,10 @@
         "County": "Walton",
         "FC_NEW": 6,
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "NAME": "Bryant Street",
+        "status": "In Review",
+        "issue_num": 980
       },
       "geometry": {
         "type": "LineString",
