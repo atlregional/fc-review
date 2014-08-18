@@ -57428,7 +57428,9 @@
         "DESC": 2,
         "JUST": "This roadway serves as major collector for those traveling between State Rt 81 and several local streets and developments.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 474
       },
       "geometry": {
         "type": "LineString",
