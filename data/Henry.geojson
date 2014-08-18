@@ -70311,7 +70311,9 @@
         "TO": "Butts County Line",
         "JUST": "Please extend classification limit beyond the Jackson Lake Road Intersection further eastward to the Butts County Line.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 649
       },
       "geometry": {
         "type": "LineString",
