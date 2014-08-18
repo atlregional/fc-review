@@ -74843,7 +74843,9 @@
         "DESC": 2,
         "JUST": "With the realignment and improvement of SR20, traffic on Richard Petty should be less than previous levels.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 648
       },
       "geometry": {
         "type": "LineString",
