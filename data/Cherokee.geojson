@@ -60258,7 +60258,9 @@
         "DESC": "This is a two lane roadway that connects Hickory Rd and the County Line.",
         "JUST": "This road is a continuation of an existing Major Collector and once it reached the adjacent County also has it as a Major Collector.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 705
       },
       "geometry": {
         "type": "LineString",
