@@ -59065,7 +59065,9 @@
         "DESC": "Low AADT- 2K",
         "JUST": "Network Connectivity, Parallel Routes. ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 388
       },
       "geometry": {
         "type": "LineString",
