@@ -43991,7 +43991,9 @@
         "DESC": "Current ADT on Harmony Grove Church Road is 5750",
         "JUST": "Conforming to the surrounding network.  A good portion of Harmony Grove Church Road is already a Minor Collector.",
         "stroke": "#00ff00",
-        "user": "EParish-PauldingCo"
+        "user": "EParish-PauldingCo",
+        "status": "In Review",
+        "issue_num": 323
       },
       "geometry": {
         "type": "LineString",
