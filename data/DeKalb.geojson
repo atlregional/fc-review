@@ -75337,7 +75337,9 @@
         "FROM": "Covington Hwy ",
         "TO": "Candler Road",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 726
       },
       "geometry": {
         "type": "LineString",
