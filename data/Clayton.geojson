@@ -35733,7 +35733,9 @@
         "DESC": 2,
         "JUST": "Flat Shoals Rd & Airport South Pkwy provide for the direct east-west movement connecting to SR 85.  Rock Hill Dr. is used less frequently, therefore suggest downgrade to minor collector to indicate more accurate movement of traffic.  Flat Shoals Rd from Riverdale Rd to Flat Shoals/Rock Hill Dr intersection should remain a major collector.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 304
       },
       "geometry": {
         "type": "LineString",
