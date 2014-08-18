@@ -22086,7 +22086,9 @@
         "TO": "Old Conyers Road",
         "JUST": "Please change link to show Flat Rock south of the Flakes down to Old Conyers as the FC5 and remove Flakes from the segment (Flakes should be FC7-local).",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 637
       },
       "geometry": {
         "type": "LineString",
