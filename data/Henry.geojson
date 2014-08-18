@@ -23233,7 +23233,9 @@
         "DESC": 2,
         "JUST": "Lower traffic volume than most Major Collector roadways.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 636
       },
       "geometry": {
         "type": "LineString",
