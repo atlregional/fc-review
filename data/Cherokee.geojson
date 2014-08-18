@@ -62215,7 +62215,9 @@
         "DESC": "This portion of road is from Hickory Flat Hwy (SR 140) to Batesville Rd.",
         "JUST": "Continuity with the rest of Sugar Pike Road.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 731
       },
       "geometry": {
         "type": "LineString",
