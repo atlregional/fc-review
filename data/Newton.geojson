@@ -26273,7 +26273,9 @@
         "JUST": "Continuity with Moores Rd.",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "In Review",
+        "issue_num": 529
       },
       "geometry": {
         "type": "LineString",
