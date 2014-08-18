@@ -35597,7 +35597,9 @@
         "NAME": "Edwards Street",
         "FC_NEW": 6,
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 978
       },
       "geometry": {
         "type": "LineString",
