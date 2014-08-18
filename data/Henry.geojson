@@ -53313,7 +53313,9 @@
         "DESC": "Majority of road is gravel roadway with short section paved.  A reservoir has been constructed and additional traffic is related to that.  AADT ~ 500.",
         "JUST": "Lower traffic volume than most FC-5 type roadways.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 653
       },
       "geometry": {
         "type": "LineString",
