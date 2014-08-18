@@ -32738,7 +32738,9 @@
         "DESC": 2,
         "JUST": "Majority of travel on Panhandle Rd takes N. Bridge Rd toward Fayette County, as evidenced by ADT on Panhandle Rd north of N. Bridge Rd (4,828) and on N. Bridge Rd just west of Panhandle Rd (4,522).  There is a large drop in volumes south of N. Bridge Rd.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 320
       },
       "geometry": {
         "type": "LineString",
