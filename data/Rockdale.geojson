@@ -68346,7 +68346,9 @@
         "DESC": "Two lane urban roadway with 1,270 ADT.",
         "JUST": "Should be reduced due to traffic volumes. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 500
       },
       "geometry": {
         "type": "LineString",
