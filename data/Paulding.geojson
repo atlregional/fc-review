@@ -49301,7 +49301,9 @@
         "DESC": "This segment of Frey Road has an ADT of 2830",
         "JUST": "conform to the surrounding network. ",
         "stroke": "#00ff00",
-        "user": "EParish-PauldingCo"
+        "user": "EParish-PauldingCo",
+        "status": "In Review",
+        "issue_num": 334
       },
       "geometry": {
         "type": "LineString",
