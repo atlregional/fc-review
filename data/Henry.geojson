@@ -74148,7 +74148,9 @@
         "DESC": "multi-lane paved roadway.  ",
         "JUST": "Please extend limits to Hwy 19/41.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 657
       },
       "geometry": {
         "type": "LineString",
