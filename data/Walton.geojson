@@ -22364,7 +22364,9 @@
         "FC_NEW": 6,
         "JUST": "Low traffic volumes due to rural area",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 974
       },
       "geometry": {
         "type": "LineString",
