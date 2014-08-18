@@ -61921,7 +61921,9 @@
         "FC_NEW": 5,
         "DESC": "Extend existing segments limits to Thompson Mill Road",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 735
       },
       "geometry": {
         "type": "LineString",
