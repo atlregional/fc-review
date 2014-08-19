@@ -78765,7 +78765,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3692,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Woodlawn Ave",
+        "FC_NEW": 5,
+        "DESC": "Continuity with change request #625",
+        "JUST": "Continuity with change request #625",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
