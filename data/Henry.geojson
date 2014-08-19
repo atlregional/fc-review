@@ -79460,7 +79460,9 @@
         "DESC": "Continuity with request #646 and #647.",
         "JUST": "Continuity with request #646 and #647.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "In Review",
+        "issue_num": 1104
       },
       "geometry": {
         "type": "LineString",
