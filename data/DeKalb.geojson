@@ -449,7 +449,14 @@
         "Shape_Leng": 1437.25216929,
         "ARC_Length": 0.272206850245,
         "RCLINK_1": "0893264701",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Marion Pl",
+        "FC_NEW": 6,
+        "FROM": "Caroline St",
+        "TO": "LaFrance St",
+        "DESC": "Part of important east-west street including Caroline, Marion, LaFrance, and Rogers Streets.  Serves MARTA bus routes.",
+        "stroke": "#00ff00",
+        "user": "JLewis-Atlanta"
       },
       "geometry": {
         "type": "LineString",
@@ -494,7 +501,12 @@
         "Shape_Leng": 4391.98578301,
         "ARC_Length": 0.831815489207,
         "RCLINK_1": "0893260001",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "LaFrance St",
+        "FC_NEW": 6,
+        "DESC": "Part of important east-west street including Caroline, Marion, LaFrance, and Rogers Streets.  Serves MARTA bus routes.",
+        "stroke": "#00ff00",
+        "user": "JLewis-Atlanta"
       },
       "geometry": {
         "type": "LineString",
@@ -664,7 +676,12 @@
         "Shape_Leng": 4849.06114849,
         "ARC_Length": 0.918382793275,
         "RCLINK_1": "0893269301",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Oakview Rd",
+        "FC_NEW": 6,
+        "DESC": "Continuation of HL Williams Dr as east-west collector street.",
+        "stroke": "#00ff00",
+        "user": "JLewis-Atlanta"
       },
       "geometry": {
         "type": "LineString",
@@ -864,7 +881,14 @@
         "Shape_Leng": 4162.40251358,
         "ARC_Length": 0.788333809391,
         "RCLINK_1": "0893268801",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Rogers St",
+        "FROM": "Arizona Ave",
+        "TO": "HL Williams Dr",
+        "FC_NEW": 6,
+        "DESC": "Part of important east-west street including Caroline, Marion, LaFrance, and Rogers Streets.  Serves MARTA bus routes.",
+        "stroke": "#00ff00",
+        "user": "JLewis-Atlanta"
       },
       "geometry": {
         "type": "LineString",
@@ -954,7 +978,14 @@
         "Shape_Leng": 1743.39105106,
         "ARC_Length": 0.330187699064,
         "RCLINK_1": "0893268501",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Arizona Ave",
+        "FROM": "DeKalb Ave",
+        "TO": "Rogers St",
+        "FC_NEW": 6,
+        "DESC": "Important connecting street underneath the railroad/MARTA corridor.",
+        "stroke": "#00ff00",
+        "user": "JLewis-Atlanta"
       },
       "geometry": {
         "type": "LineString",
@@ -1014,7 +1045,12 @@
         "Shape_Leng": 1408.65499487,
         "ARC_Length": 0.266790718725,
         "RCLINK_1": "0893267201",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Caroline St",
+        "FC_NEW": 6,
+        "DESC": "Part of important east-west street including Caroline, Marion, LaFrance, and Rogers Streets.  Serves MARTA bus routes.",
+        "stroke": "#00ff00",
+        "user": "JLewis-Atlanta"
       },
       "geometry": {
         "type": "LineString",
@@ -1079,7 +1115,12 @@
         "Shape_Leng": 533.201843211,
         "ARC_Length": 0.100985197578,
         "RCLINK_1": "0893290401",
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Ridgecrest Rd",
+        "FC_NEW": 6,
+        "DESC": "Important connecting street between DeKalb Ave, E Lake Rd, and Ponce de Leon Ave.",
+        "stroke": "#00ff00",
+        "user": "JLewis-Atlanta"
       },
       "geometry": {
         "type": "LineString",
@@ -30981,7 +31022,9 @@
         "FC_NEW": 6,
         "DESC": "low AADT",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 533
       },
       "geometry": {
         "type": "LineString",
@@ -31871,7 +31914,9 @@
         "FC_NEW": 6,
         "DESC": "Low AADT",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 532
       },
       "geometry": {
         "type": "LineString",
@@ -58738,7 +58783,9 @@
         "DESC": "Lower than expected AADT.  Would like to keep as a collector because historic counts data looks inconsistent.  Can revisit whether this should be local next time.  ",
         "JUST": "Need to coordinate with Rockdale County.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 390
       },
       "geometry": {
         "type": "LineString",
@@ -59018,7 +59065,9 @@
         "DESC": "Low AADT- 2K",
         "JUST": "Network Connectivity, Parallel Routes. ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 388
       },
       "geometry": {
         "type": "LineString",
@@ -61880,7 +61929,9 @@
         "FC_NEW": 5,
         "DESC": "Extend existing segments limits to Thompson Mill Road",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 735
       },
       "geometry": {
         "type": "LineString",
@@ -75294,7 +75345,9 @@
         "FROM": "Covington Hwy ",
         "TO": "Candler Road",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 726
       },
       "geometry": {
         "type": "LineString",
@@ -77718,7 +77771,9 @@
         "DESC": "Extend to include new alignment to DeKalb Medical Parkway",
         "JUST": "New alignment since last FC review.",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 598
       },
       "geometry": {
         "type": "LineString",
@@ -136113,7 +136168,9 @@
         "FC_NEW": 6,
         "DESC": "Lower volume, single family street.  Parallels Oakdale Rd, the Major Collector",
         "stroke": "#00ff00",
-        "user": "JLewis-Atlanta"
+        "user": "JLewis-Atlanta",
+        "status": "In Review",
+        "issue_num": 1080
       },
       "geometry": {
         "type": "LineString",

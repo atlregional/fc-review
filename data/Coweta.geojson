@@ -78397,7 +78397,9 @@
         "DESC": 2,
         "JUST": "Increasing traffic volumes; connectivity between Coweta and Fayette/PTC; Will match FC in Fayette/PTC. ",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 440
       },
       "geometry": {
         "type": "LineString",
@@ -79247,7 +79249,9 @@
         "DESC": 2,
         "JUST": "Increasing traffic volumes; access to vibrant downtown Senoia; connectivity between Coweta and Fayette/PTC; Will match FC in Fayette/PTC.",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 443
       },
       "geometry": {
         "type": "LineString",

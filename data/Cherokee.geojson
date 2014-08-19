@@ -26163,7 +26163,9 @@
         "DESC": "This road connects SR 140 to SR 108.",
         "JUST": "This large mainly serves large lot residences.  The break point between Upper and Lower Burris is at Land Road.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 727
       },
       "geometry": {
         "type": "LineString",
@@ -26761,7 +26763,9 @@
         "DESC": "Connects SR 140 and SR 108.",
         "JUST": "Mainly large lot residences through the area.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 721
       },
       "geometry": {
         "type": "LineString",
@@ -60254,7 +60258,9 @@
         "DESC": "This is a two lane roadway that connects Hickory Rd and the County Line.",
         "JUST": "This road is a continuation of an existing Major Collector and once it reached the adjacent County also has it as a Major Collector.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 705
       },
       "geometry": {
         "type": "LineString",
@@ -62215,7 +62221,9 @@
         "DESC": "This portion of road is from Hickory Flat Hwy (SR 140) to Batesville Rd.",
         "JUST": "Continuity with the rest of Sugar Pike Road.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 731
       },
       "geometry": {
         "type": "LineString",
@@ -63456,7 +63464,9 @@
         "DESC": "Two lane roadway that ends and begins on SR 92.",
         "JUST": "Serves only residential subdivisions located on the roadway.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 718
       },
       "geometry": {
         "type": "LineString",
@@ -81522,7 +81532,9 @@
         "DESC": "This road connects SR 20 to the County Line.",
         "JUST": "This road connects a Principal Arterial to the adjacent County where the road is classified as a Major Collector.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 710
       },
       "geometry": {
         "type": "LineString",
@@ -82050,7 +82062,9 @@
         "NAME": "Union Hill Rd",
         "FC_NEW": 5,
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 714
       },
       "geometry": {
         "type": "LineString",
@@ -83113,7 +83127,9 @@
         "DESC": "Two lane roadway that connects Univeter Rd. and Hickory Rd.",
         "JUST": "This road connects to a Major Collector on both ends and serves a secondary entrance to a school.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 664
       },
       "geometry": {
         "type": "LineString",
@@ -85681,7 +85697,9 @@
         "DESC": "This roadway is segmented between classifications.",
         "JUST": "To provide continuity with the segments of this roadway to the north and south, the change to Minor Collector is proposed.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 595
       },
       "geometry": {
         "type": "LineString",

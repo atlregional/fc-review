@@ -26097,7 +26097,9 @@
         "DESC": 2,
         "JUST": "increase in traffic volumes due to new subdivisions and commuter traffic.",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "In Review",
+        "issue_num": 629
       },
       "geometry": {
         "type": "LineString",

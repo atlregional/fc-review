@@ -8687,7 +8687,9 @@
         "DESC": "Two Lane urban connector",
         "JUST": "Primary Connector between SR 81 and US 78, provides bypass of Loganville, Location of Loganville Middle and Primary Schools",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 966
       },
       "geometry": {
         "type": "LineString",
@@ -11456,7 +11458,9 @@
         "DESC": "Minor Collecter",
         "JUST": "Traffic Volumes, Connector between SR 20 and SR 81",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 961
       },
       "geometry": {
         "type": "LineString",
@@ -21995,7 +21999,9 @@
         "DESC": "Minor Collector connecting Gratis Road and US 78",
         "JUST": "Road Name incorrectly shown as \"Michael Road\" at Gratis Road Intersection.  Correct road name and change FC to minor collector from Gratis Road to US 78.",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 959
       },
       "geometry": {
         "type": "LineString",
@@ -22364,7 +22370,9 @@
         "FC_NEW": 6,
         "JUST": "Low traffic volumes due to rural area",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 974
       },
       "geometry": {
         "type": "LineString",
@@ -24832,7 +24840,9 @@
         "DESC": "Minor Collector serving southeast Walton County",
         "JUST": "Current and projected traffic volumes in rural area",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 957
       },
       "geometry": {
         "type": "LineString",
@@ -26519,7 +26529,9 @@
         "DESC": "Two Lane Roadway",
         "JUST": "Minor Collector",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 972
       },
       "geometry": {
         "type": "LineString",
@@ -28073,7 +28085,9 @@
         "DESC": "Minor Collector serving southeast Walton County",
         "JUST": "Current and projected traffic volumes in rural area",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 958
       },
       "geometry": {
         "type": "LineString",
@@ -30288,7 +30302,9 @@
         "FC_NEW": 6,
         "JUST": "Minor Collector",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 973
       },
       "geometry": {
         "type": "LineString",
@@ -35473,7 +35489,10 @@
         "County": "Walton",
         "FC_NEW": 6,
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "NAME": "Bryant Street",
+        "status": "In Review",
+        "issue_num": 980
       },
       "geometry": {
         "type": "LineString",
@@ -35594,7 +35613,9 @@
         "NAME": "Edwards Street",
         "FC_NEW": 6,
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 978
       },
       "geometry": {
         "type": "LineString",
@@ -38444,7 +38465,9 @@
         "DESC": "Minor Collector",
         "JUST": "Connector from SR 11 to Gratis Road/Marable Street",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 960
       },
       "geometry": {
         "type": "LineString",

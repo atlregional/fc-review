@@ -6286,7 +6286,9 @@
         "DESC": "Two-lane, shoulder & ditch road",
         "JUST": "Recent traffic signal at Bernhard and SR 85 has increased traffic on Bernhard.  This segment is part of larger alignment that provides east-west connectivity between Peachtree City, SR 85 and SR 92.",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 396
       },
       "geometry": {
         "type": "LineString",
@@ -7175,7 +7177,9 @@
         "DESC": "Two-lane road, shoulder and ditch, feeds traffic to and from State Routes and City of Fayetteville.",
         "JUST": "Antioch is classified as Major Collector north and south of this segment.  ",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 393
       },
       "geometry": {
         "type": "LineString",
@@ -12674,7 +12678,9 @@
         "DESC": "A two-lane, shoulder & ditch road.",
         "JUST": "Provides east-west connectivity between SR 85 and SR 92.  Proposed change is consistent with adjacent Bernhard Road and a better fit with East Fayetteville Bypass to the east.",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 394
       },
       "geometry": {
         "type": "LineString",
@@ -35051,14 +35057,16 @@
         "2010AvAADT": 3500,
         "OBJECTID_1": 2207,
         "County": "Fayette",
-        "NAME": "Planterra Way",
-        "FROM": "SR 54",
-        "TO": "Kelly Drive",
-        "FC_NEW": 6,
-        "DESC": "Two -lane road, residential area.",
-        "JUST": "Request from Peacthree City.",
+        "NAME": "Kelly Road",
+        "FROM": "Dividend Drive",
+        "TO": "Peachtree Parkway",
+        "FC_NEW": 4,
+        "DESC": "Varying number of lanes.",
+        "JUST": "Request from Peachtree City",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 400
       },
       "geometry": {
         "type": "LineString",

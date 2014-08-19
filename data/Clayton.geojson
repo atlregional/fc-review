@@ -32738,7 +32738,9 @@
         "DESC": 2,
         "JUST": "Majority of travel on Panhandle Rd takes N. Bridge Rd toward Fayette County, as evidenced by ADT on Panhandle Rd north of N. Bridge Rd (4,828) and on N. Bridge Rd just west of Panhandle Rd (4,522).  There is a large drop in volumes south of N. Bridge Rd.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 320
       },
       "geometry": {
         "type": "LineString",
@@ -35731,7 +35733,9 @@
         "DESC": 2,
         "JUST": "Flat Shoals Rd & Airport South Pkwy provide for the direct east-west movement connecting to SR 85.  Rock Hill Dr. is used less frequently, therefore suggest downgrade to minor collector to indicate more accurate movement of traffic.  Flat Shoals Rd from Riverdale Rd to Flat Shoals/Rock Hill Dr intersection should remain a major collector.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 304
       },
       "geometry": {
         "type": "LineString",
@@ -39326,7 +39330,9 @@
         "DESC": 2,
         "JUST": "Volume data doesn't support a classification as Major Collector.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 321
       },
       "geometry": {
         "type": "LineString",
@@ -45396,7 +45402,9 @@
         "DESC": 2,
         "JUST": "Adjacent Lee St and North Pkwy provide for greater north-south travel than N. Lake Dr.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 462
       },
       "geometry": {
         "type": "LineString",

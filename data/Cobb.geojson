@@ -64733,7 +64733,9 @@
         "DESC": 2,
         "JUST": "An additional request changes Scufflegrit Rd (from Allgood Rd to Sandy Plains) from \"local\" to \"major collector\", shifting the major collector corridor from this segment of Allgood Rd. Traffic counts for this segment are more consistent with minor collector.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 717
       },
       "geometry": {
         "type": "LineString",
@@ -94107,7 +94109,9 @@
         "DESC": 2,
         "JUST": "to update regional fc to match city thoroughfare map dated 02082006.",
         "stroke": "#00ff00",
-        "user": "KClark-MariettaGa"
+        "user": "KClark-MariettaGa",
+        "status": "In Review",
+        "issue_num": 850
       },
       "geometry": {
         "type": "LineString",
@@ -98946,7 +98950,9 @@
         "DESC": 2,
         "JUST": "An additional request changes Scufflegrit Rd (from Allgood Rd to Sandy Plains) from \"local\" to \"major collector\", shifting the major collector corridor from this segment of Allgood Rd. Traffic counts for this segment are more consistent with minor collector.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 712
       },
       "geometry": {
         "type": "LineString",
@@ -99657,7 +99663,9 @@
         "DESC": 2,
         "JUST": "to update regional fc to match up with city thoroughfare map dated 02082006.",
         "stroke": "#00ff00",
-        "user": "KClark-MariettaGa"
+        "user": "KClark-MariettaGa",
+        "status": "In Review",
+        "issue_num": 866
       },
       "geometry": {
         "type": "LineString",
@@ -102107,7 +102115,9 @@
         "DESC": 4,
         "JUST": "To update regional functional classification to match City Thoroughfare Map dated 02082006.",
         "stroke": "#00ff00",
-        "user": "KClark-MariettaGa"
+        "user": "KClark-MariettaGa",
+        "status": "In Review",
+        "issue_num": 844
       },
       "geometry": {
         "type": "LineString",
@@ -102693,7 +102703,9 @@
         "DESC": 4,
         "JUST": "Coordinated with Marietta and Smyrna. Follow up discussions w/ Smyrna are encouraged to fully involve them. Major corridor linking downtown Marietta, downtown Smyrna to I-285 and Atlanta. Continues minor arterial north from Cumberland Pkwy to Marietta .",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 835
       },
       "geometry": {
         "type": "LineString",

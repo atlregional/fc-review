@@ -29589,7 +29589,9 @@
         "DESC": "Two lane rural roadway with 2,120 ADT",
         "JUST": "Two lane rural roadway with 2,120 ADT",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 501
       },
       "geometry": {
         "type": "LineString",
@@ -30722,7 +30724,9 @@
         "DESC": "Two lane local roadway with 3,450 ADT",
         "JUST": "Two lane local roadway with 3,450 ADT",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 504
       },
       "geometry": {
         "type": "LineString",
@@ -31070,7 +31074,9 @@
         "DESC": "Two lane roadway with 1,740 ADT",
         "JUST": "Two lane roadway with 1,740 ADT",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 510
       },
       "geometry": {
         "type": "LineString",
@@ -33560,7 +33566,9 @@
         "DESC": "Two lane rural roadway, moderate volume",
         "JUST": "Two lane rural roadway, moderate volume",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 436
       },
       "geometry": {
         "type": "LineString",
@@ -42055,7 +42063,9 @@
         "DESC": "Two lane rural roadway, moderate traffic volumes. ",
         "JUST": "Should be reduced to minor collector to conform to surrounding network. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 505
       },
       "geometry": {
         "type": "LineString",
@@ -43870,7 +43880,9 @@
         "DESC": "Two lane rural roadway with 2,180 ADT.",
         "JUST": "Roadway should be reduced to minor collector to conform to surrounding network. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 545
       },
       "geometry": {
         "type": "LineString",
@@ -44287,7 +44299,9 @@
         "DESC": "Two lane roadway with 1,240 ADT.",
         "JUST": "Two lane roadway with 1,240 ADT.",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 547
       },
       "geometry": {
         "type": "LineString",
@@ -46987,7 +47001,9 @@
         "JUST": "Should be reduced to minor collector to conform to surrounding network. ",
         "NAME": "Underwood Rd",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 506
       },
       "geometry": {
         "type": "LineString",
@@ -49780,7 +49796,9 @@
         "DESC": "Two lane urban roadway with 1,320 ADT.",
         "JUST": "Roadway should be reduced to minor collector to conform to surrounding network. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 550
       },
       "geometry": {
         "type": "LineString",
@@ -50687,7 +50705,9 @@
         "DESC": "Two lane roadway with 900 ADT.",
         "JUST": "Two lane roadway with 900 ADT.",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 551
       },
       "geometry": {
         "type": "LineString",
@@ -51290,7 +51310,9 @@
         "DESC": "Two lane roadway with moderate traffic volumes.",
         "JUST": "Roadway should be reduced to minor collector to conform to surrounding network. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 508
       },
       "geometry": {
         "type": "LineString",
@@ -54791,7 +54813,9 @@
         "DESC": "Two lane rural roadway with 1,138 ADT.",
         "JUST": "Two lane rural roadway with 1,138 ADT.",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 430
       },
       "geometry": {
         "type": "LineString",
@@ -58321,7 +58345,9 @@
         "DESC": "Two lane rural roadway with low traffic volumes.",
         "JUST": "Roadway should be reduced to a minor collector to conform to surrounding network. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 548
       },
       "geometry": {
         "type": "LineString",
@@ -63849,7 +63875,9 @@
         "DESC": "Road is urban with low traffic volumes.",
         "JUST": "Road is urban with low traffic volumes.",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 489
       },
       "geometry": {
         "type": "LineString",
@@ -68324,7 +68352,9 @@
         "DESC": "Two lane urban roadway with 1,270 ADT.",
         "JUST": "Should be reduced due to traffic volumes. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 500
       },
       "geometry": {
         "type": "LineString",
@@ -69322,7 +69352,9 @@
         "JUST": "Should be reduced to Minor Collector due to lower traffic volume.",
         "NAME": "Salem Gate Way",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 543
       },
       "geometry": {
         "type": "LineString",

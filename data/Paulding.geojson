@@ -27,7 +27,9 @@
         "DESC": "ADT on Ivey Gulledge From Old Cartersville to Seven Hills is 3950, the segment from Seven HIlls to Frey Road is 2440",
         "JUST": "This roadway has a lower ADT and is better suited as minor collector classification. Projected growth along the corridor has decreased over the last few years.",
         "stroke": "#00ff00",
-        "user": "EParish-PauldingCo"
+        "user": "EParish-PauldingCo",
+        "status": "In Review",
+        "issue_num": 324
       },
       "geometry": {
         "type": "LineString",
@@ -8828,7 +8830,9 @@
         "DESC": "The ADT on this segment of Dabbs Bridge Road is 4900",
         "JUST": "The roadway has a lower traffic count, and the traffic has been decreasing over the years.  The majority of Dabbs Bridge Road is already classified as a Minor Collector.",
         "stroke": "#00ff00",
-        "user": "EParish-PauldingCo"
+        "user": "EParish-PauldingCo",
+        "status": "In Review",
+        "issue_num": 322
       },
       "geometry": {
         "type": "LineString",
@@ -28536,7 +28540,9 @@
         "DESC": "Rosedale Drive has 3 ADT's.  From Cobb Line to Cleburne Pkwy is 1880, Cleburne Pkwy to Seaboard Ave is 4860, Seaboard Ave to SR 92 is 3470",
         "JUST": "Traffic counts are lower on this roadway and characteristics meet more of a minor collector.",
         "stroke": "#00ff00",
-        "user": "EParish-PauldingCo"
+        "user": "EParish-PauldingCo",
+        "status": "In Review",
+        "issue_num": 326
       },
       "geometry": {
         "type": "LineString",
@@ -43987,7 +43993,9 @@
         "DESC": "Current ADT on Harmony Grove Church Road is 5750",
         "JUST": "Conforming to the surrounding network.  A good portion of Harmony Grove Church Road is already a Minor Collector.",
         "stroke": "#00ff00",
-        "user": "EParish-PauldingCo"
+        "user": "EParish-PauldingCo",
+        "status": "In Review",
+        "issue_num": 323
       },
       "geometry": {
         "type": "LineString",
@@ -49301,7 +49309,9 @@
         "DESC": "This segment of Frey Road has an ADT of 2830",
         "JUST": "conform to the surrounding network. ",
         "stroke": "#00ff00",
-        "user": "EParish-PauldingCo"
+        "user": "EParish-PauldingCo",
+        "status": "In Review",
+        "issue_num": 334
       },
       "geometry": {
         "type": "LineString",

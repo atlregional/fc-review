@@ -27,7 +27,9 @@
         "DESC": 4,
         "JUST": "Traffic does not justify Major Collector classification.",
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "In Review",
+        "issue_num": 546
       },
       "geometry": {
         "type": "LineString",
@@ -325,7 +327,9 @@
         "DESC": 2,
         "JUST": "Traffic does not warrant Major Collector classification.",
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "In Review",
+        "issue_num": 569
       },
       "geometry": {
         "type": "LineString",
@@ -4041,7 +4045,9 @@
         "JUST": "Traffic northeast of S.R. 142 does not support Major Collector classification.",
         "FC_NEW": 6,
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "In Review",
+        "issue_num": 518
       },
       "geometry": {
         "type": "LineString",
@@ -26269,7 +26275,9 @@
         "JUST": "Continuity with Moores Rd.",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "In Review",
+        "issue_num": 529
       },
       "geometry": {
         "type": "LineString",
@@ -28402,7 +28410,9 @@
         "DESC": 2,
         "JUST": "Traffic does not justify a Major Collector classification",
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "In Review",
+        "issue_num": 535
       },
       "geometry": {
         "type": "LineString",
@@ -29824,7 +29834,9 @@
         "DESC": 2,
         "JUST": "Traffic does not justify Major Collector classification",
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "In Review",
+        "issue_num": 534
       },
       "geometry": {
         "type": "LineString",
@@ -30761,7 +30773,9 @@
         "JUST": "Traffic northeast of S.R. 142 does not support Major Collector classification.",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "TGarrett-NewtonCo"
+        "user": "TGarrett-NewtonCo",
+        "status": "In Review",
+        "issue_num": 519
       },
       "geometry": {
         "type": "LineString",

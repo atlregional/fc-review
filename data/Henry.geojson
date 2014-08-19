@@ -16217,7 +16217,9 @@
         "DESC": 2,
         "JUST": "Minor collector type roadway with lower traffic volume.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 641
       },
       "geometry": {
         "type": "LineString",
@@ -22084,7 +22086,9 @@
         "TO": "Old Conyers Road",
         "JUST": "Please change link to show Flat Rock south of the Flakes down to Old Conyers as the FC5 and remove Flakes from the segment (Flakes should be FC7-local).",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 637
       },
       "geometry": {
         "type": "LineString",
@@ -22514,7 +22518,9 @@
         "DESC": 2,
         "JUST": "Lower traffic volume than other Henry Co. FC-5's.  Please add Turner Church Road between SR20 and McGarity as an FC-6 also (currently shown as local).",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 642
       },
       "geometry": {
         "type": "LineString",
@@ -23227,7 +23233,9 @@
         "DESC": 2,
         "JUST": "Lower traffic volume than most Major Collector roadways.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 636
       },
       "geometry": {
         "type": "LineString",
@@ -23927,7 +23935,9 @@
         "DESC": 2,
         "JUST": "Functions as a minor roadway; Linecrest is Henry/Dekalb County Line",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 469
       },
       "geometry": {
         "type": "LineString",
@@ -25268,7 +25278,9 @@
         "DESC": 2,
         "JUST": "Austin Road southern terminus should be extended to Fairview Rd.  Rock Road should be shown as a local road.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 634
       },
       "geometry": {
         "type": "LineString",
@@ -49044,7 +49056,9 @@
         "DESC": 2,
         "JUST": "Lower traffic volume that most FC-5 roads in Henry Co.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 651
       },
       "geometry": {
         "type": "LineString",
@@ -49317,7 +49331,9 @@
         "DESC": 2,
         "JUST": "Please extend limits of FC-6 classification further south to the Spalding County Line.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 658
       },
       "geometry": {
         "type": "LineString",
@@ -50679,7 +50695,9 @@
         "TO": "Keys Ferry Road",
         "JUST": "Recently constructed reservoir has increased traffic, but likely not to the point of being an FC-5 classification.  Also, please change the northern terminus of Keys Ferry Road for the FC-6 classification of Peeksville Rd.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 654
       },
       "geometry": {
         "type": "LineString",
@@ -53311,7 +53329,9 @@
         "DESC": "Majority of road is gravel roadway with short section paved.  A reservoir has been constructed and additional traffic is related to that.  AADT ~ 500.",
         "JUST": "Lower traffic volume than most FC-5 type roadways.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 653
       },
       "geometry": {
         "type": "LineString",
@@ -54533,7 +54553,9 @@
         "DESC": "Portion of roadway is 2 lane paved roadway and portion (southern portion) is 2 lane surface treatment roadway. ",
         "JUST": "Lower traffic volume than most Henry Co FC-5's.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 646
       },
       "geometry": {
         "type": "LineString",
@@ -57408,7 +57430,9 @@
         "DESC": 2,
         "JUST": "This roadway serves as major collector for those traveling between State Rt 81 and several local streets and developments.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 474
       },
       "geometry": {
         "type": "LineString",
@@ -58669,7 +58693,9 @@
         "DESC": 2,
         "JUST": "Lower traffic volume than Henry FC-5 roadways.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 643
       },
       "geometry": {
         "type": "LineString",
@@ -58847,7 +58873,9 @@
         "DESC": 2,
         "JUST": "Lower traffic volume than other Henry Co. FC-5 roadways.  Also, please add Snapping Shoals Road as an FC-6 between Honey Creek Road and North Ola Road.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 644
       },
       "geometry": {
         "type": "LineString",
@@ -65053,7 +65081,9 @@
         "DESC": 2,
         "JUST": "drop to fc-6 due to low traffic volume.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 640
       },
       "geometry": {
         "type": "LineString",
@@ -68542,7 +68572,9 @@
         "DESC": 2,
         "JUST": "Reduce to FC-6 due to low traffic volume on roadway.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 650
       },
       "geometry": {
         "type": "LineString",
@@ -70303,7 +70335,9 @@
         "TO": "Butts County Line",
         "JUST": "Please extend classification limit beyond the Jackson Lake Road Intersection further eastward to the Butts County Line.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 649
       },
       "geometry": {
         "type": "LineString",
@@ -74116,7 +74150,9 @@
         "DESC": "multi-lane paved roadway.  ",
         "JUST": "Please extend limits to Hwy 19/41.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 657
       },
       "geometry": {
         "type": "LineString",
@@ -74833,7 +74869,9 @@
         "DESC": 2,
         "JUST": "With the realignment and improvement of SR20, traffic on Richard Petty should be less than previous levels.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 648
       },
       "geometry": {
         "type": "LineString",
@@ -77645,7 +77683,9 @@
         "DESC": 2,
         "JUST": "Traffic volume and local street tie-ins should be such that the volume is lower than most FC-5 roadways.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 647
       },
       "geometry": {
         "type": "LineString",
@@ -78748,7 +78788,9 @@
         "DESC": 2,
         "JUST": "Please increase limits to show Oak Street extending out to Hwy 19/41 rather than stopping at Steele Drive as an FC-5 (current classification shown as local).",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 645
       },
       "geometry": {
         "type": "LineString",
