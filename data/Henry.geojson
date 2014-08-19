@@ -55628,7 +55628,9 @@
         "NAME": "Old Griffin Road",
         "FC_NEW": 6,
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "In Review",
+        "issue_num": 1105
       },
       "geometry": {
         "type": "LineString",
