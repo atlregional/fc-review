@@ -71659,7 +71659,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3657,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Hampton-Locust Grove Road",
+        "FROM": "Western extent",
+        "TO": "McDonough-Hampton Road",
+        "FC_NEW": 5,
+        "DESC": "Continuity with Issue #633, providing a logical terminus for FC-5 downgrade.",
+        "JUST": "Continuity with Issue #633, providing a logical terminus for FC-5 downgrade.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
