@@ -27121,7 +27121,9 @@
         "DESC": "Segment is on Regional Thoroughfares Network, which should be comprised exclusively of FC-4 or above.",
         "JUST": "Segment is on Regional Thoroughfares Network, which should be comprised exclusively of FC-4 or above.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "In Review",
+        "issue_num": 1109
       },
       "geometry": {
         "type": "LineString",
