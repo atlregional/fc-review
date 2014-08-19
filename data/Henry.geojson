@@ -78771,7 +78771,9 @@
         "DESC": "Continuity with change request #625",
         "JUST": "Continuity with change request #625",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "In Review",
+        "issue_num": 1108
       },
       "geometry": {
         "type": "LineString",
