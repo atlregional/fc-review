@@ -32797,7 +32797,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3940,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Crowell Rd SW",
+        "FC_NEW": 6,
+        "DESC": "Continuity with change requests #504 and #505",
+        "JUST": "Continuity with change requests #504 and #505",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
