@@ -60757,7 +60757,13 @@
         "2011AvAADT": 170,
         "2010AvAADT": 180,
         "OBJECTID_1": 3625,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Peeksville Road",
+        "FC_NEW": 6,
+        "DESC": "Continuity with change requests #653, #645, and #651",
+        "JUST": "Continuity with change requests #653, #645, and #651",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
