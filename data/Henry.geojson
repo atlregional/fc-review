@@ -60763,7 +60763,9 @@
         "DESC": "Continuity with change requests #653, #645, and #651",
         "JUST": "Continuity with change requests #653, #645, and #651",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "In Review",
+        "issue_num": 1106
       },
       "geometry": {
         "type": "LineString",
