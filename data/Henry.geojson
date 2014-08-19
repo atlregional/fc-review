@@ -55622,7 +55622,13 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3609,
-        "County": "Henry"
+        "County": "Henry",
+        "DESC": "Provides a logical terminus to the west for requests #646 and #647",
+        "JUST": "Provides a logical terminus to the west for requests #646 and #647",
+        "NAME": "Old Griffin Road",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
