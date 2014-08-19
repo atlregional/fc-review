@@ -32803,7 +32803,9 @@
         "DESC": "Continuity with change requests #504 and #505",
         "JUST": "Continuity with change requests #504 and #505",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "In Review",
+        "issue_num": 1107
       },
       "geometry": {
         "type": "LineString",
