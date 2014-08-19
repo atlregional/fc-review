@@ -79430,7 +79430,13 @@
         "2011AvAADT": 600,
         "2010AvAADT": 610,
         "OBJECTID_1": 3697,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "W King Rd / Floyd Rd",
+        "FC_NEW": 6,
+        "DESC": "Continuity with request #646 and #647.",
+        "JUST": "Continuity with request #646 and #647.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
