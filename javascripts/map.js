@@ -435,38 +435,38 @@ else
 
 var github;
 if(window.location.href.split('?').length > 1){
-code = window.location.href.match(/\?code=(.*)/)[1];
-$('.btn').button()
-$('#gh-login').button('loading')
+	code = window.location.href.match(/\?code=(.*)/)[1];
+	$('.btn').button()
+	$('#gh-login').button('loading')
 
-var authUrl = dev ? 'http://localhost:9999' : 'http://gatekeeper-fc-review.herokuapp.com'
-$.getJSON(authUrl + '/authenticate/'+code, function(data) {
-	
- console.log(data.token);
- $.cookie('token', data.token);
- window.history.pushState("object or string", "Title", "{{ site.baseurl }}/")
- $.getJSON("https://api.github.com/user?access_token="+ data.token, function(data){
-	
-	$.cookie('user', data)
-	$('#welcome-message').html('<a style="margin-right:5px;" href="'+$.cookie('user').html_url+'">'+$.cookie('user').login+'</a><a style="margin-right:5px;" href="'+$.cookie('user').html_url+'"><img width="34px" style="margin-right:5px;" height="34px" src="'+$.cookie('user').avatar_url+'"></a>').show()
-	$('#gh-login').removeClass('btn-success').addClass('btn-danger').text('Log out').attr('title', 'Log out of Plan-It')
-	console.log('showing username')
-	$('#gh-login').button('reset').text('Log out')
-	checkTeams()
-	if($.cookie('return-href') !== undefined){
-		window.location = $.cookie('return-href')
-	}
- })
+	var authUrl = dev ? 'http://localhost:9999' : 'http://gatekeeper-fc-review.herokuapp.com'
+	$.getJSON(authUrl + '/authenticate/'+code, function(data) {
+		
+	 console.log(data.token);
+	 $.cookie('token', data.token);
+	 window.history.pushState("object or string", "Title", "{{ site.baseurl }}/")
+	 $.getJSON("https://api.github.com/user?access_token="+ data.token, function(data){
+		
+		$.cookie('user', data)
+		$('#welcome-message').html('<a style="margin-right:5px;" href="'+$.cookie('user').html_url+'">'+$.cookie('user').login+'</a><a style="margin-right:5px;" href="'+$.cookie('user').html_url+'"><img width="34px" style="margin-right:5px;" height="34px" src="'+$.cookie('user').avatar_url+'"></a>').show()
+		$('#gh-login').removeClass('btn-success').addClass('btn-danger').text('Log out').attr('title', 'Log out of Plan-It')
+		console.log('showing username')
+		$('#gh-login').button('reset').text('Log out')
+		checkTeams()
+		if($.cookie('return-href') !== undefined){
+			window.location = $.cookie('return-href')
+		}
+	 })
 
 
-});
+	});
 }
 
-	github = new Github({
-		token: $.cookie('token'),
-		auth: "oauth"
-	 })
-	if ($.cookie('token') !== undefined){
+github = new Github({
+	token: $.cookie('token'),
+	auth: "oauth"
+ })
+if ($.cookie('token') !== undefined){
 	$('#welcome-message').html('<a style="margin-right:5px;" href="'+$.cookie('user').html_url+'">'+$.cookie('user').login+'</a><a style="margin-right:5px;" href="'+$.cookie('user').html_url+'"><img width="34px" style="margin-right:5px;" height="34px" src="'+$.cookie('user').avatar_url+'"></a>').show()
 	$('#gh-login').removeClass('btn-success').addClass('btn-danger').text('Log out').attr('title', 'Log out of Plan-It')
 	 // get list of teams
@@ -475,10 +475,10 @@ $.getJSON(authUrl + '/authenticate/'+code, function(data) {
 	//   
 	//   console.log(data)
 	// })
-	
+
 	checkTeams()
-	
-	}
+
+}
 
 
 	$('#gh-view').click(function(){
@@ -580,9 +580,9 @@ info.update = function (props) {
 	if (props && segments.length > 0 || $.cookie('owner') !== 1){
 		disabled = 'disabled="disabled"'
 	}
-	if ($.cookie('user').login === 'JLewis-Atlanta'){
-		disabled = '';
-	}
+	// if ($.cookie('user').login === 'JLewis-Atlanta'){
+	// 	disabled = '';
+	// }
 	this._div.innerHTML = '<h4>Functional Class Review</h4>' +  (props ?
 		'ID #: ' + props.RCLINK + ' <button type="button" ' + disabled + ' data-value=\''+JSON.stringify(props)+'\' title="Add street segment to edits" class="btn btn-xs btn-success add-street" id="'+props.RCLINK+'"><span class="glyphicon glyphicon-plus-sign"></span></button><br />' +
 		'County: ' + toTitleCase(props.County) + '<br />' +
