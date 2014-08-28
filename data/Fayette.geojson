@@ -3072,18 +3072,6 @@
     },
     {
       "type": "Feature",
-      "properties": {
-        "RCLINK": "1132001400",
-        "BEG_MEASUR": 0,
-        "END_MEASUR": 0.86,
-        "F_SYSTEM": 7,
-        "URBAN_CODE": "03817",
-        "LOC_ERROR": "NO ERROR",
-        "Shape_Leng": 4518.90306708,
-        "ARC_Length": 0.855852853615,
-        "RCLINK_1": "1132001400",
-        "County": "Fayette"
-      },
       "geometry": {
         "type": "LineString",
         "coordinates": [
