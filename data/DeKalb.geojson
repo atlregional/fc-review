@@ -8422,7 +8422,9 @@
         "DESC": "AADT= 3900.  Connects Wesley Chapel to Flat Shoals Parkway (SR 155).  Lots of neighborhoods.  ",
         "JUST": "Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 923
       },
       "geometry": {
         "type": "LineString",
