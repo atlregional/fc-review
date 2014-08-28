@@ -5067,7 +5067,9 @@
         "DESC": 2,
         "JUST": "This road functions as a connecting segment between Lake Jodeco Rd (Minor Arterial) and Walt Stephens Rd (Minor Arterial) depending on the user's intended destination, i.e. downtown Jonesboro, SR 138, Stockbridge, McDonough/I-75 South.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 317
       },
       "geometry": {
         "type": "LineString",
