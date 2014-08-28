@@ -1060,7 +1060,9 @@
         "FC_NEW": 6,
         "DESC": "Part of important east-west street including Caroline, Marion, LaFrance, and Rogers Streets.  Serves MARTA bus routes.",
         "stroke": "#00ff00",
-        "user": "JLewis-Atlanta"
+        "user": "JLewis-Atlanta",
+        "status": "In Review",
+        "issue_num": 1090
       },
       "geometry": {
         "type": "LineString",
