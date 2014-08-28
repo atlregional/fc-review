@@ -66437,7 +66437,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 633,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Arthur Dr",
+        "FC_NEW": 7,
+        "DESC": "Arthur Drive has some sections with bad horizontal geometry and the use of the roadway is light.",
+        "JUST": "There are more appropriate roadways that have more volume that connect Univeter Road and Hickory Rd.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 325
       },
       "geometry": {
         "type": "LineString",
