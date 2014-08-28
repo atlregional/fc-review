@@ -17598,7 +17598,9 @@
         "DESC": 4,
         "JUST": "Requested FC change is included in County FC Plan; primary north-south roadway; proposed extension to SR 16 (CST to begin this summer).",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 457
       },
       "geometry": {
         "type": "LineString",
@@ -19658,7 +19660,9 @@
         "DESC": 4,
         "JUST": "Requested FC change is included in County FC Plan; primary north-south roadway; proposed extension to SR 16 (CST to begin this summer).",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 457
       },
       "geometry": {
         "type": "LineString",
