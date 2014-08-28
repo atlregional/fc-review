@@ -4259,7 +4259,9 @@
         "NAME": "Spot Road",
         "FC_NEW": 5,
         "stroke": "#00ff00",
-        "user": "MKrayARC"
+        "user": "MKrayARC",
+        "status": "In Review",
+        "issue_num": 1002
       },
       "geometry": {
         "type": "LineString",
