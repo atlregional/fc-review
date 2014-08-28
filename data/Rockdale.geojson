@@ -3655,7 +3655,9 @@
         "JUST": "Roadway should be upgraded to minor collector because it provides connectivity between Rockdale and Newton Counties. ",
         "DESC": "Two lane rural roadway with 2,240 ADT.",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 557
       },
       "geometry": {
         "type": "LineString",
