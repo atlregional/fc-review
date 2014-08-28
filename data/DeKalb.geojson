@@ -7917,7 +7917,9 @@
         "DESC": "Network Connectivity.  Industrial Area.  ",
         "JUST": "Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 918
       },
       "geometry": {
         "type": "LineString",
