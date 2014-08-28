@@ -18752,7 +18752,9 @@
         "DESC": "Two Lane roadway that connects Arnold Mill Road and Alabama Rd (SR 92).",
         "JUST": "This roadway connects a Minor Arterial with a Principal Arterial.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 680
       },
       "geometry": {
         "type": "LineString",
