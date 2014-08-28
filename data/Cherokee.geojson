@@ -21673,7 +21673,9 @@
         "DESC": "This roadway connects Reinhard College Parkway and Riverstone Parkway.",
         "JUST": "It connects two Minor Arterials and serves multiple large retail outlets.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 592
       },
       "geometry": {
         "type": "LineString",
