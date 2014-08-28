@@ -9359,7 +9359,9 @@
         "DESC": 2,
         "JUST": "Flat Shoals Rd & Airport South Pkwy provide for the direct east-west movement connecting to SR 85.  Clayton will submit another request to convert Rock Hill Dr from Major Collector to Minor Collector.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 302
       },
       "geometry": {
         "type": "LineString",
