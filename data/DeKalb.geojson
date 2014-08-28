@@ -1700,7 +1700,9 @@
         "DESC": "Request that Snapfinger Woods Drive's current classification be extended to include entire limits.",
         "JUST": "Request that Snapfinger Woods Drive's current classification be extended to include entire limits.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "In Review",
+        "issue_num": 992
       },
       "geometry": {
         "type": "LineString",
