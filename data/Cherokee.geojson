@@ -10583,7 +10583,9 @@
         "DESC": "Roadway provides a connection between Hickory Flat Hwy and East Cherokee Dr.",
         "JUST": "Roadway is a east west connection between a Minor Arterial and a Major Collector.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 423
       },
       "geometry": {
         "type": "LineString",
