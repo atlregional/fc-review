@@ -21367,7 +21367,9 @@
         "DESC": "This roadway connects a Local Connector to a Minor Arterial.",
         "NAME": "Bluffs Pkwy",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 587
       },
       "geometry": {
         "type": "LineString",
