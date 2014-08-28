@@ -14662,7 +14662,9 @@
         "DESC": 2,
         "JUST": "Increased traffic volumes",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 461
       },
       "geometry": {
         "type": "LineString",
