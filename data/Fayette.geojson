@@ -2955,7 +2955,9 @@
         "DESC": "Two lane road.",
         "JUST": "North-south connectivity between SR 92 and SR 138 and indirect access to Interstate for Fayette County.  ",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 909
       },
       "geometry": {
         "type": "LineString",
