@@ -4109,7 +4109,9 @@
         "DESC": "Connects Rowland Rd to neighborhoods to Redan Rd (minor art)",
         "JUST": "Network Connectivity. Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 934
       },
       "geometry": {
         "type": "LineString",
