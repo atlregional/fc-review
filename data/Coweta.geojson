@@ -17724,7 +17724,9 @@
         "FROM": "SR 34",
         "TO": "Current terminus",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 341
       },
       "geometry": {
         "type": "LineString",
