@@ -11698,10 +11698,12 @@
         "County": "DeKalb",
         "NAME": "Flowers Rd",
         "FC_NEW": 5,
-        "DESC": "AADT= 6300, Connects office parks, Mercer University",
-        "JUST": "Network Connectivity, Consistent with DeKalb CTP",
+        "DESC": "AADT=6300, Provides access to office parks and Mercer Univ",
+        "JUST": "Network Connectivity and existing use, Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 928
       },
       "geometry": {
         "type": "LineString",
