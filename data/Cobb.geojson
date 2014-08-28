@@ -22696,7 +22696,9 @@
         "JUST": "Coordinated with Marietta. City wishes FC to match local MTP class with this request. ",
         "FC_NEW": 6,
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 744
       },
       "geometry": {
         "type": "LineString",
