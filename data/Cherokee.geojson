@@ -15007,7 +15007,9 @@
         "DESC": "Two lane roadway that connects East Cherokee Drive and North Arnold Mill Road.",
         "JUST": "This roadway connects a Minor Arterial and a Major Collector.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 688
       },
       "geometry": {
         "type": "LineString",
