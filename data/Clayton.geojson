@@ -12292,7 +12292,9 @@
         "DESC": 3,
         "JUST": "Southlake Pkwy is an alternate to Jonesboro Rd/SR 54 (Minor Arterial) for north-southbound traffic and many travelers use this road due to adjacent high-density residential, governmental complexes to the south, schools, and access to I-75 to the north.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 307
       },
       "geometry": {
         "type": "LineString",
