@@ -9506,7 +9506,9 @@
         "DESC": "Two lane roadway connecting Batesville Rd to the County Line.",
         "JUST": "This roadway connects a Major Collector with a Major Collector in the adjacent county and provides continuity for classification type.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 662
       },
       "geometry": {
         "type": "LineString",
