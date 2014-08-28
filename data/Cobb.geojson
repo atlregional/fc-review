@@ -22501,7 +22501,9 @@
         "DESC": "Highlands Ridge Road (HRR): 2 lanes w/ CTL; Highlands Pkwy (HP): 4 lanes divided with median; AADT: None available; Cobb MTP FC: Arterial (segment is part of request for HRR/HP from East-West Conn to Oakdale Rd)",
         "JUST": "Major corridor for large employers that links East-West Conn to S Cobb Dr ",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 789
       },
       "geometry": {
         "type": "LineString",
