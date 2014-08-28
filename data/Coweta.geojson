@@ -20135,7 +20135,9 @@
         "JUST": "serves as alternate route to the state route system in the downtown road network and provides connectivity to downtown and other major collectors",
         "DESC": "two lane street with sidewalk and curb and gutter some sections are one way is an integral part of the downtown road network system",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 367
       },
       "geometry": {
         "type": "LineString",
