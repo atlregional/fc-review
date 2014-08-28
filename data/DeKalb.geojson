@@ -10623,7 +10623,9 @@
         "DESC": "AADT= 7600, Tucker Middle School",
         "JUST": "Network Connectivity, Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 913
       },
       "geometry": {
         "type": "LineString",
