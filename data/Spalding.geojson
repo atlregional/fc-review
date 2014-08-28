@@ -2780,7 +2780,9 @@
         "DESC": 2,
         "JUST": "supports residential subdivisions; SR16/SR362 north-south connector.",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "In Review",
+        "issue_num": 818
       },
       "geometry": {
         "type": "LineString",
