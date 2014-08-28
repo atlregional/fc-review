@@ -17799,7 +17799,9 @@
         "JUST": "Conflicting designation. This segment was included in the thoroughfares network, but this segment is classified as local.",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 709
       },
       "geometry": {
         "type": "LineString",
