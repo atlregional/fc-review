@@ -4680,7 +4680,9 @@
         "DESC": 2,
         "JUST": "Will provide direct access to proposed McIntosh Village development and eventually to Peachtree City/Fayette Co via future Vernon Hunter Pkwy/TDK Blvd Extension; roadway connects to City of Senoia",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 431
       },
       "geometry": {
         "type": "LineString",
