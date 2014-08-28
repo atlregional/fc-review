@@ -49103,7 +49103,9 @@
         "DESC": "Majority of roadway is gravel road.  AADT less than 500.",
         "JUST": "Low traffic volume.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 652
       },
       "geometry": {
         "type": "LineString",
