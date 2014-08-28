@@ -4327,7 +4327,9 @@
         "DESC": "AADT= 4200 Connects Rowland rd to neighborhoods to South Hairston Rd (principal)",
         "JUST": "Network Connectivity. Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 933
       },
       "geometry": {
         "type": "LineString",
