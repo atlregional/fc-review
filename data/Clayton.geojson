@@ -7359,7 +7359,9 @@
         "DESC": 2,
         "JUST": "Connecting route between SR 54 (Fayetteville Rd) and Mundy's Mill Rd.  ",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 571
       },
       "geometry": {
         "type": "LineString",
