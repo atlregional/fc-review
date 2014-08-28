@@ -1300,7 +1300,15 @@
         "Shape_Leng": 1857.06023616,
         "ARC_Length": 0.351715953819,
         "RCLINK_1": "0672101500",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Merritt Rd",
+        "FC_NEW": 6,
+        "JUST": "Coordinated with Marietta. City wishes FC to match local MTP class with this request. Connects a major collector to an OPA.",
+        "DESC": 2,
+        "stroke": "#00ff00",
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 742
       },
       "geometry": {
         "type": "LineString",
@@ -11833,7 +11841,9 @@
         "JUST": "Coordinated with Marietta. City wishes FC to match local MTP class with this request. Connects a major collector to an OPA.",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 742
       },
       "geometry": {
         "type": "LineString",
