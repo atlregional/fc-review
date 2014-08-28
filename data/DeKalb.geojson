@@ -4806,7 +4806,9 @@
         "DESC": "Connects Church St/E Ponce De Leon Ave to neighborhoods to N Decatur Rd",
         "JUST": "Network Connectivity.  Consistent with DeKalb CTP. ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 949
       },
       "geometry": {
         "type": "LineString",
