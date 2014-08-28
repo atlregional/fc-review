@@ -17653,7 +17653,9 @@
         "DESC": "This road is a 2 lane road that serves many industrial businesses as well as the airport.",
         "JUST": "The land use in the area is largely industrial and serves multiple businesses as well as the Cherokee County Airport and has an exit on 575.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 599
       },
       "geometry": {
         "type": "LineString",
