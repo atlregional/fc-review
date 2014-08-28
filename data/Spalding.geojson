@@ -2528,7 +2528,9 @@
         "DESC": 2,
         "JUST": "supports surrounding network, north-south travel and residential development",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "In Review",
+        "issue_num": 821
       },
       "geometry": {
         "type": "LineString",
