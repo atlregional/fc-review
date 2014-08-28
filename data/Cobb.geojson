@@ -13725,7 +13725,9 @@
         "DESC": 2,
         "JUST": "Major collector in Paulding County. This request extends the existing \"major collector\" designation along this roadway from Paulding County to a \"minor arterial\" ",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 831
       },
       "geometry": {
         "type": "LineString",
