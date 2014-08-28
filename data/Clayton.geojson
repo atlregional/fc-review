@@ -14741,7 +14741,9 @@
         "FROM": "SR 139 (Church St)",
         "TO": "SR 85",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 389
       },
       "geometry": {
         "type": "LineString",
