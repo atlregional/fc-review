@@ -15394,7 +15394,9 @@
         "DESC": 2,
         "JUST": "Increasing traffic volumes",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 465
       },
       "geometry": {
         "type": "LineString",
