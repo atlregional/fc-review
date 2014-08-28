@@ -3038,7 +3038,9 @@
         "DESC": 2,
         "JUST": "Increasing traffic volumes; projected high growth area. ",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 424
       },
       "geometry": {
         "type": "LineString",
