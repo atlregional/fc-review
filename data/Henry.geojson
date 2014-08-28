@@ -25683,7 +25683,9 @@
         "DESC": 2,
         "JUST": "Currently shown linked with Austin.  Austin Rd limits as FC5 should extend to Fairview and Rock Road be shown as FC7 (local)",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 635
       },
       "geometry": {
         "type": "LineString",
