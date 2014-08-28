@@ -6374,7 +6374,9 @@
         "DESC": 2,
         "JUST": "ADT for this section of Panhandle Rd is only slightly lower than section that is south of McDonough Rd (7,437), which is classified as Major Collector.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 318
       },
       "geometry": {
         "type": "LineString",
