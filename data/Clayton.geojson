@@ -6225,7 +6225,9 @@
         "DESC": 2,
         "JUST": "Connecting route between Tara Rd (Proposed upgrade to Major Collector) and SR 920 (McDonough Rd - Minor Arterial).",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 583
       },
       "geometry": {
         "type": "LineString",
