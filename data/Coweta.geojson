@@ -17284,7 +17284,9 @@
         "JUST": "serves as a major route  and entrance into several commercial developments, provides connectivity between Newnan Crossing Bypass which is operating at least a major collector or minor arterial and State Route 34, and would conform to the surrounding network",
         "DESC": "this section south of Bullsboro has some two lane urban section some three lane urban section and serves several commercial developments and institutional developments including the Cancer Treatment Center. Provides an alternate route to Newnan Crossing Bypass",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 378
       },
       "geometry": {
         "type": "LineString",
