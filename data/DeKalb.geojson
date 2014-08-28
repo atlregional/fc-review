@@ -18913,7 +18913,9 @@
         "DESC": 4,
         "JUST": "Direct connection from existing collector (Womack Road) to arterial (Ashford Dunwoody Road).",
         "stroke": "#00ff00",
-        "user": "MSmith-DunwoodyGa"
+        "user": "MSmith-DunwoodyGa",
+        "status": "In Review",
+        "issue_num": 903
       },
       "geometry": {
         "type": "LineString",
