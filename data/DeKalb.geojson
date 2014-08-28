@@ -3790,11 +3790,13 @@
         "RCLINK_1": "0892016800",
         "County": "DeKalb",
         "NAME": "Lloyd Rd",
-        "FC_NEW": 6,
         "DESC": "Connects the Tilson/Whites Mill neighborhoods to the north of I-20 across I-20 to Flat Shoals Rd (and then to Candler Rd and Flat Shoals/Clifton Church Rd (all minor arterials))",
-        "JUST": "Network Connectivity.  Consistent with DeKalb CTP",
+        "FC_NEW": 6,
+        "JUST": "Network Connectivity.  Consistent with the DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 955
       },
       "geometry": {
         "type": "LineString",
