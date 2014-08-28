@@ -17307,7 +17307,9 @@
         "DESC": 4,
         "JUST": "This 4-lane divided roadway serves and a connection between Peachtree Dunwoody Road/Lake Hearn Drive/Perimeter Center Pkwy to Ashford Dunwoody Road.  Alternate route from Perimeter Center/Pill Hill area to Ashford Dunwoody Rd.  With Lake Hearn Drive one way in at Asdfor Dunwooy, this road has become the main connection for travelars heading toward Ashford Dunwoody. Functions as a collector for several office buildings, a hotel, and residential developments along the road to acecss to I-285, Ashford Dunwoody Road, Perimeter Mall area, and Pill hill area.   Collector on DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "RMeehan-BrookhavenGa"
+        "user": "RMeehan-BrookhavenGa",
+        "status": "In Review",
+        "issue_num": 870
       },
       "geometry": {
         "type": "LineString",
