@@ -21620,7 +21620,9 @@
         "DESC": 2,
         "JUST": "Coordinated with Marietta. In conjunction with request to change Delk Rd (I-75 to Terrell Mill Rd) and Terrell Mill Rd to (US 41 to Lower Roswell Rd) to Minor Arterial. This request would link two Minor Arterials.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 730
       },
       "geometry": {
         "type": "LineString",
