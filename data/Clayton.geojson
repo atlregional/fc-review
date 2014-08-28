@@ -9210,7 +9210,9 @@
         "DESC": 3,
         "JUST": "This road provides an alternative for travel through the intersection of Upper Riverdale Rd and Tara Blvd for access to numerous medical offices/hospital and Tara Blvd south.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 335
       },
       "geometry": {
         "type": "LineString",
