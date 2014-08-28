@@ -18895,7 +18895,9 @@
         "DESC": "Local Road",
         "JUST": "Low Traffic Volumes, Road Geometry",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 962
       },
       "geometry": {
         "type": "LineString",
