@@ -24611,7 +24611,15 @@
         "Shape_Leng": 648.23123465,
         "ARC_Length": 0.122771067169,
         "RCLINK_1": "0573081103",
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "Bluffs Pkwy",
+        "FC_NEW": 5,
+        "DESC": "This roadway connects a Local Connector to a Minor Arterial.",
+        "JUST": "This is a four-lane roadway with industrial land surrounding the majority of the area.  It serves several large businesses as well as a Technical College.",
+        "stroke": "#00ff00",
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 581
       },
       "geometry": {
         "type": "LineString",
