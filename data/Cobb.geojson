@@ -9523,7 +9523,9 @@
         "DESC": 4,
         "JUST": "Important alternative access in Town Center area of major shopping and employment. In conjunction w/ request for Barrett Lakes Blvd and Cobb Place Blvd to add minor collectors to network in Town Center that relieve Barrett Pkwy",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 822
       },
       "geometry": {
         "type": "LineString",
