@@ -32722,7 +32722,9 @@
         "JUST": "serves as a major route  and entrance into several commercial developments including a 900 unit multifamily development, provides connectivity from Bullsboro Drive to McIntosh Parkway which is operating at least a major collector or minor arterial and would conform to the surrounding network",
         "DESC": "section is mostly two lane divided urban section with curb and gutter and sidewalks some is not divided",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 376
       },
       "geometry": {
         "type": "LineString",
