@@ -6248,7 +6248,9 @@
         "DESC": "Continuation of an east west route with Owens Store Road.",
         "JUST": "Continuity with Owens Store Road connects two Major Collectors.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 606
       },
       "geometry": {
         "type": "LineString",
