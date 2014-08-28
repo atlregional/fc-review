@@ -19599,7 +19599,9 @@
         "DESC": 4,
         "JUST": "Provides important north-south link on west/south side of I-75 from Cherokee/Wade Green to Hickory Grove.  ",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 814
       },
       "geometry": {
         "type": "LineString",
