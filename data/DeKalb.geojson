@@ -13167,7 +13167,9 @@
         "DESC": "Extension of existing Key Road Segment to Moreland Ave (SR 42).  ",
         "JUST": "Connects neighborhoods and the industrial area. Consistent with the DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 932
       },
       "geometry": {
         "type": "LineString",
