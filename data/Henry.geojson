@@ -61471,7 +61471,9 @@
         "DESC": 2,
         "JUST": "Very low volume roadway",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 475
       },
       "geometry": {
         "type": "LineString",
