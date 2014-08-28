@@ -15572,7 +15572,9 @@
         "DESC": 2,
         "JUST": "Creates continuous corridor, east-west route that connects South Cobb High School to Powder Springs and Mableton",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 778
       },
       "geometry": {
         "type": "LineString",
