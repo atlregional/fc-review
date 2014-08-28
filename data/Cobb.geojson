@@ -12593,7 +12593,9 @@
         "DESC": "Request includes Cobb County portion of Willeo Rd;\n2 lanes w/o CTL; \nAADT: W of Davidson: 21,600 (2007); E of Saints : 14,300 (2006); \nCobb MTP FC: Arterial",
         "JUST": "Roswell is seeking \"major collector\" for Fulton County portion of the corridor (Wileo Rd). Together, these segments will link JFR to Roswell Rd.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 764
       },
       "geometry": {
         "type": "LineString",
