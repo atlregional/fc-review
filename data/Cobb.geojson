@@ -9190,7 +9190,9 @@
         "DESC": 4,
         "JUST": "New Chastain Rd, Town Center/KSU area E/W reliever road opened in 2012",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 794
       },
       "geometry": {
         "type": "LineString",
