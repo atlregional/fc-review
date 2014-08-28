@@ -4475,7 +4475,17 @@
         "Shape_Leng": 1265.19054218,
         "ARC_Length": 0.239619420868,
         "RCLINK_1": "0673106613",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Gresham Avenue",
+        "FROM": "Gunter Street",
+        "TO": "Cobb Pkwy/ US 41 ",
+        "FC_NEW": 6,
+        "DESC": 4,
+        "JUST": "to update regional fc to match city thoroughfare map dated 02082006.",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa",
+        "status": "In Review",
+        "issue_num": 851
       },
       "geometry": {
         "type": "LineString",
