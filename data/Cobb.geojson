@@ -19077,7 +19077,9 @@
         "JUST": "In conjunction with request for South Service Rd (SSR)(from Minor Arterial to Minor Collector). Traffic volumes greater than SSR.",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 790
       },
       "geometry": {
         "type": "LineString",
