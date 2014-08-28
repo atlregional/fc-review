@@ -7188,7 +7188,9 @@
         "DESC": "A high school and middle school are major traffic generators.",
         "NAME": "Owens Store Rd",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 603
       },
       "geometry": {
         "type": "LineString",
