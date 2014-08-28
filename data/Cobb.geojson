@@ -11935,7 +11935,9 @@
         "DESC": 4,
         "JUST": "Home to several Cobb County and state government offices. Connects two state routes (SR 5 and SR 360)",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 806
       },
       "geometry": {
         "type": "LineString",
