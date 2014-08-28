@@ -3399,7 +3399,9 @@
         "DESC": "Two lane road",
         "JUST": "This road connects two Minor Arterials and serves as a collector for several large subdivisions.",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 899
       },
       "geometry": {
         "type": "LineString",
