@@ -15253,7 +15253,9 @@
         "DESC": 2,
         "JUST": "Provides residential and school access and connectivity between Thurman Rd (Minor Arterial) and SR 42 (Macon Hwy - Minor Arterial).",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 421
       },
       "geometry": {
         "type": "LineString",
