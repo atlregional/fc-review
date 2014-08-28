@@ -25,7 +25,9 @@
         "DESC": "Two lane road; surrounding land use is residential.  ",
         "JUST": "Road connects a Minor Arterial and a Major Collector.  Also an indirect cut-through between SR 85 and SR 92.  ",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 898
       },
       "geometry": {
         "type": "LineString",
