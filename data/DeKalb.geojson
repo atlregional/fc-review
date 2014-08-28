@@ -13964,7 +13964,9 @@
         "FC_NEW": 6,
         "NAME": "Ridge Rd",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 945
       },
       "geometry": {
         "type": "LineString",
