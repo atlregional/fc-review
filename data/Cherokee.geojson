@@ -18934,7 +18934,9 @@
         "JUST": "This road connects a Major Collector and a Minor Arterial. It serves many residential subdivisions.",
         "DESC": "This is a two lane roadway that connects Hickory Rd and Holly Springs Pkwy.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 671
       },
       "geometry": {
         "type": "LineString",
