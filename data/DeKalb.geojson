@@ -7595,7 +7595,9 @@
         "DESC": "Connects Salem Rd (minor art) to Evans Mill (minor art)",
         "JUST": "Network connectivity, Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 929
       },
       "geometry": {
         "type": "LineString",
