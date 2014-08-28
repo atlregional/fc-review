@@ -1052,7 +1052,9 @@
         "JUST": "Whitehead Road (in it's entirety) is a collector street from Suwanee Dam Road (major collector) and West Broad Street (Sugar Hill downtown center).  The following subdivisions directly access Whitehead Road: Oaks at Lanier, Herbert Bruce, Whitehead Acres, Bromolow Ridge, Sugar Ridge, Oaks Landing, Westbrook Pointe, Silver Springs, West Brooke Place, Summerfield, Abingdon Place, Regency Lake, and Brighton Park.  Additionally, there are several large and undeveloped parcels fronting Whitehead Road for future development.\nAdditionally, the City has contacted Lewis Cooksey, Gwinnett County Dept. of Transportation, and he is in agreement with this upgrade in classification.",
         "DESC": "According to Gwinnett County's Department of Transportation Traffic count, on January 21, 2009, the estimated Average Daily Trips (ADT) was 4,525.  This number has surely grown as the current estimated population of Sugar Hill is over 18,000 citizens.",
         "stroke": "#00ff00",
-        "user": "TSchick-SugarHillGa"
+        "user": "TSchick-SugarHillGa",
+        "status": "In Review",
+        "issue_num": 693
       },
       "geometry": {
         "type": "LineString",
