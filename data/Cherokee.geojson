@@ -8781,7 +8781,9 @@
         "DESC": "This roadway connects two Minor Arterials.",
         "JUST": "There is a school along this roadway and it handles the school traffic as well as cut through movements.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 442
       },
       "geometry": {
         "type": "LineString",
