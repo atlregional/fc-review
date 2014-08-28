@@ -6380,7 +6380,9 @@
         "DESC": "AADT= 6000.  Connects neighborhoods and commuters between Rays Rd (collector) to Hambrick Rd (collector) to South Hairston (principal) to Goldsmtih (Right at Memorial Drive (minor art))",
         "JUST": "Network Connectivity.  Consistent with the DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 937
       },
       "geometry": {
         "type": "LineString",
