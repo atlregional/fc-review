@@ -10724,7 +10724,9 @@
         "TO": "North Decatur Rd",
         "JUST": "Consistent with the DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 917
       },
       "geometry": {
         "type": "LineString",
