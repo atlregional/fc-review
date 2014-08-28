@@ -19774,7 +19774,9 @@
         "JUST": "provides connectivity between a minor arterial and major collector, is an integral part of the downtown road system and would conform to the surrounding network",
         "DESC": "two lane urban section with sidewalks with AADT of 1202 when last measured in July of 2009",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 381
       },
       "geometry": {
         "type": "LineString",
