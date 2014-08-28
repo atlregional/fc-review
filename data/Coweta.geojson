@@ -19935,7 +19935,9 @@
         "DESC": "two lane street with curb and gutter serves several commercial businesses and apartment complexes",
         "JUST": "connects between a principle arterial and a major collector and is used as a short cut between the two as well as major access route for commercial business and apartments located on the road",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 370
       },
       "geometry": {
         "type": "LineString",
