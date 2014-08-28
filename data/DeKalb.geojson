@@ -12659,7 +12659,9 @@
         "DESC": "Connects Memorial Dr (minor art) to N Indian Creek.  Generators: GA Piedmont College, GA Perimeter College, DeKalb County School bus transfer location",
         "JUST": "Network Connectivity.  Consistent with DeKalb CTP. ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 948
       },
       "geometry": {
         "type": "LineString",
