@@ -55900,7 +55900,9 @@
         "DESC": "gravel roadway, low traffic volume (AADT < 200)",
         "JUST": "Low volume.",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 655
       },
       "geometry": {
         "type": "LineString",
