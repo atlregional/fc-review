@@ -4562,7 +4562,9 @@
         "DESC": 2,
         "JUST": "to update regional functional classification to match the adopted city Thoroughfare map dated 02082006.",
         "stroke": "#00ff00",
-        "user": "KClark-MariettaGa"
+        "user": "KClark-MariettaGa",
+        "status": "In Review",
+        "issue_num": 847
       },
       "geometry": {
         "type": "LineString",
