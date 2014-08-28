@@ -3571,7 +3571,9 @@
         "DESC": 2,
         "JUST": "north-south connector, supports existing neighborhoods and conforms to surrounding network",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "In Review",
+        "issue_num": 829
       },
       "geometry": {
         "type": "LineString",
