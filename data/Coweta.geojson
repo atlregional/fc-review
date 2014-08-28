@@ -13556,7 +13556,9 @@
         "DESC": 2,
         "JUST": "Access to Creekside Industrial Park, Whitlock Park, Coweta EMS. ",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 342
       },
       "geometry": {
         "type": "LineString",
