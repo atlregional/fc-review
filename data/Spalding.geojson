@@ -453,7 +453,9 @@
         "DESC": 2,
         "JUST": "supports large scale industrial developments and employment center",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "In Review",
+        "issue_num": 813
       },
       "geometry": {
         "type": "LineString",
