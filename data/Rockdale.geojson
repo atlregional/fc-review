@@ -24725,7 +24725,9 @@
         "DESC": "Two lane rural roadway with 421 ADT",
         "JUST": "Road should be reduced to Local road due to low traffic volumes. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 503
       },
       "geometry": {
         "type": "LineString",
