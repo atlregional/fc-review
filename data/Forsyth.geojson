@@ -6387,7 +6387,9 @@
         "TO": "Bald Ridge Marina Rd",
         "FC_NEW": 4,
         "stroke": "#00ff00",
-        "user": "MKrayARC"
+        "user": "MKrayARC",
+        "status": "In Review",
+        "issue_num": 994
       },
       "geometry": {
         "type": "LineString",
