@@ -15759,7 +15759,9 @@
         "DESC": "This roadway connect East Cherokee Drive and Arnold Mill Road.",
         "JUST": "This roadway connects two Minor Arterials and has schools located at each end of the roadway.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 684
       },
       "geometry": {
         "type": "LineString",
