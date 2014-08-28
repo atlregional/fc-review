@@ -12539,7 +12539,9 @@
         "DESC": 4,
         "JUST": "This road is an alternate route to Mt. Zion Rd for travel between Morrow and Stockbridge.  ADTs for Mt. Zion Rd are slightly higher (13,458), justifying it's classification as Minor Arterial over Mt. Zion Pkwy.  This change will require short segment in Henry County also be upgraded to Major Collector.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 314
       },
       "geometry": {
         "type": "LineString",
