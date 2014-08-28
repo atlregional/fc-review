@@ -744,7 +744,17 @@
         "Shape_Leng": 19491.7044321,
         "ARC_Length": 3.6916106879,
         "RCLINK_1": "2472000600",
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Union Church Rd",
+        "FROM": "Hwy 138",
+        "TO": "Oglesby Bridge Rd",
+        "FC_NEW": 6,
+        "DESC": "Two lane rural roadway with 2,800 ADT.",
+        "JUST": "Roadway should be upgraded to minor collector due to traffic volume and conformance to surrounding network. ",
+        "stroke": "#00ff00",
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 565
       },
       "geometry": {
         "type": "LineString",
@@ -4409,7 +4419,9 @@
         "DESC": "Two lane rural roadway with 2,800 ADT.",
         "JUST": "Roadway should be upgraded to minor collector due to traffic volume and conformance to surrounding network. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 565
       },
       "geometry": {
         "type": "LineString",
