@@ -12899,7 +12899,9 @@
         "DESC": "Connects Snapfinger Rd to neighborhoods to Redwing Cir to Covington Hwy to I-285. ",
         "JUST": "Network Connectivity.  Consistent with DeKalb CTP. ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 951
       },
       "geometry": {
         "type": "LineString",
