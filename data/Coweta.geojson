@@ -1224,7 +1224,9 @@
         "DESC": 2,
         "JUST": "Provides connectivity between two state routes; increasing traffic volumes.",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 491
       },
       "geometry": {
         "type": "LineString",
