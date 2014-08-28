@@ -23626,7 +23626,9 @@
         "DESC": 4,
         "JUST": "connects to lower Fayetteville road which is a minor arterial also connects to Shenandoah parkway which is classified as a major collector",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 358
       },
       "geometry": {
         "type": "LineString",
