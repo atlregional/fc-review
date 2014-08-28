@@ -1937,7 +1937,9 @@
         "TO": "Lees Lake Road",
         "JUST": "East-west connectivity between SR 74 and SR 92.  Collects traffic from multiple subdivisions and feeder streets.  ",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 907
       },
       "geometry": {
         "type": "LineString",
