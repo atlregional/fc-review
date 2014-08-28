@@ -18044,7 +18044,9 @@
         "DESC": 4,
         "JUST": "Conflicting designation. Allgood Rd/Scufflegrit Rd/Sandy Plains Rd corridor was included in the thoroughfares network, but this segment is classified as local.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 695
       },
       "geometry": {
         "type": "LineString",
