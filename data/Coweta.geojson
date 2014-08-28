@@ -7268,7 +7268,9 @@
         "DESC": 2,
         "JUST": "Requested FC change is included in County FC Plan; used by commuters to access US 29/SR 154/I-85. ",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 479
       },
       "geometry": {
         "type": "LineString",
