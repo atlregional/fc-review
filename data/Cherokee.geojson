@@ -18638,7 +18638,9 @@
         "DESC": "This road connects Trickum Road and Alabama Rd (SR 92).",
         "JUST": "This connects a Major Collector and a Principal Arterial.  It serves many residential units as well as being a cut through to access SR 92. ",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 685
       },
       "geometry": {
         "type": "LineString",
