@@ -9153,7 +9153,9 @@
         "FC_NEW": 5,
         "NAME": "Lower Birmingham Rd",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 663
       },
       "geometry": {
         "type": "LineString",
