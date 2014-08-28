@@ -438,7 +438,9 @@
         "DESC": "Two lane road.  NOTE - segment should not include Old Norton Road south of SR 54.",
         "JUST": "Connectivity between a Minor and Principal Arterial.  Increased in traffic from Pinewood Studios.  Serves Hospital and other non-residential developments.",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 912
       },
       "geometry": {
         "type": "LineString",
