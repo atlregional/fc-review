@@ -1467,7 +1467,9 @@
         "DESC": 2,
         "JUST": "Serves as an east-west link between Lee St/SR 54 and SR 42 and provides access to adjacent residential areas.  Carries less traffic than adjacent Rex Rd (Major Collector).",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 498
       },
       "geometry": {
         "type": "LineString",
