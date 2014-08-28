@@ -4672,7 +4672,9 @@
         "DESC": "This roadway connects Fate Conn Rd and Lower Bethany.",
         "JUST": "Once of the roads it connects is currently a Minor Collector and the other is proposed to be a Minor Collector.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 597
       },
       "geometry": {
         "type": "LineString",
