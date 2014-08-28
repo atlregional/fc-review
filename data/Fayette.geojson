@@ -1482,7 +1482,9 @@
         "DESC": "Two lane road.",
         "JUST": "Serves school complex and cut-through between a Minor Arterial and SR 74.  Increase in traffic from Pinewood Studio development.  ",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 910
       },
       "geometry": {
         "type": "LineString",
