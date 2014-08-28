@@ -2338,7 +2338,9 @@
         "DESC": "Connects Moreland Ave (SR 42- proposed principal art) thru industrial area",
         "JUST": "Network Connectivity, Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 930
       },
       "geometry": {
         "type": "LineString",
