@@ -20329,7 +20329,9 @@
         "JUST": "serves as a major route  and entrance into a  commercial and industrial developed area and ultimately to a planned community with several pods provides connectivity to other principle arterial and would conform to the surrounding network",
         "DESC": "two lane street with some curb and gutter has commercial and industrial at one end then transitions to multi and single family residential at the other end connects to Calumet Parkway",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 372
       },
       "geometry": {
         "type": "LineString",
