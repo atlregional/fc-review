@@ -14598,7 +14598,9 @@
         "DESC": 4,
         "JUST": "Traffic patterns changing due to construction of Atlanta Braves stadium that is currently underway. ",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 770
       },
       "geometry": {
         "type": "LineString",
