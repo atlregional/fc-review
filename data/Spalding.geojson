@@ -5442,7 +5442,9 @@
         "DESC": 2,
         "JUST": "supports dense commercial, industrial and institutional land uses",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "In Review",
+        "issue_num": 816
       },
       "geometry": {
         "type": "LineString",
