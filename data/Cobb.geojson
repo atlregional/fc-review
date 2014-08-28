@@ -15992,7 +15992,9 @@
         "DESC": 4,
         "JUST": "Major entrance to Cumberland area via I-75 (east of I-75/north of I-285 quadrant).",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 773
       },
       "geometry": {
         "type": "LineString",
