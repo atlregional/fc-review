@@ -26624,7 +26624,9 @@
         "DESC": "starts out as a two lane curb and gutter section with sidewalks that provides entrance to Avery Park a planned community with both commercial and residential uses then transitions to a one way divided parkway providing access to several pods within the community",
         "NAME": "The Blvd",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 369
       },
       "geometry": {
         "type": "LineString",
