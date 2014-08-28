@@ -14062,7 +14062,9 @@
         "DESC": "This roadway connects Hickory Rd and Waters Road.",
         "JUST": "It connects a Major Collector and a proposed Minor Collector.  It has a large County Park located along the roadway.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 689
       },
       "geometry": {
         "type": "LineString",
