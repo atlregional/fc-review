@@ -12332,7 +12332,9 @@
         "DESC": 2,
         "JUST": "Coordinated with Marietta. City wishes FC to match local MTP class with this request. Connects two state routes/minor arterials",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 745
       },
       "geometry": {
         "type": "LineString",
