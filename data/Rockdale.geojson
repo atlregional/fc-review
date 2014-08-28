@@ -9946,7 +9946,9 @@
         "DESC": "The road is signed as the route to the City of Conyers from SR 20/138 and carries an estimated traffic volume of 5,000 vpd.",
         "JUST": "Since the road is signed as the direction to the city center, the road needs a classification as a Minor Collector.",
         "stroke": "#00ff00",
-        "user": "BSutton-ConyersGa"
+        "user": "BSutton-ConyersGa",
+        "status": "In Review",
+        "issue_num": 675
       },
       "geometry": {
         "type": "LineString",
