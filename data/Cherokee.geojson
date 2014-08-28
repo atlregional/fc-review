@@ -598,7 +598,9 @@
         "DESC": "This road connects Trickum Road and Arnold Mill Road.  ADT over 10,000 vpd.",
         "JUST": "This road carries a heavy volume and is a continuation of an existing Major Collector to another Major Collector.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 749
       },
       "geometry": {
         "type": "LineString",
