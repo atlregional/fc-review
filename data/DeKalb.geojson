@@ -681,7 +681,9 @@
         "FC_NEW": 6,
         "DESC": "Continuation of HL Williams Dr as east-west collector street.",
         "stroke": "#00ff00",
-        "user": "JLewis-Atlanta"
+        "user": "JLewis-Atlanta",
+        "status": "In Review",
+        "issue_num": 1102
       },
       "geometry": {
         "type": "LineString",
