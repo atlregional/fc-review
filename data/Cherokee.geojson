@@ -20606,7 +20606,9 @@
         "DESC": "Partial 4-lane roadway that connects Main Street with an interchange on 575.",
         "JUST": "This roadway connects a Minor Arterial with an Interstate.  Access to the interstate and a large retail center currently along this roadway.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 673
       },
       "geometry": {
         "type": "LineString",
