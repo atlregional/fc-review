@@ -14916,7 +14916,9 @@
         "DESC": 2,
         "JUST": "Important connection between Vinings business district (Paces Ferry Rd/Paces Mill Rd area) to Cumberland and US 41.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 774
       },
       "geometry": {
         "type": "LineString",
