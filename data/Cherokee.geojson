@@ -16127,7 +16127,9 @@
         "DESC": "The majority of Sixes Road is already a Major Collector.  For some reason this last segment was not included.",
         "JUST": "The change is needed for continuity along Sixes Road.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 409
       },
       "geometry": {
         "type": "LineString",
