@@ -5308,7 +5308,9 @@
         "DESC": "Two lane rural roadway with 1,470 ADT.",
         "JUST": "Roadway should be upgraded due to ADT and conformance to surrounding network. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 553
       },
       "geometry": {
         "type": "LineString",
