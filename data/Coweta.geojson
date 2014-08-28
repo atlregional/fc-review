@@ -19844,7 +19844,9 @@
         "JUST": "this road is often used as a short cut from the Principle Arterial (Greenville Street) to the Major Collector Sewell Road and this change will provide conformity within the surrounding network",
         "DESC": "two lane street with sidewalks that connects between a Principle Arterial/Minor Arterial and a Major Collector",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 364
       },
       "geometry": {
         "type": "LineString",
