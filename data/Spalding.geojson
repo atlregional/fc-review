@@ -6110,7 +6110,9 @@
         "JUST": "supports large scale subdivisions, established communities, mega churches and private schools",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "In Review",
+        "issue_num": 817
       },
       "geometry": {
         "type": "LineString",
