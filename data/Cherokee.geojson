@@ -13057,7 +13057,9 @@
         "DESC": "Two lane roadway that connects Kellogg Creek Rd and Alabama Rd (SR 92).",
         "JUST": "This roadway connects a Minor Arterial and a Principal Arterial.  An industrial park is set to start work along this roadway soon.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 683
       },
       "geometry": {
         "type": "LineString",
