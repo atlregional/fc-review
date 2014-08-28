@@ -19351,7 +19351,9 @@
         "NAME": "Toonigh Rd",
         "FC_NEW": 6,
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 672
       },
       "geometry": {
         "type": "LineString",
