@@ -14504,7 +14504,9 @@
         "DESC": 2,
         "JUST": "Requested FC change is included in County FC Plan; increasing traffic volumes; connectivity to SR 34 Bypass to the north. ",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 470
       },
       "geometry": {
         "type": "LineString",
