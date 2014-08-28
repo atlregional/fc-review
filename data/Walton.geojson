@@ -37509,7 +37509,9 @@
         "DESC": "Local Street",
         "JUST": "Local Street",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 977
       },
       "geometry": {
         "type": "LineString",
