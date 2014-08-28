@@ -5262,7 +5262,9 @@
         "DESC": "Network Connectivity.  One side in City of St Mtn, one in DeKalb.  Will need fed $ to do any projects. Connects Memorial Drive to Sheppard Rd to Rockbridge Rd",
         "JUST": "Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 925
       },
       "geometry": {
         "type": "LineString",
