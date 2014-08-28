@@ -2029,7 +2029,9 @@
         "DESC": 2,
         "JUST": "Traffic heading north/south between Jonesboro and Mt. Zion Blvd at I-75 (commercial shopping area) generally take this route as opposed to turning at intersection of Battle Creek Rd.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 306
       },
       "geometry": {
         "type": "LineString",
