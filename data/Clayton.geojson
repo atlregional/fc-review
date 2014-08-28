@@ -490,7 +490,9 @@
         "DESC": 2,
         "JUST": "Provides east-west connection for regional trips across northern part of Clayton County between Forest Park and College Park.  This section of Godby between SR 314 and Phoenix Blvd will soon be widened to 4-lanes with a dividing median to match rest of the network.  GDOT PI 0006860, Let Date:  June - 2015.  Therefore, the suggestion is to upgrade to Major Collector now with a future upgrade to Minor Arterial once the widening project is completed.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 403
       },
       "geometry": {
         "type": "LineString",
