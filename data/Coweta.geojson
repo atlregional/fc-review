@@ -22554,7 +22554,9 @@
         "JUST": "Serves as an entrance route to this section of Summer Grove connects to Newnan Crossing Blvd East which operates as a major collector and connects over 10 pods within this planned development to a major collector, has an AADT of 2719 non-directional as measured in November of 2011",
         "DESC": "two lane residential major route that is an entrance to the planned community and connects to Newnan Crossing Blvd East which functions as a major collector ",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 362
       },
       "geometry": {
         "type": "LineString",
