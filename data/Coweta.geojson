@@ -1711,7 +1711,15 @@
         "Shape_Leng": 1881.84469263,
         "ARC_Length": 0.356409979665,
         "RCLINK_1": "0773053907",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "East Camp Street",
+        "FC_NEW": 5,
+        "DESC": 2,
+        "JUST": "Connectivity between two state routes; increased traffic volumes.",
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 488
       },
       "geometry": {
         "type": "LineString",
