@@ -16281,7 +16281,9 @@
         "DESC": "This roadway is an east west connector between Hickory Flat Hwy and E Cherokee Dr.",
         "JUST": "The road connects a Minor Arterial with a Major Collector.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 432
       },
       "geometry": {
         "type": "LineString",
