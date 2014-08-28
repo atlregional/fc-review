@@ -54836,7 +54836,9 @@
         "DESC": "Coordination w/ Smyrna; 2 lanes w/ 2 CTLs. This segment is part of the request for Cooper Lake Rd from Cooper Lake Dr to Daniel St. No AADT available for this segment.",
         "JUST": "Major collector operation occurs along Cooper Lake Dr, not Cooper Lake Rd.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 786
       },
       "geometry": {
         "type": "LineString",
