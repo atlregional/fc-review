@@ -13910,7 +13910,9 @@
         "DESC": 2,
         "JUST": "Provides important connection to Floyd Rd, Mableton town center.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 775
       },
       "geometry": {
         "type": "LineString",
