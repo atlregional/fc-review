@@ -47064,7 +47064,9 @@
         "DESC": "Low volume 2 lane paved road",
         "JUST": "Low volume - local road",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 659
       },
       "geometry": {
         "type": "LineString",
