@@ -8414,7 +8414,9 @@
         "JUST": "Increasing traffic volume; used by commuters to access SR 154 and I-85",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 338
       },
       "geometry": {
         "type": "LineString",
