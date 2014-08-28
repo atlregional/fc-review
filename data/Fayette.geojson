@@ -4301,7 +4301,9 @@
         "DESC": "Two lane road.  Note change is for entire segment between noted intersections.",
         "JUST": "Road serves private school and back entrance to non-residential areas in South Fulton County.",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 906
       },
       "geometry": {
         "type": "LineString",
