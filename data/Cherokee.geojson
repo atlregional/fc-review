@@ -18321,7 +18321,10 @@
         "DESC": "This roadway serves as a frontage style roadway along 575 between Towne Lake Parkway and Ridgewalk Parkway.",
         "JUST": "A new interchange has been added at Ridgewalk Parkway and this roadway connects that with an existing interchange at Towne Lake Parkway.  There is a major retail center along this roadway.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "NAME": "Woodstock Pkwy",
+        "status": "In Review",
+        "issue_num": 438
       },
       "geometry": {
         "type": "LineString",
