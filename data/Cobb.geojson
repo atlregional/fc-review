@@ -20547,7 +20547,9 @@
         "DESC": "Coordination with Smyrna; 2 lane w/o CTL: AADT:E of Coopers Hill: 4,100 (2010); Cobb MTP FC: Minor Collector; (segment is part of request for Cooper Lake Dr from Cooper Lake Rd to Atlanta Rd)",
         "JUST": "Replace Cooper Lake Rd as collector between S Cobb Dr and Atlanta Rd.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 787
       },
       "geometry": {
         "type": "LineString",
