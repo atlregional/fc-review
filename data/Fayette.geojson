@@ -856,7 +856,9 @@
         "DESC": "Two lane road.",
         "JUST": "North-south connectivity between a Principal Arterial and two minor arterials.  ",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 904
       },
       "geometry": {
         "type": "LineString",
