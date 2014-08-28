@@ -5347,7 +5347,9 @@
         "JUST": "Serves school complex and cut-through between a Minor Arterial and SR 74.  Increase in traffic from Pinewood Studio development.  ",
         "DESC": "Two lane road.  NOTE - combine the two Jenkins Road segments into one.  Section west of SR 74 can stay local.",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 911
       },
       "geometry": {
         "type": "LineString",
