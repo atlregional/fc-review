@@ -13490,7 +13490,17 @@
         "Shape_Leng": 4649.66314667,
         "ARC_Length": 0.880618020202,
         "RCLINK_1": "0772046900",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Hammock Road",
+        "FROM": "Posey Rd",
+        "TO": "SR 154",
+        "FC_NEW": 5,
+        "DESC": "Increasing traffic volumes; used by commuters accessing SR 154 and I-85; AADT - 4,926",
+        "JUST": 2,
+        "stroke": "#00ff00",
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 339
       },
       "geometry": {
         "type": "LineString",
