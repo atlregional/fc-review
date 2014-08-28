@@ -990,7 +990,9 @@
         "TO": "Shiloh Rd",
         "FC_NEW": 6,
         "stroke": "#00ff00",
-        "user": "MKrayARC"
+        "user": "MKrayARC",
+        "status": "In Review",
+        "issue_num": 997
       },
       "geometry": {
         "type": "LineString",
