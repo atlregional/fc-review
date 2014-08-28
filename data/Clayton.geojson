@@ -11004,7 +11004,9 @@
         "DESC": 2,
         "JUST": "This road is probably a borderline candidate for upgrade to a Major Collector; however, adjacent Mt. Zion Pkwy (proposed upgrade to Major Collector) carries slightly more traffic.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 316
       },
       "geometry": {
         "type": "LineString",
