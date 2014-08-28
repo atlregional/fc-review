@@ -19713,7 +19713,9 @@
         "DESC": "Part of a connection with Prominence Pt Pkwy between a Minor Arterial and a Major Collector",
         "JUST": "Continuity with the proposed changes for Prominence Pt Pkwy and the southwest portion of Keeter Rd.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 418
       },
       "geometry": {
         "type": "LineString",
