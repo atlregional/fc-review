@@ -3946,7 +3946,9 @@
         "DESC": "Part of the connection between Snapfinger Road to Auston Drive to Redwing Cir to Covington Hwy to I-285",
         "JUST": "Network Connectivity. Consistent with DeKalb CTP.   ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 952
       },
       "geometry": {
         "type": "LineString",
