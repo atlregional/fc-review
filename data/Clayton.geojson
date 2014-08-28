@@ -1773,7 +1773,9 @@
         "DESC": "Current 2-lane road is under construction to covert to 3-lane section.  Current ADT (10,264).",
         "JUST": "Currently, there is roughly a 50/50 split between traffic that continues on this section of road vs. traffic that takes Lake Harbin Rd (Minor Arterial) east to SR 42/Macon Hwy.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 305
       },
       "geometry": {
         "type": "LineString",
