@@ -14726,7 +14726,9 @@
         "FC_NEW": 7,
         "JUST": "Correct name to \"Troy Smith Road\", change FC to Local Road",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 963
       },
       "geometry": {
         "type": "LineString",
