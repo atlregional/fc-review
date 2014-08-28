@@ -1009,7 +1009,9 @@
         "DESC": "This is a North/South route that begins at a Major Collector and extends north to the County Line in conjunction with Lower Bethany Rd.",
         "JUST": "This road starts at a Major Collector and combined with Lower Bethany Road, it created a north/south route to the County Line.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 517
       },
       "geometry": {
         "type": "LineString",
