@@ -14854,7 +14854,9 @@
         "DESC": 4,
         "JUST": "In conjunction with request to change Cumberland Blvd to \"minor arterial\", this segment extends designation of Akers Mill Rd as \"minor arterial\" and recognizes the importance of the east-west corridor's HOV exit at I-75.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 765
       },
       "geometry": {
         "type": "LineString",
