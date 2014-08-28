@@ -15390,7 +15390,9 @@
         "FC_NEW": 6,
         "DESC": "Please see other segments. This is broken into a lot of little segments in GIS- same explanation.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 927
       },
       "geometry": {
         "type": "LineString",
