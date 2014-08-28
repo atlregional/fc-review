@@ -2854,7 +2854,9 @@
         "DESC": "Two lane road.",
         "JUST": "Provides north-south connectivity between SR 92 and SR 138.  Provides indirect interstate access for Fayette County.  Traffic signal at SR 138 is reason for FC-5 instead of FC-6. ",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 908
       },
       "geometry": {
         "type": "LineString",
