@@ -16887,7 +16887,9 @@
         "DESC": 4,
         "JUST": "Major north-south corridor in Town Center CID/activity center. Bells Ferry Rd (BFR) (AADT N of Rock Bridge: 12,500; N of Big Shanty: 10,700); comparable to Chastain Meadows Pkwy. In conjunction with request to change BFR to Minor Arterial from Old 41 to Chastain Rd.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 798
       },
       "geometry": {
         "type": "LineString",
