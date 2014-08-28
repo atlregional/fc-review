@@ -10163,7 +10163,9 @@
         "JUST": "Connecting route between Noah's Ark Rd and Freeman Rd.  Some commuters from farther south elect to use this corridor in conjunction with Thornton Blvd & Freeman Rd as a bypass for S. Main St (downtown Jonesboro) for access to Tara Blvd and Lovejoy.  ",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 610
       },
       "geometry": {
         "type": "LineString",
