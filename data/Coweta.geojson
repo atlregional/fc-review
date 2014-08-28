@@ -31670,7 +31670,9 @@
         "DESC": "Starts as a 4 lane divided then goes down to two lane with sidewalks on both sides",
         "JUST": "Serves as an entrance route to this section of Summer Grove connects to Summer Grove Parkway and connects over 10 pods within this planned development to a major collector, has an AADT of 2474 non-directional as measured in April of 2014",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 361
       },
       "geometry": {
         "type": "LineString",
