@@ -14051,7 +14051,9 @@
         "DESC": "Network Connectivity, Emory U., Connects Ponce de Leon Ave to North Decatur Road to Briarcliff Road",
         "JUST": "Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 916
       },
       "geometry": {
         "type": "LineString",
