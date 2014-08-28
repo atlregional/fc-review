@@ -65353,7 +65353,9 @@
         "FC_NEW": 7,
         "DESC": "Consistent with Dekalb CTP.  School location. ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 716
       },
       "geometry": {
         "type": "LineString",
