@@ -4133,7 +4133,9 @@
         "JUST": "Requested FC change is included in County FC Plan; currently designated local truck route and regional freight corridor between Bypass and SR 16.",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 349
       },
       "geometry": {
         "type": "LineString",
