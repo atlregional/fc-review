@@ -30565,7 +30565,9 @@
         "JUST": "serves as a major route  and entrance into a planned community with several pods provides connectivity to other Newnan Crossing Bypass which operates as a Major Collector or minor arterial and to Lower Fayetteville Road which is classified as a minor arterial this change would conform to the surrounding network",
         "DESC": "two lane street with curb and gutter and sidewalks widens at each end to three lanes serves several single and multifamily developments as well as two managed care homes",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 373
       },
       "geometry": {
         "type": "LineString",
