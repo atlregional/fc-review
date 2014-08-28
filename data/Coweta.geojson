@@ -53362,7 +53362,9 @@
         "DESC": 2,
         "JUST": "Local road FC is more appropriate here than minor collector FC",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 485
       },
       "geometry": {
         "type": "LineString",
