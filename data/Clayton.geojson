@@ -2554,7 +2554,9 @@
         "DESC": 2,
         "JUST": "Recent nearby developments, including Walmart, Villages of Ellenwood S/D, and other distribution centers have increased volumes in this area.  Anvil Block is already identified as a Minor Arterial west of Stagecoach Rd.  Most of the traffic continues east-west on Anvil Block from/to Henry County as opposed to north/south via Stagecoach Rd.  This change will require an accompanying change for the section of Anvil Block in Henry County.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 299
       },
       "geometry": {
         "type": "LineString",
