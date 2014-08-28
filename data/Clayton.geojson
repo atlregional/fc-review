@@ -90,7 +90,9 @@
         "DESC": 2,
         "JUST": "Corinth Rd in Fayette County is already a Major Collector.  This section needs to conform to surrounding network.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 406
       },
       "geometry": {
         "type": "LineString",
