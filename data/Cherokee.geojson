@@ -4189,7 +4189,9 @@
         "DESC": "This road is a continuation of Howell Bridge Road and connects it to Lower Bethany Road.",
         "JUST": "Continuity with an existing Local Collector to connect to another Local Connector.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 522
       },
       "geometry": {
         "type": "LineString",
