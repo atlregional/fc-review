@@ -400,7 +400,9 @@
         "DESC": "Level Creek Road (in it's entirety) is a collector street from Suwanee Dam Road (major collector) and West Broad Street (Sugar Hill downtown center).  The following subdivisions directly access Level Creek Road: Sugar Hill Overlook, Castlegate Townhomes, Level Creek Hollow, Cobblestone Park, Oakgrove Estates, Hidden Branch Estates, Sugar Woods, Dogwood Hills, Parkview Mine North, Parkview Mine East, Bent Creek, Markim Forest, The Glen at Level Cree, Vanderbilt, Lakefield Forest, North Pointe and Sunset Heights.  Additionally, two (3) Gwinnett County Schools are located on Level Creek Road – The Buice Center, Sugar Hill Elementary and North Gwinnett High School.  Also, the there are several large and undeveloped parcels fronting Level Creek Road for future development.\nAdditionally, the City has contacted Lewis Cooksey, Gwinnett County Dept. of Transportation, and he is in agreement with this upgrade in classification.\n",
         "JUST": "According to Gwinnett County's Department of Transportation Traffic count, on January 24, 2012, the estimated Average Daily Trips (ADT) was 3,308 from Suwanee Dam Road to Spring Hill Drive, and on 1/19/2011, estimated ADT from Spring Hill Drive to West Broad Street.  This number has surely grown as the current estimated population of Sugar Hill is over 18,000 citizens.",
         "stroke": "#00ff00",
-        "user": "TSchick-SugarHillGa"
+        "user": "TSchick-SugarHillGa",
+        "status": "In Review",
+        "issue_num": 697
       },
       "geometry": {
         "type": "LineString",
