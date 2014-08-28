@@ -6074,7 +6074,9 @@
         "DESC": "Short segment, 4 lane roadway ",
         "JUST": "to update regional fc to match city thoroughfare map dated 02082006.",
         "stroke": "#00ff00",
-        "user": "KClark-MariettaGa"
+        "user": "KClark-MariettaGa",
+        "status": "In Review",
+        "issue_num": 852
       },
       "geometry": {
         "type": "LineString",
