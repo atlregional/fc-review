@@ -7931,7 +7931,9 @@
         "DESC": 2,
         "JUST": "Requested FC is included in County FC Plan; increasing traffic volumes; used by commuters accessing SR 154 and I-85 (Summergrove, White Oak). ",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 343
       },
       "geometry": {
         "type": "LineString",
