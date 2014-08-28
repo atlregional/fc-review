@@ -17937,9 +17937,12 @@
         "County": "Coweta",
         "FC_NEW": 5,
         "DESC": 2,
-        "JUST": "Requested FC change is included in County FC Plan",
+        "JUST": "Requested FC change is included in County FC Plan. ",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "NAME": "Mary Freeman Road",
+        "status": "In Review",
+        "issue_num": 345
       },
       "geometry": {
         "type": "LineString",
