@@ -2517,7 +2517,9 @@
         "DESC": "Two lane road.",
         "JUST": "Provides connection between two Minor Arterials and intersects with recently constructed Veterans Parkway, also a Minor Arterial.  ",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 902
       },
       "geometry": {
         "type": "LineString",
