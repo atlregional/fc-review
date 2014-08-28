@@ -1242,7 +1242,9 @@
         "JUST": "These roads start at a Major Collector and they create a north/south route to the County Line.  The actual break point between Upper Bethany Road and Lower Bethany Road is at Land Road.",
         "DESC": "This segment a combination of Lower Bethany Road and Upper Bethany Road.  It is a North/South route that begins at a Major Collector and extends north to the County Line.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 515
       },
       "geometry": {
         "type": "LineString",
