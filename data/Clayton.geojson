@@ -15118,7 +15118,9 @@
         "DESC": 2,
         "JUST": "Provides for subdivision and school access and connectivity to and between SR 85/Church St, Taylor Rd, and SR 138.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 410
       },
       "geometry": {
         "type": "LineString",
