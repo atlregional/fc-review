@@ -2758,7 +2758,9 @@
         "DESC": "East west connection from Reinhardt College Pkwy to Upper Bethany Road.",
         "JUST": "Connection will be between a Major Collector and a proposed Minor Collector and has a section that crosses another Major Collector.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 444
       },
       "geometry": {
         "type": "LineString",
