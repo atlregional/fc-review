@@ -22215,7 +22215,9 @@
         "DESC": "Two lane residential street with sidewalks on both sides that serves as a major collection route for more than 14 individual residential pods within Summer Grove Subdivision.",
         "JUST": "connects to Summer Grove Parkway and serves as a major route to access several pods within the subdivision has an AADT of 522 as measured in August of 2013.",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 359
       },
       "geometry": {
         "type": "LineString",
