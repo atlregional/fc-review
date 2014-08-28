@@ -13896,7 +13896,9 @@
         "DESC": "Connects Rockbridge Rd (minor art) to neighborhoods to Sheppards to City of Stone Mountain. ",
         "JUST": "Network Connectivity.  Consistent with the DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 946
       },
       "geometry": {
         "type": "LineString",
