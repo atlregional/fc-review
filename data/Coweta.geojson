@@ -18137,7 +18137,9 @@
         "DESC": 2,
         "JUST": "Continuation of Stallings Road requested FC change to logical terminus.",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 435
       },
       "geometry": {
         "type": "LineString",
