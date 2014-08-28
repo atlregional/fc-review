@@ -8981,7 +8981,9 @@
         "DESC": "Industrial area connections to E. Ponce de Leon Ave (minor art) and N Hairston Rd (principal)",
         "JUST": "Network Connectivity.  Consistent with DeKalb CTP. ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 942
       },
       "geometry": {
         "type": "LineString",
