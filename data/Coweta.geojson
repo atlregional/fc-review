@@ -2137,7 +2137,9 @@
         "JUST": "Growing commercial uses at SR 34; used to access SR 154 and I-85.",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "landonreed"
+        "user": "landonreed",
+        "status": "In Review",
+        "issue_num": 476
       },
       "geometry": {
         "type": "LineString",
