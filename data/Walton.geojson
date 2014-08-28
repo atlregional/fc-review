@@ -15321,7 +15321,9 @@
         "JUST": "Change FC to Local Road",
         "DESC": "Local Road",
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "status": "In Review",
+        "issue_num": 965
       },
       "geometry": {
         "type": "LineString",
