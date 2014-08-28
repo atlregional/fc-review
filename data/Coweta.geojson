@@ -10821,7 +10821,9 @@
         "JUST": "Requested FC change is included in County FC Plan; ",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 348
       },
       "geometry": {
         "type": "LineString",
