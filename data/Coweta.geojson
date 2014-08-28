@@ -16177,7 +16177,9 @@
         "DESC": 2,
         "JUST": "Increasing traffic volumes; used by commuters to access US 29 to Newnan.",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 483
       },
       "geometry": {
         "type": "LineString",
