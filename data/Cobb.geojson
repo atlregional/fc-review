@@ -14749,7 +14749,9 @@
         "DESC": 4,
         "JUST": "Major access point to Cumberland from I-75 via Windy Hill Rd (east of I-75/north of I-285 quadrant).",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 772
       },
       "geometry": {
         "type": "LineString",
