@@ -18467,7 +18467,9 @@
         "DESC": 4,
         "JUST": "Connects two large office tower developments and a large retail site with arterials at either end.  ",
         "stroke": "#00ff00",
-        "user": "MSmith-DunwoodyGa"
+        "user": "MSmith-DunwoodyGa",
+        "status": "In Review",
+        "issue_num": 900
       },
       "geometry": {
         "type": "LineString",
