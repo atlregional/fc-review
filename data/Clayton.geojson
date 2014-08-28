@@ -1874,7 +1874,9 @@
         "DESC": 3,
         "JUST": "This road provides for alternative access to I-75 at Mt. Zion Blvd compared to Mt. Zion Rd/Mt. Zion Pkwy and joins Mt. Zion Rd (Minor Arterial) to service trips to/from the City Stockbridge/SR 138.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 507
       },
       "geometry": {
         "type": "LineString",
