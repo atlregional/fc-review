@@ -12920,7 +12920,9 @@
         "DESC": "A high school and middle school are major traffic generators.",
         "FC_NEW": 6,
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 600
       },
       "geometry": {
         "type": "LineString",
