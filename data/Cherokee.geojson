@@ -29295,7 +29295,9 @@
         "DESC": "Two lane roadway connecting Hornage Rd and Upper Bethany Rd.",
         "JUST": "The vertical and horizontal geometry are not good for this roadway and it has narrow widths.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 708
       },
       "geometry": {
         "type": "LineString",
