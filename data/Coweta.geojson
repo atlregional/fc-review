@@ -14283,7 +14283,9 @@
         "DESC": 2,
         "JUST": "Requested FC change is included in County FC Plan; primary east-west roadway; enhanced connection via US 29 @ Pine Road, SR 16 widening and SE Bypass extension projects (CST to begin this summer on all 3 projects).",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 455
       },
       "geometry": {
         "type": "LineString",
