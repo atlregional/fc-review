@@ -15681,7 +15681,9 @@
         "DESC": "Serves as a connection between N Druid Hills Road and I-85 Access Rd, croosing Buford Hwy.  Provides direct access to the only city Park (Brairwood Park) in the south park of the city of Brookhaven, several small shopping centers (near Buford Hwy), several apartment complexes, and an industrial/warehouse area.",
         "JUST": "Serves as a connection between N Druid Hills Road and I-85 Access Rd, croosing Buford Hwy.  Provides direct access to the only city Park (Brairwood Park) in the south park of the city of Brookhaven, several small shopping centers (near Buford Hwy), several apartment complexes, and an industrial/warehouse area.",
         "stroke": "#00ff00",
-        "user": "RMeehan-BrookhavenGa"
+        "user": "RMeehan-BrookhavenGa",
+        "status": "In Review",
+        "issue_num": 874
       },
       "geometry": {
         "type": "LineString",
