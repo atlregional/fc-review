@@ -11142,7 +11142,9 @@
         "DESC": "Two lane I-20 frontage roadway with 6,870 ADT.",
         "JUST": "Roadway should be upgraded to minor arterial due to traffic volumes and conformance to surrounding network. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 512
       },
       "geometry": {
         "type": "LineString",
