@@ -3206,7 +3206,9 @@
         "DESC": "Two lane road with signalized intersections at north and south termini.",
         "JUST": "McElroy serves as a cut-through between a Principal Arterial and a Minor Arterial.  ",
         "stroke": "#00ff00",
-        "user": "PMallon-FayetteCo"
+        "user": "PMallon-FayetteCo",
+        "status": "In Review",
+        "issue_num": 901
       },
       "geometry": {
         "type": "LineString",
