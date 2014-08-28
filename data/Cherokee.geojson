@@ -24917,7 +24917,9 @@
         "JUST": "This is a four-lane roadway with industrial land surrounding the majority of the area.  It serves several large businesses as well as a Technical College.",
         "DESC": "This roadway connects a Local Connector to a Minor Arterial.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 584
       },
       "geometry": {
         "type": "LineString",
