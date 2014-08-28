@@ -8760,7 +8760,9 @@
         "DESC": 2,
         "JUST": "Provides access to multiple adjacent subdivisions as well as north-south connection between Flint River Rd and SR 138 & Rountree Rd.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 568
       },
       "geometry": {
         "type": "LineString",
