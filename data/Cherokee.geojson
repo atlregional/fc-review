@@ -10029,7 +10029,9 @@
         "DESC": "Two Lane roadway that connects East Cherokee Drive and Union Hill Road.",
         "JUST": "A portion of this road is already a Minor Collector so the change is proposed for continuity.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 615
       },
       "geometry": {
         "type": "LineString",
