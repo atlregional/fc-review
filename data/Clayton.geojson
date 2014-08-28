@@ -13511,7 +13511,9 @@
         "DESC": 2,
         "JUST": "Provides North-South connection between SR 139/Riverdale Rd (Minor Arterial) and Bethsaida Rd (Minor Arterial).  ",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 385
       },
       "geometry": {
         "type": "LineString",
