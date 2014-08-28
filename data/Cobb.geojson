@@ -8022,7 +8022,17 @@
         "Shape_Leng": 2925.56052486,
         "ARC_Length": 0.55408343274,
         "RCLINK_1": "0673454313",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Powers Ferry Road",
+        "FROM": "Roswell Street",
+        "TO": "South Marietta Pkwy/ SR 120",
+        "FC_NEW": 5,
+        "DESC": "This is a 2 lane roadway with a middle turn lane. ",
+        "JUST": "To update the regional classification to match up with the City's Official Thoroughfare Map adopted 2/8/2006. ",
+        "stroke": "#00ff00",
+        "user": "KClark-MariettaGa",
+        "status": "In Review",
+        "issue_num": 825
       },
       "geometry": {
         "type": "LineString",
