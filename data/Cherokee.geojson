@@ -25,7 +25,9 @@
         "DESC": "This road connects Bells Ferry Road and Marietta Highway.",
         "JUST": "This road has a Minor Arterial on both ends and a portion is already a Major Collector.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 750
       },
       "geometry": {
         "type": "LineString",
