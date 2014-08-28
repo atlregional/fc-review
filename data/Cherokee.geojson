@@ -8928,7 +8928,9 @@
         "DESC": "Two Lane roadway that connects Main Street and Bascomb Carmel Road.",
         "JUST": "This roadway connects a Minor Arterial with a Major Collector.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 678
       },
       "geometry": {
         "type": "LineString",
