@@ -10855,7 +10855,9 @@
         "DESC": 2,
         "JUST": "Connecting route between SR 138 and Walt Stephens Rd.  Provides access to adjacent subdivisions and access to Stockbridge/I-75 via SR 138.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 620
       },
       "geometry": {
         "type": "LineString",
