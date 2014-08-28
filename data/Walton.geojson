@@ -35567,7 +35567,10 @@
         "County": "Walton",
         "FC_NEW": 7,
         "stroke": "#00ff00",
-        "user": "JParker-WaltonCo"
+        "user": "JParker-WaltonCo",
+        "NAME": "Glen Iris Drive",
+        "status": "In Review",
+        "issue_num": 979
       },
       "geometry": {
         "type": "LineString",
