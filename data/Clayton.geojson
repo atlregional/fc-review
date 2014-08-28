@@ -15815,7 +15815,9 @@
         "JUST": "Provides east-west connection between City of Riverdale/SR 85 (Pricipal Arterial) and SR 314/W. Fayetteville Rd (Minor Arterial).  This road carries slightly less traffic than E. Fayetteville Rd to the north.",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 384
       },
       "geometry": {
         "type": "LineString",
