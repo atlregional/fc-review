@@ -9311,7 +9311,9 @@
         "DESC": "Two lane roadway with 5.396 ADT.",
         "JUST": "This should be reclassified to conform to surrounding network.  It provides access to Iris Drive which is an I-20 frontage road. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 499
       },
       "geometry": {
         "type": "LineString",
