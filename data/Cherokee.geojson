@@ -11274,7 +11274,9 @@
         "DESC": "This roadway runs from Wiley Bridge Rd to the County Line.",
         "JUST": "It connects a Major Collector to the County Line and this is an east west route to access SR 140.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 686
       },
       "geometry": {
         "type": "LineString",
