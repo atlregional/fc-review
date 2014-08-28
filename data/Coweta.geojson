@@ -16010,7 +16010,9 @@
         "DESC": 2,
         "JUST": "Increased traffic volumes; SW gateway into City of Newnan",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 468
       },
       "geometry": {
         "type": "LineString",
