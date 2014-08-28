@@ -17912,7 +17912,9 @@
         "DESC": "Two lane roadway that connects Univeter Rd. and Hickory Rd.",
         "JUST": "This road connects to a Major Collector on both ends and serves a secondary entrance to a school.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 665
       },
       "geometry": {
         "type": "LineString",
