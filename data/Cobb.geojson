@@ -10937,7 +10937,9 @@
         "JUST": "Connect SR 5 and SR 360; Important north/south link to east Marietta/KMNBP",
         "DESC": 2,
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 808
       },
       "geometry": {
         "type": "LineString",
