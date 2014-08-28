@@ -56733,7 +56733,9 @@
         "DESC": 2,
         "JUST": "same as above",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 350
       },
       "geometry": {
         "type": "LineString",
