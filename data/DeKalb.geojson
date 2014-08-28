@@ -2626,7 +2626,9 @@
         "DESC": "This would connect is part of Moreland Ave to Moore Rd- which connects to Cedar Grove Rd& Bouldercrest Rd, Connects to industrial area",
         "JUST": "Network Connectivity, Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 931
       },
       "geometry": {
         "type": "LineString",
