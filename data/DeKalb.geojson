@@ -8748,7 +8748,9 @@
         "DESC": "Network Connectivity.  Connects Rainbow Dr to Boring Rd to Wesley Chapel.  Lots of neighborhoods.",
         "JUST": "Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 924
       },
       "geometry": {
         "type": "LineString",
