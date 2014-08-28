@@ -48557,7 +48557,9 @@
         "DESC": "Dirt Road, low volume",
         "JUST": "Dirt Road, low volume",
         "stroke": "#00ff00",
-        "user": "CMatthews-HenryCo"
+        "user": "CMatthews-HenryCo",
+        "status": "In Review",
+        "issue_num": 458
       },
       "geometry": {
         "type": "LineString",
