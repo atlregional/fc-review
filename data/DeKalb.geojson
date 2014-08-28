@@ -13256,7 +13256,9 @@
         "DESC": "Network Connectivity.  Industrial Area.  Part of road system that connects Covington Hwy to Panola Rd near I-20",
         "JUST": "Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 921
       },
       "geometry": {
         "type": "LineString",
