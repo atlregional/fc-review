@@ -19064,7 +19064,9 @@
         "DESC": "Part of a connection with Prominence Pt Pkwy between a Major Collector and a Minor Arterial.",
         "JUST": "Continuity in the roadway network with the proposed changes with Prominence Pt Pkwy",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 416
       },
       "geometry": {
         "type": "LineString",
