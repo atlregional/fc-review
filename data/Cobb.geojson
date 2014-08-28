@@ -20332,7 +20332,9 @@
         "DESC": 4,
         "JUST": "Traffic patterns changing due to construction of Atlanta Braves stadium that is currently underway. Provides major connection from I-75 SB exit at Windy Ridge Rd to US 41.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 768
       },
       "geometry": {
         "type": "LineString",
