@@ -16614,7 +16614,9 @@
         "DESC": "Provides connection between Widsor Parkway (Maj Coll) and Peachtree Road (Prin Art).  Serves as access to about 20 small subdivisions located along this section of roadway. Collector on DeKalb CTP",
         "JUST": "Provides connection between Widsor Parkway (Maj Coll) and Peachtree Road (Prin Art).  Serves as access to about 20 small subdivisions located along this section of roadway. Collector on DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "RMeehan-BrookhavenGa"
+        "user": "RMeehan-BrookhavenGa",
+        "status": "In Review",
+        "issue_num": 872
       },
       "geometry": {
         "type": "LineString",
