@@ -5963,7 +5963,9 @@
         "DESC": "Two land roadway that connects to Freehome Hwy and Holbrook Campground Rd.",
         "JUST": "Continuation of Birmingham Rd that connects two Major Collectors.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 609
       },
       "geometry": {
         "type": "LineString",
