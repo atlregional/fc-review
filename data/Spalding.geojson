@@ -1946,7 +1946,9 @@
         "DESC": 2,
         "JUST": "extension of the Line Creek/Blanton Mill Road network",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "In Review",
+        "issue_num": 819
       },
       "geometry": {
         "type": "LineString",
