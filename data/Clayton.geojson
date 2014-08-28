@@ -14587,7 +14587,9 @@
         "DESC": 4,
         "JUST": "In conjunction with N. Lee St and S. Lee St, this road provides an alternate to SR 54 (Jonesboro Rd) for north-south travel between Southlake Pkwy/Mt. Zion Rd and Forest Pkwy.  Also provides access to Clayton State University.  Adjacent N. Lake Dr. (Major Collector) is proposed to be revised down to Minor Collector.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 460
       },
       "geometry": {
         "type": "LineString",
