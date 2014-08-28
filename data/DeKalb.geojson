@@ -13429,7 +13429,9 @@
         "DESC": "Network Connectivity.  Industrial Area.  Connects Covington Hwy (SR 12) to Panola Road near I-20 interchange.  ",
         "JUST": "Consistent with DeKalb CTP.",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 920
       },
       "geometry": {
         "type": "LineString",
