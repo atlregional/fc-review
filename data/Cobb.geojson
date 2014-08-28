@@ -21260,7 +21260,9 @@
         "JUST": "Create continuous corridor that ends (connects to) at another Minor Arterial (SR 5/Canton Road Conn).",
         "DESC": 4,
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 701
       },
       "geometry": {
         "type": "LineString",
