@@ -14470,7 +14470,9 @@
         "DESC": "AADT= 3500 Connects Rockbridge Rd (minor art) to neighborhoods to City of Stone Mountain",
         "JUST": "Network Connectivity.  Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 936
       },
       "geometry": {
         "type": "LineString",
