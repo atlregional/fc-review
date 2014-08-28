@@ -25,7 +25,9 @@
         "DESC": 2,
         "JUST": "supports new subdivisions and established neighborhoods, parallel north-south facility",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "In Review",
+        "issue_num": 796
       },
       "geometry": {
         "type": "LineString",
