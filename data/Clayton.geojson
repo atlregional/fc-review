@@ -14527,7 +14527,9 @@
         "JUST": "Proposed change from Local road to Urban Collector was previously approved by TCC on 1/6/12, TAQC on 1/12/12, and ARC Board on 1/25/12.",
         "DESC": 4,
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 298
       },
       "geometry": {
         "type": "LineString",
