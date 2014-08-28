@@ -7662,7 +7662,9 @@
         "DESC": 2,
         "JUST": "This road provides east-west connection between SR 920 (McDonough Rd) from/to Fayette County and US 19/41 (Tara Blvd).",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 310
       },
       "geometry": {
         "type": "LineString",
