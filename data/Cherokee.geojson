@@ -10888,7 +10888,9 @@
         "DESC": "Two lane roadway connecting Hickory Flat Highway and Cumming Hwy.",
         "JUST": "This road connects a Minor Arterial and a Principal Arterial.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 612
       },
       "geometry": {
         "type": "LineString",
