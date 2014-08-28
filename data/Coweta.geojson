@@ -26294,7 +26294,9 @@
         "DESC": "four lane divided urban section with grass median and curb and gutter has commercial uses at the beginning and then also have apartments, and single family residential mixed use development that it serves",
         "JUST": "serves as a major route  and entrance into a planned community with several pods provides connectivity to other principle arterials and would conform to the surrounding network",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 371
       },
       "geometry": {
         "type": "LineString",
