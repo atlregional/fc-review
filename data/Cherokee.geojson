@@ -23361,7 +23361,9 @@
         "DESC": "Many subdivisions and retail establishments along the roadway.",
         "JUST": "Part of a connection between a Minor Arterial and a Major Collector.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 413
       },
       "geometry": {
         "type": "LineString",
