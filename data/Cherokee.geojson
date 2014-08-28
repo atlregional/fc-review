@@ -12772,7 +12772,9 @@
         "DESC": "A high school and middle school are major traffic generators.",
         "JUST": "This is a roadway that connects a Major Collector as well as a Minor Collector.  It also serves a middle school and a high school.",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 602
       },
       "geometry": {
         "type": "LineString",
