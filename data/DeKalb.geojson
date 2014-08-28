@@ -2012,7 +2012,9 @@
         "DESC": "Request that Midway Road's current classification be extended to include entire limits.",
         "JUST": "Request that Midway Road's current classification be extended to include entire limits.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "In Review",
+        "issue_num": 989
       },
       "geometry": {
         "type": "LineString",
