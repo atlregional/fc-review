@@ -4963,13 +4963,15 @@
         "RCLINK_1": "0892085100",
         "County": "DeKalb",
         "NAME": "Northern Ave",
-        "FC_NEW": 6,
-        "FROM": "North Decatur Road ",
+        "FROM": "N Decatur Rd",
         "TO": "Memorial Drive",
-        "DESC": "Connects North Decatur Road to Memorial Drive (both minors)",
-        "JUST": "Network Connectivity.  Consistent with DeKalb CTP. ",
+        "FC_NEW": 6,
+        "DESC": "Connects North Decatur to Rockbrige Rd to Memorial Drive.  Apartments.  Connects to neighborhoods on Rockbridge Rd. ",
+        "JUST": "Network connectivity.  Consistent with the DeKalb CTP.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 950
       },
       "geometry": {
         "type": "LineString",
