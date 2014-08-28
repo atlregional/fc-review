@@ -20716,7 +20716,9 @@
         "JUST": "this section of fourth street is used as an alternate route to downtown from belt road which is a major collector and the rest of fourth is already classified as a major collector so this change would conform to the surrounding network",
         "DESC": "two lane street with sidewalks and curb and gutter ",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 366
       },
       "geometry": {
         "type": "LineString",
