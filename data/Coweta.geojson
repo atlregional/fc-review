@@ -12248,7 +12248,9 @@
         "DESC": 2,
         "JUST": "Used as a main access to Chattahoochee Bend State Park. ",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 473
       },
       "geometry": {
         "type": "LineString",
