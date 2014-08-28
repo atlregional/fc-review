@@ -2815,7 +2815,9 @@
         "DESC": 2,
         "JUST": "to update regional fc to match city thoroughfare map 02082006.",
         "stroke": "#00ff00",
-        "user": "KClark-MariettaGa"
+        "user": "KClark-MariettaGa",
+        "status": "In Review",
+        "issue_num": 858
       },
       "geometry": {
         "type": "LineString",
