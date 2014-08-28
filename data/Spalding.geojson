@@ -3090,11 +3090,14 @@
         "ARC_Length": 2.91485475248,
         "RCLINK_1": "2552011900",
         "County": "Spalding",
-        "FC_NEW": 6,
+        "FC_NEW": 5,
         "DESC": 2,
-        "JUST": "supports regional landfill and conforms to surrounding network",
+        "JUST": "supports regional landfill, heavy truck traffic and conforms to surrounding network",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "NAME": "Bailey Jester Road",
+        "status": "In Review",
+        "issue_num": 827
       },
       "geometry": {
         "type": "LineString",
