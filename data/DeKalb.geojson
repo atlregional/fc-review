@@ -2747,7 +2747,9 @@
         "DESC": "Connects Second Ave (collector) with neighborhoods with Candler Road (minor art) ",
         "JUST": "Network Connectivity.  Consistent with DeKalb CTP. ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 953
       },
       "geometry": {
         "type": "LineString",
