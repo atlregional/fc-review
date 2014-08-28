@@ -8334,7 +8334,9 @@
         "DESC": 4,
         "JUST": "Provides for east-west travel between SR 85 and SR 279.  Requires section in Fayette County also be upgraded to Minor Collector.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 414
       },
       "geometry": {
         "type": "LineString",
