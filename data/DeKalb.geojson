@@ -1124,7 +1124,9 @@
         "FC_NEW": 6,
         "DESC": "Important connecting street between DeKalb Ave, E Lake Rd, and Ponce de Leon Ave.",
         "stroke": "#00ff00",
-        "user": "JLewis-Atlanta"
+        "user": "JLewis-Atlanta",
+        "status": "In Review",
+        "issue_num": 1094
       },
       "geometry": {
         "type": "LineString",
