@@ -6562,7 +6562,9 @@
         "DESC": 2,
         "JUST": "Entire segment spans from SR 16 to W Ellis Road. High traffic volume generated large subdivisions. parallel facility to a segment of US 19/41.",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "In Review",
+        "issue_num": 757
       },
       "geometry": {
         "type": "LineString",
