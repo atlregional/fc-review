@@ -11206,7 +11206,9 @@
         "DESC": 2,
         "JUST": "Provides connection for school and residential traffic to/from SR 85.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 412
       },
       "geometry": {
         "type": "LineString",
