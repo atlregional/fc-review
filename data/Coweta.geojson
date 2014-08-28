@@ -21657,7 +21657,9 @@
         "FC_NEW": 6,
         "JUST": "connects as both ends to Summer Grove Parkway and has AADT of 522 as measured in Aug of 2013",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 360
       },
       "geometry": {
         "type": "LineString",
