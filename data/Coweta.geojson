@@ -24393,7 +24393,9 @@
         "DESC": "two lane residential road with sidewalks on both sides serves as part of the entrance route to this section which has over 10 pods no AADT available.",
         "JUST": "provide a connection between two major routes within this planned community that both function as minor collectors and this section needs to be upgraded to conform to the surrounding network.",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 363
       },
       "geometry": {
         "type": "LineString",
