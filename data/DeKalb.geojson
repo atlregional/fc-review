@@ -13879,7 +13879,9 @@
         "FC_NEW": 6,
         "DESC": "Please see other segments- this is broken into a lot of little parts in GIS- same explanations.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 926
       },
       "geometry": {
         "type": "LineString",
