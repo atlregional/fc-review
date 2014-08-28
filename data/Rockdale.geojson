@@ -10644,7 +10644,9 @@
         "DESC": "Two lane roadway with 2,030 ADT",
         "JUST": "Roadway should be upgraded to Minor Collector to conform to surrounding network.  Truck traffic is moderate. ",
         "stroke": "#00ff00",
-        "user": "MValentin-RockdaleCo"
+        "user": "MValentin-RockdaleCo",
+        "status": "In Review",
+        "issue_num": 541
       },
       "geometry": {
         "type": "LineString",
