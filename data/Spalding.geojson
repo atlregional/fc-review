@@ -6030,7 +6030,9 @@
         "DESC": 2,
         "JUST": "supports existing low to high density residential development and neighborhood commercial; parallel north-south facility to N. Hill Street",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "In Review",
+        "issue_num": 797
       },
       "geometry": {
         "type": "LineString",
