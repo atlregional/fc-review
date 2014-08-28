@@ -7261,7 +7261,9 @@
         "DESC": "Network Connectivity.  Industrial Area.  Connection between Snapfinger Woods Drive and Rock Springs Road.  ",
         "JUST": "Consistent with DeKalb CTP",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 922
       },
       "geometry": {
         "type": "LineString",
