@@ -1789,7 +1789,9 @@
         "DESC": "Coordination with Marietta. 2 lanes w/o CTL. AADT: W of Anderson: 11,600 (2006); Cobb MTP FC: Major Collector (east of Barrett Pkwy) and Arterial (west of Barrett Pkwy). KMNBP (segment part of request for Burnt Hickory from Due West Rd to Whitlock Ave/SR 120)",
         "JUST": "Important east-west corridor linking West Cobb to KMNBP and Marietta.",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 810
       },
       "geometry": {
         "type": "LineString",
