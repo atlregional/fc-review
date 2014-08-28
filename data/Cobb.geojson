@@ -20925,7 +20925,9 @@
         "DESC": 2,
         "JUST": "Major collector in Paulding County. This request extends the existing \"major collector\" designation along this roadway from Paulding County to a \"minor arterial\" (segment is part of request for Warren Farms Rd from Paulding County line to Powder Springs Dallas Rd ",
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 830
       },
       "geometry": {
         "type": "LineString",
