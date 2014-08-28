@@ -27,7 +27,9 @@
         "DESC": "Alton Tucker Boulevard is a collector street from West Broad Street to Peachtree Industrial Boulevard (Other Principal Arterial), it is basically an extension of West Broad Street in connecting Nelson Brogdon Boulevard (State Route 20) to Peachtree Ind. Bvld., and running directly through the Sugar Hill downtown center.   This is an emerging downtown center with the construction of the New City Hall, amenity pond, the Lawn Green, the new business incubator center called the ‘Suite Spot’.  Additionally, there are several large and undeveloped parcels fronting Alton Tucker Boulevard and West Broad Street.  Lastly, with the Georgia State Route 20 Widening Project under construction, the area is anticipated to increase in traffic substantially.  ",
         "JUST": "No traffic county data was found for this short section of Alton Tucker Boulevard.  Gwinnett County traffic count data for West Broad Street on February 4, 2010 estimated the Average Daily Trips (ADT) at 8,455 from Nelson Brogdon Boulevard to Alton Tucker Boulevard.  The section of Alton Tucker Boulevard from West Broad Street to Peachtree Industrial Blvd. is estimated to exceed the 8,455 ADTs since it is a main entrance into the Sugar Hill downtown center, and provides direct access to Level Creek Road.  The current estimated population of Sugar Hill is over 18,000 citizens and projected to be over 20,000 by 2016.",
         "stroke": "#00ff00",
-        "user": "TSchick-SugarHillGa"
+        "user": "TSchick-SugarHillGa",
+        "status": "In Review",
+        "issue_num": 869
       },
       "geometry": {
         "type": "LineString",
