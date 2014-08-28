@@ -2097,7 +2097,9 @@
         "DESC": 2,
         "JUST": "US 19/41 parallel facility, collects traffic from Vineyard Road, Birdie Road and School Road",
         "stroke": "#00ff00",
-        "user": "ADukes-SpaldingCo"
+        "user": "ADukes-SpaldingCo",
+        "status": "In Review",
+        "issue_num": 820
       },
       "geometry": {
         "type": "LineString",
