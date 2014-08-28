@@ -25,7 +25,9 @@
         "DESC": "Related to Cobb issue #777.  This segment connects proposed Minor Arterial to existing Minor Arterial.  Changes functional class (to local) at arbitrary point.",
         "JUST": "Related to Cobb issue #777.  This segment connects proposed Minor Arterial to existing Minor Arterial.  Changes functional class (to local) at arbitrary point.",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "In Review",
+        "issue_num": 1005
       },
       "geometry": {
         "type": "LineString",
