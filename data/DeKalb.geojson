@@ -57111,7 +57111,9 @@
         "DESC": "Consistent with DeKalb CTP.  ",
         "JUST": "Land use/Context.  ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 572
       },
       "geometry": {
         "type": "LineString",
