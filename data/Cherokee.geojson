@@ -21961,7 +21961,9 @@
         "FC_NEW": 5,
         "NAME": "Bluffs Pkwy",
         "stroke": "#00ff00",
-        "user": "BBuchanan-CherokeeCo"
+        "user": "BBuchanan-CherokeeCo",
+        "status": "In Review",
+        "issue_num": 589
       },
       "geometry": {
         "type": "LineString",
