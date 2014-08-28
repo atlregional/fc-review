@@ -15784,7 +15784,9 @@
         "DESC": 2,
         "FC_NEW": 5,
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 793
       },
       "geometry": {
         "type": "LineString",
