@@ -2115,7 +2115,9 @@
         "DESC": "AADT= 2000.  Connects Bouldercrest (minor art) to industrial area to neighborhoods to Cedar Grove Rd- which connects to Moreland Ave.  ",
         "JUST": "Networ Connectivity.  Consistent with DeKalb CTP. ",
         "stroke": "#00ff00",
-        "user": "PKeeter-DeKalbCo"
+        "user": "PKeeter-DeKalbCo",
+        "status": "In Review",
+        "issue_num": 956
       },
       "geometry": {
         "type": "LineString",
