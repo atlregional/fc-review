@@ -12413,7 +12413,9 @@
         "DESC": 2,
         "JUST": "This road provides the north-south link for travel from Thomas Rd (existing Major Collector) to/from SR 85.  ADTs on adjacent Webb Rd south of Thomas Rd (fka Flint River Rd) indicate significantly less travel on that segment (ADT = 1,760).",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 329
       },
       "geometry": {
         "type": "LineString",
