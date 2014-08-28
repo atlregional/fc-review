@@ -6883,7 +6883,9 @@
         "DESC": "From SR 120 to Delk Road/ SR 280, Franklin Road is a 4 lane roadway with landscaped median. From Delk Road/ SR 280 to US 41, Franklin Road is a 4 lanes roadway with middle turn median.",
         "JUST": "To update regional functional classification to match up with the adopted City's Thoroughfare Map dated 02082006. ",
         "stroke": "#00ff00",
-        "user": "KClark-MariettaGa"
+        "user": "KClark-MariettaGa",
+        "status": "In Review",
+        "issue_num": 832
       },
       "geometry": {
         "type": "LineString",
