@@ -19227,7 +19227,9 @@
         "NAME": "Barrett Lakes Blvd",
         "FC_NEW": 6,
         "stroke": "#00ff00",
-        "user": "MSewell-CobbCo"
+        "user": "MSewell-CobbCo",
+        "status": "In Review",
+        "issue_num": 826
       },
       "geometry": {
         "type": "LineString",
