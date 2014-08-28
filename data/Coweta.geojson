@@ -5832,7 +5832,9 @@
         "DESC": 2,
         "JUST": "Requested FC change is included in County FC Plan; access to Shenandoah Industrial Park (near SR 34); proposed enhanced connectivity to US 29 (CW-076/PI#0013195), fire station, and future Madras Connector.",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 484
       },
       "geometry": {
         "type": "LineString",
