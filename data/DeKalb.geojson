@@ -16419,7 +16419,9 @@
         "DESC": "Serves as a connection from Buford Hwy to N Druid Hills Road and withLenox Park Blvd to Roxboro Rd.  Serves as collector for a High School (Cross Keys), and several apartment complexes.",
         "JUST": "Serves as a connection from Buford Hwy to N Druid Hills Road and withLenox Park Blvd to Roxboro Rd.  Serves as collector for a High School (Cross Keys), and several apartment complexes.",
         "stroke": "#00ff00",
-        "user": "RMeehan-BrookhavenGa"
+        "user": "RMeehan-BrookhavenGa",
+        "status": "In Review",
+        "issue_num": 873
       },
       "geometry": {
         "type": "LineString",
