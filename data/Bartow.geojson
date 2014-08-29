@@ -356,7 +356,9 @@
         "DESC": "Connector between residential development area and US 41",
         "JUST": "Road serves as residential access to US 41. Recommended by CBMPO Policy Committee 6/2/2014",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "In Review",
+        "issue_num": 249
       },
       "geometry": {
         "type": "LineString",
