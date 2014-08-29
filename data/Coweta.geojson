@@ -28206,7 +28206,9 @@
         "DESC": "the majority of this road is a divided 4 lane urban section that connects two minor arterials",
         "JUST": "connects two minor arterials and has experienced significant commercial growth at each end to include the new Piedmont Hospital and various other medical office buildings. ",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 236
       },
       "geometry": {
         "type": "LineString",
