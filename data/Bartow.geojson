@@ -30156,7 +30156,9 @@
         "DESC": "AADT: 3150",
         "JUST": "Traffic has dropped on this segment since the widening and improvement to Busch Drive which provides access to the I-75 interchange with Cassville-White Road. Recommended by CBMPO Policy Committee 6/2/2014.",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "In Review",
+        "issue_num": 259
       },
       "geometry": {
         "type": "LineString",
