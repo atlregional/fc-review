@@ -59638,7 +59638,9 @@
         "DESC": "AADT 1280",
         "JUST": "Use of the road as connection between SR 61 and SR 3 has diminished with traffic being diverted onto Gentilly Avenue and its major generators.",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "In Review",
+        "issue_num": 241
       },
       "geometry": {
         "type": "LineString",
