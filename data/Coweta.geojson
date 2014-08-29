@@ -16526,7 +16526,9 @@
         "DESC": 2,
         "JUST": "Requested FC is included in County FC Plan; connectivity between Coweta and Fayette counties; matches FC in Fayette/Tyrone; AADT - 2,841",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 273
       },
       "geometry": {
         "type": "LineString",
