@@ -941,7 +941,9 @@
         "DESC": "Traffic generators: residential developments on Grassdale, Rudy York, and Peoples Valley roads",
         "JUST": "Route provides access to US 41 for a large residential area. Recommended by CBMPO Policy Committee 6/2/2014.",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "In Review",
+        "issue_num": 251
       },
       "geometry": {
         "type": "LineString",
