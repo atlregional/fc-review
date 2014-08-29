@@ -542,7 +542,9 @@
         "DESC": "Serves residential developments",
         "JUST": "Provides residential access to US 41. Recommended by CBMPO Policy Committee 6/2/2014",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "In Review",
+        "issue_num": 250
       },
       "geometry": {
         "type": "LineString",
