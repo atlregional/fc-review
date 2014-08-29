@@ -2874,7 +2874,9 @@
         "DESC": "Traffic generators: Red Top Mountain State Park, Allatoona Lake",
         "JUST": "Reflects the fact that traffic along this road is coming from Cherokee County residents seeking access to Allatoona Lake and its amenities. Recommended by CBMPO Policy Committee 6/2/2014.",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "In Review",
+        "issue_num": 256
       },
       "geometry": {
         "type": "LineString",
