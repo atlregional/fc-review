@@ -59911,7 +59911,9 @@
         "DESC": "AADT 2680",
         "JUST": "This section of road has diminished in importance as a connection between the state routes and southern downtown Cartersville.",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "In Review",
+        "issue_num": 243
       },
       "geometry": {
         "type": "LineString",
