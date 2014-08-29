@@ -1367,7 +1367,9 @@
         "FC_NEW": 5,
         "JUST": "Network conformity with segment in Paulding County. Recommended by CBMPO Policy Committee 6/2/2014",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "In Review",
+        "issue_num": 246
       },
       "geometry": {
         "type": "LineString",
