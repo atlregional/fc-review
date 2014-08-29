@@ -17841,7 +17841,9 @@
         "DESC": 2,
         "JUST": "Requested FC is included in County FC Plan; access to Coweta Industrial Park; plans to extend road to proposed I-85 @ Amlajack Interchange; AADT - not available",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 276
       },
       "geometry": {
         "type": "LineString",
