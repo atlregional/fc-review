@@ -63304,7 +63304,9 @@
         "DESC": "AADT 3390, 3510",
         "JUST": "Thjs section of road has diminished in importance as a connector to the state routes from south Cartersville.",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "In Review",
+        "issue_num": 244
       },
       "geometry": {
         "type": "LineString",
