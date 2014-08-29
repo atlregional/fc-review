@@ -18785,7 +18785,15 @@
         "Shape_Leng": 12116.4967747,
         "ARC_Length": 2.29479105581,
         "RCLINK_1": "0773109109",
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Newnan Crossing Bypass",
+        "FC_NEW": 5,
+        "DESC": 4,
+        "JUST": "serves significant commercial areas and connects two minor arterials and one principal arterial. ",
+        "stroke": "#00ff00",
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 237
       },
       "geometry": {
         "type": "LineString",
@@ -20832,7 +20840,9 @@
         "DESC": 4,
         "JUST": "serves significant commercial areas and connects two minor arterials and one principal arterial. ",
         "stroke": "#00ff00",
-        "user": "DJohnson-NewnanGA"
+        "user": "DJohnson-NewnanGA",
+        "status": "In Review",
+        "issue_num": 237
       },
       "geometry": {
         "type": "LineString",
