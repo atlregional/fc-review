@@ -2453,7 +2453,9 @@
         "DESC": "AADT from GDOT STARS not available.  Traffic generators include adjacent City of Buford Community Center, Historic Downtown Buford.",
         "JUST": "Garnett Street meets all of the criteria of an Urban Minor Collector as described in the FHWA Functional Classification Manual, 2013 Edition.  It serves both land access and traffic circulation in lower density residential and commercial areas, penetrates a residential neighborhood only for a short distance, distributes and channels trips between Buford Highway (minor arterial) to Main Street (minor arterial) for a length of 0.74 miles and has operating characteristics which include lower speeds and no signalized intersections.  There has been a dramatic increase in traffic volume with the recent construction of the adjacent City of Buford Community Center.",
         "stroke": "#00ff00",
-        "user": "sserio-bufordga"
+        "user": "sserio-bufordga",
+        "status": "In Review",
+        "issue_num": 233
       },
       "geometry": {
         "type": "LineString",
