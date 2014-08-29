@@ -2061,7 +2061,9 @@
         "DESC": "Traffic generator: westbound traffic from City of Cartersville",
         "JUST": "Route is used by westbound traffic from Cartersville seeking access to US 411. Also provides continuity of network. Recommended by CBMPO Policy Committee 6/2/2014.",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "In Review",
+        "issue_num": 255
       },
       "geometry": {
         "type": "LineString",
