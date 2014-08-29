@@ -72592,7 +72592,9 @@
         "DESC": "AADT 5890\n",
         "JUST": "No change in classification requested due to traffic counts falling below guidance for urban principal arterials.",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "In Review",
+        "issue_num": 238
       },
       "geometry": {
         "type": "LineString",
