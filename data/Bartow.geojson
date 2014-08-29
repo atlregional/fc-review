@@ -2725,7 +2725,9 @@
         "DESC": "Existing traffic generators: Anheuser Busch brewery, Gerdau Ameristeel, Trinity Railcar",
         "JUST": "Since the improvement of this route to accommodate the brewery, this segment has become the route of choice for access to I-75 over other local roads.",
         "stroke": "#00ff00",
-        "user": "TSills-BartowCo"
+        "user": "TSills-BartowCo",
+        "status": "In Review",
+        "issue_num": 247
       },
       "geometry": {
         "type": "LineString",
