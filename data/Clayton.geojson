@@ -12083,7 +12083,9 @@
         "DESC": 4,
         "JUST": "Multiple Lane roadway on Regional Thoroughfare Network serving east-west traffic to and from Atlanta Airport.  GDOT project 0001817 (June 2014 Let) will connect east-west traffic directly to/from Conley Road, resulting in increased volumes over the next few years.",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 295
       },
       "geometry": {
         "type": "LineString",
