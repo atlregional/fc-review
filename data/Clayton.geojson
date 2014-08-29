@@ -15618,7 +15618,9 @@
         "DESC": 4,
         "JUST": "Road services regional East-West traffic in northern part of County between Fulton Co and Henry Co as well as traffic to and from Atlanta Airport.  Connecting segments are Forest Pkwy (Minor Arterial) at SR 139 (Minor Arterial) and Godby Road (proposed upgrade to Major Collector) at SR 314 (Minor Arterial).  ",
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "status": "In Review",
+        "issue_num": 294
       },
       "geometry": {
         "type": "LineString",
