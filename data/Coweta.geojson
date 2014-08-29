@@ -9609,7 +9609,9 @@
         "DESC": 2,
         "JUST": "AADT - 9,277",
         "stroke": "#00ff00",
-        "user": "TEdwards-CowetaCo"
+        "user": "TEdwards-CowetaCo",
+        "status": "In Review",
+        "issue_num": 275
       },
       "geometry": {
         "type": "LineString",
