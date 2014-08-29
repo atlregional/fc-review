@@ -16644,7 +16644,10 @@
         "DESC": 4,
         "FC_NEW": 5,
         "stroke": "#00ff00",
-        "user": "BAndrews-CDOT"
+        "user": "BAndrews-CDOT",
+        "NAME": "Garden Walk Blvd",
+        "status": "In Review",
+        "issue_num": 297
       },
       "geometry": {
         "type": "LineString",
