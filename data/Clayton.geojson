@@ -447,7 +447,11 @@
         "Shape_Leng": 506.302185688,
         "ARC_Length": 0.0958905654711,
         "RCLINK_1": "0632398100",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Lamar Hutcheson Parkway",
+        "FC_NEW": 4,
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
