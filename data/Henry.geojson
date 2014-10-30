@@ -83314,7 +83314,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3744,
-        "County": "Henry"
+        "County": "Henry",
+        "DESC": "This change is part of a continuous corridor.  It was added by ARC for system continuity.",
+        "JUST": "This change is part of a continuous corridor.  It was added by ARC for system continuity.",
+        "NAME": "McGarity Road",
+        "FROM": "McDonough city limits at John Wesley Way",
+        "TO": "McDonough city limits at Airline Road",
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
