@@ -70060,7 +70060,14 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3654,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Lower Woolsey Road",
+        "FROM": "SR 20",
+        "TO": "US 19/41 (Bear Creek Boulevard)",
+        "FC_NEW": 3,
+        "DESC": "Added by ARC for system continuity between SR 20 and US 19/41.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
