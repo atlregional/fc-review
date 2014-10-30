@@ -80533,7 +80533,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3707,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "McGarity Road",
+        "FROM": "Conyers Road",
+        "TO": "Lemon Street (McDonough City Limits)",
+        "FC_NEW": 5,
+        "DESC": "This change is part of a continuous corridor.  It was added by ARC for system continuity.",
+        "JUST": "This change is part of a continuous corridor.  It was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
