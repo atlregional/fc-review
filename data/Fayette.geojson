@@ -20173,7 +20173,15 @@
         "2011AvAADT": 5420,
         "2010AvAADT": 5500,
         "OBJECTID_1": 2172,
-        "County": "Fayette"
+        "County": "Fayette",
+        "NAME": "Carter Road / Corinth Road",
+        "FROM": "SR 85",
+        "TO": "Clayton / Fayette county line near River Mist Drive",
+        "FC_NEW": 4,
+        "DESC": "Change was added by ARC for system continuity. ",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
