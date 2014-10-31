@@ -27787,7 +27787,15 @@
         "2011AvAADT": 2650,
         "2010AvAADT": 2590,
         "OBJECTID_1": 117,
-        "County": "Barrow"
+        "County": "Barrow",
+        "NAME": "King Street",
+        "FROM": "E Athens Street",
+        "TO": "SR 82 (E Broad Avenue)",
+        "FC_NEW": 5,
+        "DESC": "Added by ARC for system continuity reasons with downgrade of SR 82 (E Broad Avenue).",
+        "JUST": "Added by ARC for system continuity reasons with downgrade of SR 82 (E Broad Avenue).",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
