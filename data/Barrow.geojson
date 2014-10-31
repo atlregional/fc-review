@@ -16511,7 +16511,15 @@
         "2011AvAADT": 5870,
         "2010AvAADT": 6210,
         "OBJECTID_1": 54,
-        "County": "Barrow"
+        "County": "Barrow",
+        "NAME": "SR 82 (E Broad Avenue)",
+        "FROM": "SR 11/52 (N Broad Street)",
+        "TO": "Dunahoo Road",
+        "FC_NEW": 5,
+        "DESC": "Added by ARC for system continuity reasons.",
+        "JUST": "Added by ARC for system continuity reasons.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
