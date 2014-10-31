@@ -673,7 +673,15 @@
         "2011AvAADT": 4950,
         "2010AvAADT": 5070,
         "OBJECTID_1": 3752,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "Spring Road",
+        "FROM": "Rockdale / Newton County line near Underwood Road",
+        "TO": "SR 162 (Salem Road)",
+        "FC_NEW": 5,
+        "DESC": "Added by ARC for system continuity with proposed change to Honey Creek Road in Rockdale County.",
+        "JUST": "Added by ARC for system continuity with proposed change to Honey Creek Road in Rockdale County.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
