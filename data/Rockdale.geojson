@@ -72395,7 +72395,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4035,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Rockbridge Road",
+        "FROM": "Conyers city limits north of Sigman Road",
+        "TO": "Sigman Road",
+        "FC_NEW": 5,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "This issue was added by ARC for system continuity. Recommend major collector for system continuity with downgrade of Union Grove Road in Dekalb County.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
