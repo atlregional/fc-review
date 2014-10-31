@@ -90656,7 +90656,15 @@
         "2011AvAADT": 4910,
         "2010AvAADT": 4915,
         "OBJECTID_1": 3090,
-        "County": "Gwinnett"
+        "County": "Gwinnett",
+        "NAME": "S. Waterworks Road",
+        "FROM": "Peachtree Industrial Boulevard",
+        "TO": "Coles Mill Road",
+        "FC_NEW": 7,
+        "JUST": "Change identified by ARC to redefine functional classification to not end at an arbitrary point.",
+        "DESC": "This change applies only to S. Waterworks Road northwest of Peachtree Industrial Boulevard, rather than the segment south of PIB in Buford as Github shows.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
