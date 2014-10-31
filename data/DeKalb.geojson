@@ -93777,7 +93777,15 @@
         "2011AvAADT": 1710,
         "2010AvAADT": 2080,
         "OBJECTID_1": 1645,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Union Grove Road",
+        "FROM": "Pleasant Hill Road",
+        "TO": "DeKalb / Rockdale County line",
+        "FC_NEW": 5,
+        "DESC": "Added by ARC for system continuity with proposed change to Rockbridge Road in Rockdale County.",
+        "JUST": "Added by ARC for system continuity with proposed change to Rockbridge Road in Rockdale County.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
