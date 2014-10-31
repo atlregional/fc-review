@@ -67489,7 +67489,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 635,
-        "County": "Cherokee"
+        "County": "Cherokee",
+        "NAME": "E. Cherokee Drive",
+        "FROM": "Ball Ground Highway",
+        "TO": "Etowah River",
+        "FC_NEW": 5,
+        "DESC": "Added by ARC for system continuity with the major collector segment to the south.",
+        "JUST": "Added by ARC for system continuity with the major collector segment to the south.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
