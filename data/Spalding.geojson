@@ -29488,7 +29488,15 @@
         "2011AvAADT": 1775,
         "2010AvAADT": 1910,
         "OBJECTID_1": 4115,
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Teamon Road",
+        "FROM": "Old Atlanta Road ",
+        "TO": "Jordan Hill Road",
+        "FC_NEW": 5,
+        "DESC": "Added by ARC for system continuity reasons.",
+        "JUST": "Added by ARC for system continuity reasons.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
