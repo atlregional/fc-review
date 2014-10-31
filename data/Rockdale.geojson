@@ -71357,7 +71357,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4028,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Dogwood Drive",
+        "FROM": "Old Covington Highway",
+        "TO": "SR 162 (Salem Road)",
+        "FC_NEW": 4,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
