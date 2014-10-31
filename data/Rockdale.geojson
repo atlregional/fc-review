@@ -67046,7 +67046,15 @@
         "2011AvAADT": 5150,
         "2010AvAADT": 5230,
         "OBJECTID_1": 4007,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Green Street",
+        "FROM": 3,
+        "TO": "Scott Street",
+        "FC_NEW": 4,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity. ",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
