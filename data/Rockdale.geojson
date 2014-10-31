@@ -70359,7 +70359,15 @@
         "2011AvAADT": 4870,
         "2010AvAADT": 4470,
         "OBJECTID_1": 4025,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Green Street",
+        "FROM": "Scott Street",
+        "TO": "Old Covington Highway",
+        "FC_NEW": 4,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity. ",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
