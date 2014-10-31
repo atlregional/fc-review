@@ -34315,7 +34315,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4148,
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Memorial Drive",
+        "FROM": "Hudson Road",
+        "TO": "SR 16 (Arthur K. Bolton Parkway)",
+        "FC_NEW": 5,
+        "DESC": "Added by ARC for system continuity reasons.",
+        "JUST": "Added by ARC for system continuity reasons.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
