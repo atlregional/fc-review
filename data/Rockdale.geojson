@@ -72506,7 +72506,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4036,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Pine Log Road",
+        "FROM": "American Legion Road",
+        "TO": "Conyers city limits west of Park Place",
+        "FC_NEW": 6,
+        "DESC": "This change is part of a continuous corridor.  It was added by ARC for system continuity.",
+        "JUST": "This change is part of a continuous corridor.  It was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
