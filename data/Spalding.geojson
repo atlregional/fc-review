@@ -30224,7 +30224,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4118,
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Old Macon Road",
+        "FROM": "Futral Road",
+        "TO": "Hudson Road",
+        "DESC": "Added by ARC for system continuity reasons.",
+        "JUST": "Added by ARC for system continuity reasons.",
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
