@@ -70117,7 +70117,15 @@
         "2011AvAADT": 4420,
         "2010AvAADT": 4530,
         "OBJECTID_1": 4024,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Pine Log Road",
+        "FROM": "Main Street",
+        "TO": "American Legion Road",
+        "FC_NEW": 6,
+        "DESC": "This change is part of a continuous corridor.  It was added by ARC for system continuity.",
+        "JUST": "This change is part of a continuous corridor.  It was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
