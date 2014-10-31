@@ -65784,7 +65784,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4001,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Old Covington Highway",
+        "FROM": "Green Street",
+        "TO": "Dogwood Drive (west of SR 20 / 138)",
+        "FC_NEW": 4,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
