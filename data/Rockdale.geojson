@@ -55214,7 +55214,15 @@
         "2011AvAADT": 700,
         "2010AvAADT": 710,
         "OBJECTID_1": 3971,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Old Covington Highway",
+        "FROM": "Gees Mill Road",
+        "TO": "Dogwood Drive (west of SR 162)",
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity. ",
+        "FC_NEW": 4,
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
