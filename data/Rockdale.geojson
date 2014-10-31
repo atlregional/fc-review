@@ -59380,7 +59380,15 @@
         "2011AvAADT": 2120,
         "2010AvAADT": 2170,
         "OBJECTID_1": 3984,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Rockbridge Road",
+        "FROM": "DeKalb / Rockdale County Line",
+        "TO": "Farmer Road",
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "This issue was added by ARC for system continuity. Recommend major collector for system continuity with downgrade of Union Grove Road in Dekalb County.",
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
