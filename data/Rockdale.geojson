@@ -56265,7 +56265,15 @@
         "2011AvAADT": 8140,
         "2010AvAADT": 6590,
         "OBJECTID_1": 3974,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Old Covington Highway",
+        "FROM": "Sigman Road",
+        "TO": "Smyrna Road",
+        "FC_NEW": 4,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity. ",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
