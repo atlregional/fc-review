@@ -28541,7 +28541,7 @@
         "JUST": "Traffic counts are lower on this roadway and characteristics meet more of a minor collector.",
         "stroke": "#00ff00",
         "user": "EParish-PauldingCo",
-        "status": "In Review",
+        "status": "Rejected",
         "issue_num": 326
       },
       "geometry": {
