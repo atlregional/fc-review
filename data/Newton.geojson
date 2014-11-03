@@ -4483,7 +4483,15 @@
         "2011AvAADT": 4140,
         "2010AvAADT": 4280,
         "OBJECTID_1": 3764,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "SR 212",
+        "FROM": "Lummus Road",
+        "TO": "SR 36",
+        "DESC": "Change was added by ARC for system continuity.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "FC_NEW": 4,
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
