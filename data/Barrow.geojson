@@ -9160,7 +9160,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 40,
-        "County": "Barrow"
+        "County": "Barrow",
+        "NAME": "Patrick Mill Road",
+        "FROM": "Barrow / Gwinnett County line",
+        "TO": "US 29 / SR 316 (University Parkway)",
+        "DESC": "Change was added by ARC for system continuity.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
