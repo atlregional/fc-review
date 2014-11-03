@@ -48758,7 +48758,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 863,
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "N. Lake Drive",
+        "FROM": "SR 54 (Jonesboro Road)",
+        "TO": "Lake City / Morrow city limits",
+        "JUST": "Change was added by ARC for system continuity.",
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
