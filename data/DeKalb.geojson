@@ -72757,7 +72757,15 @@
         "2011AvAADT": 2670,
         "2010AvAADT": 2710,
         "OBJECTID_1": 1602,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Lullwater Road",
+        "FROM": "Atlanta city limits near The Byway",
+        "TO": "N. Decatur Road",
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "FC_NEW": 6,
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
