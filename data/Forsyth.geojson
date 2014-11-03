@@ -7664,7 +7664,15 @@
         "Shape_Leng": 4978.31532967,
         "ARC_Length": 0.942862751831,
         "RCLINK_1": "1172183700",
-        "County": "Forsyth"
+        "County": "Forsyth",
+        "NAME": "Ronald Reagan Boulevard",
+        "FROM": "Old Atlanta Road",
+        "TO": "SR 20 (Buford Highway)",
+        "FC_NEW": 4,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor. Change was added by ARC for system continuity. ",
+        "JUST": "This recommendation is one of multiple contiguous changes along a single corridor. Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
