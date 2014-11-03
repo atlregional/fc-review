@@ -71058,7 +71058,15 @@
         "2011AvAADT": 7390,
         "2010AvAADT": 7360,
         "OBJECTID_1": 1066,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Canton Road",
+        "FROM": "South of Sandy Plains Road",
+        "TO": "Canton Road Connector",
+        "FC_NEW": 6,
+        "JUST": "Change was added by ARC for system continuity.",
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
