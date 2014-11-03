@@ -50441,7 +50441,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3963,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Sigman Road / Abbott Lake Road",
+        "FROM": "Iris Drive",
+        "TO": "Rockdale / DeKalb County line",
+        "FC_NEW": 7,
+        "DESC": "Issue identified by ARC to redefine functional classification to not end at an arbitrary point.",
+        "JUST": "Issue identified by ARC to redefine functional classification to not end at an arbitrary point.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
