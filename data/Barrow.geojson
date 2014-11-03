@@ -7321,7 +7321,15 @@
         "2011AvAADT": 6150,
         "2010AvAADT": 6370,
         "OBJECTID_1": 30,
-        "County": "Barrow"
+        "County": "Barrow",
+        "NAME": "Rockwell Church Road",
+        "FROM": "Thompson Mill Road",
+        "TO": "Baskins Circle",
+        "FC_NEW": 5,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
