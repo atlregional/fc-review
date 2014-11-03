@@ -3177,7 +3177,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 14,
-        "County": "Barrow"
+        "County": "Barrow",
+        "NAME": "Carl - Cedar Hill Road",
+        "FROM": "Pierce Road",
+        "TO": "Thompson Mill Road",
+        "FC_NEW": 5,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
