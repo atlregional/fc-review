@@ -16668,7 +16668,15 @@
         "Shape_Leng": 1232.04591584,
         "ARC_Length": 0.233342029515,
         "RCLINK_1": "0672289900",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Cooper Lake Drive",
+        "FROM": "Pine Ridge Road",
+        "TO": "Atlanta Road",
+        "FC_NEW": 6,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
