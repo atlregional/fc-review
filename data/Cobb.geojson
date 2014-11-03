@@ -21331,7 +21331,15 @@
         "Shape_Leng": 512.080114475,
         "ARC_Length": 0.0969848701657,
         "RCLINK_1": "0673289919",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Cooper Lake Drive",
+        "FROM": "Smyrna city limits near Vinings Mill Trail / Daniel Street",
+        "TO": "Pine Ridge Road",
+        "FC_NEW": 6,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
