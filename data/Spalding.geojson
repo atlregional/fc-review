@@ -19536,7 +19536,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4077,
-        "County": "Spalding"
+        "County": "Spalding",
+        "NAME": "Futral Rd",
+        "FROM": "Grandview Drive",
+        "TO": "Macon Road",
+        "FC_NEW": 5,
+        "DESC": "Change was added by ARC for system continuity.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
