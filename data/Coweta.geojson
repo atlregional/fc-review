@@ -77780,7 +77780,15 @@
         "2011AvAADT": 1740,
         "2010AvAADT": 1770,
         "OBJECTID_1": 1400,
-        "County": "Coweta"
+        "County": "Coweta",
+        "NAME": "Newnan South Industrial Boulevard",
+        "FROM": "US 27A / 29",
+        "TO": "Gordon Road",
+        "FC_NEW": 7,
+        "JUST": "Change was added by ARC for system continuity.",
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
