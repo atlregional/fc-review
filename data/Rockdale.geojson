@@ -2874,7 +2874,15 @@
         "Shape_Leng": 4755.82440294,
         "ARC_Length": 0.900724318739,
         "RCLINK_1": "2478044400",
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Iris Drive",
+        "FROM": "DeKalb / Rockdale County line",
+        "TO": "Sigman Road",
+        "FC_NEW": 5,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
