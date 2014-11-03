@@ -47453,7 +47453,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3582,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Lester Mill Road",
+        "FROM": "Indian Creek Drive",
+        "TO": "Locust Grove Griffin Road",
+        "FC_NEW": 7,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
