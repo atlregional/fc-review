@@ -22214,7 +22214,15 @@
         "Shape_Leng": 343.368373198,
         "ARC_Length": 0.0650318888632,
         "RCLINK_1": "0673535519",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Cooper Lake Drive",
+        "FROM": "Smyrna city limits north of Cabretta Drive",
+        "TO": "Smyrna city limits south of Cooper Landing Drive",
+        "FC_NEW": 6,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
