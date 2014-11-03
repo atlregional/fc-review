@@ -7188,7 +7188,15 @@
         "2011AvAADT": 4540,
         "2010AvAADT": 5210,
         "OBJECTID_1": 3769,
-        "County": "Newton"
+        "County": "Newton",
+        "NAME": "SR 162",
+        "FROM": "Rocky Plains Road",
+        "TO": "SR 212",
+        "FC_NEW": 4,
+        "DESC": "Change was added by ARC for system continuity.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
