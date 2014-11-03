@@ -4351,7 +4351,15 @@
         "2011AvAADT": 2950,
         "2010AvAADT": 3370,
         "OBJECTID_1": 4178,
-        "County": "Walton"
+        "County": "Walton",
+        "NAME": "Rock Road",
+        "FROM": "SR 81 (Winder Road)",
+        "TO": "Walton / Gwinett county line",
+        "DESC": "Identified by ARC to redefine functional classification to not end at an arbitrary point.",
+        "JUST": "Identified by ARC to redefine functional classification to not end at an arbitrary point.",
+        "FC_NEW": 7,
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
