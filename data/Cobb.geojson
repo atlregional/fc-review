@@ -102641,7 +102641,15 @@
         "2011AvAADT": 6760,
         "2010AvAADT": 6860,
         "OBJECTID_1": 1198,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Canton Road",
+        "FROM": "Cherokee Street",
+        "TO": "US 41 (Cobb Parkway)",
+        "FC_NEW": 6,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
