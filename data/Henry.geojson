@@ -1669,7 +1669,15 @@
         "Shape_Leng": 4195.48385524,
         "ARC_Length": 0.794599215007,
         "RCLINK_1": "1512000500",
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Austin Road",
+        "FROM": "Fairview Road",
+        "TO": "Rock Road",
+        "FC_NEW": 5,
+        "DESC": "Change was added by ARC for system continuity.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
