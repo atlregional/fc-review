@@ -3648,7 +3648,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 17,
-        "County": "Barrow"
+        "County": "Barrow",
+        "NAME": "County Line-Auburn Road",
+        "FROM": "Murphy Road",
+        "TO": "SR 211",
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "FC_NEW": 5,
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
