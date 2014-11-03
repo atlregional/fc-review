@@ -103659,7 +103659,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1204,
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Canton Road",
+        "FROM": "US 41 (Cobb Parkway)",
+        "TO": "I-75",
+        "FC_NEW": 6,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
