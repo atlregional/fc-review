@@ -48037,7 +48037,15 @@
         "2011AvAADT": 2180,
         "2010AvAADT": 2210,
         "OBJECTID_1": 3959,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Gees Mill Road",
+        "FROM": "Glen Road",
+        "TO": "Yellow River",
+        "FC_NEW": 6,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
