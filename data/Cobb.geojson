@@ -20796,7 +20796,15 @@
         "Shape_Leng": 1419.89328157,
         "ARC_Length": 0.268919182116,
         "RCLINK_1": "0672997800",
-        "County": "Cobb"
+        "County": "Cobb",
+        "NAME": "Cooper Lake Drive",
+        "FROM": "Smyrna city limits south of Cooper Landing Drive",
+        "FC_NEW": 6,
+        "TO": "Smyrna city limits near Vinings Mill Trail / Daniel Street",
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
