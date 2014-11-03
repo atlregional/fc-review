@@ -66013,7 +66013,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4002,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Gees Mill Road",
+        "FROM": "Yellow River",
+        "TO": "Centennial Olympic Parkway",
+        "FC_NEW": 6,
+        "JUST": "Change was added by ARC for system continuity.",
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
