@@ -59106,7 +59106,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 1565,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Hayden Quarry Road",
+        "FROM": "Turner Hill Road",
+        "TO": "Dead End",
+        "FC_NEW": 7,
+        "DESC": "Issue identified by ARC to redefine functional classification to not end at an arbitrary point.",
+        "JUST": "Issue identified by ARC to redefine functional classification to not end at an arbitrary point.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
