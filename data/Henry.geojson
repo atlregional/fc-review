@@ -75190,7 +75190,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 3669,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Woolsey Drive",
+        "FROM": "Richard Petty Boulevard",
+        "TO": "Woolsey Road",
+        "FC_NEW": 6,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
