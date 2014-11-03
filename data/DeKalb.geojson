@@ -31986,7 +31986,15 @@
         "2011AvAADT": 14330,
         "2010AvAADT": 8550,
         "OBJECTID_1": 1527,
-        "County": "DeKalb"
+        "County": "DeKalb",
+        "NAME": "Gresham Road",
+        "FROM": "Welland Avenue",
+        "TO": "I-20 Eastbound Off-Ramp/ Brannen Road",
+        "FC_NEW": 6,
+        "DESC": "This recommendation is one of multiple contiguous changes along multiple roadways to connect to I-20.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
