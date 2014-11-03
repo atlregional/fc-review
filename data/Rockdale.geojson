@@ -50445,7 +50445,7 @@
         "NAME": "Sigman Road / Abbott Lake Road",
         "FROM": "Iris Drive",
         "TO": "Rockdale / DeKalb County line",
-        "FC_NEW": 7,
+        "FC_NEW": 6,
         "DESC": "Issue identified by ARC to redefine functional classification to not end at an arbitrary point.",
         "JUST": "Issue identified by ARC to redefine functional classification to not end at an arbitrary point.",
         "stroke": "#00ff00",
