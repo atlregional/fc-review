@@ -66097,7 +66097,15 @@
         "2011AvAADT": 0,
         "2010AvAADT": 0,
         "OBJECTID_1": 4003,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "Gees Mill Road",
+        "TO": "Conyers city limits",
+        "FROM": "Old Covington Hwy",
+        "FC_NEW": 6,
+        "JUST": "Change was added by ARC for system continuity.",
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
