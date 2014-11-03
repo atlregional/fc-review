@@ -20110,7 +20110,15 @@
         "2011AvAADT": 1270,
         "2010AvAADT": 1180,
         "OBJECTID_1": 3930,
-        "County": "Rockdale"
+        "County": "Rockdale",
+        "NAME": "E. Fairview Road",
+        "FROM": "Camp Creek",
+        "TO": "SR 138 (Stockbridge Highway)",
+        "FC_NEW": 6,
+        "DESC": "This recommendation is one of multiple contiguous changes along a single corridor.",
+        "JUST": "Change was added by ARC for system continuity.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
