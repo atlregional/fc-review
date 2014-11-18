@@ -70,7 +70,9 @@
         "DESC": "Part of Godby Road upgrade from SR 279 (Old National Highway) to SR 314 (West Fayetteville Road).",
         "JUST": "Part of Godby Road upgrade from SR 279 (Old National Highway) to SR 314 (West Fayetteville Road).",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "In Review",
+        "issue_num": 1190
       },
       "geometry": {
         "type": "LineString",
@@ -3352,7 +3354,9 @@
         "DESC": "Part of Godby Road upgrade from SR 279 (Old National Highway) to SR 314 (West Fayetteville Road).",
         "JUST": "Part of Godby Road upgrade from SR 279 (Old National Highway) to SR 314 (West Fayetteville Road).",
         "stroke": "#00ff00",
-        "user": "MWillisARC"
+        "user": "MWillisARC",
+        "status": "In Review",
+        "issue_num": 1190
       },
       "geometry": {
         "type": "LineString",
