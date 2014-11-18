@@ -617,7 +617,15 @@
         "Shape_Leng": 252.672542502,
         "ARC_Length": 0.0478546482012,
         "RCLINK_1": "0633103901",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Godby Road",
+        "FROM": "East of Norman Blvd (College Park City Limits)",
+        "TO": "West of Roses of Picardy (College Park City Limits)",
+        "FC_NEW": 5,
+        "DESC": "Part of Godby Road upgrade from SR 279 (Old National Highway) to SR 314 (West Fayetteville Road).",
+        "JUST": "Part of Godby Road upgrade from SR 279 (Old National Highway) to SR 314 (West Fayetteville Road).",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
