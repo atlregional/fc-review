@@ -183,7 +183,15 @@
         "Shape_Leng": 483.968466813,
         "ARC_Length": 0.0916606944722,
         "RCLINK_1": "0632390200",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Godby Road",
+        "FROM": "East of Norman Blvd",
+        "TO": "Roses of Picardy",
+        "FC_NEW": 5,
+        "DESC": "Part of Godby Road upgrade from SR 279 (Old National Highway) to SR 314 (West Fayetteville Road).",
+        "JUST": "Part of Godby Road upgrade from SR 279 (Old National Highway) to SR 314 (West Fayetteville Road).",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
