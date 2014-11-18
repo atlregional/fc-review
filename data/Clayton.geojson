@@ -54,7 +54,15 @@
         "Shape_Leng": 189.3595416,
         "ARC_Length": 0.0358635495455,
         "RCLINK_1": "0632024600",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Godby Road",
+        "FROM": "Limetree Drive",
+        "TO": "Southampton Drive",
+        "FC_NEW": 5,
+        "DESC": "Part of Godby Road upgrade from SR 279 (Old National Highway) to SR 314 (West Fayetteville Road).",
+        "JUST": "Part of Godby Road upgrade from SR 279 (Old National Highway) to SR 314 (West Fayetteville Road).",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
@@ -3320,7 +3328,15 @@
         "Shape_Leng": 189.3595416,
         "ARC_Length": 0.0358635495455,
         "RCLINK_1": "0632024600",
-        "County": "Clayton"
+        "County": "Clayton",
+        "NAME": "Godby Road",
+        "FROM": "Limetree Drive",
+        "TO": "Southampton Drive",
+        "FC_NEW": 5,
+        "DESC": "Part of Godby Road upgrade from SR 279 (Old National Highway) to SR 314 (West Fayetteville Road).",
+        "JUST": "Part of Godby Road upgrade from SR 279 (Old National Highway) to SR 314 (West Fayetteville Road).",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
