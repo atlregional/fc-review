@@ -21407,7 +21407,15 @@
         "2011AvAADT": 100,
         "2010AvAADT": 150,
         "OBJECTID_1": 3535,
-        "County": "Henry"
+        "County": "Henry",
+        "NAME": "Bentley Hill Road",
+        "FROM": "Camp Creek Drive",
+        "TO": "Dekalb/Henry County Line",
+        "FC_NEW": 7,
+        "DESC": "Henry County requested this change as this is an unpaved road.",
+        "JUST": "Henry County requested this change as this is an unpaved road.",
+        "stroke": "#00ff00",
+        "user": "MWillisARC"
       },
       "geometry": {
         "type": "LineString",
