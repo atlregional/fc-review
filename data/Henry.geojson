@@ -79049,7 +79049,7 @@
         "OBJECTID_1": 3694,
         "County": "Henry",
         "NAME": "Rosenwald Drive",
-        "FC_NEW": 6,
+        "FC_NEW": 5,
         "DESC": 2,
         "JUST": "Volume was heavier prior to SR20 relocation.  Reduce classification due to reduction in volume.",
         "stroke": "#00ff00",

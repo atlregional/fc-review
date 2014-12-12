@@ -542,7 +542,7 @@
         "RCLINK_1": "0632057000",
         "County": "Clayton",
         "NAME": "Corinth Rd",
-        "FC_NEW": 5,
+        "FC_NEW": 4,
         "DESC": 2,
         "JUST": "Corinth Rd in Fayette County is already a Major Collector.  This section needs to conform to surrounding network.",
         "stroke": "#00ff00",
